@@ -1,0 +1,31 @@
+ID	coefficient	standard_name	type	compartment
+MNXR125910	1	hexanoyl-CoA	reactant	cytoplasm
+MNXR125910	1	ethanol	reactant	cytoplasm
+MNXR125910	1	ethyl hexanoate	product	cytoplasm
+MNXR125910	1	coenzyme A	product	cytoplasm
+MNXR125910	1	ethyl hexanoate	reactant	cytoplasm
+MNXR125910	1	ethyl hexanoate	product	extracellular
+MNXR125910	1	octanoyl-CoA	reactant	cytoplasm
+MNXR125910	1	ethanol	reactant	cytoplasm
+MNXR125910	1	ethyl octanoate	product	cytoplasm
+MNXR125910	1	coenzyme A	product	cytoplasm
+MNXR125910	1	ethyl octanoate	reactant	cytoplasm
+MNXR125910	1	ethyl octanoate	product	extracellular
+MNXR125910	1	butyryl-CoA	reactant	cytoplasm
+MNXR125910	1	ethanol	reactant	cytoplasm
+MNXR125910	1	ethyl butanoate	product	cytoplasm
+MNXR125910	1	coenzyme A	product	cytoplasm
+MNXR125910	1	ethyl butanoate	reactant	cytoplasm
+MNXR125910	1	ethyl butanoate	product	extracellular
+MNXR125910	1	acetyl-CoA	reactant	cytoplasm
+MNXR125910	1	1-hexanol	reactant	cytoplasm
+MNXR125910	1	hexyl acetate	product	cytoplasm
+MNXR125910	1	coenzyme A	product	cytoplasm
+MNXR125910	1	hexyl acetate	reactant	cytoplasm
+MNXR125910	1	hexyl acetate	product	extracellular
+MNXR125910	1	 decanoyl-CoA	reactant	cytoplasm
+MNXR125910	1	ethanol	reactant	cytoplasm
+MNXR125910	1	ethyl decanoate	product	cytoplasm
+MNXR125910	1	coenzyme A	product	cytoplasm
+MNXR125910	1	ethyl decanoate	reactant	cytoplasm
+MNXR125910	1	ethyl decanoate	product	extracellular
