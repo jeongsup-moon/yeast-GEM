@@ -2,15 +2,15 @@ NewMetName	Charged formula	Charge	compartment	KEGG ID	CHEBI ID	Remark	Ref
 hexanoyl-CoA[cytoplasm]	C27H46N7O17P3S	-4	cytoplasm	C05270	CHEBI:27540	MNXM553	"exist in model, but in another compartment"
 ethyl hexanoate[cytoplasm]	C8H16O2	0	cytoplasm		CHEBI:86055	MNXM52763	DOI: 10.1074/jbc.M512028201
 ethyl hexanoate[extracellular]	C8H16O2	0	extracellular		CHEBI:86055	MNXM52763	DOI: 10.1074/jbc.M512028201
-octanoyl-CoA[cytoplasm]	C29H46N7O17P3S	-4	cytoplasm	C01944  	ChEBI:15533	MNXM342	"exist in model, but in another compartment"
+octanoyl-CoA[cytoplasm]	C29H46N7O17P3S	-4	cytoplasm	C01944	ChEBI:15533	MNXM342	"exist in model, but in another compartment"
 ethyl octanoate[cytoplasm]	C10H20O2	0	cytoplasm	C12292	ChEBI:87426	MNXM52785	DOI: 10.1074/jbc.M512028201
 ethyl octanoate[extracellular]	C10H20O2	0	extracellular	C12292	ChEBI:87426	MNXM52785	DOI: 10.1074/jbc.M512028201
-butanoyl-CoA[cytoplasm]	C25H38N7O17P3S	-4	cytoplasm	C00136 	ChEBI:57371	MNXM233	"exist in model, but in another compartment"
+butanoyl-CoA[cytoplasm]	C25H38N7O17P3S	-4	cytoplasm	C00136	ChEBI:57371	MNXM233	"exist in model, but in another compartment"
 Ethyl butanoate[cytoplasm]	C6H12O2	0	cytoplasm		ChEBI:88764	MNXM11527	DOI: 10.1074/jbc.M512028201
 Ethyl butanoate[extracellular]	C6H12O2	0	extracellular		ChEBI:88764	MNXM11527	DOI: 10.1074/jbc.M512028201
 hexan-1-ol[cytoplasm]	C6H14O	0	cytoplasm		ChEBI:87393	MNXM18358	DOI: 10.1074/jbc.M512028201
 hexyl acetate[cytoplasm]	C8H16O2	0	cytoplasm		ChEBI:87510	MNXM99284	DOI: 10.1074/jbc.M512028201
 hexyl acetate[extracellular]	C8H16O2	0	extracellular		ChEBI:87510	MNXM99284	DOI: 10.1074/jbc.M512028201
-decanoyl-CoA[cytoplasm]	C31H50N7O17P3S	-4	cytoplasm	C05274 	ChEBI:61430	MNXM486	"exist in model, but in another compartment"
+decanoyl-CoA[cytoplasm]	C31H50N7O17P3S	-4	cytoplasm	C05274	ChEBI:61430	MNXM486	"exist in model, but in another compartment"
 ethyl decanoate[cytoplasm]	C12H24O2	0	cytoplasm		ChEBI:87430	MNXM100679	DOI: 10.1074/jbc.M512028201
 ethyl decanoate[extracellular]	C12H24O2	0	extracellular		ChEBI:87430	MNXM100679	DOI: 10.1074/jbc.M512028201
