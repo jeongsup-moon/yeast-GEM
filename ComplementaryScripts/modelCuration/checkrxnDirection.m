@@ -22,19 +22,18 @@ cd ..
 model = loadYeastModel;
 
 %List of reactions which involves nucleotides
-NTP = {'ATP';'GTP';'CTP';'UTP';'TTP';'ADP';'GDP';'CDP';'UDP';'TDP';'AMP';'GMP';'CMP';'UMP';'TMP'};
+NTP = {'ATP';'GTP';'CTP';'UTP';'TTP';'ADP';'GDP';'CDP';'UDP';'TDP';'AMP';'GMP';'CMP';'UMP';'TMP';...
+    'dATP';'dGTP';'dCTP';'dUTP';'dTTP';'dADP';'dGDP';'dCDP';'dUDP';'dTDP';'dAMP';'dGMP';'dCMP';'dUMP';'dTMP'};
 excl_rxns{length(model.rxns),1} = [];
-for i = 1:length(NTP)
-    met_idx = find(contains(model.metNames,NTP(i)));
-    rxn_idx = [];
-    for j = 1:length(met_idx)
-        rxn_idx = [rxn_idx find(model.S(met_idx(j),:))];
-    end
-    rxn_idx = unique(rxn_idx);
-    for j = 1:length(rxn_idx)
-        arrayidx = find(cellfun('isempty',excl_rxns),1);
-        excl_rxns(arrayidx,1) = model.rxns(rxn_idx(j));
-    end
+modelR = ravenCobraWrapper(model);
+[~,met_idx] = ismember(NTP,modelR.metNames);
+tmp = model.S(met_idx(met_idx~=0),:);
+exclrxnList = model.rxns(any(tmp,1));
+printRxnFormula(model,'rxnAbbrList',exclrxnList,'metNameFlag',true)
+
+for i = 1:length(exclrxnList)
+    arrayidx = find(cellfun('isempty',excl_rxns),1);
+    excl_rxns(arrayidx,1) = exclrxnList(i);
 end
 
 %List of exchange reactions
