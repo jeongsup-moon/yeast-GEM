@@ -1,5 +1,19 @@
 # History
 
+### yeast 8.4.1:
+* Features:
+  * Switched to `pip-tools` for managing python dependencies, distinguishing between user requirements `/requirements/requirements.txt` and developer requirements `/requirements/dev-requirements.txt` (PR #235).
+* Fixes:
+  * Closes #201: Changed generic protein name to avoid confusion (PR #237).
+  * Closes #205: Finished correcting reactions' stoichiometry based on KEGG data (PR #237).
+  * Closes #215: Corrected wrong gene rule in reaction (PR #237).
+  * Closes #225: Moved MNX rxn ids from notes to the proper annotation field (PR #226).
+* Documentation:
+  * Closes #223: Clarified releasing steps, including authorship criteria for Zenodo releases, in contributing guidelines (PR #233).
+  * Closes #227: Removed authorships/dates from all scripts, as it is redundant information (PR #230).
+  * Added admin guidelines for managing python dependencies (PR #235).
+  * Included links for model visualization in README file (PR #240).
+
 ### yeast 8.4.0:
 * Features:
   * New functions `mapKEGGID.m ` and `mapMNXMID.m` for adding ids in model. Used them to add missing KEGG and MetaNetX ids for both metabolites and reactions (PR #220).
@@ -195,5 +209,5 @@ First version of the yeast8 model, to separate it from previous versions:
   * NGAM rxn introduced
   * GAM in biomass pseudo-rxn fixed and refitted to chemostat data
 
-  ### yeast 7.6.0:
+### yeast 7.6.0:
 First release of the yeast model in GitHub, identical to the last model available at https://sourceforge.net/projects/yeast/
