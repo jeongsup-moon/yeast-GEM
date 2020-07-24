@@ -34,7 +34,11 @@ new_lb = rxnDirectionInfo(:,15);
 
 %Change rxnDirection/coefficient sign based on action
 for i = 1:size(action,1)
-    if strcmp(action(i),'Change to irreversible forward')
+    if rxn_idx(i) == 0
+        warning('model.rxns %s cannot be found, check if it is an error', string(rxns(i)));
+    elseif model.lb(rxn_idx(i)) == str2double(new_lb{i})
+        %no change if model.lb already matches new_lb
+    elseif strcmp(action(i),'Change to irreversible forward')
         model.lb(rxn_idx(i)) = str2double(new_lb{i});
         model.rxnNotes(rxn_idx(i)) = join([model.rxnNotes(rxn_idx(i)),'| rxnDirection curated (PR #227)']);
     elseif strcmp(action(i),'Change to irreversible forward and perform sign change for all metabolites in this reaction')

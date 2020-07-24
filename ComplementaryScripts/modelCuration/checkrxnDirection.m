@@ -26,8 +26,8 @@ NTP = {'ATP';'GTP';'CTP';'UTP';'TTP';'ADP';'GDP';'CDP';'UDP';'TDP';'AMP';'GMP';'
     'dATP';'dGTP';'dCTP';'dUTP';'dTTP';'dADP';'dGDP';'dCDP';'dUDP';'dTDP';'dAMP';'dGMP';'dCMP';'dUMP';'dTMP'};
 excl_rxns{length(model.rxns),1} = [];
 modelR = ravenCobraWrapper(model);
-[~,met_idx] = ismember(NTP,modelR.metNames);
-tmp = model.S(met_idx(met_idx~=0),:);
+met_idx = find(ismember(modelR.metNames,NTP));
+tmp = model.S(met_idx,:);
 exclrxnList = model.rxns(any(tmp,1));
 printRxnFormula(model,'rxnAbbrList',exclrxnList,'metNameFlag',true)
 
