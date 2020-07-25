@@ -58,7 +58,10 @@ model.rxnNotes = regexprep(model.rxnNotes,'^\| ','');
 model.metNotes = regexprep(model.metNotes,'^\| ','');
 
 %Remove generic reaction r_4229, rxnName: Monocarboxylic acid amide amidohydrolase
-model = removeRxns(model,'r_4229');
+[~,rxn_idx] = ismember('Monocarboxylic acid amide amidohydrolase',model.rxnNames);
+if rxn_idx~=0
+    model = removeRxns(model,model.rxns(rxn_idx)); 
+end
 
 %Save model
 saveYeastModel(model);

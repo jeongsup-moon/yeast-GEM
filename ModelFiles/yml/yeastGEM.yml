@@ -93433,7 +93433,7 @@
       - s_0809: -1
       - s_3942: -1
       - s_3943: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR151C
     - annotation: !!omap
