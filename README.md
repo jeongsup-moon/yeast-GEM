@@ -42,8 +42,8 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 ### Installation Instructions
 * For users: Clone it from [`master`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases). If you work in python, please create an environment with all requirements:
   ```bash
-  pip install -r requirements.txt     # installs all dependencies
-  type nul > .env                     # creates a .env file for locating the root
+  pip install -r requirements/requirements.txt  # installs all dependencies
+  touch .env                                    # creates a .env file for locating the root
   ```
 * For contributors: Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/yeast-GEM/tree/devel).
 
@@ -62,6 +62,11 @@ Make sure to load/save the model with the corresponding wrapper functions!
   model = io.read_yeast_model() # loading
   io.write_yeast_model(model)   # saving
   ```
+
+### Online Visualization/Simulation
+
+* You can visualize selected pathways of yeast-GEM and perform online constraint-based simulations using [Caffeine](https://caffeine.dd-decaf.eu/interactive-map), by creating a simulation with the latest yeast-GEM version available, and choosing any _S. cerevisiae_ map (currently only `iMM904` maps are available). Learn more [about Caffeine](https://caffeine.dd-decaf.eu).
+* Additionally, you can interactively navigate model components and visualize 3D representations of all compartments and subsystems of yeast-GEM at [Metabolic Atlas](https://metabolicatlas.org/explore?selected=Yeast-GEM). Learn more [about Metabolic Atlas](https://www.metabolicatlas.org/about).
 
 ## Model Files
 
