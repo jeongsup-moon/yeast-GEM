@@ -289,11 +289,11 @@ if ~isempty(fileDir) %check if reactions.tsv is present in current directory
     for i = 1:length(rxn_temp)
         seed_rxnInfo(:,i) = rxn_temp{i};
     end
-    commentLines = startsWith(seed_rxnInfo(:,1),'#');
-    seed_rxnInfo(commentLines,:) = [];
+    seed_rxnInfo(1,:) = []; %remove header in 1st line
     fclose(fid2);
     
     rxnSEEDID = seed_rxnInfo(:,1);
+    rxnDefinition = seed_rxnInfo(:,7);
     rxnDirection = seed_rxnInfo(:,10);
     
     %preallocate cell arrays
@@ -311,11 +311,94 @@ if ~isempty(fileDir) %check if reactions.tsv is present in current directory
     xref_seed(empties3,:) = []; %only retain rxnSEEDID found in model and contains deltaG in modelSEED databse
     rxnIdx4(empties3,:) = [];
     
+    xref_seedmets = mapIDsViaMNXref('mets', model.metMetaNetXID,'MetaNetX','SEED');
+    
     for i = 1:length(rxnIdx4)
-        if ~isempty(seed_rxnInfo{rxnIdx4(i),15}) 
+        if ~isempty(seed_rxnInfo{rxnIdx4(i),15})
             deltaG = str2num(char(seed_rxnInfo(rxnIdx4(i),15)));
             lnRevIdx = get_lnRevIdx(deltaG,xref_seed(i,2),model);
             error = str2num(char(seed_rxnInfo(rxnIdx4(i),16)));
+            %check if metabolites are on the same side in both model and SEED
+            %then make changes to rxnDirection if necessary
+            if strcmp(rxnDirection(rxnIdx4(i)),'<') || strcmp(rxnDirection(rxnIdx4(i)),'>')
+                SEED_rxnformula = strrep(rxnDefinition(rxnIdx4(i)),'(','');
+                SEED_rxnformula = strrep(SEED_rxnformula,')','');
+                SEED_rxnformula = strrep(SEED_rxnformula,' <= ',' <=> '); %make all backward reactions reversible for constructS to work
+                [SEED_coef, SEED_mets] = constructS(SEED_rxnformula);
+                mets_temp = split(SEED_mets,'[');
+                SEED_mets = mets_temp(:,1);
+                
+                idx_temp = find(ismember(model.rxns,xref_seed(i,2)));
+                coef = model.S(:,idx_temp);
+                mets_temp = (find(model.S(:,idx_temp)));
+                model_mets = xref_seedmets(mets_temp);
+                model_coef = coef(mets_temp);
+                if length(SEED_mets) > length(model_mets)
+                    [idx,idx2] = ismember(model_mets,SEED_mets);
+                    if all(idx2)
+                        SEED_coef = SEED_coef(idx2);
+                        if isequal(SEED_coef,model_coef)
+                            %no change to rxnDirection
+                        elseif isequal(sign(SEED_coef.*(-1)),sign(model_coef)) && strcmp(rxnDirection(rxnIdx4(i)),'>')
+                            rxnDirection(rxnIdx4(i)) = {'<'};
+                            def_temp = split(rxnDefinition(rxnIdx4(i)), ' => ');
+                            rxnDefinition(rxnIdx4(i)) = strcat(def_temp(3),def_temp(2),def_temp(1));
+                        elseif isequal(sign(SEED_coef.*(-1)),sign(model_coef)) && strcmp(rxnDirection(rxnIdx4(i)),'<')
+                            rxnDirection(rxnIdx4(i)) = {'>'};
+                            def_temp = split(rxnDefinition(rxnIdx4(i)), ' <= ');
+                            rxnDefinition(rxnIdx4(i)) = strcat(def_temp(2),{' => '},def_temp(1));
+                        end
+                    elseif any(idx2)
+                        model_coef = model_coef(idx);
+                        SEED_coef = SEED_coef(idx2(idx2~=0));
+                        if isequal(SEED_coef,model_coef)
+                            %no change to rxnDirection
+                        elseif isequal(sign(SEED_coef.*(-1)),sign(model_coef)) && strcmp(rxnDirection(rxnIdx4(i)),'>')
+                            rxnDirection(rxnIdx4(i)) = {'<'};
+                            def_temp = split(rxnDefinition(rxnIdx4(i)), ' => ');
+                            rxnDefinition(rxnIdx4(i)) = strcat(def_temp(2),{' <= '},def_temp(1));
+                        elseif isequal(sign(SEED_coef.*(-1)),sign(model_coef)) && strcmp(rxnDirection(rxnIdx4(i)),'<')
+                            rxnDirection(rxnIdx4(i)) = {'>'};
+                            def_temp = split(rxnDefinition(rxnIdx4(i)), ' <= ');
+                            rxnDefinition(rxnIdx4(i)) = strcat(def_temp(2),{' => '},def_temp(1));
+                        end
+                    else
+                        warning('%s rxnDirection not checked against %s',string(xref_seed(i,2)),string(xref_seed(i,1)));
+                    end
+                else
+                    [idx,idx2] = ismember(SEED_mets,model_mets);
+                    if all(idx2)
+                        model_coef = model_coef(idx2);
+                        if isequal(SEED_coef,model_coef)
+                            %no change to rxnDirection
+                        elseif isequal(sign(SEED_coef.*(-1)),sign(model_coef)) && strcmp(rxnDirection(rxnIdx4(i)),'>')
+                            rxnDirection(rxnIdx4(i)) = {'<'};
+                            def_temp = split(rxnDefinition(rxnIdx4(i)), ' => ');
+                            rxnDefinition(rxnIdx4(i)) = strcat(def_temp(2),{' <= '},def_temp(1));
+                        elseif isequal(sign(SEED_coef.*(-1)),sign(model_coef)) && strcmp(rxnDirection(rxnIdx4(i)),'<')
+                            rxnDirection(rxnIdx4(i)) = {'>'};
+                            def_temp = split(rxnDefinition(rxnIdx4(i)), ' <= ');
+                            rxnDefinition(rxnIdx4(i)) = strcat(def_temp(2),{' => '},def_temp(1));
+                        end
+                    elseif any(idx2)
+                        SEED_coef = SEED_coef(idx);
+                        model_coef = model_coef(idx2(idx2~=0));
+                        if isequal(SEED_coef,model_coef)
+                            %no change to rxnDirection
+                        elseif isequal(sign(SEED_coef.*(-1)),sign(model_coef)) && strcmp(rxnDirection(rxnIdx4(i)),'>')
+                            rxnDirection(rxnIdx4(i)) = {'<'};
+                            def_temp = split(rxnDefinition(rxnIdx4(i)), ' => ');
+                            rxnDefinition(rxnIdx4(i)) = strcat(def_temp(2),{' <= '},def_temp(1));
+                        elseif isequal(sign(SEED_coef.*(-1)),sign(model_coef)) && strcmp(rxnDirection(rxnIdx4(i)),'<')
+                            rxnDirection(rxnIdx4(i)) = {'>'};
+                            def_temp = split(rxnDefinition(rxnIdx4(i)), ' <= ');
+                            rxnDefinition(rxnIdx4(i)) = strcat(def_temp(2),{' => '},def_temp(1));
+                        end
+                    else
+                        warning('%s rxnDirection not checked against %s',string(xref_seed(i,2)),string(xref_seed(i,1)));
+                    end
+                end
+            end
             if deltaG > 0
                 if ~isequal(seed_rxnInfo{rxnIdx4(i),16},'10000000.0') %check if database contains valid deltaG value
                     mod_deltaG = deltaG - error;
