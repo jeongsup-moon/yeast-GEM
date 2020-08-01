@@ -15,7 +15,6 @@
 % Output: allrxns (also generates rxnDirectionInfo.tsv if the last segment 
 %                  of the script is executed)     
 %
-% Cheng Wei Quan (Eiden), 2020-05-25
 
 %Load model
 cd ..
@@ -24,28 +23,17 @@ model = loadYeastModel;
 %List of reactions which involves nucleotides
 NTP = {'ATP';'GTP';'CTP';'UTP';'TTP';'ADP';'GDP';'CDP';'UDP';'TDP';'AMP';'GMP';'CMP';'UMP';'TMP';...
     'dATP';'dGTP';'dCTP';'dUTP';'dTTP';'dADP';'dGDP';'dCDP';'dUDP';'dTDP';'dAMP';'dGMP';'dCMP';'dUMP';'dTMP'};
-excl_rxns{length(model.rxns),1} = [];
+
 modelR = ravenCobraWrapper(model);
 met_idx = find(ismember(modelR.metNames,NTP));
 tmp = model.S(met_idx,:);
 exclrxnList = model.rxns(any(tmp,1));
 printRxnFormula(model,'rxnAbbrList',exclrxnList,'metNameFlag',true)
-
-for i = 1:length(exclrxnList)
-    arrayidx = find(cellfun('isempty',excl_rxns),1);
-    excl_rxns(arrayidx,1) = exclrxnList(i);
-end
+excl_rxns = exclrxnList;
 
 %List of exchange reactions
 exchangeRxns = findExcRxns(model);
-for i = 1:length(model.rxns)
-    if exchangeRxns(i) == 1
-        arrayidx = find(cellfun('isempty',excl_rxns),1);
-        excl_rxns(arrayidx,1) = model.rxns(i);
-    end
-end
-empties = find(cellfun('isempty',excl_rxns(:,1)));
-excl_rxns(empties,:) = [];
+excl_rxns = [excl_rxns;model.rxns(exchangeRxns)];
 excl_rxns = unique(excl_rxns);
 
 %Generate list of reactions to check
@@ -68,15 +56,16 @@ deltaG_grpCont = grpContribution(:,2);
 uncertainty_grpCont = grpContribution(:,3);
 notes = grpContribution(:,4);
 
-bwd_grpCont{length(model.rxns),4} = [];
-fwd_grpCont{length(model.rxns),4} = [];
-rev_grpCont{length(model.rxns),4} = [];
-no_deltaG{length(model.rxns),4} = [];
-noMapping{length(model.rxns),3} = [];
+bwd_grpCont = cell(length(model.rxns),4);
+fwd_grpCont = cell(length(model.rxns),4);
+rev_grpCont = cell(length(model.rxns),4);
+no_deltaG = cell(length(model.rxns),4);
+noMapping = cell(length(model.rxns),3);
 
 [~,rxn_idx] = ismember(checkRxns,model.rxns);
 rxnKEGGID = model.rxnKEGGID(rxn_idx);
 
+cd modelCuration/
 for i = 1:length(rxnKEGGID)
     if ~ismissing(rxnKEGGID(i)) && contains(rxnKEGGID(i),'R')
         idx = find(ismember(KEGGID,rxnKEGGID(i)));
@@ -134,6 +123,7 @@ empties = find(cellfun('isempty',no_deltaG(:,1)));
 no_deltaG(empties,:) = [];
 
 %Categorize reactions via deltaG from MetaCyc database
+cd ../missingFields/
 [~,rxn_idx] = ismember(checkRxns,model.rxns);
 rxnMetaNetXID = model.rxnMetaNetXID(rxn_idx);
 xref_metacyc = mapIDsViaMNXref('rxns',rxnMetaNetXID,'MetaNetX','MetaCyc');
@@ -151,6 +141,7 @@ catch
 end
 
 %load MetaCyc_deltaG.tsv as getRxnsFromMetaCyc does not include deltaG data
+cd ..
 fid2 = fopen('../ComplementaryData/modelCuration/MetaCyc_deltaG.tsv');
 format = repmat('%s ',1,2);
 format = strtrim(format);
@@ -171,6 +162,7 @@ rev_MetaCyc{length(model.rxns),4} = [];
 no_deltaG2{length(model.rxns),4} = [];
 noMapping2{length(model.rxns),4} = [];
 
+cd modelCuration/
 if ~isempty(MetaCyc_rxnInfo) %check if MetaCyc_rxnInfo is generated successfully
     for i = 1:length(rxnIdx2)
         if rxnIdx2(i) ~= 0
@@ -265,6 +257,7 @@ else
 end
     
 %Categorize reactions via deltaG from modelSEED database
+cd ../missingFields/
 [~,rxn_idx] = ismember(checkRxns,model.rxns);
 rxnMetaNetXID = model.rxnMetaNetXID(rxn_idx);
 xref_seed = mapIDsViaMNXref('rxns', rxnMetaNetXID,'MetaNetX','SEED');
@@ -274,6 +267,7 @@ idx_check3 = empties;
 xref_seed(empties,:) = [];
 
 %download reactions.tsv from GitHub repository ModelSEED/ModelSEEDDatabase
+cd ../modelCuration/
 try
     websave('reactions.tsv','https://raw.githubusercontent.com/ModelSEED/ModelSEEDDatabase/dev/Biochemistry/reactions.tsv');
 catch
@@ -311,8 +305,9 @@ if ~isempty(fileDir) %check if reactions.tsv is present in current directory
     xref_seed(empties3,:) = []; %only retain rxnSEEDID found in model and contains deltaG in modelSEED databse
     rxnIdx4(empties3,:) = [];
     
+    cd ../missingFields/
     xref_seedmets = mapIDsViaMNXref('mets', model.metMetaNetXID,'MetaNetX','SEED');
-    
+    cd ../modelCuration/
     for i = 1:length(rxnIdx4)
         if ~isempty(seed_rxnInfo{rxnIdx4(i),15})
             deltaG = str2num(char(seed_rxnInfo(rxnIdx4(i),15)));
@@ -846,6 +841,7 @@ if ~isempty(rev_SEED)
         end
     end
 end
+cd ../
 
 %remove empty cells
 empties = find(cellfun('isempty',rev_rxns(:,1)));

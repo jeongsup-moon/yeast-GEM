@@ -9,7 +9,6 @@ function rxn_lnRevIdx = get_lnRevIdx(deltaG,rxn,model)
 %
 %   Usage: rxn_lnRevIdx = get_lnRevIdx(deltaG,rxn,model)
 %
-% Cheng Wei Quan (Eiden), 2020-05-24
 
 %define constants
 R = 8.3145e-3; %gas constant (in kJ/K·mol)
