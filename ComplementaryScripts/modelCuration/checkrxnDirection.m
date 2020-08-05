@@ -862,7 +862,9 @@ fclose(fid2);
 
 %add available reversibility index to rev_rxns
 [~,idx] = ismember(rev_index(:,1),rev_rxns(:,1));
+rev_index(idx==0,:) = [];
 idx = idx(idx~=0);
+
 for i = 1:length(idx)
     rev_rxns(idx(i),12) = num2cell(str2double(cell2mat(rev_index(i,2))));
 end
