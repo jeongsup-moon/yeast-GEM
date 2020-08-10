@@ -45,6 +45,18 @@ if ~isempty(errors)
     error('Model should be a valid SBML structure. Please fix all errors before saving.')
 end
 
+%Check if model can grow:
+try
+    xPos = strcmp(model.rxnNames,'growth');
+    sol  = optimizeCbModel(model);
+    if sol.v(xPos) < 1e-6
+        warning('The model is not able to support growth. Please ensure the model can grow before opening a PR.')
+    end
+catch
+    warning(['The model yields an infeasible simulation using COBRA. Please ensure the model can be simulated ' ...
+             'with COBRA before opening a PR.'])
+end
+
 %Update .xml, .txt and .yml models:
 copyfile('tempModel.xml','../ModelFiles/xml/yeastGEM.xml')
 delete('tempModel.xml');
