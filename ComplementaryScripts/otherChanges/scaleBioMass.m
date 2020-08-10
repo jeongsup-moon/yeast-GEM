@@ -1,4 +1,4 @@
-function model = scaleBioMass(model,component,new_value,balance_out)
+function model = scaleBioMass(model,component,new_value,balance_out,dispOutput)
   % scaleBioMass
   %   Scales the biomass composition
   %
@@ -7,14 +7,19 @@ function model = scaleBioMass(model,component,new_value,balance_out)
   %   new_value      (float) new total fraction for said component
   %   balance_out    (str, opt) if chosen, the name of another component with which
   %                  the model will be balanced out so that the total mass remains = 1 g/gDW
+  %   dispOutput     (bool, opt) if output from sumBioMass should be displayed (default = true)
   %
   %   model          (struct) modified model
   %
-  %   Usage: model = scaleBioMass(model,component,new_value,balance_out)
+  %   Usage: model = scaleBioMass(model,component,new_value,balance_out,dispOutput)
   %
 
+if nargin < 5
+    dispOutput = true;
+end
+  
 %Measure current composition and rescale:
-[~,P,C,R,D,L,I,F] = sumBioMass(model);
+[~,P,C,R,D,L,I,F] = sumBioMass(model,dispOutput);
 content_all = {'carbohydrate','protein','lipid','RNA','DNA','ion','cofactor'};
 content_Cap = {'C','P','L','R','D','I','F'};
 pos         = strcmp(content_all,component);
