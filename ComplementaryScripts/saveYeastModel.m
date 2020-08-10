@@ -46,16 +46,8 @@ if ~isempty(errors)
 end
 
 %Check if model can grow:
-try
-    xPos = strcmp(model.rxnNames,'growth');
-    sol  = optimizeCbModel(model);
-    if sol.v(xPos) < 1e-6
-        warning('The model is not able to support growth. Please ensure the model can grow before opening a PR.')
-    end
-catch
-    warning(['The model yields an infeasible simulation using COBRA. Please ensure the model can be simulated ' ...
-             'with COBRA before opening a PR.'])
-end
+checkGrowth(model,'aerobic')
+checkGrowth(model,'anaerobic')
 
 %Update .xml, .txt and .yml models:
 copyfile('tempModel.xml','../ModelFiles/xml/yeastGEM.xml')
@@ -121,3 +113,31 @@ delete('backup.xml');
 %Switch back to original folder
 cd(currentDir)
 
+end
+
+%%
+
+function checkGrowth(model,condition)
+%Function that checks if the model can grow or not using COBRA under a
+%given condition (aerobic or anaerobic).
+
+if strcmp(condition,'anaerobic')
+    cd otherChanges
+    model = anaerobicModel(model);
+    cd ..
+end
+try
+    xPos = strcmp(model.rxnNames,'growth');
+    sol  = optimizeCbModel(model);
+    if sol.v(xPos) < 1e-6
+        warning(['The model is not able to support growth under ' ...
+                 condition ' conditions. Please ensure the model can ' ...
+                 'grow before opening a PR.'])
+    end
+catch
+    warning(['The model yields an infeasible simulation using COBRA ' ...
+             'under ' condition ' conditions. Please ensure the model ' ...
+             'can be simulated with COBRA before opening a PR.'])
+end
+
+end
