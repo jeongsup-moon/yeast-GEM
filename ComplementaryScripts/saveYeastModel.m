@@ -1,14 +1,14 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% saveYeastModel(model,upDATE)
-% Saves model as a .xml, .txt and .yml file. Also updates complementary
-% files (boundaryMets.txt, README.md and dependencies.txt).
-%
-% model     model structure to save (note: must be in COBRA format)
-% upDATE    logical =true if updating the date in the README file is needed
-%           (opt, default true)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 function saveYeastModel(model,upDATE)
+% saveYeastModel
+%   Saves model as a .xml, .txt and .yml file. Also updates complementary
+%   files (boundaryMets.txt, README.md and dependencies.txt).
+%
+%   Inputs: model       model structure to save (NOTE: must be in COBRA format)
+%           upDATE      logical = true if updating the date in the README file
+%                       is needed (opt, default true)
+%   
+%   Usage: saveYeastModel(model,upDATE)
+%
 
 if nargin < 2
     upDATE = true;
@@ -121,4 +121,3 @@ delete('backup.xml');
 %Switch back to original folder
 cd(currentDir)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
