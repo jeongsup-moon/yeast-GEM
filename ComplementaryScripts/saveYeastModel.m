@@ -1,17 +1,24 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% saveYeastModel(model,upDATE)
-% Saves model as a .xml, .txt and .yml file. Also updates complementary
-% files (boundaryMets.txt, README.md and dependencies.txt).
+function saveYeastModel(model,upDATE,allowNoGrowth)
+% saveYeastModel
+%   Saves model as a .xml, .txt and .yml file. Also updates complementary
+%   files (boundaryMets.txt, README.md and dependencies.txt).
 %
-% model     model structure to save (note: must be in COBRA format)
-% upDATE    logical =true if updating the date in the README file is needed
-%           (opt, default true)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-function saveYeastModel(model,upDATE)
+%   Inputs: model           (struct) Model to save (NOTE: must be COBRA format)
+%           upDATE          (bool, opt) If updating the date in the README file
+%                           is needed (default true)
+%           allowNoGrowth   (bool, opt) if saving should be allowed whenever
+%                           the model cannot grow, returning a warning (default
+%                           = true), otherwise will error.
+%   
+%   Usage: saveYeastModel(model,upDATE,allowNoGrowth)
+%
 
 if nargin < 2
     upDATE = true;
+end
+
+if nargin < 3
+    allowNoGrowth = true;
 end
 
 %Get and change to the script folder, as all folders are relative to this
@@ -44,6 +51,10 @@ if ~isempty(errors)
     delete('tempModel.xml');
     error('Model should be a valid SBML structure. Please fix all errors before saving.')
 end
+
+%Check if model can grow:
+checkGrowth(model,'aerobic',allowNoGrowth)
+checkGrowth(model,'anaerobic',allowNoGrowth)
 
 %Update .xml, .txt and .yml models:
 copyfile('tempModel.xml','../ModelFiles/xml/yeastGEM.xml')
@@ -109,4 +120,39 @@ delete('backup.xml');
 %Switch back to original folder
 cd(currentDir)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+end
+
+%%
+
+function checkGrowth(model,condition,allowNoGrowth)
+%Function that checks if the model can grow or not using COBRA under a
+%given condition (aerobic or anaerobic). Will either return warnings or
+%errors depending on allowNoGrowth.
+
+if strcmp(condition,'anaerobic')
+    cd otherChanges
+    model = anaerobicModel(model);
+    cd ..
+end
+try
+    xPos = strcmp(model.rxnNames,'growth');
+    sol  = optimizeCbModel(model);
+    if sol.v(xPos) < 1e-6
+        dispText = ['The model is not able to support growth under ' ...
+                    condition ' conditions. Please ensure the model can grow'];
+    end
+catch
+    dispText = ['The model yields an infeasible simulation using COBRA ' ...
+                'under ' condition ' conditions. Please ensure the model ' ...
+                'can be simulated with COBRA'];
+end
+
+if exist('dispText','var')
+    if allowNoGrowth
+        warning([dispText ' before opening a PR.'])
+    else
+        error([dispText ' before comitting.'])
+    end
+end
+
+end
