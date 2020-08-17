@@ -25100,28 +25100,6 @@
       - metanetx.chemical: MNXM149
       - sbo: SBO:0000247
   - !!omap
-    - id: s_3824
-    - name: Ferricytochrome b5
-    - compartment: er
-    - formula: Fe
-    - charge: 3
-    - annotation: !!omap
-      - bigg.metabolite: ficytb5
-      - chebi: CHEBI:18097
-      - kegg.compound: C00996
-      - metanetx.chemical: MNXM1083
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_3825
-    - name: Ferrocytochrome b5
-    - compartment: er
-    - formula: Fe
-    - charge: 2
-    - annotation: !!omap
-      - bigg.metabolite: focytb5
-      - kegg.compound: C00999
-      - sbo: SBO:0000247
-  - !!omap
     - id: s_3826
     - name: Ferricytochrome b5
     - compartment: m
@@ -29341,6 +29319,18 @@
       - chebi: CHEBI:11424
       - kegg.compound: C04039
       - metanetx.chemical: MNXM734
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4209
+    - name: Ferrocytochrome b5
+    - compartment: erm
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4210
+    - name: Ferricytochrome b5
+    - compartment: erm
+    - annotation: !!omap
       - sbo: SBO:0000247
 - reactions:
   - !!omap
@@ -34382,8 +34372,8 @@
       - s_0794: -5
       - s_0803: 4
       - s_1275: -3
-      - s_3824: 6
-      - s_3825: -6
+      - s_4209: -6
+      - s_4210: 6
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGR060W
@@ -92023,11 +92013,10 @@
     - id: r_4196
     - name: NADH:ferricytochrome-b5 oxidoreductase
     - metabolites: !!omap
-      - s_0795: 1
-      - s_1199: 1
-      - s_1204: -1
-      - s_3824: -2
-      - s_3825: 2
+      - s_2783: 1
+      - s_2818: -1
+      - s_4209: 2
+      - s_4210: -2
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YIL043C or YML125C

@@ -1,22 +1,27 @@
-function [X,P,C,R,D,L,I,F] = sumBioMass(model)
+function [X,P,C,R,D,L,I,F] = sumBioMass(model,dispOutput)
   % sumBioMass
   %   Calculates breakdown of biomass
   %
-  %   model    (struct) Metabolic model in COBRA format
+  %   model         (struct) Metabolic model in COBRA format
+  %   dispOutput    (bool, opt) If output should be displayed (default = true)
   %
-  %   X         (float) Total biomass fraction [gDW/gDW]
-  %   P         (float) Protein fraction [g/gDW]
-  %   C         (float) Carbohydrate fraction [g/gDW]
-  %   R         (float) RNA fraction [g/gDW]
-  %   D         (float) DNA fraction [g/gDW]
-  %   L         (float) Lipid fraction [g/gDW]
-  %   F         (float) cofactor [g/gDW]
-  %   I         (float) ion [g/gDW]
+  %   X             (float) Total biomass fraction [gDW/gDW]
+  %   P             (float) Protein fraction [g/gDW]
+  %   C             (float) Carbohydrate fraction [g/gDW]
+  %   R             (float) RNA fraction [g/gDW]
+  %   D             (float) DNA fraction [g/gDW]
+  %   L             (float) Lipid fraction [g/gDW]
+  %   F             (float) cofactor [g/gDW]
+  %   I             (float) ion [g/gDW]
   %
-  %   Usage: [X,P,C,R,D,L,I,F] = sumBioMass(model)
+  %   Usage: [X,P,C,R,D,L,I,F] = sumBioMass(model,dispOutput)
   %
   %   Function adapted from SLIMEr: https://github.com/SysBioChalmers/SLIMEr
   %
+
+if nargin < 2
+    dispOutput = true;
+end
 
 %Load original biomass component MWs:
 %TODO: compute MW automatically from chemical formulas (check that all components have them first)
@@ -40,26 +45,27 @@ for i = 1:length(data_new.mets)
 end
 
 %Get main fractions:
-[P,X] = getFraction(model,data,'P',0);
-[C,X] = getFraction(model,data,'C',X);
-[R,X] = getFraction(model,data,'R',X);
-[D,X] = getFraction(model,data,'D',X);
-[L,X] = getFraction(model,data,'L',X);
-[I,X] = getFraction(model,data,'I',X);
-[F,X] = getFraction(model,data,'F',X);
+[P,X] = getFraction(model,data,'P',0,dispOutput);
+[C,X] = getFraction(model,data,'C',X,dispOutput);
+[R,X] = getFraction(model,data,'R',X,dispOutput);
+[D,X] = getFraction(model,data,'D',X,dispOutput);
+[L,X] = getFraction(model,data,'L',X,dispOutput);
+[I,X] = getFraction(model,data,'I',X,dispOutput);
+[F,X] = getFraction(model,data,'F',X,dispOutput);
 
-disp(['X -> ' num2str(X) ' gDW/gDW'])
-
-% Simulate growth:
-sol = optimizeCbModel(model);
-disp(['Growth = ' num2str(sol.f) ' 1/h'])
-disp(' ')
+if dispOutput
+    disp(['X -> ' num2str(X) ' gDW/gDW'])
+    % Simulate growth:
+    sol = optimizeCbModel(model);
+    disp(['Growth = ' num2str(sol.f) ' 1/h'])
+    disp(' ')
+end
 
 end
 
 %%
 
-function [F,X] = getFraction(model,data,compType,X)
+function [F,X] = getFraction(model,data,compType,X,dispOutput)
 
 %Define pseudoreaction name:
 rxnName = [compType ' pseudoreaction'];
@@ -71,7 +77,6 @@ rxnName = strrep(rxnName,'R','RNA');
 rxnName = strrep(rxnName,'D','DNA');
 rxnName = strrep(rxnName,'I','ion');
 rxnName = strrep(rxnName,'F','cofactor');
-
 
 %Add up fraction:
 rxnPos = strcmp(model.rxnNames,rxnName);
@@ -96,11 +101,15 @@ if ~all(rxnPos==0)
         end
     end
     X = X + F;
-
-    disp([compType ' -> ' num2str(F) ' g/gDW'])
+    
+    if dispOutput
+        disp([compType ' -> ' num2str(F) ' g/gDW'])
+    end
 else
-    disp([compType ' do not exist '])
-        F = 0;
+    if dispOutput
+        disp([compType ' does not exist '])
+    end
+    F = 0;
     X = X + F;
 end
 
