@@ -25583,27 +25583,6 @@
       - metanetx.chemical: MNXM2239
       - sbo: SBO:0000247
   - !!omap
-    - id: s_3869
-    - name: Monocarboxylic acid amide
-    - compartment: c
-    - formula: CH2NOR
-    - charge: 0
-    - annotation: !!omap
-      - kegg.compound: C03620
-      - metanetx.chemical: MNXM4671
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_3870
-    - name: Carboxylate
-    - compartment: c
-    - formula: CO2R
-    - charge: -1
-    - annotation: !!omap
-      - chebi: CHEBI:35757
-      - kegg.compound: C00060
-      - metanetx.chemical: MNXM72
-      - sbo: SBO:0000247
-  - !!omap
     - id: s_3871
     - name: Acrylic acid
     - compartment: c
@@ -29507,7 +29486,7 @@
       - s_0993: 1
       - s_1200: -1
       - s_1205: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YHR037W
     - subsystem:
@@ -30613,7 +30592,7 @@
       - s_0803: -1
       - s_1158: 1
       - s_1322: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR410W or YOR163W
     - annotation: !!omap
@@ -31016,7 +30995,7 @@
       - s_0803: -1
       - s_1158: 1
       - s_1322: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR410W or YOR163W
     - annotation: !!omap
@@ -31814,7 +31793,7 @@
       - s_2821: -1
       - s_3441: -1
       - s_3442: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR048W or YNR019W
     - subsystem: sce00100  Steroid biosynthesis
@@ -31849,7 +31828,7 @@
       - s_2821: -1
       - s_3438: -1
       - s_3439: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR048W
     - subsystem: sce00100  Steroid biosynthesis
@@ -34480,7 +34459,7 @@
       - s_0633: 1
       - s_1230: 1
       - s_1231: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDL090C and YKL019W
     - subsystem:
@@ -35866,7 +35845,7 @@
       - s_0794: 1
       - s_0837: 1
       - s_1275: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YML086C
     - annotation: !!omap
@@ -37942,7 +37921,7 @@
       - s_0754: 1
       - s_0803: 2
       - s_0837: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YNL229C or YBR244W or YCL035C or YDR513W or YIR037W or YKL026C
     - subsystem: sce00480  Glutathione metabolism
@@ -37963,7 +37942,7 @@
       - s_0756: 1
       - s_0807: 2
       - s_0838: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YPL059W
     - annotation: !!omap
@@ -43134,7 +43113,7 @@
       - s_0529: 1
       - s_0794: 1
       - s_1190: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YFL017C
     - subsystem: sce00520  Amino sugar and nucleotide sugar metabolism
@@ -45867,7 +45846,7 @@
       - s_1275: -1
       - s_1393: 1
       - s_1398: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YBR035C
     - subsystem: sce00750  Vitamin B6 metabolism
@@ -46570,7 +46549,7 @@
       - s_0794: 1
       - s_0803: -1
       - s_1421: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJL068C
     - subsystem: sce01200  Carbon metabolism
@@ -58397,7 +58376,7 @@
       - s_2806: -1
       - s_2808: 1
       - s_2814: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJL097W
     - subsystem:
@@ -91337,12 +91316,12 @@
     - id: r_4153
     - name: (R)-Acetoin:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0020: -1
-      - s_0794: 1
-      - s_1198: -1
-      - s_1203: 1
-      - s_3750: 1
-    - lower_bound: -1000
+      - s_0020: 1
+      - s_0794: -1
+      - s_1198: 1
+      - s_1203: -1
+      - s_3750: -1
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YAL061W
     - annotation: !!omap
@@ -91942,7 +91921,7 @@
       - s_0838: 1
       - s_1278: 1
       - s_3813: -2
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YHR008C
     - annotation: !!omap
@@ -92510,7 +92489,7 @@
       - s_0807: -1
       - s_3863: -1
       - s_3864: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDR036C
     - annotation: !!omap
@@ -92600,7 +92579,7 @@
       - s_0803: -1
       - s_0853: 1
       - s_3868: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDR242W
     - annotation: !!omap
@@ -92608,23 +92587,6 @@
       - bigg.reaction: AMID3
       - kegg.reaction: R03096
       - metanetx.reaction: MNXR95814
-      - sbo: SBO:0000176
-    - confidence_score: 2
-  - !!omap
-    - id: r_4229
-    - name: Monocarboxylic acid amide amidohydrolase
-    - metabolites: !!omap
-      - s_0419: 1
-      - s_0803: -1
-      - s_3869: -1
-      - s_3870: 1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: YDR242W
-    - annotation: !!omap
-      - ec-code: 3.5.1.4
-      - kegg.reaction: R03909
-      - metanetx.reaction: MNXR108518
       - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
@@ -92937,7 +92899,7 @@
       - s_0419: 1
       - s_1399: 1
       - s_3904: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL196W
     - annotation: !!omap
@@ -93178,12 +93140,12 @@
     - id: r_4264
     - name: succinate:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0727: 1
-      - s_0799: 1
-      - s_1200: -1
-      - s_1205: 1
-      - s_1460: -1
-    - lower_bound: -1000
+      - s_0727: -1
+      - s_0799: -1
+      - s_1200: 1
+      - s_1205: -1
+      - s_1460: 1
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJR051W
     - annotation: !!omap
@@ -93289,7 +93251,7 @@
       - s_0837: 1
       - s_1275: 1
       - s_3931: -2
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJR104C
     - annotation: !!omap
@@ -93368,7 +93330,7 @@
       - s_0803: -1
       - s_1241: -1
       - s_1458: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLL058W or YML082W
     - annotation: !!omap
@@ -93460,7 +93422,7 @@
       - s_0809: -1
       - s_3942: -1
       - s_3943: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR151C
     - annotation: !!omap
@@ -93743,7 +93705,7 @@
       - s_1203: 1
       - s_3961: -1
       - s_3962: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
