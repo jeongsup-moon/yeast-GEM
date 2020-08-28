@@ -1,0 +1,53 @@
+NewMetName	Charged formula 	Charge	compartment	KEGG ID	CHEBI ID	Remark
+ethyl hexanoate[m]	C8H16O2	0	mitochondrion		CHEBI:86055	
+ethyl hexanoate[c]	C8H16O2	0	cytoplasm		CHEBI:86055	
+ethyl hexanoate[e]	C8H16O2	0	endoplasmic reticulum		CHEBI:86055	
+octanoyl-CoA[m]	C29H46N7O17P3S	-4	mitochondrion	C01944	ChEBI:15533	
+ethyl octanoate[m]	C10H20O2	0	mitochondrion	C12292	ChEBI:87426	
+ethyl octanoate[c]	C10H20O2	0	cytoplasm	C12292	ChEBI:87426	
+ethyl octanoate[e]	C10H20O2	0	endoplasmic reticulum	C12292	ChEBI:87426	
+butanoyl-CoA[m]	C25H38N7O17P3S	-4	mitochondrion	C00136	ChEBI:57371	
+ethyl butanoate[m]	C6H12O2	0	mitochondrion		ChEBI:88764	
+ethyl butanoate[c]	C6H12O2	0	cytoplasm		ChEBI:88764	
+ethyl butanoate[e]	C6H12O2	0	endoplasmic reticulum		ChEBI:88764	
+hexanol[m]	C6H14O	0	mitochondrion		ChEBI:87393	
+hexyl acetate[m]	C8H16O2	0	mitochondrion		ChEBI:87510	
+hexyl acetate[c]	C8H16O2	0	cytoplasm		ChEBI:87510	
+hexyl acetate[e]	C8H16O2	0	endoplasmic reticulum		ChEBI:87510	
+decanoyl-CoA[m]	C31H50N7O17P3S	-4	cytoplasm	C05274	ChEBI:61430	
+ethyl decanoate[m]	C12H24O2	0	mitochondrion		ChEBI:87430	
+ethyl decanoate[c]	C12H24O2	0	cytoplasm		ChEBI:87430	
+ethyl decanoate[e]	C12H24O2	0	endoplasmic reticulum		ChEBI:87430	
+ethyl acetate[m]	C4H8O2	0	mitochondrion	C00849	CHEBI:27750	
+propanal[c]	C3H6O	0	cytoplasm	C00479	CHEBI:17153	
+propanal[m]	C3H6O	0	mitochondrion	C00479	CHEBI:17153	
+propanal[e]	C3H6O	0	endoplasmic reticulum	C00479	CHEBI:17153	
+propanol[c]	C3H8O	0	cytoplasm	C05979	CHEBI:28831	
+propanol[m]	C3H8O	0	mitochondrion	C05979	CHEBI:28831	
+propanol[e]	C3H8O	0	endoplasmic reticulum	C05979	CHEBI:28831	
+methional[c]	C4H8OS	0	cytoplasm		CHEBI:49017	
+methional[m]	C4H8OS	0	mitochondrion		CHEBI:49017	
+methional[e]	C4H8OS	0	endoplasmic reticulum		CHEBI:49017	
+methionol[c]	C4H10OS	0	cytoplasm		CHEBI:49019	
+methionol[m]	C4H10OS	0	mitochondrion		CHEBI:49019	
+methionol[e]	C4H10OS	0	endoplasmic reticulum		CHEBI:49019	
+(4-hydroxyphenyl)acetaldehyde[c]	C8H8O2	0	cytoplasm		CHEBI:15621	
+(4-hydroxyphenyl)acetaldehyde[m]	C8H8O2	0	mitochondrion		CHEBI:15621	
+(4-hydroxyphenyl)acetaldehyde[e]	C8H8O2	0	endoplasmic reticulum		CHEBI:15621	
+tyrosol[c]	C8H10O2	0	cytoplasm	C06044	CHEBI:1879	
+tyrosol[m]	C8H10O2	0	mitochondrion	C06044	CHEBI:1879	
+tyrosol[e]	C8H10O2	0	endoplasmic reticulum	C06044	CHEBI:1879	
+propionate[c]	C3H6O2	0	cytoplasm	C00163	CHEBI:30768	
+propionate[p]	C3H6O2	0	peroxisome	C00163	CHEBI:30768	
+propionyl-CoA[p]	C24H40N7O17P3S	-4	peroxisome	C00100	CHEBI:15539	
+ethyl propionate[m]	C5H10O2	0	mitochondrion		CHEBI:41330	
+ethyl propionate[c]	C5H10O2	0	cytoplasm		CHEBI:41330	
+ethyl propionate[e]	C5H10O2	0	endoplasmic reticulum		CHEBI:41330	
+tyrosyl acetate[c]	C32H45N5O10	0	cytoplasm			
+tyrosyl acetate[e]	C32H45N5O10	0	endoplasmic reticulum			
+methionyl acetate[c]	C7H13NO3S	0	cytoplasm			
+methionyl acetate[e]	C7H13NO3S	0	endoplasmic reticulum			
+propyl acetate[c]	C5H10O2 	0	cytoplasm		CHEBI:40116	
+propyl acetate[e]	C5H10O2 	0	endoplasmic reticulum		CHEBI:40116	
+ethylene[c]	C2H4	0	cytoplasm	C06547	CHEBI:18153	
+dimethyl disulfide[c]	C2H6S2	0	cytoplasm		CHEBI:4608	

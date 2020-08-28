@@ -27212,6 +27212,324 @@
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000649
+  - !!omap
+    - id: s_4207
+    - name: hexanoyl-CoA
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4208
+    - name: ethyl hexanoate
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4209
+    - name: octanoyl-CoA
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4210
+    - name: ethyl octanoate
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4211
+    - name: butanoyl-CoA
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4212
+    - name: ethyl butanoate
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4213
+    - name: hexanol
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4214
+    - name: hexyl acetate
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4215
+    - name: decanoyl-CoA
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4216
+    - name: ethyl decanoate
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4217
+    - name: ethyl hexanoate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4218
+    - name: ethyl octanoate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4219
+    - name: ethyl butanoate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4220
+    - name: hexyl acetate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4221
+    - name: ethyl decanoate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4222
+    - name: ethyl hexanoate
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4223
+    - name: ethyl octanoate
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4224
+    - name: ethyl butanoate
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4225
+    - name: hexyl acetate
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4226
+    - name: ethyl decanoate
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4227
+    - name: ethyl acetate
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4228
+    - name: propanal
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4229
+    - name: propanol
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4230
+    - name: propanal
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4231
+    - name: propanol
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4232
+    - name: propanal
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4233
+    - name: propanol
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4234
+    - name: methional
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4235
+    - name: methionol
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4236
+    - name: methional
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4237
+    - name: methionol
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4238
+    - name: methional
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4239
+    - name: methionol
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4240
+    - name: (4-hydroxyphenyl)acetaldehyde
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4241
+    - name: tyrosol
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4242
+    - name: (4-hydroxyphenyl)acetaldehyde
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4243
+    - name: tyrosol
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4244
+    - name: (4-hydroxyphenyl)acetaldehyde
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4245
+    - name: tyrosol
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4246
+    - name: propionate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4247
+    - name: propionate
+    - compartment: p
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4248
+    - name: propionyl-CoA
+    - compartment: p
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4249
+    - name: ethyl propionate
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4250
+    - name: tyrosyl acetate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4251
+    - name: tyrosyl acetate
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4252
+    - name: methionyl acetate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4253
+    - name: methionyl acetate
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4254
+    - name: propyl acetate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4255
+    - name: propyl acetate
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4256
+    - name: ethylene
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4257
+    - name: dimethyl disulfide
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4258
+    - name: ethyl propionate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4259
+    - name: ethyl propionate
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: r_0001
@@ -93937,7 +94255,7 @@
     - confidence_score: 0
   - !!omap
     - id: r_4587
-    - name: Ca(2+) transport
+    - name: Ca(2+) transport 
     - metabolites: !!omap
       - s_0794: 1
       - s_0796: -1
@@ -94117,2548 +94435,3472 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
+  - !!omap
+    - id: r_4601
+    - name: alcohol acyltransferase (hexanoyl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_4207: -1
+      - s_4208: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4602
+    - name: alcohol acyltransferase (octanoyl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_4209: -1
+      - s_4210: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4603
+    - name: alcohol acyltransferase (butyryl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_4211: -1
+      - s_4212: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4604
+    - name: alcohol acetyltransferase (hexanol)
+    - metabolites: !!omap
+      - s_0376: -1
+      - s_0532: 1
+      - s_4213: -1
+      - s_4214: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR177C or YOR377W or YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4605
+    - name: alcohol acyltransferase (decanoyl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_4215: -1
+      - s_4216: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4606
+    - name: ethyl hexanoate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4208: -1
+      - s_4217: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4607
+    - name: ethyl octanoate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4210: -1
+      - s_4218: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4608
+    - name: ethyl butanoate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4212: -1
+      - s_4219: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4609
+    - name: hexyl acetate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4214: -1
+      - s_4220: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4610
+    - name: ethyl decanoate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4216: -1
+      - s_4221: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4611
+    - name: ethyl hexanoate transport
+    - metabolites: !!omap
+      - s_4217: -1
+      - s_4222: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4612
+    - name: ethyl octanoate transport
+    - metabolites: !!omap
+      - s_4218: -1
+      - s_4223: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4613
+    - name: ethyl butanoate transport
+    - metabolites: !!omap
+      - s_4219: -1
+      - s_4224: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4614
+    - name: hexyl acetate transport
+    - metabolites: !!omap
+      - s_4220: -1
+      - s_4225: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4615
+    - name: ethyl decanoate transport
+    - metabolites: !!omap
+      - s_4221: -1
+      - s_4226: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4616
+    - name: ethyl hexanoate exchange
+    - metabolites: !!omap
+      - s_4222: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4617
+    - name: ethyl octanoate exchange
+    - metabolites: !!omap
+      - s_4223: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4618
+    - name: ethyl butanoate exchange
+    - metabolites: !!omap
+      - s_4224: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4619
+    - name: hexyl acetate exchange
+    - metabolites: !!omap
+      - s_4225: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4620
+    - name: ethyl decanoate exchange
+    - metabolites: !!omap
+      - s_4226: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4621
+    - name: mitochondrial ethanol O-acetyltransferase
+    - metabolites: !!omap
+      - s_0376: -1
+      - s_0532: 1
+      - s_0682: -1
+      - s_4227: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.268
+      - kegg.reaction: R11957
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4622
+    - name: ethyl acetate transport, mitochondrial
+    - metabolites: !!omap
+      - s_0685: 1
+      - s_4227: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4623
+    - name: pyruvate decarboxylase (aldedyde-forming)
+    - metabolites: !!omap
+      - s_0178: -1
+      - s_0456: 1
+      - s_0794: -1
+      - s_4228: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR087C or YLR044C or YLR134W
+    - annotation: !!omap
+      - ec-code: 4.1.1.1
+      - kegg.reaction: R00636
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4624
+    - name: aldehyde dehydrogenase (1-propanol, NAD)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1198: 1
+      - s_1203: 1
+      - s_4228: -1
+      - s_4229: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR145W or YDL168W or YOL086C
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.1
+        - 1.1.1.284
+      - kegg.reaction: R00754
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4625
+    - name: aldehyde dehydrogenase (1-propanol, NAD)
+    - metabolites: !!omap
+      - s_0799: -1
+      - s_1200: 1
+      - s_1205: -1
+      - s_4230: -1
+      - s_4231: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGL256W or YMR083W
+    - annotation: !!omap
+      - ec-code: 1.1.1.1
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4626
+    - name: aldehyde dehydrogenase (1-propanol, NADP)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4228: -1
+      - s_4229: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YCR105W or YDR368W or YMR318C
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.2
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4627
+    - name: 1-propyl alcohol transport, mitochondrial
+    - metabolites: !!omap
+      - s_4229: 1
+      - s_4231: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4628
+    - name: propanal transport, cytosol
+    - metabolites: !!omap
+      - s_4228: -1
+      - s_4232: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4629
+    - name: 1-propyl alcohol transport, cytosol
+    - metabolites: !!omap
+      - s_4229: -1
+      - s_4233: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4630
+    - name: propanal exchange
+    - metabolites: !!omap
+      - s_4232: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4631
+    - name: propanol exchange
+    - metabolites: !!omap
+      - s_4233: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4632
+    - name: 2-oxo acid decarboxylase
+    - metabolites: !!omap
+      - s_0294: -1
+      - s_0456: 1
+      - s_0794: -1
+      - s_4234: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YHR137W
+    - annotation: !!omap
+      - ec-code: 4.1.1.1
+      - kegg.reaction: R00636
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4633
+    - name: aldehyde dehydrogenase (methionol, NAD)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1198: 1
+      - s_1203: -1
+      - s_4234: -1
+      - s_4235: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR145W or YDL168W or YOL086C
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.1
+        - 1.1.1.284
+      - kegg.reaction: R00754
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4634
+    - name: aldehyde dehydrogenase (methionol, NAD)
+    - metabolites: !!omap
+      - s_0799: -1
+      - s_1200: 1
+      - s_1205: -1
+      - s_4236: -1
+      - s_4237: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGL256W or YMR083W
+    - annotation: !!omap
+      - ec-code: 1.1.1.1
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4635
+    - name: aldehyde dehydrogenase (methionol, NADP)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1203: -1
+      - s_1207: 1
+      - s_4234: -1
+      - s_4235: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YCR105W or YDR368W or YMR318C
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.2
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4636
+    - name: methionol transport, mitochondrial
+    - metabolites: !!omap
+      - s_4235: 1
+      - s_4237: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4637
+    - name: methional transport, cytosol
+    - metabolites: !!omap
+      - s_4234: -1
+      - s_4238: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4638
+    - name: methionol transport, cytosol
+    - metabolites: !!omap
+      - s_4235: -1
+      - s_4239: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4639
+    - name: methional exchange
+    - metabolites: !!omap
+      - s_4238: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4640
+    - name: methionol exchange
+    - metabolites: !!omap
+      - s_4239: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4641
+    - name: pyruvate decarboxylase (hydroxy-phenyl)
+    - metabolites: !!omap
+      - s_0204: -1
+      - s_0456: 1
+      - s_0794: -1
+      - s_4240: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR087C or YLR044C or YLR134W
+    - annotation: !!omap
+      - ec-code: 4.1.1.1
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4642
+    - name: aldehyde dehydrogenase (tyrosol, NAD)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1198: 1
+      - s_1203: -1
+      - s_4240: -1
+      - s_4241: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR145W or YDL168W or YOL086C
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.1
+        - 1.1.1.284
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4643
+    - name: aldehyde dehydrogenase (tyrosol, NAD)
+    - metabolites: !!omap
+      - s_0799: -1
+      - s_1200: 1
+      - s_1205: -1
+      - s_4242: -1
+      - s_4243: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGL256W or YMR083W
+    - annotation: !!omap
+      - ec-code: 1.1.1.1
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4644
+    - name: aldehyde dehydrogenase (tyrosol, NADP)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4240: -1
+      - s_4241: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YCR105W or YDR368W or YMR318C
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.2
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4645
+    - name: tyrosol transport, mitochondrial
+    - metabolites: !!omap
+      - s_4241: 1
+      - s_4243: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4646
+    - name: (4-hydroxyphenyl)acetaldehyde transport, cytosol
+    - metabolites: !!omap
+      - s_4240: -1
+      - s_4244: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4647
+    - name: tyrosol transport, cytosol
+    - metabolites: !!omap
+      - s_4241: -1
+      - s_4245: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4648
+    - name: (4-hydroxyphenyl)acetaldehyde exchange
+    - metabolites: !!omap
+      - s_4244: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4649
+    - name: tyrosol exchange
+    - metabolites: !!omap
+      - s_4245: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4650
+    - name: aldehyde dehydrogenase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0803: -1
+      - s_1198: -1
+      - s_1203: 1
+      - s_4228: -1
+      - s_4246: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YMR170C or YMR169C or YOR374W
+    - annotation: !!omap
+      - ec-code: 1.2.1.5
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4651
+    - name: short-chain-fatty-acid-CoA ligase (propionate)
+    - metabolites: !!omap
+      - s_0426: 1
+      - s_0439: -1
+      - s_0534: -1
+      - s_0638: 1
+      - s_4247: -1
+      - s_4248: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YOR317W or YER015W or YIL009W or YMR246W
+    - annotation: !!omap
+      - ec-code: 6.2.1.3
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4652
+    - name: alcohol acyltransferase (propionyl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_1382: -1
+      - s_4249: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4653
+    - name: propionyl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_1382: 1
+      - s_4248: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4654
+    - name: butyryl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_2884: -1
+      - s_4211: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4655
+    - name: hexanoyl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_2885: -1
+      - s_4207: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4656
+    - name: octanoyl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_1258: -1
+      - s_4209: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4657
+    - name: decanoyl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_0605: -1
+      - s_4215: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4658
+    - name: propionate transport, cytosol
+    - metabolites: !!omap
+      - s_4246: 1
+      - s_4247: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4659
+    - name: alcohol acetyltransferase (tyrosol)
+    - metabolites: !!omap
+      - s_0373: -1
+      - s_0529: 1
+      - s_4241: -1
+      - s_4250: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR177C or YOR377W or YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4660
+    - name: tyrosyl acetate transport
+    - metabolites: !!omap
+      - s_4250: -1
+      - s_4251: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4661
+    - name: tyrosyl acetate exchange
+    - metabolites: !!omap
+      - s_4251: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4662
+    - name: alcohol acetyltransferase (methionol)
+    - metabolites: !!omap
+      - s_0373: -1
+      - s_0529: 1
+      - s_4235: -1
+      - s_4252: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR177C or YOR377W or YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4663
+    - name: methionyl acetate transport
+    - metabolites: !!omap
+      - s_4252: -1
+      - s_4253: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4664
+    - name: methionyl acetate exchange
+    - metabolites: !!omap
+      - s_4253: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4665
+    - name: alcohol acetyltransferase (propanol)
+    - metabolites: !!omap
+      - s_0373: -1
+      - s_0529: 1
+      - s_4229: -1
+      - s_4254: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR177C or YOR377W or YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4666
+    - name: propyl acetate transport
+    - metabolites: !!omap
+      - s_4254: -1
+      - s_4255: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4667
+    - name: propyl acetate exchange
+    - metabolites: !!omap
+      - s_4255: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4668
+    - name: methanethiol formation
+    - metabolites: !!omap
+      - s_0456: 2
+      - s_1150: 1
+      - s_4234: -1
+      - s_4256: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4669
+    - name: thiosulfate—thiol sulfurtransferase
+    - metabolites: !!omap
+      - s_0841: 1
+      - s_1150: -1
+      - s_1469: 1
+      - s_4113: -1
+      - s_4257: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YOR286W
+    - annotation: !!omap
+      - ec-code: 2.8.1.3
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4670
+    - name: ethyl propionate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4249: -1
+      - s_4258: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4671
+    - name: ethyl propionate transport
+    - metabolites: !!omap
+      - s_4258: -1
+      - s_4259: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4672
+    - name: ethyl propionate exchange
+    - metabolites: !!omap
+      - s_4259: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
 - genes:
   - !!omap
     - id: GR191W
     - name: GR191W
   - !!omap
     - id: Q0045
-    - name: COX1
+    - name: Q0045
   - !!omap
     - id: Q0080
-    - name: ATP8
+    - name: Q0080
   - !!omap
     - id: Q0085
-    - name: ATP6
+    - name: Q0085
   - !!omap
     - id: Q0105
-    - name: COB
+    - name: Q0105
   - !!omap
     - id: Q0130
-    - name: OLI1
+    - name: Q0130
   - !!omap
     - id: Q0250
-    - name: COX2
+    - name: Q0250
   - !!omap
     - id: Q0275
-    - name: COX3
+    - name: Q0275
   - !!omap
     - id: YAL012W
-    - name: CYS3
+    - name: YAL012W
   - !!omap
     - id: YAL022C
-    - name: FUN26
+    - name: YAL022C
   - !!omap
     - id: YAL023C
-    - name: PMT2
+    - name: YAL023C
   - !!omap
     - id: YAL026C
-    - name: DRS2
+    - name: YAL026C
   - !!omap
     - id: YAL035W
-    - name: FUN12
+    - name: YAL035W
   - !!omap
     - id: YAL038W
-    - name: CDC19
+    - name: YAL038W
   - !!omap
     - id: YAL039C
-    - name: CYC3
+    - name: YAL039C
   - !!omap
     - id: YAL044C
-    - name: GCV3
+    - name: YAL044C
   - !!omap
     - id: YAL054C
-    - name: ACS1
+    - name: YAL054C
   - !!omap
     - id: YAL060W
-    - name: BDH1
+    - name: YAL060W
   - !!omap
     - id: YAL061W
-    - name: BDH2
+    - name: YAL061W
   - !!omap
     - id: YAL062W
-    - name: GDH3
+    - name: YAL062W
   - !!omap
     - id: YAR015W
-    - name: ADE1
+    - name: YAR015W
   - !!omap
     - id: YAR035W
-    - name: YAT1
+    - name: YAR035W
   - !!omap
     - id: YAR069W-A
     - name: YAR069W-A
   - !!omap
     - id: YAR071W
-    - name: PHO11
+    - name: YAR071W
   - !!omap
     - id: YBL011W
-    - name: SCT1
+    - name: YBL011W
   - !!omap
     - id: YBL013W
-    - name: FMT1
+    - name: YBL013W
   - !!omap
     - id: YBL015W
-    - name: ACH1
+    - name: YBL015W
   - !!omap
     - id: YBL030C
-    - name: PET9
+    - name: YBL030C
   - !!omap
     - id: YBL033C
-    - name: RIB1
+    - name: YBL033C
   - !!omap
     - id: YBL039C
-    - name: URA7
+    - name: YBL039C
   - !!omap
     - id: YBL042C
-    - name: FUI1
+    - name: YBL042C
   - !!omap
     - id: YBL045C
-    - name: COR1
+    - name: YBL045C
   - !!omap
     - id: YBL064C
-    - name: PRX1
+    - name: YBL064C
   - !!omap
     - id: YBL068W
-    - name: PRS4
+    - name: YBL068W
   - !!omap
     - id: YBL076C
-    - name: ILS1
+    - name: YBL076C
   - !!omap
     - id: YBL080C
-    - name: PET112
+    - name: YBL080C
   - !!omap
     - id: YBL091C
-    - name: MAP2
+    - name: YBL091C
   - !!omap
     - id: YBL098W
-    - name: BNA4
+    - name: YBL098W
   - !!omap
     - id: YBL099W
-    - name: ATP1
+    - name: YBL099W
   - !!omap
     - id: YBR001C
-    - name: NTH2
+    - name: YBR001C
   - !!omap
     - id: YBR002C
-    - name: RER2
+    - name: YBR002C
   - !!omap
     - id: YBR003W
-    - name: COQ1
+    - name: YBR003W
   - !!omap
     - id: YBR004C
-    - name: GPI18
+    - name: YBR004C
   - !!omap
     - id: YBR006W
-    - name: UGA2
+    - name: YBR006W
   - !!omap
     - id: YBR011C
-    - name: IPP1
+    - name: YBR011C
   - !!omap
     - id: YBR018C
-    - name: GAL7
+    - name: YBR018C
   - !!omap
     - id: YBR019C
-    - name: GAL10
+    - name: YBR019C
   - !!omap
     - id: YBR020W
-    - name: GAL1
+    - name: YBR020W
   - !!omap
     - id: YBR021W
-    - name: FUR4
+    - name: YBR021W
   - !!omap
     - id: YBR022W
-    - name: POA1
+    - name: YBR022W
   - !!omap
     - id: YBR023C
-    - name: CHS3
+    - name: YBR023C
   - !!omap
     - id: YBR026C
-    - name: ETR1
+    - name: YBR026C
   - !!omap
     - id: YBR029C
-    - name: CDS1
+    - name: YBR029C
   - !!omap
     - id: YBR034C
-    - name: HMT1
+    - name: YBR034C
   - !!omap
     - id: YBR035C
-    - name: PDX3
+    - name: YBR035C
   - !!omap
     - id: YBR036C
-    - name: CSG2
+    - name: YBR036C
   - !!omap
     - id: YBR038W
-    - name: CHS2
+    - name: YBR038W
   - !!omap
     - id: YBR039W
-    - name: ATP3
+    - name: YBR039W
   - !!omap
     - id: YBR041W
-    - name: FAT1
+    - name: YBR041W
   - !!omap
     - id: YBR042C
-    - name: CST26
+    - name: YBR042C
   - !!omap
     - id: YBR046C
-    - name: ZTA1
+    - name: YBR046C
   - !!omap
     - id: YBR058C-A
-    - name: TSC3
+    - name: YBR058C-A
   - !!omap
     - id: YBR068C
-    - name: BAP2
+    - name: YBR068C
   - !!omap
     - id: YBR069C
-    - name: TAT1
+    - name: YBR069C
   - !!omap
     - id: YBR070C
-    - name: ALG14
+    - name: YBR070C
   - !!omap
     - id: YBR084W
-    - name: MIS1
+    - name: YBR084W
   - !!omap
     - id: YBR085W
-    - name: AAC3
+    - name: YBR085W
   - !!omap
     - id: YBR092C
-    - name: PHO3
+    - name: YBR092C
   - !!omap
     - id: YBR093C
-    - name: PHO5
+    - name: YBR093C
   - !!omap
     - id: YBR097W
-    - name: VPS15
+    - name: YBR097W
   - !!omap
     - id: YBR110W
-    - name: ALG1
+    - name: YBR110W
   - !!omap
     - id: YBR111C
-    - name: YSA1
+    - name: YBR111C
   - !!omap
     - id: YBR115C
-    - name: LYS2
+    - name: YBR115C
   - !!omap
     - id: YBR117C
-    - name: TKL2
+    - name: YBR117C
   - !!omap
     - id: YBR121C
-    - name: GRS1
+    - name: YBR121C
   - !!omap
     - id: YBR126C
-    - name: TPS1
+    - name: YBR126C
   - !!omap
     - id: YBR127C
-    - name: VMA2
+    - name: YBR127C
   - !!omap
     - id: YBR132C
-    - name: AGP2
+    - name: YBR132C
   - !!omap
     - id: YBR145W
-    - name: ADH5
+    - name: YBR145W
   - !!omap
     - id: YBR147W
-    - name: RTC2
+    - name: YBR147W
   - !!omap
     - id: YBR149W
-    - name: ARA1
+    - name: YBR149W
   - !!omap
     - id: YBR153W
-    - name: RIB7
+    - name: YBR153W
   - !!omap
     - id: YBR159W
-    - name: IFA38
+    - name: YBR159W
   - !!omap
     - id: YBR161W
-    - name: CSH1
+    - name: YBR161W
   - !!omap
     - id: YBR166C
-    - name: TYR1
+    - name: YBR166C
   - !!omap
     - id: YBR176W
-    - name: ECM31
+    - name: YBR176W
+  - !!omap
+    - id: YBR177C
+    - name: EHT1
   - !!omap
     - id: YBR180W
-    - name: DTR1
+    - name: YBR180W
   - !!omap
     - id: YBR183W
-    - name: YPC1
+    - name: YBR183W
   - !!omap
     - id: YBR192W
-    - name: RIM2
+    - name: YBR192W
   - !!omap
     - id: YBR196C
-    - name: PGI1
+    - name: YBR196C
   - !!omap
     - id: YBR199W
-    - name: KTR4
+    - name: YBR199W
   - !!omap
     - id: YBR204C
-    - name: LDH1
+    - name: YBR204C
   - !!omap
     - id: YBR205W
-    - name: KTR3
+    - name: YBR205W
   - !!omap
     - id: YBR208C
-    - name: DUR1,2
+    - name: YBR208C
   - !!omap
     - id: YBR213W
-    - name: MET8
+    - name: YBR213W
   - !!omap
     - id: YBR218C
-    - name: PYC2
+    - name: YBR218C
   - !!omap
     - id: YBR221C
-    - name: PDB1
+    - name: YBR221C
   - !!omap
     - id: YBR222C
-    - name: PCS60
+    - name: YBR222C
   - !!omap
     - id: YBR229C
-    - name: ROT2
+    - name: YBR229C
   - !!omap
     - id: YBR235W
-    - name: VHC1
+    - name: YBR235W
   - !!omap
     - id: YBR241C
     - name: YBR241C
   - !!omap
     - id: YBR243C
-    - name: ALG7
+    - name: YBR243C
   - !!omap
     - id: YBR244W
-    - name: GPX2
+    - name: YBR244W
   - !!omap
     - id: YBR248C
-    - name: HIS7
+    - name: YBR248C
   - !!omap
     - id: YBR249C
-    - name: ARO4
+    - name: YBR249C
   - !!omap
     - id: YBR252W
-    - name: DUT1
+    - name: YBR252W
   - !!omap
     - id: YBR256C
-    - name: RIB5
+    - name: YBR256C
   - !!omap
     - id: YBR263W
-    - name: SHM1
+    - name: YBR263W
   - !!omap
     - id: YBR265W
-    - name: TSC10
+    - name: YBR265W
   - !!omap
     - id: YBR281C
-    - name: DUG2
+    - name: YBR281C
   - !!omap
     - id: YBR291C
-    - name: CTP1
+    - name: YBR291C
   - !!omap
     - id: YBR293W
-    - name: VBA2
+    - name: YBR293W
   - !!omap
     - id: YBR294W
-    - name: SUL1
+    - name: YBR294W
   - !!omap
     - id: YBR295W
-    - name: PCA1
+    - name: YBR295W
   - !!omap
     - id: YBR296C
-    - name: PHO89
+    - name: YBR296C
   - !!omap
     - id: YBR298C
-    - name: MAL31
+    - name: YBR298C
   - !!omap
     - id: YBR299W
-    - name: MAL32
+    - name: YBR299W
   - !!omap
     - id: YCL004W
-    - name: PGS1
+    - name: YCL004W
   - !!omap
     - id: YCL005W-A
-    - name: VMA9
+    - name: YCL005W-A
   - !!omap
     - id: YCL009C
-    - name: ILV6
+    - name: YCL009C
   - !!omap
     - id: YCL017C
-    - name: NFS1
+    - name: YCL017C
   - !!omap
     - id: YCL018W
-    - name: LEU2
+    - name: YCL018W
   - !!omap
     - id: YCL025C
-    - name: AGP1
+    - name: YCL025C
   - !!omap
     - id: YCL030C
-    - name: HIS4
+    - name: YCL030C
   - !!omap
     - id: YCL035C
-    - name: GRX1
+    - name: YCL035C
   - !!omap
     - id: YCL038C
-    - name: ATG22
+    - name: YCL038C
   - !!omap
     - id: YCL040W
-    - name: GLK1
+    - name: YCL040W
   - !!omap
     - id: YCL047C
-    - name: POF1
+    - name: YCL047C
   - !!omap
     - id: YCL050C
-    - name: APA1
+    - name: YCL050C
   - !!omap
     - id: YCL052C
-    - name: PBN1
+    - name: YCL052C
   - !!omap
     - id: YCL064C
-    - name: CHA1
+    - name: YCL064C
   - !!omap
     - id: YCL069W
-    - name: VBA3
+    - name: YCL069W
   - !!omap
     - id: YCR005C
-    - name: CIT2
+    - name: YCR005C
   - !!omap
     - id: YCR010C
-    - name: ADY2
+    - name: YCR010C
   - !!omap
     - id: YCR011C
-    - name: ADP1
+    - name: YCR011C
   - !!omap
     - id: YCR012W
-    - name: PGK1
+    - name: YCR012W
   - !!omap
     - id: YCR024C
-    - name: SLM5
+    - name: YCR024C
   - !!omap
     - id: YCR024C-A
-    - name: PMP1
+    - name: YCR024C-A
   - !!omap
     - id: YCR028C
-    - name: FEN2
+    - name: YCR028C
   - !!omap
     - id: YCR034W
-    - name: ELO2
+    - name: YCR034W
   - !!omap
     - id: YCR036W
-    - name: RBK1
+    - name: YCR036W
   - !!omap
     - id: YCR037C
-    - name: PHO87
+    - name: YCR037C
   - !!omap
     - id: YCR048W
-    - name: ARE1
+    - name: YCR048W
   - !!omap
     - id: YCR053W
-    - name: THR4
+    - name: YCR053W
   - !!omap
     - id: YCR068W
-    - name: ATG15
+    - name: YCR068W
   - !!omap
     - id: YCR075C
-    - name: ERS1
+    - name: YCR075C
   - !!omap
     - id: YCR083W
-    - name: TRX3
+    - name: YCR083W
   - !!omap
     - id: YCR098C
-    - name: GIT1
+    - name: YCR098C
   - !!omap
     - id: YCR105W
-    - name: ADH7
+    - name: YCR105W
   - !!omap
     - id: YCR107W
-    - name: AAD3
+    - name: YCR107W
   - !!omap
     - id: YDL004W
-    - name: ATP16
+    - name: YDL004W
   - !!omap
     - id: YDL015C
-    - name: TSC13
+    - name: YDL015C
   - !!omap
     - id: YDL022W
-    - name: GPD1
+    - name: YDL022W
   - !!omap
     - id: YDL024C
-    - name: DIA3
+    - name: YDL024C
   - !!omap
     - id: YDL040C
-    - name: NAT1
+    - name: YDL040C
   - !!omap
     - id: YDL042C
-    - name: SIR2
+    - name: YDL042C
   - !!omap
     - id: YDL045C
-    - name: FAD1
+    - name: YDL045C
   - !!omap
     - id: YDL052C
-    - name: SLC1
+    - name: YDL052C
   - !!omap
     - id: YDL055C
-    - name: PSA1
+    - name: YDL055C
   - !!omap
     - id: YDL066W
-    - name: IDP1
+    - name: YDL066W
   - !!omap
     - id: YDL067C
-    - name: COX9
+    - name: YDL067C
   - !!omap
     - id: YDL078C
-    - name: MDH3
+    - name: YDL078C
   - !!omap
     - id: YDL080C
-    - name: THI3
+    - name: YDL080C
   - !!omap
     - id: YDL085W
-    - name: NDE2
+    - name: YDL085W
   - !!omap
     - id: YDL090C
-    - name: RAM1
+    - name: YDL090C
   - !!omap
     - id: YDL093W
-    - name: PMT5
+    - name: YDL093W
   - !!omap
     - id: YDL095W
-    - name: PMT1
+    - name: YDL095W
   - !!omap
     - id: YDL100C
-    - name: GET3
+    - name: YDL100C
   - !!omap
     - id: YDL103C
-    - name: QRI1
+    - name: YDL103C
   - !!omap
     - id: YDL120W
-    - name: YFH1
+    - name: YDL120W
   - !!omap
     - id: YDL131W
-    - name: LYS21
+    - name: YDL131W
   - !!omap
     - id: YDL141W
-    - name: BPL1
+    - name: YDL141W
   - !!omap
     - id: YDL142C
-    - name: CRD1
+    - name: YDL142C
   - !!omap
     - id: YDL166C
-    - name: FAP7
+    - name: YDL166C
   - !!omap
     - id: YDL168W
-    - name: SFA1
+    - name: YDL168W
   - !!omap
     - id: YDL171C
-    - name: GLT1
+    - name: YDL171C
   - !!omap
     - id: YDL174C
-    - name: DLD1
+    - name: YDL174C
   - !!omap
     - id: YDL178W
-    - name: DLD2
+    - name: YDL178W
   - !!omap
     - id: YDL182W
-    - name: LYS20
+    - name: YDL182W
   - !!omap
     - id: YDL185W
-    - name: VMA1
+    - name: YDL185W
   - !!omap
     - id: YDL198C
-    - name: GGC1
+    - name: YDL198C
   - !!omap
     - id: YDL205C
-    - name: HEM3
+    - name: YDL205C
   - !!omap
     - id: YDL210W
-    - name: UGA4
+    - name: YDL210W
   - !!omap
     - id: YDL215C
-    - name: GDH2
+    - name: YDL215C
   - !!omap
     - id: YDL219W
-    - name: DTD1
+    - name: YDL219W
   - !!omap
     - id: YDL236W
-    - name: PHO13
+    - name: YDL236W
   - !!omap
     - id: YDL238C
-    - name: GUD1
+    - name: YDL238C
   - !!omap
     - id: YDL243C
-    - name: AAD4
+    - name: YDL243C
   - !!omap
     - id: YDL245C
-    - name: HXT15
+    - name: YDL245C
   - !!omap
     - id: YDL246C
-    - name: SOR2
+    - name: YDL246C
   - !!omap
     - id: YDL247W
-    - name: MPH2
+    - name: YDL247W
   - !!omap
     - id: YDR001C
-    - name: NTH1
+    - name: YDR001C
   - !!omap
     - id: YDR007W
-    - name: TRP1
+    - name: YDR007W
   - !!omap
     - id: YDR009W
-    - name: GAL3
+    - name: YDR009W
   - !!omap
     - id: YDR017C
-    - name: KCS1
+    - name: YDR017C
   - !!omap
     - id: YDR019C
-    - name: GCV1
+    - name: YDR019C
   - !!omap
     - id: YDR020C
-    - name: DAS2
+    - name: YDR020C
   - !!omap
     - id: YDR023W
-    - name: SES1
+    - name: YDR023W
   - !!omap
     - id: YDR035W
-    - name: ARO3
+    - name: YDR035W
   - !!omap
     - id: YDR036C
-    - name: EHD3
+    - name: YDR036C
   - !!omap
     - id: YDR037W
-    - name: KRS1
+    - name: YDR037W
   - !!omap
     - id: YDR038C
-    - name: ENA5
+    - name: YDR038C
   - !!omap
     - id: YDR039C
-    - name: ENA2
+    - name: YDR039C
   - !!omap
     - id: YDR040C
-    - name: ENA1
+    - name: YDR040C
   - !!omap
     - id: YDR044W
-    - name: HEM13
+    - name: YDR044W
   - !!omap
     - id: YDR046C
-    - name: BAP3
+    - name: YDR046C
   - !!omap
     - id: YDR047W
-    - name: HEM12
+    - name: YDR047W
   - !!omap
     - id: YDR050C
-    - name: TPI1
+    - name: YDR050C
   - !!omap
     - id: YDR051C
-    - name: DET1
+    - name: YDR051C
   - !!omap
     - id: YDR058C
-    - name: TGL2
+    - name: YDR058C
   - !!omap
     - id: YDR062W
-    - name: LCB2
+    - name: YDR062W
   - !!omap
     - id: YDR071C
-    - name: PAA1
+    - name: YDR071C
   - !!omap
     - id: YDR072C
-    - name: IPT1
+    - name: YDR072C
   - !!omap
     - id: YDR074W
-    - name: TPS2
+    - name: YDR074W
   - !!omap
     - id: YDR093W
-    - name: DNF2
+    - name: YDR093W
   - !!omap
     - id: YDR098C
-    - name: GRX3
+    - name: YDR098C
   - !!omap
     - id: YDR105C
-    - name: TMS1
+    - name: YDR105C
   - !!omap
     - id: YDR111C
-    - name: ALT2
+    - name: YDR111C
   - !!omap
     - id: YDR127W
-    - name: ARO1
+    - name: YDR127W
   - !!omap
     - id: YDR135C
-    - name: YCF1
+    - name: YDR135C
   - !!omap
     - id: YDR147W
-    - name: EKI1
+    - name: YDR147W
   - !!omap
     - id: YDR148C
-    - name: KGD2
+    - name: YDR148C
   - !!omap
     - id: YDR158W
-    - name: HOM2
+    - name: YDR158W
   - !!omap
     - id: YDR173C
-    - name: ARG82
+    - name: YDR173C
   - !!omap
     - id: YDR178W
-    - name: SDH4
+    - name: YDR178W
   - !!omap
     - id: YDR191W
-    - name: HST4
+    - name: YDR191W
   - !!omap
     - id: YDR196C
-    - name: CAB5
+    - name: YDR196C
   - !!omap
     - id: YDR204W
-    - name: COQ4
+    - name: YDR204W
   - !!omap
     - id: YDR208W
-    - name: MSS4
+    - name: YDR208W
   - !!omap
     - id: YDR226W
-    - name: ADK1
+    - name: YDR226W
   - !!omap
     - id: YDR231C
-    - name: COX20
+    - name: YDR231C
   - !!omap
     - id: YDR232W
-    - name: HEM1
+    - name: YDR232W
   - !!omap
     - id: YDR234W
-    - name: LYS4
+    - name: YDR234W
   - !!omap
     - id: YDR236C
-    - name: FMN1
+    - name: YDR236C
   - !!omap
     - id: YDR242W
-    - name: AMD2
+    - name: YDR242W
   - !!omap
     - id: YDR248C
     - name: YDR248C
   - !!omap
     - id: YDR256C
-    - name: CTA1
+    - name: YDR256C
   - !!omap
     - id: YDR261C
-    - name: EXG2
+    - name: YDR261C
   - !!omap
     - id: YDR268W
-    - name: MSW1
+    - name: YDR268W
   - !!omap
     - id: YDR270W
-    - name: CCC2
+    - name: YDR270W
   - !!omap
     - id: YDR272W
-    - name: GLO2
+    - name: YDR272W
   - !!omap
     - id: YDR284C
-    - name: DPP1
+    - name: YDR284C
   - !!omap
     - id: YDR287W
-    - name: INM2
+    - name: YDR287W
   - !!omap
     - id: YDR294C
-    - name: DPL1
+    - name: YDR294C
   - !!omap
     - id: YDR297W
-    - name: SUR2
+    - name: YDR297W
   - !!omap
     - id: YDR298C
-    - name: ATP5
+    - name: YDR298C
   - !!omap
     - id: YDR300C
-    - name: PRO1
+    - name: YDR300C
   - !!omap
     - id: YDR302W
-    - name: GPI11
+    - name: YDR302W
   - !!omap
     - id: YDR305C
-    - name: HNT2
+    - name: YDR305C
   - !!omap
     - id: YDR315C
-    - name: IPK1
+    - name: YDR315C
   - !!omap
     - id: YDR321W
-    - name: ASP1
+    - name: YDR321W
   - !!omap
     - id: YDR322C-A
-    - name: TIM11
+    - name: YDR322C-A
   - !!omap
     - id: YDR341C
     - name: YDR341C
   - !!omap
     - id: YDR342C
-    - name: HXT7
+    - name: YDR342C
   - !!omap
     - id: YDR343C
-    - name: HXT6
+    - name: YDR343C
   - !!omap
     - id: YDR345C
-    - name: HXT3
+    - name: YDR345C
   - !!omap
     - id: YDR352W
-    - name: YPQ2
+    - name: YDR352W
   - !!omap
     - id: YDR353W
-    - name: TRR1
+    - name: YDR353W
   - !!omap
     - id: YDR354W
-    - name: TRP4
+    - name: YDR354W
   - !!omap
     - id: YDR367W
-    - name: KEI1
+    - name: YDR367W
   - !!omap
     - id: YDR368W
-    - name: YPR1
+    - name: YDR368W
   - !!omap
     - id: YDR371W
-    - name: CTS2
+    - name: YDR371W
   - !!omap
     - id: YDR373W
-    - name: FRQ1
+    - name: YDR373W
   - !!omap
     - id: YDR376W
-    - name: ARH1
+    - name: YDR376W
   - !!omap
     - id: YDR377W
-    - name: ATP17
+    - name: YDR377W
   - !!omap
     - id: YDR380W
-    - name: ARO10
+    - name: YDR380W
   - !!omap
     - id: YDR384C
-    - name: ATO3
+    - name: YDR384C
   - !!omap
     - id: YDR387C
-    - name: CIN10
+    - name: YDR387C
   - !!omap
     - id: YDR399W
-    - name: HPT1
+    - name: YDR399W
   - !!omap
     - id: YDR400W
-    - name: URH1
+    - name: YDR400W
   - !!omap
     - id: YDR402C
-    - name: DIT2
+    - name: YDR402C
   - !!omap
     - id: YDR403W
-    - name: DIT1
+    - name: YDR403W
   - !!omap
     - id: YDR408C
-    - name: ADE8
+    - name: YDR408C
   - !!omap
     - id: YDR410C
-    - name: STE14
+    - name: YDR410C
   - !!omap
     - id: YDR428C
-    - name: BNA7
+    - name: YDR428C
   - !!omap
     - id: YDR437W
-    - name: GPI19
+    - name: YDR437W
   - !!omap
     - id: YDR440W
-    - name: DOT1
+    - name: YDR440W
   - !!omap
     - id: YDR441C
-    - name: APT2
+    - name: YDR441C
   - !!omap
     - id: YDR452W
-    - name: PPN1
+    - name: YDR452W
   - !!omap
     - id: YDR453C
-    - name: TSA2
+    - name: YDR453C
   - !!omap
     - id: YDR454C
-    - name: GUK1
+    - name: YDR454C
   - !!omap
     - id: YDR456W
-    - name: NHX1
+    - name: YDR456W
   - !!omap
     - id: YDR481C
-    - name: PHO8
+    - name: YDR481C
   - !!omap
     - id: YDR483W
-    - name: KRE2
+    - name: YDR483W
   - !!omap
     - id: YDR487C
-    - name: RIB3
+    - name: YDR487C
   - !!omap
     - id: YDR497C
-    - name: ITR1
+    - name: YDR497C
   - !!omap
     - id: YDR502C
-    - name: SAM2
+    - name: YDR502C
   - !!omap
     - id: YDR503C
-    - name: LPP1
+    - name: YDR503C
   - !!omap
     - id: YDR508C
-    - name: GNP1
+    - name: YDR508C
   - !!omap
     - id: YDR513W
-    - name: GRX2
+    - name: YDR513W
   - !!omap
     - id: YDR516C
-    - name: EMI2
+    - name: YDR516C
   - !!omap
     - id: YDR529C
-    - name: QCR7
+    - name: YDR529C
   - !!omap
     - id: YDR530C
-    - name: APA2
+    - name: YDR530C
   - !!omap
     - id: YDR531W
-    - name: CAB1
+    - name: YDR531W
   - !!omap
     - id: YDR533C
-    - name: HSP31
+    - name: YDR533C
   - !!omap
     - id: YDR536W
-    - name: STL1
+    - name: YDR536W
   - !!omap
     - id: YDR538W
-    - name: PAD1
+    - name: YDR538W
   - !!omap
     - id: YDR539W
-    - name: FDC1
+    - name: YDR539W
   - !!omap
     - id: YEL004W
-    - name: YEA4
+    - name: YEL004W
   - !!omap
     - id: YEL006W
-    - name: YEA6
+    - name: YEL006W
   - !!omap
     - id: YEL017C-A
-    - name: PMP2
+    - name: YEL017C-A
   - !!omap
     - id: YEL021W
-    - name: URA3
+    - name: YEL021W
   - !!omap
     - id: YEL024W
-    - name: RIP1
+    - name: YEL024W
   - !!omap
     - id: YEL027W
-    - name: VMA3
+    - name: YEL027W
   - !!omap
     - id: YEL029C
-    - name: BUD16
+    - name: YEL029C
   - !!omap
     - id: YEL031W
-    - name: SPF1
+    - name: YEL031W
   - !!omap
     - id: YEL038W
-    - name: UTR4
+    - name: YEL038W
   - !!omap
     - id: YEL039C
-    - name: CYC7
+    - name: YEL039C
   - !!omap
     - id: YEL041W
-    - name: YEF1
+    - name: YEL041W
   - !!omap
     - id: YEL042W
-    - name: GDA1
+    - name: YEL042W
   - !!omap
     - id: YEL046C
-    - name: GLY1
+    - name: YEL046C
   - !!omap
     - id: YEL047C
-    - name: FRD1
+    - name: YEL047C
   - !!omap
     - id: YEL051W
-    - name: VMA8
+    - name: YEL051W
   - !!omap
     - id: YEL058W
-    - name: PCM1
+    - name: YEL058W
   - !!omap
     - id: YEL063C
-    - name: CAN1
+    - name: YEL063C
   - !!omap
     - id: YEL066W
-    - name: HPA3
+    - name: YEL066W
   - !!omap
     - id: YEL069C
-    - name: HXT13
+    - name: YEL069C
   - !!omap
     - id: YEL070W
-    - name: DSF1
+    - name: YEL070W
   - !!omap
     - id: YEL071W
-    - name: DLD3
+    - name: YEL071W
   - !!omap
     - id: YER003C
-    - name: PMI40
+    - name: YER003C
   - !!omap
     - id: YER005W
-    - name: YND1
+    - name: YER005W
   - !!omap
     - id: YER010C
     - name: YER010C
   - !!omap
     - id: YER014W
-    - name: HEM14
+    - name: YER014W
   - !!omap
     - id: YER015W
-    - name: FAA2
+    - name: YER015W
   - !!omap
     - id: YER019W
-    - name: ISC1
+    - name: YER019W
   - !!omap
     - id: YER023W
-    - name: PRO3
+    - name: YER023W
   - !!omap
     - id: YER024W
-    - name: YAT2
+    - name: YER024W
   - !!omap
     - id: YER026C
-    - name: CHO1
+    - name: YER026C
   - !!omap
     - id: YER037W
-    - name: PHM8
+    - name: YER037W
   - !!omap
     - id: YER042W
-    - name: MXR1
+    - name: YER042W
   - !!omap
     - id: YER043C
-    - name: SAH1
+    - name: YER043C
   - !!omap
     - id: YER052C
-    - name: HOM3
+    - name: YER052C
   - !!omap
     - id: YER053C
-    - name: PIC2
+    - name: YER053C
   - !!omap
     - id: YER055C
-    - name: HIS1
+    - name: YER055C
   - !!omap
     - id: YER056C
-    - name: FCY2
+    - name: YER056C
   - !!omap
     - id: YER060W
-    - name: FCY21
+    - name: YER060W
   - !!omap
     - id: YER060W-A
-    - name: FCY22
+    - name: YER060W-A
   - !!omap
     - id: YER061C
-    - name: CEM1
+    - name: YER061C
   - !!omap
     - id: YER062C
-    - name: GPP2
+    - name: YER062C
   - !!omap
     - id: YER065C
-    - name: ICL1
+    - name: YER065C
   - !!omap
     - id: YER069W
-    - name: ARG5,6
+    - name: YER069W
   - !!omap
     - id: YER070W
-    - name: RNR1
+    - name: YER070W
   - !!omap
     - id: YER073W
-    - name: ALD5
+    - name: YER073W
   - !!omap
     - id: YER081W
-    - name: SER3
+    - name: YER081W
   - !!omap
     - id: YER086W
-    - name: ILV1
+    - name: YER086W
   - !!omap
     - id: YER087W
-    - name: AIM10
+    - name: YER087W
   - !!omap
     - id: YER090W
-    - name: TRP2
+    - name: YER090W
   - !!omap
     - id: YER091C
-    - name: MET6
+    - name: YER091C
   - !!omap
     - id: YER099C
-    - name: PRS2
+    - name: YER099C
   - !!omap
     - id: YER119C
-    - name: AVT6
+    - name: YER119C
   - !!omap
     - id: YER141W
-    - name: COX15
+    - name: YER141W
   - !!omap
     - id: YER152C
     - name: YER152C
   - !!omap
     - id: YER163C
-    - name: GCG1
+    - name: YER163C
   - !!omap
     - id: YER170W
-    - name: ADK2
+    - name: YER170W
   - !!omap
     - id: YER174C
-    - name: GRX4
+    - name: YER174C
   - !!omap
     - id: YER175C
-    - name: TMT1
+    - name: YER175C
   - !!omap
     - id: YER178W
-    - name: PDA1
+    - name: YER178W
   - !!omap
     - id: YER183C
-    - name: FAU1
+    - name: YER183C
   - !!omap
     - id: YFL001W
-    - name: DEG1
+    - name: YFL001W
   - !!omap
     - id: YFL011W
-    - name: HXT10
+    - name: YFL011W
   - !!omap
     - id: YFL017C
-    - name: GNA1
+    - name: YFL017C
   - !!omap
     - id: YFL018C
-    - name: LPD1
+    - name: YFL018C
   - !!omap
     - id: YFL022C
-    - name: FRS2
+    - name: YFL022C
   - !!omap
     - id: YFL030W
-    - name: AGX1
+    - name: YFL030W
   - !!omap
     - id: YFL045C
-    - name: SEC53
+    - name: YFL045C
   - !!omap
     - id: YFL053W
-    - name: DAK2
+    - name: YFL053W
   - !!omap
     - id: YFL054C
-    - name: AQY3
+    - name: YFL054C
   - !!omap
     - id: YFL055W
-    - name: AGP3
+    - name: YFL055W
   - !!omap
     - id: YFL058W
-    - name: THI5
+    - name: YFL058W
   - !!omap
     - id: YFL059W
-    - name: SNZ3
+    - name: YFL059W
   - !!omap
     - id: YFL060C
-    - name: SNO3
+    - name: YFL060C
   - !!omap
     - id: YFL061W
-    - name: DDI2
+    - name: YFL061W
   - !!omap
     - id: YFR015C
-    - name: GSY1
+    - name: YFR015C
   - !!omap
     - id: YFR019W
-    - name: FAB1
+    - name: YFR019W
   - !!omap
     - id: YFR025C
-    - name: HIS2
+    - name: YFR025C
   - !!omap
     - id: YFR030W
-    - name: MET10
+    - name: YFR030W
   - !!omap
     - id: YFR033C
-    - name: QCR6
+    - name: YFR033C
   - !!omap
     - id: YFR044C
-    - name: DUG1
+    - name: YFR044C
   - !!omap
     - id: YFR047C
-    - name: BNA6
+    - name: YFR047C
   - !!omap
     - id: YFR053C
-    - name: HXK1
+    - name: YFR053C
   - !!omap
     - id: YFR055W
-    - name: IRC7
+    - name: YFR055W
   - !!omap
     - id: YGL001C
-    - name: ERG26
+    - name: YGL001C
   - !!omap
     - id: YGL006W
-    - name: PMC1
+    - name: YGL006W
   - !!omap
     - id: YGL008C
-    - name: PMA1
+    - name: YGL008C
   - !!omap
     - id: YGL009C
-    - name: LEU1
+    - name: YGL009C
   - !!omap
     - id: YGL012W
-    - name: ERG4
+    - name: YGL012W
   - !!omap
     - id: YGL017W
-    - name: ATE1
+    - name: YGL017W
   - !!omap
     - id: YGL022W
-    - name: STT3
+    - name: YGL022W
   - !!omap
     - id: YGL026C
-    - name: TRP5
+    - name: YGL026C
   - !!omap
     - id: YGL027C
-    - name: CWH41
+    - name: YGL027C
   - !!omap
     - id: YGL037C
-    - name: PNC1
+    - name: YGL037C
   - !!omap
     - id: YGL038C
-    - name: OCH1
+    - name: YGL038C
   - !!omap
     - id: YGL040C
-    - name: HEM2
+    - name: YGL040C
   - !!omap
     - id: YGL047W
-    - name: ALG13
+    - name: YGL047W
   - !!omap
     - id: YGL055W
-    - name: OLE1
+    - name: YGL055W
   - !!omap
     - id: YGL062W
-    - name: PYC1
+    - name: YGL062W
   - !!omap
     - id: YGL063W
-    - name: PUS2
+    - name: YGL063W
   - !!omap
     - id: YGL065C
-    - name: ALG2
+    - name: YGL065C
   - !!omap
     - id: YGL067W
-    - name: NPY1
+    - name: YGL067W
   - !!omap
     - id: YGL077C
-    - name: HNM1
+    - name: YGL077C
   - !!omap
     - id: YGL080W
-    - name: MPC1
+    - name: YGL080W
   - !!omap
     - id: YGL084C
-    - name: GUP1
+    - name: YGL084C
   - !!omap
     - id: YGL104C
-    - name: VPS73
+    - name: YGL104C
   - !!omap
     - id: YGL119W
-    - name: COQ8
+    - name: YGL119W
   - !!omap
     - id: YGL125W
-    - name: MET13
+    - name: YGL125W
   - !!omap
     - id: YGL142C
-    - name: GPI10
+    - name: YGL142C
   - !!omap
     - id: YGL148W
-    - name: ARO2
+    - name: YGL148W
   - !!omap
     - id: YGL154C
-    - name: LYS5
+    - name: YGL154C
   - !!omap
     - id: YGL156W
-    - name: AMS1
+    - name: YGL156W
   - !!omap
     - id: YGL167C
-    - name: PMR1
+    - name: YGL167C
   - !!omap
     - id: YGL169W
-    - name: SUA5
+    - name: YGL169W
   - !!omap
     - id: YGL184C
-    - name: STR3
+    - name: YGL184C
   - !!omap
     - id: YGL186C
-    - name: TPN1
+    - name: YGL186C
   - !!omap
     - id: YGL187C
-    - name: COX4
+    - name: YGL187C
   - !!omap
     - id: YGL191W
-    - name: COX13
+    - name: YGL191W
   - !!omap
     - id: YGL196W
-    - name: DSD1
+    - name: YGL196W
   - !!omap
     - id: YGL202W
-    - name: ARO8
+    - name: YGL202W
   - !!omap
     - id: YGL205W
-    - name: POX1
+    - name: YGL205W
   - !!omap
     - id: YGL224C
-    - name: SDT1
+    - name: YGL224C
   - !!omap
     - id: YGL225W
-    - name: VRG4
+    - name: YGL225W
   - !!omap
     - id: YGL234W
-    - name: ADE5,7
+    - name: YGL234W
   - !!omap
     - id: YGL245W
-    - name: GUS1
+    - name: YGL245W
   - !!omap
     - id: YGL248W
-    - name: PDE1
+    - name: YGL248W
   - !!omap
     - id: YGL253W
-    - name: HXK2
+    - name: YGL253W
   - !!omap
     - id: YGL255W
-    - name: ZRT1
+    - name: YGL255W
   - !!omap
     - id: YGL256W
-    - name: ADH4
+    - name: YGL256W
   - !!omap
     - id: YGR007W
-    - name: ECT1
+    - name: YGR007W
   - !!omap
     - id: YGR010W
-    - name: NMA2
+    - name: YGR010W
   - !!omap
     - id: YGR012W
-    - name: MCY1
+    - name: YGR012W
+  - !!omap
+    - id: YGR015C
+    - name: EAT1
   - !!omap
     - id: YGR019W
-    - name: UGA1
+    - name: YGR019W
   - !!omap
     - id: YGR020C
-    - name: VMA7
+    - name: YGR020C
   - !!omap
     - id: YGR032W
-    - name: GSC2
+    - name: YGR032W
   - !!omap
     - id: YGR036C
-    - name: CAX4
+    - name: YGR036C
   - !!omap
     - id: YGR043C
-    - name: NQM1
+    - name: YGR043C
   - !!omap
     - id: YGR046W
-    - name: TAM41
+    - name: YGR046W
   - !!omap
     - id: YGR055W
-    - name: MUP1
+    - name: YGR055W
   - !!omap
     - id: YGR060W
-    - name: ERG25
+    - name: YGR060W
   - !!omap
     - id: YGR061C
-    - name: ADE6
+    - name: YGR061C
   - !!omap
     - id: YGR062C
-    - name: COX18
+    - name: YGR062C
   - !!omap
     - id: YGR065C
-    - name: VHT1
+    - name: YGR065C
   - !!omap
     - id: YGR087C
-    - name: PDC6
+    - name: YGR087C
   - !!omap
     - id: YGR088W
-    - name: CTT1
+    - name: YGR088W
   - !!omap
     - id: YGR094W
-    - name: VAS1
+    - name: YGR094W
   - !!omap
     - id: YGR096W
-    - name: TPC1
+    - name: YGR096W
   - !!omap
     - id: YGR110W
-    - name: CLD1
+    - name: YGR110W
   - !!omap
     - id: YGR121C
-    - name: MEP1
+    - name: YGR121C
   - !!omap
     - id: YGR124W
-    - name: ASN2
+    - name: YGR124W
   - !!omap
     - id: YGR138C
-    - name: TPO2
+    - name: YGR138C
   - !!omap
     - id: YGR143W
-    - name: SKN1
+    - name: YGR143W
   - !!omap
     - id: YGR144W
-    - name: THI4
+    - name: YGR144W
   - !!omap
     - id: YGR147C
-    - name: NAT2
+    - name: YGR147C
   - !!omap
     - id: YGR154C
-    - name: GTO1
+    - name: YGR154C
   - !!omap
     - id: YGR155W
-    - name: CYS4
+    - name: YGR155W
   - !!omap
     - id: YGR157W
-    - name: CHO2
+    - name: YGR157W
   - !!omap
     - id: YGR170W
-    - name: PSD2
+    - name: YGR170W
   - !!omap
     - id: YGR171C
-    - name: MSM1
+    - name: YGR171C
   - !!omap
     - id: YGR175C
-    - name: ERG1
+    - name: YGR175C
   - !!omap
     - id: YGR177C
-    - name: ATF2
+    - name: YGR177C
   - !!omap
     - id: YGR180C
-    - name: RNR4
+    - name: YGR180C
   - !!omap
     - id: YGR183C
-    - name: QCR9
+    - name: YGR183C
   - !!omap
     - id: YGR185C
-    - name: TYS1
+    - name: YGR185C
   - !!omap
     - id: YGR191W
-    - name: HIP1
+    - name: YGR191W
   - !!omap
     - id: YGR192C
-    - name: TDH3
+    - name: YGR192C
   - !!omap
     - id: YGR193C
-    - name: PDX1
+    - name: YGR193C
   - !!omap
     - id: YGR194C
-    - name: XKS1
+    - name: YGR194C
   - !!omap
     - id: YGR202C
-    - name: PCT1
+    - name: YGR202C
   - !!omap
     - id: YGR204W
-    - name: ADE3
+    - name: YGR204W
   - !!omap
     - id: YGR208W
-    - name: SER2
+    - name: YGR208W
   - !!omap
     - id: YGR209C
-    - name: TRX2
+    - name: YGR209C
   - !!omap
     - id: YGR216C
-    - name: GPI1
+    - name: YGR216C
   - !!omap
     - id: YGR227W
-    - name: DIE2
+    - name: YGR227W
   - !!omap
     - id: YGR234W
-    - name: YHB1
+    - name: YGR234W
   - !!omap
     - id: YGR240C
-    - name: PFK1
+    - name: YGR240C
   - !!omap
     - id: YGR243W
-    - name: MPC3
+    - name: YGR243W
   - !!omap
     - id: YGR244C
-    - name: LSC2
+    - name: YGR244C
   - !!omap
     - id: YGR247W
-    - name: CPD1
+    - name: YGR247W
   - !!omap
     - id: YGR248W
-    - name: SOL4
+    - name: YGR248W
   - !!omap
     - id: YGR254W
-    - name: ENO1
+    - name: YGR254W
   - !!omap
     - id: YGR255C
-    - name: COQ6
+    - name: YGR255C
   - !!omap
     - id: YGR256W
-    - name: GND2
+    - name: YGR256W
   - !!omap
     - id: YGR260W
-    - name: TNA1
+    - name: YGR260W
   - !!omap
     - id: YGR264C
-    - name: MES1
+    - name: YGR264C
   - !!omap
     - id: YGR267C
-    - name: FOL2
+    - name: YGR267C
   - !!omap
     - id: YGR277C
-    - name: CAB4
+    - name: YGR277C
   - !!omap
     - id: YGR282C
-    - name: BGL2
+    - name: YGR282C
   - !!omap
     - id: YGR286C
-    - name: BIO2
+    - name: YGR286C
   - !!omap
     - id: YGR287C
-    - name: IMA1
+    - name: YGR287C
   - !!omap
     - id: YGR289C
-    - name: MAL11
+    - name: YGR289C
   - !!omap
     - id: YGR292W
-    - name: MAL12
+    - name: YGR292W
   - !!omap
     - id: YHL003C
-    - name: LAG1
+    - name: YHL003C
   - !!omap
     - id: YHL011C
-    - name: PRS3
+    - name: YHL011C
   - !!omap
     - id: YHL012W
     - name: YHL012W
   - !!omap
     - id: YHL016C
-    - name: DUR3
+    - name: YHL016C
   - !!omap
     - id: YHL018W
     - name: YHL018W
   - !!omap
     - id: YHL032C
-    - name: GUT1
+    - name: YHL032C
   - !!omap
     - id: YHL036W
-    - name: MUP3
+    - name: YHL036W
   - !!omap
     - id: YHR001W-A
-    - name: QCR10
+    - name: YHR001W-A
   - !!omap
     - id: YHR002W
-    - name: LEU5
+    - name: YHR002W
   - !!omap
     - id: YHR007C
-    - name: ERG11
+    - name: YHR007C
   - !!omap
     - id: YHR008C
-    - name: SOD2
+    - name: YHR008C
   - !!omap
     - id: YHR011W
-    - name: DIA4
+    - name: YHR011W
   - !!omap
     - id: YHR013C
-    - name: ARD1
+    - name: YHR013C
   - !!omap
     - id: YHR018C
-    - name: ARG4
+    - name: YHR018C
   - !!omap
     - id: YHR019C
-    - name: DED81
+    - name: YHR019C
   - !!omap
     - id: YHR020W
     - name: YHR020W
   - !!omap
     - id: YHR025W
-    - name: THR1
+    - name: YHR025W
   - !!omap
     - id: YHR026W
-    - name: VMA16
+    - name: YHR026W
   - !!omap
     - id: YHR037W
-    - name: PUT2
+    - name: YHR037W
   - !!omap
     - id: YHR039C-A
-    - name: VMA10
+    - name: YHR039C-A
   - !!omap
     - id: YHR042W
-    - name: NCP1
+    - name: YHR042W
   - !!omap
     - id: YHR043C
-    - name: DOG2
+    - name: YHR043C
   - !!omap
     - id: YHR044C
-    - name: DOG1
+    - name: YHR044C
   - !!omap
     - id: YHR046C
-    - name: INM1
+    - name: YHR046C
   - !!omap
     - id: YHR051W
-    - name: COX6
+    - name: YHR051W
   - !!omap
     - id: YHR063C
-    - name: PAN5
+    - name: YHR063C
   - !!omap
     - id: YHR067W
-    - name: HTD2
+    - name: YHR067W
   - !!omap
     - id: YHR068W
-    - name: DYS1
+    - name: YHR068W
   - !!omap
     - id: YHR072W
-    - name: ERG7
+    - name: YHR072W
   - !!omap
     - id: YHR074W
-    - name: QNS1
+    - name: YHR074W
   - !!omap
     - id: YHR091C
-    - name: MSR1
+    - name: YHR091C
   - !!omap
     - id: YHR092C
-    - name: HXT4
+    - name: YHR092C
   - !!omap
     - id: YHR094C
-    - name: HXT1
+    - name: YHR094C
   - !!omap
     - id: YHR096C
-    - name: HXT5
+    - name: YHR096C
   - !!omap
     - id: YHR100C
-    - name: GEP4
+    - name: YHR100C
   - !!omap
     - id: YHR104W
-    - name: GRE3
+    - name: YHR104W
   - !!omap
     - id: YHR106W
-    - name: TRR2
+    - name: YHR106W
   - !!omap
     - id: YHR109W
-    - name: CTM1
+    - name: YHR109W
   - !!omap
     - id: YHR116W
-    - name: COX23
+    - name: YHR116W
   - !!omap
     - id: YHR119W
-    - name: SET1
+    - name: YHR119W
   - !!omap
     - id: YHR123W
-    - name: EPT1
+    - name: YHR123W
   - !!omap
     - id: YHR128W
-    - name: FUR1
+    - name: YHR128W
   - !!omap
     - id: YHR137W
-    - name: ARO9
+    - name: YHR137W
   - !!omap
     - id: YHR144C
-    - name: DCD1
+    - name: YHR144C
   - !!omap
     - id: YHR162W
-    - name: MPC2
+    - name: YHR162W
   - !!omap
     - id: YHR163W
-    - name: SOL3
+    - name: YHR163W
   - !!omap
     - id: YHR174W
-    - name: ENO2
+    - name: YHR174W
   - !!omap
     - id: YHR183W
-    - name: GND1
+    - name: YHR183W
   - !!omap
     - id: YHR190W
-    - name: ERG9
+    - name: YHR190W
   - !!omap
     - id: YHR201C
-    - name: PPX1
+    - name: YHR201C
   - !!omap
     - id: YHR208W
-    - name: BAT1
+    - name: YHR208W
   - !!omap
     - id: YHR214W-F
     - name: YHR214W-F
   - !!omap
     - id: YHR215W
-    - name: PHO12
+    - name: YHR215W
   - !!omap
     - id: YHR216W
-    - name: IMD2
+    - name: YHR216W
   - !!omap
     - id: YIL002C
-    - name: INP51
+    - name: YIL002C
   - !!omap
     - id: YIL006W
-    - name: YIA6
+    - name: YIL006W
   - !!omap
     - id: YIL009W
-    - name: FAA3
+    - name: YIL009W
   - !!omap
     - id: YIL010W
-    - name: DOT5
+    - name: YIL010W
   - !!omap
     - id: YIL013C
-    - name: PDR11
+    - name: YIL013C
   - !!omap
     - id: YIL020C
-    - name: HIS6
+    - name: YIL020C
   - !!omap
     - id: YIL023C
-    - name: YKE4
+    - name: YIL023C
   - !!omap
     - id: YIL043C
-    - name: CBR1
+    - name: YIL043C
   - !!omap
     - id: YIL048W
-    - name: NEO1
+    - name: YIL048W
   - !!omap
     - id: YIL053W
-    - name: GPP1
+    - name: YIL053W
   - !!omap
     - id: YIL066C
-    - name: RNR3
+    - name: YIL066C
   - !!omap
     - id: YIL074C
-    - name: SER33
+    - name: YIL074C
   - !!omap
     - id: YIL078W
-    - name: THS1
+    - name: YIL078W
   - !!omap
     - id: YIL083C
-    - name: CAB2
+    - name: YIL083C
   - !!omap
     - id: YIL094C
-    - name: LYS12
+    - name: YIL094C
   - !!omap
     - id: YIL099W
-    - name: SGA1
+    - name: YIL099W
   - !!omap
     - id: YIL107C
-    - name: PFK26
+    - name: YIL107C
   - !!omap
     - id: YIL111W
-    - name: COX5B
+    - name: YIL111W
   - !!omap
     - id: YIL116W
-    - name: HIS5
+    - name: YIL116W
   - !!omap
     - id: YIL124W
-    - name: AYR1
+    - name: YIL124W
   - !!omap
     - id: YIL125W
-    - name: KGD1
+    - name: YIL125W
   - !!omap
     - id: YIL134W
-    - name: FLX1
+    - name: YIL134W
   - !!omap
     - id: YIL145C
-    - name: PAN6
+    - name: YIL145C
   - !!omap
     - id: YIL155C
-    - name: GUT2
+    - name: YIL155C
   - !!omap
     - id: YIL160C
-    - name: POT1
+    - name: YIL160C
   - !!omap
     - id: YIL162W
-    - name: SUC2
+    - name: YIL162W
   - !!omap
     - id: YIL172C
-    - name: IMA3
+    - name: YIL172C
   - !!omap
     - id: YIR027C
-    - name: DAL1
+    - name: YIR027C
   - !!omap
     - id: YIR028W
-    - name: DAL4
+    - name: YIR028W
   - !!omap
     - id: YIR029W
-    - name: DAL2
+    - name: YIR029W
   - !!omap
     - id: YIR031C
-    - name: DAL7
+    - name: YIR031C
   - !!omap
     - id: YIR032C
-    - name: DAL3
+    - name: YIR032C
   - !!omap
     - id: YIR034C
-    - name: LYS1
+    - name: YIR034C
   - !!omap
     - id: YIR036C
-    - name: IRC24
+    - name: YIR036C
   - !!omap
     - id: YIR037W
-    - name: HYR1
+    - name: YIR037W
   - !!omap
     - id: YIR038C
-    - name: GTT1
+    - name: YIR038C
   - !!omap
     - id: YJL003W
-    - name: COX16
+    - name: YJL003W
   - !!omap
     - id: YJL005W
-    - name: CYR1
+    - name: YJL005W
   - !!omap
     - id: YJL026W
-    - name: RNR2
+    - name: YJL026W
   - !!omap
     - id: YJL045W
     - name: YJL045W
   - !!omap
     - id: YJL046W
-    - name: AIM22
+    - name: YJL046W
   - !!omap
     - id: YJL052W
-    - name: TDH1
+    - name: YJL052W
   - !!omap
     - id: YJL060W
-    - name: BNA3
+    - name: YJL060W
   - !!omap
     - id: YJL068C
     - name: YJL068C
   - !!omap
     - id: YJL071W
-    - name: ARG2
+    - name: YJL071W
   - !!omap
     - id: YJL088W
-    - name: ARG3
+    - name: YJL088W
   - !!omap
     - id: YJL091C
-    - name: GWT1
+    - name: YJL091C
   - !!omap
     - id: YJL097W
-    - name: PHS1
+    - name: YJL097W
   - !!omap
     - id: YJL100W
-    - name: LSB6
+    - name: YJL100W
   - !!omap
     - id: YJL101C
-    - name: GSH1
+    - name: YJL101C
   - !!omap
     - id: YJL121C
-    - name: RPE1
+    - name: YJL121C
   - !!omap
     - id: YJL126W
-    - name: NIT2
+    - name: YJL126W
   - !!omap
     - id: YJL129C
-    - name: TRK1
+    - name: YJL129C
   - !!omap
     - id: YJL130C
-    - name: URA2
+    - name: YJL130C
   - !!omap
     - id: YJL133W
-    - name: MRS3
+    - name: YJL133W
   - !!omap
     - id: YJL134W
-    - name: LCB3
+    - name: YJL134W
   - !!omap
     - id: YJL137C
-    - name: GLG2
+    - name: YJL137C
   - !!omap
     - id: YJL139C
-    - name: YUR1
+    - name: YJL139C
   - !!omap
     - id: YJL153C
-    - name: INO1
+    - name: YJL153C
   - !!omap
     - id: YJL155C
-    - name: FBP26
+    - name: YJL155C
   - !!omap
     - id: YJL166W
-    - name: QCR8
+    - name: YJL166W
   - !!omap
     - id: YJL167W
-    - name: ERG20
+    - name: YJL167W
   - !!omap
     - id: YJL168C
-    - name: SET2
+    - name: YJL168C
   - !!omap
     - id: YJL180C
-    - name: ATP12
+    - name: YJL180C
   - !!omap
     - id: YJL196C
-    - name: ELO1
+    - name: YJL196C
   - !!omap
     - id: YJL198W
-    - name: PHO90
+    - name: YJL198W
   - !!omap
     - id: YJL200C
-    - name: ACO2
+    - name: YJL200C
   - !!omap
     - id: YJL212C
-    - name: OPT1
+    - name: YJL212C
   - !!omap
     - id: YJL214W
-    - name: HXT8
+    - name: YJL214W
   - !!omap
     - id: YJL216C
-    - name: IMA5
+    - name: YJL216C
   - !!omap
     - id: YJL219W
-    - name: HXT9
+    - name: YJL219W
   - !!omap
     - id: YJL221C
-    - name: IMA4
+    - name: YJL221C
   - !!omap
     - id: YJR001W
-    - name: AVT1
+    - name: YJR001W
   - !!omap
     - id: YJR009C
-    - name: TDH2
+    - name: YJR009C
   - !!omap
     - id: YJR010W
-    - name: MET3
+    - name: YJR010W
   - !!omap
     - id: YJR013W
-    - name: GPI14
+    - name: YJR013W
   - !!omap
     - id: YJR016C
-    - name: ILV3
+    - name: YJR016C
   - !!omap
     - id: YJR019C
-    - name: TES1
+    - name: YJR019C
   - !!omap
     - id: YJR024C
-    - name: MDE1
+    - name: YJR024C
   - !!omap
     - id: YJR025C
-    - name: BNA1
+    - name: YJR025C
   - !!omap
     - id: YJR040W
-    - name: GEF1
+    - name: YJR040W
   - !!omap
     - id: YJR048W
-    - name: CYC1
+    - name: YJR048W
   - !!omap
     - id: YJR049C
-    - name: UTR1
+    - name: YJR049C
   - !!omap
     - id: YJR051W
-    - name: OSM1
+    - name: YJR051W
   - !!omap
     - id: YJR057W
-    - name: CDC8
+    - name: YJR057W
   - !!omap
     - id: YJR069C
-    - name: HAM1
+    - name: YJR069C
   - !!omap
     - id: YJR073C
-    - name: OPI3
+    - name: YJR073C
   - !!omap
     - id: YJR077C
-    - name: MIR1
+    - name: YJR077C
   - !!omap
     - id: YJR078W
-    - name: BNA2
+    - name: YJR078W
   - !!omap
     - id: YJR095W
-    - name: SFC1
+    - name: YJR095W
   - !!omap
     - id: YJR103W
-    - name: URA8
+    - name: YJR103W
   - !!omap
     - id: YJR104C
-    - name: SOD1
+    - name: YJR104C
   - !!omap
     - id: YJR105W
-    - name: ADO1
+    - name: YJR105W
   - !!omap
     - id: YJR109C
-    - name: CPA2
+    - name: YJR109C
   - !!omap
     - id: YJR110W
-    - name: YMR1
+    - name: YJR110W
   - !!omap
     - id: YJR121W
-    - name: ATP2
+    - name: YJR121W
   - !!omap
     - id: YJR130C
-    - name: STR2
+    - name: YJR130C
   - !!omap
     - id: YJR131W
-    - name: MNS1
+    - name: YJR131W
   - !!omap
     - id: YJR133W
-    - name: XPT1
+    - name: YJR133W
   - !!omap
     - id: YJR137C
-    - name: MET5
+    - name: YJR137C
   - !!omap
     - id: YJR139C
-    - name: HOM6
+    - name: YJR139C
   - !!omap
     - id: YJR143C
-    - name: PMT4
+    - name: YJR143C
   - !!omap
     - id: YJR148W
-    - name: BAT2
+    - name: YJR148W
   - !!omap
     - id: YJR149W
     - name: YJR149W
   - !!omap
     - id: YJR152W
-    - name: DAL5
+    - name: YJR152W
   - !!omap
     - id: YJR153W
-    - name: PGU1
+    - name: YJR153W
   - !!omap
     - id: YJR155W
-    - name: AAD10
+    - name: YJR155W
   - !!omap
     - id: YJR158W
-    - name: HXT16
+    - name: YJR158W
   - !!omap
     - id: YJR159W
-    - name: SOR1
+    - name: YJR159W
   - !!omap
     - id: YJR160C
-    - name: MPH3
+    - name: YJR160C
   - !!omap
     - id: YKL001C
-    - name: MET14
+    - name: YKL001C
   - !!omap
     - id: YKL004W
-    - name: AUR1
+    - name: YKL004W
   - !!omap
     - id: YKL008C
-    - name: LAC1
+    - name: YKL008C
   - !!omap
     - id: YKL016C
-    - name: ATP7
+    - name: YKL016C
   - !!omap
     - id: YKL019W
-    - name: RAM2
+    - name: YKL019W
   - !!omap
     - id: YKL024C
-    - name: URA6
+    - name: YKL024C
   - !!omap
     - id: YKL026C
-    - name: GPX1
+    - name: YKL026C
   - !!omap
     - id: YKL029C
-    - name: MAE1
+    - name: YKL029C
   - !!omap
     - id: YKL035W
-    - name: UGP1
+    - name: YKL035W
   - !!omap
     - id: YKL055C
-    - name: OAR1
+    - name: YKL055C
   - !!omap
     - id: YKL060C
-    - name: FBA1
+    - name: YKL060C
   - !!omap
     - id: YKL067W
-    - name: YNK1
+    - name: YKL067W
   - !!omap
     - id: YKL069W
     - name: YKL069W
   - !!omap
     - id: YKL080W
-    - name: VMA5
+    - name: YKL080W
   - !!omap
     - id: YKL085W
-    - name: MDH1
+    - name: YKL085W
   - !!omap
     - id: YKL087C
-    - name: CYT2
+    - name: YKL087C
   - !!omap
     - id: YKL088W
-    - name: CAB3
+    - name: YKL088W
   - !!omap
     - id: YKL094W
-    - name: YJU3
+    - name: YKL094W
   - !!omap
     - id: YKL103C
-    - name: APE1
+    - name: YKL103C
   - !!omap
     - id: YKL104C
-    - name: GFA1
+    - name: YKL104C
   - !!omap
     - id: YKL106W
-    - name: AAT1
+    - name: YKL106W
   - !!omap
     - id: YKL120W
-    - name: OAC1
+    - name: YKL120W
   - !!omap
     - id: YKL127W
-    - name: PGM1
+    - name: YKL127W
   - !!omap
     - id: YKL132C
-    - name: RMA1
+    - name: YKL132C
   - !!omap
     - id: YKL140W
-    - name: TGL1
+    - name: YKL140W
   - !!omap
     - id: YKL141W
-    - name: SDH3
+    - name: YKL141W
   - !!omap
     - id: YKL146W
-    - name: AVT3
+    - name: YKL146W
   - !!omap
     - id: YKL148C
-    - name: SDH1
+    - name: YKL148C
   - !!omap
     - id: YKL150W
-    - name: MCR1
+    - name: YKL150W
   - !!omap
     - id: YKL152C
-    - name: GPM1
+    - name: YKL152C
   - !!omap
     - id: YKL165C
-    - name: MCD4
+    - name: YKL165C
   - !!omap
     - id: YKL174C
-    - name: TPO5
+    - name: YKL174C
   - !!omap
     - id: YKL181W
-    - name: PRS1
+    - name: YKL181W
   - !!omap
     - id: YKL182W
-    - name: FAS1
+    - name: YKL182W
   - !!omap
     - id: YKL184W
-    - name: SPE1
+    - name: YKL184W
   - !!omap
     - id: YKL188C
-    - name: PXA2
+    - name: YKL188C
   - !!omap
     - id: YKL192C
-    - name: ACP1
+    - name: YKL192C
   - !!omap
     - id: YKL194C
-    - name: MST1
+    - name: YKL194C
   - !!omap
     - id: YKL211C
-    - name: TRP3
+    - name: YKL211C
   - !!omap
     - id: YKL212W
-    - name: SAC1
+    - name: YKL212W
   - !!omap
     - id: YKL215C
-    - name: OXP1
+    - name: YKL215C
   - !!omap
     - id: YKL216W
-    - name: URA1
+    - name: YKL216W
   - !!omap
     - id: YKL217W
-    - name: JEN1
+    - name: YKL217W
   - !!omap
     - id: YKL218C
-    - name: SRY1
+    - name: YKL218C
   - !!omap
     - id: YKL220C
-    - name: FRE2
+    - name: YKL220C
   - !!omap
     - id: YKR009C
-    - name: FOX2
+    - name: YKR009C
   - !!omap
     - id: YKR031C
-    - name: SPO14
+    - name: YKR031C
   - !!omap
     - id: YKR039W
-    - name: GAP1
+    - name: YKR039W
   - !!omap
     - id: YKR043C
-    - name: SHB17
+    - name: YKR043C
   - !!omap
     - id: YKR052C
-    - name: MRS4
+    - name: YKR052C
   - !!omap
     - id: YKR053C
-    - name: YSR3
+    - name: YKR053C
   - !!omap
     - id: YKR058W
-    - name: GLG1
+    - name: YKR058W
   - !!omap
     - id: YKR061W
-    - name: KTR2
+    - name: YKR061W
   - !!omap
     - id: YKR066C
-    - name: CCP1
+    - name: YKR066C
   - !!omap
     - id: YKR067W
-    - name: GPT2
+    - name: YKR067W
   - !!omap
     - id: YKR069W
-    - name: MET1
+    - name: YKR069W
   - !!omap
     - id: YKR072C
-    - name: SIS2
+    - name: YKR072C
   - !!omap
     - id: YKR076W
-    - name: ECM4
+    - name: YKR076W
   - !!omap
     - id: YKR080W
-    - name: MTD1
+    - name: YKR080W
   - !!omap
     - id: YKR089C
-    - name: TGL4
+    - name: YKR089C
   - !!omap
     - id: YKR093W
-    - name: PTR2
+    - name: YKR093W
   - !!omap
     - id: YKR097W
-    - name: PCK1
+    - name: YKR097W
   - !!omap
     - id: YLL001W
-    - name: DNM1
+    - name: YLL001W
   - !!omap
     - id: YLL012W
-    - name: YEH1
+    - name: YLL012W
   - !!omap
     - id: YLL015W
-    - name: BPT1
+    - name: YLL015W
   - !!omap
     - id: YLL018C
-    - name: DPS1
+    - name: YLL018C
   - !!omap
     - id: YLL018C-A
-    - name: COX19
+    - name: YLL018C-A
   - !!omap
     - id: YLL028W
-    - name: TPO1
+    - name: YLL028W
   - !!omap
     - id: YLL031C
-    - name: GPI13
+    - name: YLL031C
   - !!omap
     - id: YLL041C
-    - name: SDH2
+    - name: YLL041C
   - !!omap
     - id: YLL043W
-    - name: FPS1
+    - name: YLL043W
   - !!omap
     - id: YLL048C
-    - name: YBT1
+    - name: YLL048C
   - !!omap
     - id: YLL051C
-    - name: FRE6
+    - name: YLL051C
   - !!omap
     - id: YLL052C
-    - name: AQY2
+    - name: YLL052C
   - !!omap
     - id: YLL053C
     - name: YLL053C
   - !!omap
     - id: YLL057C
-    - name: JLP1
+    - name: YLL057C
   - !!omap
     - id: YLL058W
     - name: YLL058W
   - !!omap
     - id: YLL060C
-    - name: GTT2
+    - name: YLL060C
   - !!omap
     - id: YLL061W
-    - name: MMP1
+    - name: YLL061W
   - !!omap
     - id: YLL062C
-    - name: MHT1
+    - name: YLL062C
   - !!omap
     - id: YLR011W
-    - name: LOT6
+    - name: YLR011W
   - !!omap
     - id: YLR017W
-    - name: MEU1
+    - name: YLR017W
   - !!omap
     - id: YLR020C
-    - name: YEH2
+    - name: YLR020C
   - !!omap
     - id: YLR027C
-    - name: AAT2
+    - name: YLR027C
   - !!omap
     - id: YLR028C
-    - name: ADE16
+    - name: YLR028C
   - !!omap
     - id: YLR038C
-    - name: COX12
+    - name: YLR038C
   - !!omap
     - id: YLR043C
-    - name: TRX1
+    - name: YLR043C
   - !!omap
     - id: YLR044C
-    - name: PDC1
+    - name: YLR044C
   - !!omap
     - id: YLR047C
-    - name: FRE8
+    - name: YLR047C
   - !!omap
     - id: YLR056W
-    - name: ERG3
+    - name: YLR056W
   - !!omap
     - id: YLR057W
-    - name: MNL2
+    - name: YLR057W
   - !!omap
     - id: YLR058C
-    - name: SHM2
+    - name: YLR058C
   - !!omap
     - id: YLR060W
-    - name: FRS1
+    - name: YLR060W
   - !!omap
     - id: YLR070C
-    - name: XYL2
+    - name: YLR070C
   - !!omap
     - id: YLR081W
-    - name: GAL2
+    - name: YLR081W
   - !!omap
     - id: YLR089C
-    - name: ALT1
+    - name: YLR089C
   - !!omap
     - id: YLR092W
-    - name: SUL2
+    - name: YLR092W
   - !!omap
     - id: YLR099C
-    - name: ICT1
+    - name: YLR099C
   - !!omap
     - id: YLR100W
-    - name: ERG27
+    - name: YLR100W
   - !!omap
     - id: YLR109W
-    - name: AHP1
+    - name: YLR109W
   - !!omap
     - id: YLR130C
-    - name: ZRT2
+    - name: YLR130C
   - !!omap
     - id: YLR133W
-    - name: CKI1
+    - name: YLR133W
   - !!omap
     - id: YLR134W
-    - name: PDC5
+    - name: YLR134W
   - !!omap
     - id: YLR138W
-    - name: NHA1
+    - name: YLR138W
   - !!omap
     - id: YLR142W
-    - name: PUT1
+    - name: YLR142W
   - !!omap
     - id: YLR143W
-    - name: DPH6
+    - name: YLR143W
   - !!omap
     - id: YLR146C
-    - name: SPE4
+    - name: YLR146C
   - !!omap
     - id: YLR151C
-    - name: PCD1
+    - name: YLR151C
   - !!omap
     - id: YLR153C
-    - name: ACS2
+    - name: YLR153C
   - !!omap
     - id: YLR155C
-    - name: ASP3-1
+    - name: YLR155C
   - !!omap
     - id: YLR157C
-    - name: ASP3-2
+    - name: YLR157C
   - !!omap
     - id: YLR158C
-    - name: ASP3-3
+    - name: YLR158C
   - !!omap
     - id: YLR160C
-    - name: ASP3-4
+    - name: YLR160C
   - !!omap
     - id: YLR164W
-    - name: SHH4
+    - name: YLR164W
   - !!omap
     - id: YLR172C
-    - name: DPH5
+    - name: YLR172C
   - !!omap
     - id: YLR174W
-    - name: IDP2
+    - name: YLR174W
   - !!omap
     - id: YLR180W
-    - name: SAM1
+    - name: YLR180W
   - !!omap
     - id: YLR189C
-    - name: ATG26
+    - name: YLR189C
   - !!omap
     - id: YLR201C
-    - name: COQ9
+    - name: YLR201C
   - !!omap
     - id: YLR209C
-    - name: PNP1
+    - name: YLR209C
   - !!omap
     - id: YLR214W
-    - name: FRE1
+    - name: YLR214W
   - !!omap
     - id: YLR231C
-    - name: BNA5
+    - name: YLR231C
   - !!omap
     - id: YLR237W
-    - name: THI7
+    - name: YLR237W
   - !!omap
     - id: YLR239C
-    - name: LIP2
+    - name: YLR239C
   - !!omap
     - id: YLR240W
-    - name: VPS34
+    - name: YLR240W
   - !!omap
     - id: YLR244C
-    - name: MAP1
+    - name: YLR244C
   - !!omap
     - id: YLR245C
-    - name: CDD1
+    - name: YLR245C
   - !!omap
     - id: YLR258W
-    - name: GSY2
+    - name: YLR258W
   - !!omap
     - id: YLR260W
-    - name: LCB5
+    - name: YLR260W
   - !!omap
     - id: YLR284C
-    - name: ECI1
+    - name: YLR284C
   - !!omap
     - id: YLR285W
-    - name: NNT1
+    - name: YLR285W
   - !!omap
     - id: YLR286C
-    - name: CTS1
+    - name: YLR286C
   - !!omap
     - id: YLR295C
-    - name: ATP14
+    - name: YLR295C
   - !!omap
     - id: YLR299W
-    - name: ECM38
+    - name: YLR299W
   - !!omap
     - id: YLR300W
-    - name: EXG1
+    - name: YLR300W
   - !!omap
     - id: YLR303W
-    - name: MET17
+    - name: YLR303W
   - !!omap
     - id: YLR304C
-    - name: ACO1
+    - name: YLR304C
   - !!omap
     - id: YLR305C
-    - name: STT4
+    - name: YLR305C
   - !!omap
     - id: YLR307W
-    - name: CDA1
+    - name: YLR307W
   - !!omap
     - id: YLR308W
-    - name: CDA2
+    - name: YLR308W
   - !!omap
     - id: YLR328W
-    - name: NMA1
+    - name: YLR328W
   - !!omap
     - id: YLR342W
-    - name: FKS1
+    - name: YLR342W
   - !!omap
     - id: YLR345W
     - name: YLR345W
   - !!omap
     - id: YLR348C
-    - name: DIC1
+    - name: YLR348C
   - !!omap
     - id: YLR351C
-    - name: NIT3
+    - name: YLR351C
   - !!omap
     - id: YLR354C
-    - name: TAL1
+    - name: YLR354C
   - !!omap
     - id: YLR355C
-    - name: ILV5
+    - name: YLR355C
   - !!omap
     - id: YLR359W
-    - name: ADE13
+    - name: YLR359W
   - !!omap
     - id: YLR372W
-    - name: ELO3
+    - name: YLR372W
   - !!omap
     - id: YLR377C
-    - name: FBP1
+    - name: YLR377C
   - !!omap
     - id: YLR382C
-    - name: NAM2
+    - name: YLR382C
   - !!omap
     - id: YLR386W
-    - name: VAC14
+    - name: YLR386W
   - !!omap
     - id: YLR393W
-    - name: ATP10
+    - name: YLR393W
   - !!omap
     - id: YLR395C
-    - name: COX8
+    - name: YLR395C
   - !!omap
     - id: YLR410W
-    - name: VIP1
+    - name: YLR410W
   - !!omap
     - id: YLR420W
-    - name: URA4
+    - name: YLR420W
   - !!omap
     - id: YLR432W
-    - name: IMD3
+    - name: YLR432W
   - !!omap
     - id: YLR438W
-    - name: CAR2
+    - name: YLR438W
   - !!omap
     - id: YLR446W
     - name: YLR446W
   - !!omap
     - id: YLR447C
-    - name: VMA6
+    - name: YLR447C
   - !!omap
     - id: YLR450W
-    - name: HMG2
+    - name: YLR450W
   - !!omap
     - id: YML004C
-    - name: GLO1
+    - name: YML004C
   - !!omap
     - id: YML008C
-    - name: ERG6
+    - name: YML008C
   - !!omap
     - id: YML022W
-    - name: APT1
+    - name: YML022W
   - !!omap
     - id: YML035C
-    - name: AMD1
+    - name: YML035C
   - !!omap
     - id: YML042W
-    - name: CAT2
+    - name: YML042W
   - !!omap
     - id: YML054C
-    - name: CYB2
+    - name: YML054C
   - !!omap
     - id: YML056C
-    - name: IMD4
+    - name: YML056C
   - !!omap
     - id: YML059C
-    - name: NTE1
+    - name: YML059C
   - !!omap
     - id: YML070W
-    - name: DAK1
+    - name: YML070W
   - !!omap
     - id: YML075C
-    - name: HMG1
+    - name: YML075C
   - !!omap
     - id: YML081C-A
-    - name: ATP18
+    - name: YML081C-A
   - !!omap
     - id: YML082W
     - name: YML082W
   - !!omap
     - id: YML086C
-    - name: ALO1
+    - name: YML086C
   - !!omap
     - id: YML100W
-    - name: TSL1
+    - name: YML100W
   - !!omap
     - id: YML106W
-    - name: URA5
+    - name: YML106W
   - !!omap
     - id: YML110C
-    - name: COQ5
+    - name: YML110C
   - !!omap
     - id: YML120C
-    - name: NDI1
+    - name: YML120C
   - !!omap
     - id: YML123C
-    - name: PHO84
+    - name: YML123C
   - !!omap
     - id: YML125C
-    - name: PGA3
+    - name: YML125C
   - !!omap
     - id: YML126C
-    - name: ERG13
+    - name: YML126C
   - !!omap
     - id: YMR006C
-    - name: PLB2
+    - name: YMR006C
   - !!omap
     - id: YMR008C
-    - name: PLB1
+    - name: YMR008C
   - !!omap
     - id: YMR009W
-    - name: ADI1
+    - name: YMR009W
   - !!omap
     - id: YMR011W
-    - name: HXT2
+    - name: YMR011W
   - !!omap
     - id: YMR013C
-    - name: SEC59
+    - name: YMR013C
   - !!omap
     - id: YMR015C
-    - name: ERG5
+    - name: YMR015C
   - !!omap
     - id: YMR020W
-    - name: FMS1
+    - name: YMR020W
   - !!omap
     - id: YMR041C
-    - name: ARA2
+    - name: YMR041C
   - !!omap
     - id: YMR054W
-    - name: STV1
+    - name: YMR054W
   - !!omap
     - id: YMR056C
-    - name: AAC1
+    - name: YMR056C
   - !!omap
     - id: YMR058W
-    - name: FET3
+    - name: YMR058W
   - !!omap
     - id: YMR062C
-    - name: ARG7
+    - name: YMR062C
   - !!omap
     - id: YMR083W
-    - name: ADH3
+    - name: YMR083W
   - !!omap
     - id: YMR084W
     - name: YMR084W
@@ -96667,907 +97909,910 @@
     - name: YMR087W
   - !!omap
     - id: YMR088C
-    - name: VBA1
+    - name: YMR088C
   - !!omap
     - id: YMR099C
     - name: YMR099C
   - !!omap
     - id: YMR101C
-    - name: SRT1
+    - name: YMR101C
   - !!omap
     - id: YMR105C
-    - name: PGM2
+    - name: YMR105C
   - !!omap
     - id: YMR108W
-    - name: ILV2
+    - name: YMR108W
   - !!omap
     - id: YMR110C
-    - name: HFD1
+    - name: YMR110C
   - !!omap
     - id: YMR113W
-    - name: FOL3
+    - name: YMR113W
   - !!omap
     - id: YMR120C
-    - name: ADE17
+    - name: YMR120C
   - !!omap
     - id: YMR145C
-    - name: NDE1
+    - name: YMR145C
   - !!omap
     - id: YMR162C
-    - name: DNF3
+    - name: YMR162C
   - !!omap
     - id: YMR165C
-    - name: PAH1
+    - name: YMR165C
   - !!omap
     - id: YMR169C
-    - name: ALD3
+    - name: YMR169C
   - !!omap
     - id: YMR170C
-    - name: ALD2
+    - name: YMR170C
   - !!omap
     - id: YMR189W
-    - name: GCV2
+    - name: YMR189W
   - !!omap
     - id: YMR202W
-    - name: ERG2
+    - name: YMR202W
   - !!omap
     - id: YMR205C
-    - name: PFK2
+    - name: YMR205C
   - !!omap
     - id: YMR207C
-    - name: HFA1
+    - name: YMR207C
   - !!omap
     - id: YMR208W
-    - name: ERG12
+    - name: YMR208W
   - !!omap
     - id: YMR210W
-    - name: MGL2
+    - name: YMR210W
   - !!omap
     - id: YMR217W
-    - name: GUA1
+    - name: YMR217W
   - !!omap
     - id: YMR220W
-    - name: ERG8
+    - name: YMR220W
   - !!omap
     - id: YMR226C
     - name: YMR226C
   - !!omap
     - id: YMR241W
-    - name: YHM2
+    - name: YMR241W
   - !!omap
     - id: YMR243C
-    - name: ZRC1
+    - name: YMR243C
   - !!omap
     - id: YMR246W
-    - name: FAA4
+    - name: YMR246W
   - !!omap
     - id: YMR250W
-    - name: GAD1
+    - name: YMR250W
   - !!omap
     - id: YMR251W
-    - name: GTO3
+    - name: YMR251W
   - !!omap
     - id: YMR256C
-    - name: COX7
+    - name: YMR256C
   - !!omap
     - id: YMR261C
-    - name: TPS3
+    - name: YMR261C
   - !!omap
     - id: YMR267W
-    - name: PPA2
+    - name: YMR267W
   - !!omap
     - id: YMR271C
-    - name: URA10
+    - name: YMR271C
   - !!omap
     - id: YMR272C
-    - name: SCS7
+    - name: YMR272C
   - !!omap
     - id: YMR278W
-    - name: PRM15
+    - name: YMR278W
   - !!omap
     - id: YMR281W
-    - name: GPI12
+    - name: YMR281W
   - !!omap
     - id: YMR289W
-    - name: ABZ2
+    - name: YMR289W
   - !!omap
     - id: YMR293C
-    - name: HER2
+    - name: YMR293C
   - !!omap
     - id: YMR296C
-    - name: LCB1
+    - name: YMR296C
   - !!omap
     - id: YMR298W
-    - name: LIP1
+    - name: YMR298W
   - !!omap
     - id: YMR300C
-    - name: ADE4
+    - name: YMR300C
   - !!omap
     - id: YMR301C
-    - name: ATM1
+    - name: YMR301C
   - !!omap
     - id: YMR303C
-    - name: ADH2
+    - name: YMR303C
   - !!omap
     - id: YMR306W
-    - name: FKS3
+    - name: YMR306W
   - !!omap
     - id: YMR313C
-    - name: TGL3
+    - name: YMR313C
   - !!omap
     - id: YMR318C
-    - name: ADH6
+    - name: YMR318C
   - !!omap
     - id: YMR319C
-    - name: FET4
+    - name: YMR319C
   - !!omap
     - id: YMR322C
-    - name: SNO4
+    - name: YMR322C
   - !!omap
     - id: YMR323W
-    - name: ERR3
+    - name: YMR323W
   - !!omap
     - id: YNL003C
-    - name: PET8
+    - name: YNL003C
   - !!omap
     - id: YNL009W
-    - name: IDP3
+    - name: YNL009W
   - !!omap
     - id: YNL029C
-    - name: KTR5
+    - name: YNL029C
   - !!omap
     - id: YNL036W
-    - name: NCE103
+    - name: YNL036W
   - !!omap
     - id: YNL037C
-    - name: IDH1
+    - name: YNL037C
   - !!omap
     - id: YNL038W
-    - name: GPI15
+    - name: YNL038W
   - !!omap
     - id: YNL045W
-    - name: LAP2
+    - name: YNL045W
   - !!omap
     - id: YNL048W
-    - name: ALG11
+    - name: YNL048W
   - !!omap
     - id: YNL052W
-    - name: COX5A
+    - name: YNL052W
   - !!omap
     - id: YNL065W
-    - name: AQR1
+    - name: YNL065W
   - !!omap
     - id: YNL071W
-    - name: LAT1
+    - name: YNL071W
   - !!omap
     - id: YNL073W
-    - name: MSK1
+    - name: YNL073W
   - !!omap
     - id: YNL092W
     - name: YNL092W
   - !!omap
     - id: YNL101W
-    - name: AVT4
+    - name: YNL101W
   - !!omap
     - id: YNL104C
-    - name: LEU4
+    - name: YNL104C
   - !!omap
     - id: YNL106C
-    - name: INP52
+    - name: YNL106C
   - !!omap
     - id: YNL117W
-    - name: MLS1
+    - name: YNL117W
   - !!omap
     - id: YNL129W
-    - name: NRK1
+    - name: YNL129W
   - !!omap
     - id: YNL130C
-    - name: CPT1
+    - name: YNL130C
   - !!omap
     - id: YNL141W
-    - name: AAH1
+    - name: YNL141W
   - !!omap
     - id: YNL142W
-    - name: MEP2
+    - name: YNL142W
   - !!omap
     - id: YNL169C
-    - name: PSD1
+    - name: YNL169C
   - !!omap
     - id: YNL191W
-    - name: DUG3
+    - name: YNL191W
   - !!omap
     - id: YNL192W
-    - name: CHS1
+    - name: YNL192W
   - !!omap
     - id: YNL202W
-    - name: SPS19
+    - name: YNL202W
   - !!omap
     - id: YNL219C
-    - name: ALG9
+    - name: YNL219C
   - !!omap
     - id: YNL220W
-    - name: ADE12
+    - name: YNL220W
   - !!omap
     - id: YNL229C
-    - name: URE2
+    - name: YNL229C
   - !!omap
     - id: YNL241C
-    - name: ZWF1
+    - name: YNL241C
   - !!omap
     - id: YNL247W
     - name: YNL247W
   - !!omap
     - id: YNL256W
-    - name: FOL1
+    - name: YNL256W
   - !!omap
     - id: YNL267W
-    - name: PIK1
+    - name: YNL267W
   - !!omap
     - id: YNL268W
-    - name: LYP1
+    - name: YNL268W
   - !!omap
     - id: YNL270C
-    - name: ALP1
+    - name: YNL270C
   - !!omap
     - id: YNL274C
-    - name: GOR1
+    - name: YNL274C
   - !!omap
     - id: YNL275W
-    - name: BOR1
+    - name: YNL275W
   - !!omap
     - id: YNL277W
-    - name: MET2
+    - name: YNL277W
   - !!omap
     - id: YNL280C
-    - name: ERG24
+    - name: YNL280C
   - !!omap
     - id: YNL292W
-    - name: PUS4
+    - name: YNL292W
   - !!omap
     - id: YNL315C
-    - name: ATP11
+    - name: YNL315C
   - !!omap
     - id: YNL316C
-    - name: PHA2
+    - name: YNL316C
   - !!omap
     - id: YNL318C
-    - name: HXT14
+    - name: YNL318C
   - !!omap
     - id: YNL325C
-    - name: FIG4
+    - name: YNL325C
   - !!omap
     - id: YNL331C
-    - name: AAD14
+    - name: YNL331C
   - !!omap
     - id: YNL333W
-    - name: SNZ2
+    - name: YNL333W
   - !!omap
     - id: YNL334C
-    - name: SNO2
+    - name: YNL334C
   - !!omap
     - id: YNL335W
-    - name: DDI3
+    - name: YNL335W
   - !!omap
     - id: YNR001C
-    - name: CIT1
+    - name: YNR001C
   - !!omap
     - id: YNR008W
-    - name: LRO1
+    - name: YNR008W
   - !!omap
     - id: YNR012W
-    - name: URK1
+    - name: YNR012W
   - !!omap
     - id: YNR013C
-    - name: PHO91
+    - name: YNR013C
   - !!omap
     - id: YNR016C
-    - name: ACC1
+    - name: YNR016C
   - !!omap
     - id: YNR019W
-    - name: ARE2
+    - name: YNR019W
   - !!omap
     - id: YNR027W
-    - name: BUD17
+    - name: YNR027W
   - !!omap
     - id: YNR030W
-    - name: ALG12
+    - name: YNR030W
   - !!omap
     - id: YNR033W
-    - name: ABZ1
+    - name: YNR033W
   - !!omap
     - id: YNR041C
-    - name: COQ2
+    - name: YNR041C
   - !!omap
     - id: YNR043W
-    - name: MVD1
+    - name: YNR043W
   - !!omap
     - id: YNR050C
-    - name: LYS9
+    - name: YNR050C
   - !!omap
     - id: YNR056C
-    - name: BIO5
+    - name: YNR056C
   - !!omap
     - id: YNR057C
-    - name: BIO4
+    - name: YNR057C
   - !!omap
     - id: YNR058W
-    - name: BIO3
+    - name: YNR058W
   - !!omap
     - id: YNR060W
-    - name: FRE4
+    - name: YNR060W
   - !!omap
     - id: YNR067C
-    - name: DSE4
+    - name: YNR067C
   - !!omap
     - id: YNR072W
-    - name: HXT17
+    - name: YNR072W
   - !!omap
     - id: YNR073C
-    - name: MAN2
+    - name: YNR073C
   - !!omap
     - id: YOL011W
-    - name: PLB3
+    - name: YOL011W
   - !!omap
     - id: YOL020W
-    - name: TAT2
+    - name: YOL020W
   - !!omap
     - id: YOL033W
-    - name: MSE1
+    - name: YOL033W
   - !!omap
     - id: YOL049W
-    - name: GSH2
+    - name: YOL049W
   - !!omap
     - id: YOL052C
-    - name: SPE2
+    - name: YOL052C
   - !!omap
     - id: YOL055C
-    - name: THI20
+    - name: YOL055C
   - !!omap
     - id: YOL058W
-    - name: ARG1
+    - name: YOL058W
   - !!omap
     - id: YOL059W
-    - name: GPD2
+    - name: YOL059W
   - !!omap
     - id: YOL061W
-    - name: PRS5
+    - name: YOL061W
   - !!omap
     - id: YOL064C
-    - name: MET22
+    - name: YOL064C
   - !!omap
     - id: YOL065C
-    - name: INP54
+    - name: YOL065C
   - !!omap
     - id: YOL066C
-    - name: RIB2
+    - name: YOL066C
   - !!omap
     - id: YOL068C
-    - name: HST1
+    - name: YOL068C
   - !!omap
     - id: YOL075C
     - name: YOL075C
   - !!omap
     - id: YOL077W-A
-    - name: ATP19
+    - name: YOL077W-A
   - !!omap
     - id: YOL086C
-    - name: ADH1
+    - name: YOL086C
   - !!omap
     - id: YOL092W
-    - name: YPQ1
+    - name: YOL092W
   - !!omap
     - id: YOL096C
-    - name: COQ3
+    - name: YOL096C
   - !!omap
     - id: YOL097C
-    - name: WRS1
+    - name: YOL097C
   - !!omap
     - id: YOL103W
-    - name: ITR2
+    - name: YOL103W
   - !!omap
     - id: YOL122C
-    - name: SMF1
+    - name: YOL122C
   - !!omap
     - id: YOL126C
-    - name: MDH2
+    - name: YOL126C
   - !!omap
     - id: YOL130W
-    - name: ALR1
+    - name: YOL130W
   - !!omap
     - id: YOL136C
-    - name: PFK27
+    - name: YOL136C
   - !!omap
     - id: YOL140W
-    - name: ARG8
+    - name: YOL140W
   - !!omap
     - id: YOL143C
-    - name: RIB4
+    - name: YOL143C
   - !!omap
     - id: YOL151W
-    - name: GRE2
+    - name: YOL151W
   - !!omap
     - id: YOL152W
-    - name: FRE7
+    - name: YOL152W
   - !!omap
     - id: YOL156W
-    - name: HXT11
+    - name: YOL156W
   - !!omap
     - id: YOL157C
-    - name: IMA2
+    - name: YOL157C
   - !!omap
     - id: YOL165C
-    - name: AAD15
+    - name: YOL165C
   - !!omap
     - id: YOR002W
-    - name: ALG6
+    - name: YOR002W
   - !!omap
     - id: YOR011W
-    - name: AUS1
+    - name: YOR011W
   - !!omap
     - id: YOR025W
-    - name: HST3
+    - name: YOR025W
   - !!omap
     - id: YOR040W
-    - name: GLO4
+    - name: YOR040W
   - !!omap
     - id: YOR054C
-    - name: VHS3
+    - name: YOR054C
   - !!omap
     - id: YOR065W
-    - name: CYT1
+    - name: YOR065W
   - !!omap
     - id: YOR067C
-    - name: ALG8
+    - name: YOR067C
   - !!omap
     - id: YOR071C
-    - name: NRT1
+    - name: YOR071C
   - !!omap
     - id: YOR074C
-    - name: CDC21
+    - name: YOR074C
   - !!omap
     - id: YOR081C
-    - name: TGL5
+    - name: YOR081C
   - !!omap
     - id: YOR095C
-    - name: RKI1
+    - name: YOR095C
   - !!omap
     - id: YOR099W
-    - name: KTR1
+    - name: YOR099W
   - !!omap
     - id: YOR100C
-    - name: CRC1
+    - name: YOR100C
   - !!omap
     - id: YOR108W
-    - name: LEU9
+    - name: YOR108W
   - !!omap
     - id: YOR109W
-    - name: INP53
+    - name: YOR109W
   - !!omap
     - id: YOR120W
-    - name: GCY1
+    - name: YOR120W
   - !!omap
     - id: YOR125C
-    - name: CAT5
+    - name: YOR125C
   - !!omap
     - id: YOR126C
-    - name: IAH1
+    - name: YOR126C
   - !!omap
     - id: YOR128C
-    - name: ADE2
+    - name: YOR128C
   - !!omap
     - id: YOR130C
-    - name: ORT1
+    - name: YOR130C
   - !!omap
     - id: YOR136W
-    - name: IDH2
+    - name: YOR136W
   - !!omap
     - id: YOR142W
-    - name: LSC1
+    - name: YOR142W
   - !!omap
     - id: YOR143C
-    - name: THI80
+    - name: YOR143C
   - !!omap
     - id: YOR149C
-    - name: SMP3
+    - name: YOR149C
   - !!omap
     - id: YOR155C
-    - name: ISN1
+    - name: YOR155C
   - !!omap
     - id: YOR161C
-    - name: PNS1
+    - name: YOR161C
   - !!omap
     - id: YOR163W
-    - name: DDP1
+    - name: YOR163W
   - !!omap
     - id: YOR168W
-    - name: GLN4
+    - name: YOR168W
   - !!omap
     - id: YOR171C
-    - name: LCB4
+    - name: YOR171C
   - !!omap
     - id: YOR175C
-    - name: ALE1
+    - name: YOR175C
   - !!omap
     - id: YOR176W
-    - name: HEM15
+    - name: YOR176W
   - !!omap
     - id: YOR180C
-    - name: DCI1
+    - name: YOR180C
   - !!omap
     - id: YOR184W
-    - name: SER1
+    - name: YOR184W
   - !!omap
     - id: YOR190W
-    - name: SPR1
+    - name: YOR190W
   - !!omap
     - id: YOR192C
-    - name: THI72
+    - name: YOR192C
   - !!omap
     - id: YOR196C
-    - name: LIP5
+    - name: YOR196C
   - !!omap
     - id: YOR202W
-    - name: HIS3
+    - name: YOR202W
   - !!omap
     - id: YOR209C
-    - name: NPT1
+    - name: YOR209C
   - !!omap
     - id: YOR221C
-    - name: MCT1
+    - name: YOR221C
   - !!omap
     - id: YOR222W
-    - name: ODC2
+    - name: YOR222W
   - !!omap
     - id: YOR226C
-    - name: ISU2
+    - name: YOR226C
   - !!omap
     - id: YOR236W
-    - name: DFR1
+    - name: YOR236W
   - !!omap
     - id: YOR241W
-    - name: MET7
+    - name: YOR241W
   - !!omap
     - id: YOR245C
-    - name: DGA1
+    - name: YOR245C
   - !!omap
     - id: YOR251C
-    - name: TUM1
+    - name: YOR251C
   - !!omap
     - id: YOR270C
-    - name: VPH1
+    - name: YOR270C
   - !!omap
     - id: YOR273C
-    - name: TPO4
+    - name: YOR273C
   - !!omap
     - id: YOR278W
-    - name: HEM4
+    - name: YOR278W
   - !!omap
     - id: YOR283W
     - name: YOR283W
   - !!omap
     - id: YOR285W
-    - name: RDL1
+    - name: YOR285W
   - !!omap
     - id: YOR286W
-    - name: RDL2
+    - name: YOR286W
   - !!omap
     - id: YOR303W
-    - name: CPA1
+    - name: YOR303W
   - !!omap
     - id: YOR306C
-    - name: MCH5
+    - name: YOR306C
   - !!omap
     - id: YOR311C
-    - name: DGK1
+    - name: YOR311C
   - !!omap
     - id: YOR316C
-    - name: COT1
+    - name: YOR316C
   - !!omap
     - id: YOR317W
-    - name: FAA1
+    - name: YOR317W
   - !!omap
     - id: YOR321W
-    - name: PMT3
+    - name: YOR321W
   - !!omap
     - id: YOR323C
-    - name: PRO2
+    - name: YOR323C
   - !!omap
     - id: YOR332W
-    - name: VMA4
+    - name: YOR332W
   - !!omap
     - id: YOR334W
-    - name: MRS2
+    - name: YOR334W
   - !!omap
     - id: YOR335C
-    - name: ALA1
+    - name: YOR335C
   - !!omap
     - id: YOR347C
-    - name: PYK2
+    - name: YOR347C
   - !!omap
     - id: YOR348C
-    - name: PUT4
+    - name: YOR348C
   - !!omap
     - id: YOR360C
-    - name: PDE2
+    - name: YOR360C
   - !!omap
     - id: YOR374W
-    - name: ALD4
+    - name: YOR374W
   - !!omap
     - id: YOR375C
-    - name: GDH1
+    - name: YOR375C
   - !!omap
     - id: YOR377W
-    - name: ATF1
+    - name: YOR377W
   - !!omap
     - id: YOR381W
-    - name: FRE3
+    - name: YOR381W
   - !!omap
     - id: YOR384W
-    - name: FRE5
+    - name: YOR384W
   - !!omap
     - id: YOR388C
-    - name: FDH1
+    - name: YOR388C
   - !!omap
     - id: YOR391C
-    - name: HSP33
+    - name: YOR391C
   - !!omap
     - id: YOR393W
-    - name: ERR1
+    - name: YOR393W
   - !!omap
     - id: YPL015C
-    - name: HST2
+    - name: YPL015C
   - !!omap
     - id: YPL023C
-    - name: MET12
+    - name: YPL023C
   - !!omap
     - id: YPL028W
-    - name: ERG10
+    - name: YPL028W
   - !!omap
     - id: YPL036W
-    - name: PMA2
+    - name: YPL036W
   - !!omap
     - id: YPL040C
-    - name: ISM1
+    - name: YPL040C
   - !!omap
     - id: YPL053C
-    - name: KTR6
+    - name: YPL053C
   - !!omap
     - id: YPL057C
-    - name: SUR1
+    - name: YPL057C
   - !!omap
     - id: YPL059W
-    - name: GRX5
+    - name: YPL059W
   - !!omap
     - id: YPL060W
-    - name: MFM1
+    - name: YPL060W
   - !!omap
     - id: YPL061W
-    - name: ALD6
+    - name: YPL061W
   - !!omap
     - id: YPL069C
-    - name: BTS1
+    - name: YPL069C
   - !!omap
     - id: YPL076W
-    - name: GPI2
+    - name: YPL076W
   - !!omap
     - id: YPL078C
-    - name: ATP4
+    - name: YPL078C
   - !!omap
     - id: YPL087W
-    - name: YDC1
+    - name: YPL087W
   - !!omap
     - id: YPL088W
     - name: YPL088W
   - !!omap
     - id: YPL091W
-    - name: GLR1
+    - name: YPL091W
   - !!omap
     - id: YPL092W
-    - name: SSU1
+    - name: YPL092W
+  - !!omap
+    - id: YPL095C
+    - name: EEB1
   - !!omap
     - id: YPL096C-A
-    - name: ERI1
+    - name: YPL096C-A
   - !!omap
     - id: YPL097W
-    - name: MSY1
+    - name: YPL097W
   - !!omap
     - id: YPL104W
-    - name: MSD1
+    - name: YPL104W
   - !!omap
     - id: YPL110C
-    - name: GDE1
+    - name: YPL110C
   - !!omap
     - id: YPL111W
-    - name: CAR1
+    - name: YPL111W
   - !!omap
     - id: YPL117C
-    - name: IDI1
+    - name: YPL117C
   - !!omap
     - id: YPL132W
-    - name: COX11
+    - name: YPL132W
   - !!omap
     - id: YPL134C
-    - name: ODC1
+    - name: YPL134C
   - !!omap
     - id: YPL135W
-    - name: ISU1
+    - name: YPL135W
   - !!omap
     - id: YPL147W
-    - name: PXA1
+    - name: YPL147W
   - !!omap
     - id: YPL148C
-    - name: PPT2
+    - name: YPL148C
   - !!omap
     - id: YPL160W
-    - name: CDC60
+    - name: YPL160W
   - !!omap
     - id: YPL172C
-    - name: COX10
+    - name: YPL172C
   - !!omap
     - id: YPL175W
-    - name: SPT14
+    - name: YPL175W
   - !!omap
     - id: YPL188W
-    - name: POS5
+    - name: YPL188W
   - !!omap
     - id: YPL189W
-    - name: GUP2
+    - name: YPL189W
   - !!omap
     - id: YPL206C
-    - name: PGC1
+    - name: YPL206C
   - !!omap
     - id: YPL212C
-    - name: PUS1
+    - name: YPL212C
   - !!omap
     - id: YPL214C
-    - name: THI6
+    - name: YPL214C
   - !!omap
     - id: YPL227C
-    - name: ALG5
+    - name: YPL227C
   - !!omap
     - id: YPL231W
-    - name: FAS2
+    - name: YPL231W
   - !!omap
     - id: YPL234C
-    - name: VMA11
+    - name: YPL234C
   - !!omap
     - id: YPL244C
-    - name: HUT1
+    - name: YPL244C
   - !!omap
     - id: YPL252C
-    - name: YAH1
+    - name: YPL252C
   - !!omap
     - id: YPL258C
-    - name: THI21
+    - name: YPL258C
   - !!omap
     - id: YPL262W
-    - name: FUM1
+    - name: YPL262W
   - !!omap
     - id: YPL265W
-    - name: DIP5
+    - name: YPL265W
   - !!omap
     - id: YPL268W
-    - name: PLC1
+    - name: YPL268W
   - !!omap
     - id: YPL271W
-    - name: ATP15
+    - name: YPL271W
   - !!omap
     - id: YPL273W
-    - name: SAM4
+    - name: YPL273W
   - !!omap
     - id: YPL274W
-    - name: SAM3
+    - name: YPL274W
   - !!omap
     - id: YPL280W
-    - name: HSP32
+    - name: YPL280W
   - !!omap
     - id: YPL281C
-    - name: ERR2
+    - name: YPL281C
   - !!omap
     - id: YPR001W
-    - name: CIT3
+    - name: YPR001W
   - !!omap
     - id: YPR002W
-    - name: PDH1
+    - name: YPR002W
   - !!omap
     - id: YPR003C
     - name: YPR003C
   - !!omap
     - id: YPR006C
-    - name: ICL2
+    - name: YPR006C
   - !!omap
     - id: YPR011C
     - name: YPR011C
   - !!omap
     - id: YPR020W
-    - name: ATP20
+    - name: YPR020W
   - !!omap
     - id: YPR021C
-    - name: AGC1
+    - name: YPR021C
   - !!omap
     - id: YPR026W
-    - name: ATH1
+    - name: YPR026W
   - !!omap
     - id: YPR033C
-    - name: HTS1
+    - name: YPR033C
   - !!omap
     - id: YPR035W
-    - name: GLN1
+    - name: YPR035W
   - !!omap
     - id: YPR036W
-    - name: VMA13
+    - name: YPR036W
   - !!omap
     - id: YPR047W
-    - name: MSF1
+    - name: YPR047W
   - !!omap
     - id: YPR058W
-    - name: YMC1
+    - name: YPR058W
   - !!omap
     - id: YPR060C
-    - name: ARO7
+    - name: YPR060C
   - !!omap
     - id: YPR062W
-    - name: FCY1
+    - name: YPR062W
   - !!omap
     - id: YPR069C
-    - name: SPE3
+    - name: YPR069C
   - !!omap
     - id: YPR074C
-    - name: TKL1
+    - name: YPR074C
   - !!omap
     - id: YPR081C
-    - name: GRS2
+    - name: YPR081C
   - !!omap
     - id: YPR113W
-    - name: PIS1
+    - name: YPR113W
   - !!omap
     - id: YPR118W
-    - name: MRI1
+    - name: YPR118W
   - !!omap
     - id: YPR121W
-    - name: THI22
+    - name: YPR121W
   - !!omap
     - id: YPR127W
     - name: YPR127W
   - !!omap
     - id: YPR128C
-    - name: ANT1
+    - name: YPR128C
   - !!omap
     - id: YPR138C
-    - name: MEP3
+    - name: YPR138C
   - !!omap
     - id: YPR139C
-    - name: LOA1
+    - name: YPR139C
   - !!omap
     - id: YPR140W
-    - name: TAZ1
+    - name: YPR140W
   - !!omap
     - id: YPR145W
-    - name: ASN1
+    - name: YPR145W
   - !!omap
     - id: YPR156C
-    - name: TPO3
+    - name: YPR156C
   - !!omap
     - id: YPR159W
-    - name: KRE6
+    - name: YPR159W
   - !!omap
     - id: YPR160W
-    - name: GPH1
+    - name: YPR160W
   - !!omap
     - id: YPR167C
-    - name: MET16
+    - name: YPR167C
   - !!omap
     - id: YPR183W
-    - name: DPM1
+    - name: YPR183W
   - !!omap
     - id: YPR184W
-    - name: GDB1
+    - name: YPR184W
   - !!omap
     - id: YPR191W
-    - name: QCR2
+    - name: YPR191W
   - !!omap
     - id: YPR192W
-    - name: AQY1
+    - name: YPR192W
 - compartments: !!omap
     - c: cytoplasm
     - ce: cell envelope

@@ -1,7 +1,7 @@
-MATLAB	9.1.0.441655 (R2016b)
+MATLAB	9.4.0.813654 (R2018a)
 libSBML	5.17.0
-RAVEN_toolbox	2.1.0
-COBRA_toolbox	3.0.3
+RAVEN_toolbox	unknown
+COBRA_toolbox	3.1
 SBML_level	3
 SBML_version	1
 fbc_version	2
