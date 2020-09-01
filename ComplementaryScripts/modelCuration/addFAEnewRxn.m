@@ -1,4 +1,4 @@
-% This function is for adding fatty acid esters, fusel alcohols, and other missing secondary related metabolites/reactions into the model.
+% This Function is for adding fatty acid esters, fusel alcohols, and other missing secondary related metabolites/reactions into model.
 % Input: model, FAEnewrRxnMatrix.tsv,FAEnewRxnMetAnnotation.tsv,FAEnewRxnProp.tsv,FAEgeneNames.tsv.
 % NOTE: changeGeneAssociation.m is a function from cobra
 %       Extract model info from .tsv format.
