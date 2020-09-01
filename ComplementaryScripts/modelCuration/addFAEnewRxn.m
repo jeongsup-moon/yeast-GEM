@@ -55,7 +55,7 @@ for i=1:length(matrix.rxnIDs)
 end
 
 %mapping mets to model.metnames, get s_ index for new mets
-cd modelCuration/
+cd otherChanges/
 for j = 1:length(matrix.metnames)
     [~,metindex] = ismember(matrix.metnames(j),model.metNames);
     if metindex ~= 0
@@ -67,6 +67,7 @@ for j = 1:length(matrix.metnames)
                               'metName',matrix.metnames(j));
     end
 end
+cd modelCuration/
 
 % add met annotation
 fid = fopen('../../ComplementaryData/modelCuration/FAEnewRxnMetAnnotation.tsv');

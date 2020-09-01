@@ -10,13 +10,13 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 **GEM Category:** species; **Utilisation:** experimental data reconstruction, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** reconstruction, curated; **Model Source:** YeastMetabolicNetwork; **Omic Source:** genomics, metabolomics; **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** general metabolism; **Bioreactor**; **Strain:** S288C; **Condition:** aerobic, glucose-limited, defined media;
 
-* Last update: 2020-09-01
+* Last update: 2020-08-08
 
 * Main Model Descriptors:
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
-|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|4060|2744|1150|
+|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3988|2691|1147|
 
 This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
@@ -42,8 +42,8 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 ### Installation Instructions
 * For users: Clone it from [`master`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases). If you work in python, please create an environment with all requirements:
   ```bash
-  pip install -r requirements.txt     # installs all dependencies
-  type nul > .env                     # creates a .env file for locating the root
+  pip install -r requirements/requirements.txt  # installs all dependencies
+  touch .env                                    # creates a .env file for locating the root
   ```
 * For contributors: Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/yeast-GEM/tree/devel).
 
@@ -62,6 +62,11 @@ Make sure to load/save the model with the corresponding wrapper functions!
   model = io.read_yeast_model() # loading
   io.write_yeast_model(model)   # saving
   ```
+
+### Online Visualization/Simulation
+
+* You can visualize selected pathways of yeast-GEM and perform online constraint-based simulations using [Caffeine](https://caffeine.dd-decaf.eu/interactive-map), by creating a simulation with the latest yeast-GEM version available, and choosing any _S. cerevisiae_ map (currently only `iMM904` maps are available). Learn more [about Caffeine](https://caffeine.dd-decaf.eu).
+* Additionally, you can interactively navigate model components and visualize 3D representations of all compartments and subsystems of yeast-GEM at [Metabolic Atlas](https://metabolicatlas.org/explore?selected=Yeast-GEM). Learn more [about Metabolic Atlas](https://www.metabolicatlas.org/about).
 
 ## Model Files
 
@@ -82,16 +87,3 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 ## Contributing
 
 Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/master/.github/CONTRIBUTING.md) to get started.
-
-## Contributors
-
-* [Mihail Anton](https://www.chalmers.se/en/staff/Pages/mihail-anton.aspx) ([@mihai-sysbio](https://github.com/mihai-sysbio)), Chalmers University of Technology, Sweden
-* [Moritz Beber](https://www.dtu.dk/english/service/phonebook/person?id=121829&tab=2&qt=dtupublicationquery) ([@Midnighter](https://github.com/Midnighter)), Danish Technical University, Denmark
-* [Eduard J. Kerkhoven](https://www.chalmers.se/en/staff/Pages/Eduard-Kerkhoven.aspx) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Sweden
-* [Dimitra Lappa](https://www.chalmers.se/en/Staff/Pages/lappa.aspx) ([@demilappa](https://github.com/demilappa)), Chalmers University of Technology, Sweden
-* [Feiran Li](https://www.chalmers.se/en/staff/Pages/feiranl.aspx) ([@feiranl](https://github.com/feiranl)), Chalmers University of Technology, Sweden
-* [Christian Lieven](https://www.dtu.dk/english/service/phonebook/person?id=103199&tab=2&qt=dtupublicationquery) ([@ChristianLieven](https://github.com/ChristianLieven)), Danish Technical University, Denmark
-* [Hongzhong Lu](https://www.chalmers.se/en/Staff/Pages/luho.aspx) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Sweden
-* [Simonas Marcišauskas](https://www.chalmers.se/en/Staff/Pages/simmarc.aspx) ([@simas232](https://github.com/simas232)), Chalmers University of Technology, Sweden
-* [Thomas Pfau](https://wwwen.uni.lu/research/fstc/life_sciences_research_unit/research_areas/systems_biology/people/thomas_pfau) ([@tpfau](https://github.com/tpfau)), University of Luxembourg, Luxembourg
-* [Benjamín J. Sánchez](https://www.chalmers.se/en/staff/Pages/bensan.aspx) ([@BenjaSanchez](https://github.com/benjasanchez)), Chalmers University of Technology, Sweden
