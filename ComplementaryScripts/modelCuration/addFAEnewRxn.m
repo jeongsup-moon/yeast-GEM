@@ -67,7 +67,7 @@ for j = 1:length(matrix.metnames)
                               'metName',matrix.metnames(j));
     end
 end
-cd modelCuration/
+cd ../modelCuration/
 
 % add met annotation
 fid = fopen('../../ComplementaryData/modelCuration/FAEnewRxnMetAnnotation.tsv');
