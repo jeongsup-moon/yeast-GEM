@@ -23634,26 +23634,6 @@
       - metanetx.chemical: MNXM149
       - sbo: SBO:0000247
   - !!omap
-    - id: s_3824
-    - name: Ferricytochrome b5
-    - compartment: er
-    - formula: Fe
-    - charge: 3
-    - annotation: !!omap
-      - chebi: CHEBI:18097
-      - kegg.compound: C00996
-      - metanetx.chemical: MNXM1083
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_3825
-    - name: Ferrocytochrome b5
-    - compartment: er
-    - formula: Fe
-    - charge: 2
-    - annotation: !!omap
-      - kegg.compound: C00999
-      - sbo: SBO:0000247
-  - !!omap
     - id: s_3826
     - name: Ferricytochrome b5
     - compartment: m
@@ -24116,27 +24096,6 @@
       - metanetx.chemical: MNXM2239
       - sbo: SBO:0000247
   - !!omap
-    - id: s_3869
-    - name: Monocarboxylic acid amide
-    - compartment: c
-    - formula: CH2NOR
-    - charge: 0
-    - annotation: !!omap
-      - kegg.compound: C03620
-      - metanetx.chemical: MNXM4671
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_3870
-    - name: Carboxylate
-    - compartment: c
-    - formula: CO2R
-    - charge: -1
-    - annotation: !!omap
-      - chebi: CHEBI:35757
-      - kegg.compound: C00060
-      - metanetx.chemical: MNXM72
-      - sbo: SBO:0000247
-  - !!omap
     - id: s_3871
     - name: Acrylic acid
     - compartment: c
@@ -24280,7 +24239,7 @@
       - sbo: SBO:0000247
   - !!omap
     - id: s_3884
-    - name: Protein
+    - name: generic protein
     - compartment: c
     - formula: C2H4NOR
     - charge: 1
@@ -27643,318 +27602,330 @@
       - sbo: SBO:0000247
   - !!omap
     - id: s_4209
+    - name: Ferrocytochrome b5
+    - compartment: erm
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4210
+    - name: Ferricytochrome b5
+    - compartment: erm
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4211
     - name: hexanoyl-CoA
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4210
-    - name: ethyl hexanoate
-    - compartment: m
-    - annotation: !!omap
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_4211
-    - name: octanoyl-CoA
-    - compartment: m
-    - annotation: !!omap
-      - sbo: SBO:0000247
-  - !!omap
     - id: s_4212
-    - name: ethyl octanoate
+    - name: ethyl hexanoate
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4213
-    - name: butanoyl-CoA
+    - name: octanoyl-CoA
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4214
-    - name: ethyl butanoate
+    - name: ethyl octanoate
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4215
-    - name: hexanol
+    - name: butanoyl-CoA
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4216
-    - name: hexyl acetate
+    - name: ethyl butanoate
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4217
-    - name: decanoyl-CoA
+    - name: hexanol
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4218
-    - name: ethyl decanoate
+    - name: hexyl acetate
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4219
-    - name: ethyl hexanoate
-    - compartment: c
+    - name: decanoyl-CoA
+    - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4220
-    - name: ethyl octanoate
-    - compartment: c
+    - name: ethyl decanoate
+    - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4221
-    - name: ethyl butanoate
+    - name: ethyl hexanoate
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4222
-    - name: hexyl acetate
+    - name: ethyl octanoate
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4223
-    - name: ethyl decanoate
+    - name: ethyl butanoate
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4224
+    - name: hexyl acetate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4225
+    - name: ethyl decanoate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4226
     - name: ethyl hexanoate
     - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4225
+    - id: s_4227
     - name: ethyl octanoate
     - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4226
+    - id: s_4228
     - name: ethyl butanoate
     - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4227
+    - id: s_4229
     - name: hexyl acetate
     - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4228
+    - id: s_4230
     - name: ethyl decanoate
     - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4229
+    - id: s_4231
     - name: ethyl acetate
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4230
-    - name: propanal
-    - compartment: c
-    - annotation: !!omap
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_4231
-    - name: propanol
-    - compartment: c
-    - annotation: !!omap
-      - sbo: SBO:0000247
-  - !!omap
     - id: s_4232
     - name: propanal
-    - compartment: m
+    - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4233
     - name: propanol
-    - compartment: m
+    - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4234
     - name: propanal
-    - compartment: e
+    - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4235
     - name: propanol
-    - compartment: e
+    - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4236
-    - name: methional
-    - compartment: c
+    - name: propanal
+    - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4237
-    - name: methionol
-    - compartment: c
+    - name: propanol
+    - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4238
     - name: methional
-    - compartment: m
+    - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4239
     - name: methionol
-    - compartment: m
+    - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4240
     - name: methional
-    - compartment: e
+    - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4241
     - name: methionol
-    - compartment: e
+    - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4242
-    - name: (4-hydroxyphenyl)acetaldehyde
-    - compartment: c
+    - name: methional
+    - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4243
-    - name: tyrosol
-    - compartment: c
+    - name: methionol
+    - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4244
     - name: (4-hydroxyphenyl)acetaldehyde
-    - compartment: m
+    - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4245
     - name: tyrosol
-    - compartment: m
+    - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4246
     - name: (4-hydroxyphenyl)acetaldehyde
-    - compartment: e
+    - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4247
     - name: tyrosol
-    - compartment: e
+    - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4248
+    - name: (4-hydroxyphenyl)acetaldehyde
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4249
+    - name: tyrosol
+    - compartment: e
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4250
     - name: propionate
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4249
+    - id: s_4251
     - name: propionate
     - compartment: p
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4250
+    - id: s_4252
     - name: propionyl-CoA
     - compartment: p
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4251
+    - id: s_4253
     - name: ethyl propionate
     - compartment: m
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4252
-    - name: tyrosyl acetate
-    - compartment: c
-    - annotation: !!omap
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_4253
-    - name: tyrosyl acetate
-    - compartment: e
-    - annotation: !!omap
-      - sbo: SBO:0000247
-  - !!omap
     - id: s_4254
-    - name: methionyl acetate
+    - name: tyrosyl acetate
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4255
-    - name: methionyl acetate
+    - name: tyrosyl acetate
     - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4256
-    - name: propyl acetate
+    - name: methionyl acetate
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4257
-    - name: propyl acetate
+    - name: methionyl acetate
     - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4258
-    - name: ethylene
+    - name: propyl acetate
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4259
-    - name: dimethyl disulfide
-    - compartment: c
+    - name: propyl acetate
+    - compartment: e
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4260
-    - name: ethyl propionate
+    - name: ethylene
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_4261
+    - name: dimethyl disulfide
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4262
+    - name: ethyl propionate
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4263
     - name: ethyl propionate
     - compartment: e
     - annotation: !!omap
@@ -28108,7 +28079,7 @@
       - s_0993: 1
       - s_1200: -1
       - s_1205: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YHR037W
     - subsystem:
@@ -29174,7 +29145,7 @@
       - s_0803: -1
       - s_1158: 1
       - s_1322: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR410W or YOR163W
     - annotation: !!omap
@@ -29564,7 +29535,7 @@
       - s_0803: -1
       - s_1158: 1
       - s_1322: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR410W or YOR163W
     - annotation: !!omap
@@ -30338,7 +30309,7 @@
       - s_2821: -1
       - s_3441: -1
       - s_3442: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR048W or YNR019W
     - subsystem: sce00100  Steroid biosynthesis
@@ -30373,7 +30344,7 @@
       - s_2821: -1
       - s_3438: -1
       - s_3439: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR048W
     - subsystem: sce00100  Steroid biosynthesis
@@ -32824,11 +32795,11 @@
     - metabolites: !!omap
       - s_0122: -1
       - s_0297: 1
-      - s_0794: -2
+      - s_0794: -5
       - s_0803: 4
-      - s_1207: 3
-      - s_1212: -3
       - s_1275: -3
+      - s_4209: -6
+      - s_4210: 6
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGR060W
@@ -32911,7 +32882,7 @@
       - s_0633: 1
       - s_1230: 1
       - s_1231: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDL090C and YKL019W
     - subsystem:
@@ -34265,7 +34236,7 @@
       - s_0794: 1
       - s_0837: 1
       - s_1275: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YML086C
     - annotation: !!omap
@@ -36261,7 +36232,7 @@
       - s_0754: 1
       - s_0803: 2
       - s_0837: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YNL229C or YBR244W or YCL035C or YDR513W or YIR037W or YKL026C
     - subsystem: sce00480  Glutathione metabolism
@@ -36281,7 +36252,7 @@
       - s_0756: 1
       - s_0807: 2
       - s_0838: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YPL059W
     - annotation: !!omap
@@ -41311,7 +41282,7 @@
       - s_0529: 1
       - s_0794: 1
       - s_1190: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YFL017C
     - subsystem: sce00520  Amino sugar and nucleotide sugar metabolism
@@ -41609,10 +41580,13 @@
     - id: r_0774
     - name: NAPRtase
     - metabolites: !!omap
+      - s_0394: 1
+      - s_0434: -1
       - s_0633: 1
       - s_0794: -1
       - s_1219: -1
       - s_1222: 1
+      - s_1322: 1
       - s_1386: -1
     - lower_bound: 0
     - upper_bound: 1000
@@ -41628,10 +41602,13 @@
     - id: r_0775
     - name: NAPRtase
     - metabolites: !!omap
+      - s_0397: 1
+      - s_0437: -1
       - s_0636: 1
       - s_0799: -1
       - s_1221: -1
       - s_1223: 1
+      - s_1326: 1
       - s_1387: -1
     - lower_bound: 0
     - upper_bound: 1000
@@ -43934,7 +43911,7 @@
       - s_1275: -1
       - s_1393: 1
       - s_1398: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YBR035C
     - subsystem: sce00750  Vitamin B6 metabolism
@@ -44609,7 +44586,7 @@
       - s_0794: 1
       - s_0803: -1
       - s_1421: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJL068C
     - subsystem: sce01200  Carbon metabolism
@@ -55819,7 +55796,7 @@
       - s_2806: -1
       - s_2808: 1
       - s_2814: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJL097W
     - subsystem:
@@ -87239,13 +87216,7 @@
       - s_3716: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YIL020C
-    - subsystem:
-        - sce00340  Histidine metabolism
-        - sce01110  Biosynthesis of secondary metabolites
-        - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
-      - ec-code: 5.3.1.16
       - kegg.reaction: R02410
       - metanetx.reaction: MNXR103420
       - pmid: 4967422
@@ -88722,12 +88693,12 @@
     - id: r_4153
     - name: (R)-Acetoin:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0020: -1
-      - s_0794: 1
-      - s_1198: -1
-      - s_1203: 1
-      - s_3750: 1
-    - lower_bound: -1000
+      - s_0020: 1
+      - s_0794: -1
+      - s_1198: 1
+      - s_1203: -1
+      - s_3750: -1
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YAL061W
     - annotation: !!omap
@@ -89318,7 +89289,7 @@
       - s_0838: 1
       - s_1278: 1
       - s_3813: -2
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YHR008C
     - annotation: !!omap
@@ -89408,11 +89379,10 @@
     - id: r_4196
     - name: NADH:ferricytochrome-b5 oxidoreductase
     - metabolites: !!omap
-      - s_0795: 1
-      - s_1199: 1
-      - s_1204: -1
-      - s_3824: -2
-      - s_3825: 2
+      - s_2783: 1
+      - s_2818: -1
+      - s_4209: 2
+      - s_4210: -2
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YIL043C or YML125C
@@ -89876,7 +89846,7 @@
       - s_0807: -1
       - s_3863: -1
       - s_3864: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDR036C
     - annotation: !!omap
@@ -89963,30 +89933,13 @@
       - s_0803: -1
       - s_0853: 1
       - s_3868: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDR242W
     - annotation: !!omap
       - ec-code: 3.5.1.4
       - kegg.reaction: R03096
       - metanetx.reaction: MNXR95814
-      - sbo: SBO:0000176
-    - confidence_score: 2
-  - !!omap
-    - id: r_4229
-    - name: Monocarboxylic acid amide amidohydrolase
-    - metabolites: !!omap
-      - s_0419: 1
-      - s_0803: -1
-      - s_3869: -1
-      - s_3870: 1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: YDR242W
-    - annotation: !!omap
-      - ec-code: 3.5.1.4
-      - kegg.reaction: R03909
-      - metanetx.reaction: MNXR108518
       - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
@@ -90296,7 +90249,7 @@
       - s_0419: 1
       - s_1399: 1
       - s_3904: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL196W
     - annotation: !!omap
@@ -90532,12 +90485,12 @@
     - id: r_4264
     - name: succinate:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0727: 1
-      - s_0799: 1
-      - s_1200: -1
-      - s_1205: 1
-      - s_1460: -1
-    - lower_bound: -1000
+      - s_0727: -1
+      - s_0799: -1
+      - s_1200: 1
+      - s_1205: -1
+      - s_1460: 1
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJR051W
     - annotation: !!omap
@@ -90640,7 +90593,7 @@
       - s_0837: 1
       - s_1275: 1
       - s_3931: -2
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJR104C
     - annotation: !!omap
@@ -90718,7 +90671,7 @@
       - s_0803: -1
       - s_1241: -1
       - s_1458: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLL058W or YML082W
     - annotation: !!omap
@@ -90809,7 +90762,7 @@
       - s_0809: -1
       - s_3942: -1
       - s_3943: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR151C
     - annotation: !!omap
@@ -91082,7 +91035,7 @@
       - s_1203: 1
       - s_3961: -1
       - s_3962: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
@@ -95240,6 +95193,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR94845
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95251,6 +95205,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR95431
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95262,6 +95217,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR95481
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95273,6 +95229,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR99646
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95286,6 +95243,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR101858
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95299,6 +95257,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR135002
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95310,6 +95269,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR102871
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95326,6 +95286,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR106312
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95337,6 +95298,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR105076
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95348,6 +95310,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR105076
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95359,6 +95322,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR105127
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95370,6 +95334,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR104921
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95381,6 +95346,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR99110
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95394,6 +95360,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR95426
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95405,6 +95372,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR100259
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95416,6 +95384,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR105127
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95427,6 +95396,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR95809
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95438,6 +95408,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR100449
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95452,6 +95423,7 @@
     - upper_bound: 1000
     - annotation: !!omap
       - ec-code: 2.7.4.6
+      - metanetx.reaction: MNXR96123
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95463,6 +95435,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR101385
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95474,6 +95447,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR95416
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95485,6 +95459,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR100494
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95498,6 +95473,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR97002
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95512,6 +95488,7 @@
     - upper_bound: 1000
     - annotation: !!omap
       - ec-code: 2.7.4.6
+      - metanetx.reaction: MNXR96123
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95523,6 +95500,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR104966
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95534,6 +95512,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR104460
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95545,6 +95524,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR105071
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
@@ -95556,27 +95536,12 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - metanetx.reaction: MNXR105021
       - sbo: SBO:0000655
     - confidence_score: 0
   - !!omap
     - id: r_4629
     - name: alcohol acyltransferase (hexanoyl-CoA)
-    - metabolites: !!omap
-      - s_0532: 1
-      - s_0682: -1
-      - s_4209: -1
-      - s_4210: 1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: YBR177C or YPL095C
-    - annotation: !!omap
-      - ec-code: 2.3.1.84
-      - kegg.reaction: R00627
-      - sbo: SBO:0000176
-    - confidence_score: 2
-  - !!omap
-    - id: r_4630
-    - name: alcohol acyltransferase (octanoyl-CoA)
     - metabolites: !!omap
       - s_0532: 1
       - s_0682: -1
@@ -95591,8 +95556,8 @@
       - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
-    - id: r_4631
-    - name: alcohol acyltransferase (butyryl-CoA)
+    - id: r_4630
+    - name: alcohol acyltransferase (octanoyl-CoA)
     - metabolites: !!omap
       - s_0532: 1
       - s_0682: -1
@@ -95607,13 +95572,29 @@
       - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
+    - id: r_4631
+    - name: alcohol acyltransferase (butyryl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_4215: -1
+      - s_4216: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
     - id: r_4632
     - name: alcohol acetyltransferase (hexanol)
     - metabolites: !!omap
       - s_0376: -1
       - s_0532: 1
-      - s_4215: -1
-      - s_4216: 1
+      - s_4217: -1
+      - s_4218: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YGR177C or YOR377W or YGR015C
@@ -95628,8 +95609,8 @@
     - metabolites: !!omap
       - s_0532: 1
       - s_0682: -1
-      - s_4217: -1
-      - s_4218: 1
+      - s_4219: -1
+      - s_4220: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YBR177C or YPL095C
@@ -95642,8 +95623,8 @@
     - id: r_4634
     - name: ethyl hexanoate transport, mitochondrial
     - metabolites: !!omap
-      - s_4210: -1
-      - s_4219: 1
+      - s_4212: -1
+      - s_4221: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -95653,8 +95634,8 @@
     - id: r_4635
     - name: ethyl octanoate transport, mitochondrial
     - metabolites: !!omap
-      - s_4212: -1
-      - s_4220: 1
+      - s_4214: -1
+      - s_4222: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -95664,8 +95645,8 @@
     - id: r_4636
     - name: ethyl butanoate transport, mitochondrial
     - metabolites: !!omap
-      - s_4214: -1
-      - s_4221: 1
+      - s_4216: -1
+      - s_4223: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -95675,8 +95656,8 @@
     - id: r_4637
     - name: hexyl acetate transport, mitochondrial
     - metabolites: !!omap
-      - s_4216: -1
-      - s_4222: 1
+      - s_4218: -1
+      - s_4224: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95686,8 +95667,8 @@
     - id: r_4638
     - name: ethyl decanoate transport, mitochondrial
     - metabolites: !!omap
-      - s_4218: -1
-      - s_4223: 1
+      - s_4220: -1
+      - s_4225: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95697,8 +95678,8 @@
     - id: r_4639
     - name: ethyl hexanoate transport
     - metabolites: !!omap
-      - s_4219: -1
-      - s_4224: 1
+      - s_4221: -1
+      - s_4226: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -95708,8 +95689,8 @@
     - id: r_4640
     - name: ethyl octanoate transport
     - metabolites: !!omap
-      - s_4220: -1
-      - s_4225: 1
+      - s_4222: -1
+      - s_4227: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -95719,8 +95700,8 @@
     - id: r_4641
     - name: ethyl butanoate transport
     - metabolites: !!omap
-      - s_4221: -1
-      - s_4226: 1
+      - s_4223: -1
+      - s_4228: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -95730,8 +95711,8 @@
     - id: r_4642
     - name: hexyl acetate transport
     - metabolites: !!omap
-      - s_4222: -1
-      - s_4227: 1
+      - s_4224: -1
+      - s_4229: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95741,8 +95722,8 @@
     - id: r_4643
     - name: ethyl decanoate transport
     - metabolites: !!omap
-      - s_4223: -1
-      - s_4228: 1
+      - s_4225: -1
+      - s_4230: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95752,7 +95733,7 @@
     - id: r_4644
     - name: ethyl hexanoate exchange
     - metabolites: !!omap
-      - s_4224: -1
+      - s_4226: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95762,7 +95743,7 @@
     - id: r_4645
     - name: ethyl octanoate exchange
     - metabolites: !!omap
-      - s_4225: -1
+      - s_4227: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95772,7 +95753,7 @@
     - id: r_4646
     - name: ethyl butanoate exchange
     - metabolites: !!omap
-      - s_4226: -1
+      - s_4228: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95782,7 +95763,7 @@
     - id: r_4647
     - name: hexyl acetate exchange
     - metabolites: !!omap
-      - s_4227: -1
+      - s_4229: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95792,7 +95773,7 @@
     - id: r_4648
     - name: ethyl decanoate exchange
     - metabolites: !!omap
-      - s_4228: -1
+      - s_4230: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95805,7 +95786,7 @@
       - s_0376: -1
       - s_0532: 1
       - s_0682: -1
-      - s_4229: 1
+      - s_4231: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGR015C
@@ -95819,7 +95800,7 @@
     - name: ethyl acetate transport, mitochondrial
     - metabolites: !!omap
       - s_0685: 1
-      - s_4229: -1
+      - s_4231: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95832,7 +95813,7 @@
       - s_0178: -1
       - s_0456: 1
       - s_0794: -1
-      - s_4230: 1
+      - s_4232: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGR087C or YLR044C or YLR134W
@@ -95848,8 +95829,8 @@
       - s_0794: -1
       - s_1198: 1
       - s_1203: 1
-      - s_4230: -1
-      - s_4231: 1
+      - s_4232: -1
+      - s_4233: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
@@ -95868,8 +95849,8 @@
       - s_0799: -1
       - s_1200: 1
       - s_1205: -1
-      - s_4232: -1
-      - s_4233: 1
+      - s_4234: -1
+      - s_4235: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
@@ -95884,8 +95865,8 @@
       - s_0794: -1
       - s_1207: 1
       - s_1212: -1
-      - s_4230: -1
-      - s_4231: 1
+      - s_4232: -1
+      - s_4233: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
@@ -95899,8 +95880,8 @@
     - id: r_4655
     - name: 1-propyl alcohol transport, mitochondrial
     - metabolites: !!omap
-      - s_4231: 1
-      - s_4233: -1
+      - s_4233: 1
+      - s_4235: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -95910,8 +95891,8 @@
     - id: r_4656
     - name: propanal transport, cytosol
     - metabolites: !!omap
-      - s_4230: -1
-      - s_4234: 1
+      - s_4232: -1
+      - s_4236: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -95921,8 +95902,8 @@
     - id: r_4657
     - name: 1-propyl alcohol transport, cytosol
     - metabolites: !!omap
-      - s_4231: -1
-      - s_4235: 1
+      - s_4233: -1
+      - s_4237: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -95932,7 +95913,7 @@
     - id: r_4658
     - name: propanal exchange
     - metabolites: !!omap
-      - s_4234: -1
+      - s_4236: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95942,7 +95923,7 @@
     - id: r_4659
     - name: propanol exchange
     - metabolites: !!omap
-      - s_4235: -1
+      - s_4237: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -95955,7 +95936,7 @@
       - s_0294: -1
       - s_0456: 1
       - s_0794: -1
-      - s_4236: 1
+      - s_4238: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YHR137W
@@ -95971,8 +95952,8 @@
       - s_0794: -1
       - s_1198: 1
       - s_1203: -1
-      - s_4236: -1
-      - s_4237: 1
+      - s_4238: -1
+      - s_4239: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
@@ -95991,8 +95972,8 @@
       - s_0799: -1
       - s_1200: 1
       - s_1205: -1
-      - s_4238: -1
-      - s_4239: 1
+      - s_4240: -1
+      - s_4241: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
@@ -96007,8 +95988,8 @@
       - s_0794: -1
       - s_1203: -1
       - s_1207: 1
-      - s_4236: -1
-      - s_4237: 1
+      - s_4238: -1
+      - s_4239: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
@@ -96022,8 +96003,8 @@
     - id: r_4664
     - name: methionol transport, mitochondrial
     - metabolites: !!omap
-      - s_4237: 1
-      - s_4239: -1
+      - s_4239: 1
+      - s_4241: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96033,8 +96014,8 @@
     - id: r_4665
     - name: methional transport, cytosol
     - metabolites: !!omap
-      - s_4236: -1
-      - s_4240: 1
+      - s_4238: -1
+      - s_4242: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96044,8 +96025,8 @@
     - id: r_4666
     - name: methionol transport, cytosol
     - metabolites: !!omap
-      - s_4237: -1
-      - s_4241: 1
+      - s_4239: -1
+      - s_4243: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96055,7 +96036,7 @@
     - id: r_4667
     - name: methional exchange
     - metabolites: !!omap
-      - s_4240: -1
+      - s_4242: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96065,7 +96046,7 @@
     - id: r_4668
     - name: methionol exchange
     - metabolites: !!omap
-      - s_4241: -1
+      - s_4243: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96078,7 +96059,7 @@
       - s_0204: -1
       - s_0456: 1
       - s_0794: -1
-      - s_4242: 1
+      - s_4244: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGR087C or YLR044C or YLR134W
@@ -96093,8 +96074,8 @@
       - s_0794: -1
       - s_1198: 1
       - s_1203: -1
-      - s_4242: -1
-      - s_4243: 1
+      - s_4244: -1
+      - s_4245: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
@@ -96112,8 +96093,8 @@
       - s_0799: -1
       - s_1200: 1
       - s_1205: -1
-      - s_4244: -1
-      - s_4245: 1
+      - s_4246: -1
+      - s_4247: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
@@ -96128,8 +96109,8 @@
       - s_0794: -1
       - s_1207: 1
       - s_1212: -1
-      - s_4242: -1
-      - s_4243: 1
+      - s_4244: -1
+      - s_4245: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
@@ -96143,8 +96124,8 @@
     - id: r_4673
     - name: tyrosol transport, mitochondrial
     - metabolites: !!omap
-      - s_4243: 1
-      - s_4245: -1
+      - s_4245: 1
+      - s_4247: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96154,8 +96135,8 @@
     - id: r_4674
     - name: (4-hydroxyphenyl)acetaldehyde transport, cytosol
     - metabolites: !!omap
-      - s_4242: -1
-      - s_4246: 1
+      - s_4244: -1
+      - s_4248: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96165,8 +96146,8 @@
     - id: r_4675
     - name: tyrosol transport, cytosol
     - metabolites: !!omap
-      - s_4243: -1
-      - s_4247: 1
+      - s_4245: -1
+      - s_4249: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96176,7 +96157,7 @@
     - id: r_4676
     - name: (4-hydroxyphenyl)acetaldehyde exchange
     - metabolites: !!omap
-      - s_4246: -1
+      - s_4248: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96186,7 +96167,7 @@
     - id: r_4677
     - name: tyrosol exchange
     - metabolites: !!omap
-      - s_4247: -1
+      - s_4249: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96200,8 +96181,8 @@
       - s_0803: -1
       - s_1198: -1
       - s_1203: 1
-      - s_4230: -1
-      - s_4248: 1
+      - s_4232: -1
+      - s_4250: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YMR170C or YMR169C or YOR374W
@@ -96217,8 +96198,8 @@
       - s_0439: -1
       - s_0534: -1
       - s_0638: 1
-      - s_4249: -1
-      - s_4250: 1
+      - s_4251: -1
+      - s_4252: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YOR317W or YER015W or YIL009W or YMR246W
@@ -96233,7 +96214,7 @@
       - s_0532: 1
       - s_0682: -1
       - s_1382: -1
-      - s_4251: 1
+      - s_4253: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YBR177C or YPL095C
@@ -96246,7 +96227,7 @@
     - name: propionyl-CoA transport, mitochondrial
     - metabolites: !!omap
       - s_1382: 1
-      - s_4250: -1
+      - s_4252: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96257,7 +96238,7 @@
     - name: butyryl-CoA transport, mitochondrial
     - metabolites: !!omap
       - s_2884: -1
-      - s_4213: 1
+      - s_4215: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96268,7 +96249,7 @@
     - name: hexanoyl-CoA transport, mitochondrial
     - metabolites: !!omap
       - s_2885: -1
-      - s_4209: 1
+      - s_4211: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96279,7 +96260,7 @@
     - name: octanoyl-CoA transport, mitochondrial
     - metabolites: !!omap
       - s_1258: -1
-      - s_4211: 1
+      - s_4213: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96290,7 +96271,7 @@
     - name: decanoyl-CoA transport, mitochondrial
     - metabolites: !!omap
       - s_0605: -1
-      - s_4217: 1
+      - s_4219: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96300,8 +96281,8 @@
     - id: r_4686
     - name: propionate transport, cytosol
     - metabolites: !!omap
-      - s_4248: 1
-      - s_4249: -1
+      - s_4250: 1
+      - s_4251: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96313,8 +96294,8 @@
     - metabolites: !!omap
       - s_0373: -1
       - s_0529: 1
-      - s_4243: -1
-      - s_4252: 1
+      - s_4245: -1
+      - s_4254: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGR177C or YOR377W or YGR015C
@@ -96326,8 +96307,8 @@
     - id: r_4688
     - name: tyrosyl acetate transport
     - metabolites: !!omap
-      - s_4252: -1
-      - s_4253: 1
+      - s_4254: -1
+      - s_4255: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96337,7 +96318,7 @@
     - id: r_4689
     - name: tyrosyl acetate exchange
     - metabolites: !!omap
-      - s_4253: -1
+      - s_4255: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96349,8 +96330,8 @@
     - metabolites: !!omap
       - s_0373: -1
       - s_0529: 1
-      - s_4237: -1
-      - s_4254: 1
+      - s_4239: -1
+      - s_4256: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGR177C or YOR377W or YGR015C
@@ -96362,8 +96343,8 @@
     - id: r_4691
     - name: methionyl acetate transport
     - metabolites: !!omap
-      - s_4254: -1
-      - s_4255: 1
+      - s_4256: -1
+      - s_4257: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96373,7 +96354,7 @@
     - id: r_4692
     - name: methionyl acetate exchange
     - metabolites: !!omap
-      - s_4255: -1
+      - s_4257: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96385,8 +96366,8 @@
     - metabolites: !!omap
       - s_0373: -1
       - s_0529: 1
-      - s_4231: -1
-      - s_4256: 1
+      - s_4233: -1
+      - s_4258: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGR177C or YOR377W or YGR015C
@@ -96398,8 +96379,8 @@
     - id: r_4694
     - name: propyl acetate transport
     - metabolites: !!omap
-      - s_4256: -1
-      - s_4257: 1
+      - s_4258: -1
+      - s_4259: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96409,7 +96390,7 @@
     - id: r_4695
     - name: propyl acetate exchange
     - metabolites: !!omap
-      - s_4257: -1
+      - s_4259: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96421,8 +96402,8 @@
     - metabolites: !!omap
       - s_0456: 2
       - s_1150: 1
-      - s_4236: -1
-      - s_4258: 1
+      - s_4238: -1
+      - s_4260: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96436,7 +96417,7 @@
       - s_1150: -1
       - s_1469: 1
       - s_4113: -1
-      - s_4259: 1
+      - s_4261: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YOR286W
@@ -96448,8 +96429,8 @@
     - id: r_4698
     - name: ethyl propionate transport, mitochondrial
     - metabolites: !!omap
-      - s_4251: -1
-      - s_4260: 1
+      - s_4253: -1
+      - s_4262: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
@@ -96459,8 +96440,8 @@
     - id: r_4699
     - name: ethyl propionate transport
     - metabolites: !!omap
-      - s_4260: -1
-      - s_4261: 1
+      - s_4262: -1
+      - s_4263: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -96470,7 +96451,7 @@
     - id: r_4700
     - name: ethyl propionate exchange
     - metabolites: !!omap
-      - s_4261: -1
+      - s_4263: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap

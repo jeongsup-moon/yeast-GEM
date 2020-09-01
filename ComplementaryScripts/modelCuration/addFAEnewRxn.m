@@ -2,7 +2,7 @@
 % Input: model, FAEnewrRxnMatrix.tsv,FAEnewRxnMetAnnotation.tsv,FAEnewRxnProp.tsv,FAEgeneNames.tsv.
 % NOTE: changeGeneAssociation.m is a function from cobra
 %       Extract model info from .tsv format.
-%       Before run the codes below, the file should be manually editted.
+%       Before run the codes below, the file should be manually edited.
 %       COBRA required.
 %       New reaction should be in .tsv format.
 %
