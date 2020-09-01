@@ -148,8 +148,6 @@ for i = 1: length(model.genes)
     geneIndex = strcmp(yeast_gene_annotation{1}, model.genes{i});
     if sum(geneIndex) == 1 && ~isempty(yeast_gene_annotation{2}{geneIndex})
         model.geneNames{i} = yeast_gene_annotation{2}{geneIndex};
-    else
-        model.geneNames{i} = model.genes{i};
     end
 end
 
