@@ -33,10 +33,6 @@ end
 
 %change compartments
 CONValldata = cat(2,model.compNames,model.comps);
-lbracket    = ' [' ;%  space
-llbracket   = '[';
-rbrackets   = ']';
-space       = ' ';
 [m, n]      = size(CONValldata);
 for i = 1:m
     aa = CONValldata(i,1);
@@ -50,8 +46,8 @@ for i = 1:m
     end
 end
 for i=1:length(matrix.rxnIDs)
-    matrix.metnames(i) = strcat(matrix.metIDs(i),lbracket,matrix.metcompartments(i),rbrackets);
-    matrix.Newcomps(i) = strcat(llbracket,matrix.Newcomps(i),rbrackets);
+    matrix.metnames(i) = strcat(matrix.metIDs(i),' [',matrix.metcompartments(i),']');
+    matrix.Newcomps(i) = strcat('[',matrix.Newcomps(i),']');
 end
 
 %mapping mets to model.metnames, get s_ index for new mets
@@ -127,8 +123,6 @@ for i = 1:length(newrxn.ID)
                         'reversible',newrxn.Rev(i,1),...
                         'geneRule',newrxn.GPR{i},...
                         'checkDuplicate',1);
-%     [EnergyResults,RedoxResults] = CheckEnergyProduction(model,{['r_' newID]},EnergyResults,RedoxResults);
-%     [MassChargeresults] = CheckBalanceforSce(model,{['r_' newID]},MassChargeresults);
     if isempty(rxnIndex)
         rxnIndex = strcmp(model.rxns,['r_' newID]);
     end
@@ -152,11 +146,6 @@ for i = 1: length(model.genes)
     if sum(geneIndex) == 1 && ~isempty(yeast_gene_annotation{2}{geneIndex})
         model.geneNames{i} = yeast_gene_annotation{2}{geneIndex};
     end
-end
-
-% Add protein name for genes
-for i = 1:length(model.genes)
-    model.proteins{i} = strcat('COBRAProtein',num2str(i));
 end
 
 % Save model:
