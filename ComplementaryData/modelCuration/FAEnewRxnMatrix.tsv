@@ -13,7 +13,7 @@ r_4631	1	 ethyl butanoate	product	mitochondrion
 r_4631	1	coenzyme A	product	mitochondrion
 r_4632	1	acetyl-CoA	reactant	mitochondrion
 r_4632	1	hexanol	reactant	mitochondrion
-r_4632	1	 hexyl acetate	product	mitochondrion
+r_4632	1	hexyl acetate	product	mitochondrion
 r_4632	1	coenzyme A	product	mitochondrion
 r_4633	1	decanoyl-CoA	reactant	mitochondrion
 r_4633	1	ethanol	reactant	mitochondrion
@@ -84,12 +84,12 @@ r_4660	1	methional	product	cytoplasm
 r_4661	1	methional	reactant	cytoplasm
 r_4661	1	H+	reactant	cytoplasm
 r_4661	1	NADH	reactant	cytoplasm
-r_4661	1	 methionol	product	cytoplasm
+r_4661	1	methionol	product	cytoplasm
 r_4661	1	NAD	product	cytoplasm
 r_4662	1	methional	reactant	mitochondrion
 r_4662	1	H+	reactant	mitochondrion
 r_4662	1	NADH	reactant	mitochondrion
-r_4662	1	 methionol	product	mitochondrion
+r_4662	1	methionol	product	mitochondrion
 r_4662	1	NAD	product	mitochondrion
 r_4663	1	methional	reactant	cytoplasm
 r_4663	1	H+	reactant	cytoplasm
