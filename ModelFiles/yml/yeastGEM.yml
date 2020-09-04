@@ -99135,6 +99135,13 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code:
         - 1.1.1.-
@@ -99155,6 +99162,13 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code: 1.1.1.1
       - sbo: SBO:0000176
@@ -99171,6 +99185,13 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code:
         - 1.1.1.-
@@ -99258,6 +99279,13 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code:
         - 1.1.1.-
@@ -99278,6 +99306,13 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code: 1.1.1.1
       - sbo: SBO:0000176
@@ -99294,6 +99329,13 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code:
         - 1.1.1.-
@@ -99380,6 +99422,13 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code:
         - 1.1.1.-
@@ -99399,6 +99448,13 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code: 1.1.1.1
       - sbo: SBO:0000176
@@ -99415,6 +99471,13 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code:
         - 1.1.1.-
@@ -99487,6 +99550,13 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YMR170C or YMR169C or YOR374W
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code: 1.2.1.5
       - sbo: SBO:0000176
@@ -99504,6 +99574,11 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YOR317W or YER015W or YIL009W or YMR246W
+    - subsystem:
+        - sce00061  Fatty acid biosynthesis
+        - sce00071  Fatty acid degradation
+        - sce01212  Fatty acid metabolism
+        - sce04146  Peroxisome
     - annotation: !!omap
       - ec-code: 6.2.1.3
       - sbo: SBO:0000176

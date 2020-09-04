@@ -132,6 +132,7 @@ for i = 1:length(newrxn.ID)
     model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
     model.rxnConfidenceScores(rxnIndex) = 2;   %reactions added 
     model.rxnNotes{rxnIndex} = 'NOTES: added for FA ester pathways (PR #190)';
+    model.subSystems{rxnIndex} = strsplit(newrxn.subSystems{i},';');
 end
 
 
