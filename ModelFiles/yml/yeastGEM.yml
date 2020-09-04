@@ -11533,7 +11533,7 @@
     - charge: -4
     - annotation: !!omap
       - bigg.metabolite: occoa
-      - chebi: CHEBI:57386
+      - chebi: CHEBI:15533
       - kegg.compound: C01944
       - metanetx.chemical: MNXM342
       - sbo: SBO:0000247
@@ -12392,7 +12392,7 @@
     - charge: -4
     - annotation: !!omap
       - bigg.metabolite: ppcoa
-      - chebi: CHEBI:57392
+      - chebi: CHEBI:15539
       - kegg.compound: C00100
       - metanetx.chemical: MNXM86
       - sbo: SBO:0000247
@@ -16148,7 +16148,7 @@
     - charge: -4
     - annotation: !!omap
       - bigg.metabolite: btcoa
-      - chebi: CHEBI:15517
+      - chebi: CHEBI:57371
       - kegg.compound: C00136
       - metanetx.chemical: MNXM233
       - sbo: SBO:0000247
@@ -29345,6 +29345,7 @@
     - formula: C8H16O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:86055
       - sbo: SBO:0000247
   - !!omap
     - id: s_4213
@@ -29353,6 +29354,8 @@
     - formula: C29H46N7O17P3S
     - charge: -4
     - annotation: !!omap
+      - chebi: CHEBI:15533
+      - kegg.compound: C01944
       - sbo: SBO:0000247
   - !!omap
     - id: s_4214
@@ -29361,6 +29364,8 @@
     - formula: C10H20O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87426
+      - kegg.compound: C12292
       - sbo: SBO:0000247
   - !!omap
     - id: s_4215
@@ -29369,6 +29374,8 @@
     - formula: C25H38N7O17P3S
     - charge: -4
     - annotation: !!omap
+      - chebi: CHEBI:57371
+      - kegg.compound: C00136
       - sbo: SBO:0000247
   - !!omap
     - id: s_4216
@@ -29377,6 +29384,7 @@
     - formula: C6H12O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:88764
       - sbo: SBO:0000247
   - !!omap
     - id: s_4217
@@ -29385,6 +29393,7 @@
     - formula: C6H14O
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87393
       - sbo: SBO:0000247
   - !!omap
     - id: s_4218
@@ -29393,6 +29402,7 @@
     - formula: C8H16O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87510
       - sbo: SBO:0000247
   - !!omap
     - id: s_4219
@@ -29401,6 +29411,8 @@
     - formula: C31H50N7O17P3S
     - charge: -4
     - annotation: !!omap
+      - chebi: CHEBI:61430
+      - kegg.compound: C05274
       - sbo: SBO:0000247
   - !!omap
     - id: s_4220
@@ -29409,6 +29421,7 @@
     - formula: C12H24O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87430
       - sbo: SBO:0000247
   - !!omap
     - id: s_4221
@@ -29417,6 +29430,7 @@
     - formula: C8H16O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:86055
       - sbo: SBO:0000247
   - !!omap
     - id: s_4222
@@ -29425,6 +29439,8 @@
     - formula: C10H20O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87426
+      - kegg.compound: C12292
       - sbo: SBO:0000247
   - !!omap
     - id: s_4223
@@ -29433,6 +29449,7 @@
     - formula: C6H12O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:88764
       - sbo: SBO:0000247
   - !!omap
     - id: s_4224
@@ -29441,6 +29458,7 @@
     - formula: C8H16O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87510
       - sbo: SBO:0000247
   - !!omap
     - id: s_4225
@@ -29449,6 +29467,7 @@
     - formula: C12H24O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87430
       - sbo: SBO:0000247
   - !!omap
     - id: s_4226
@@ -29457,6 +29476,7 @@
     - formula: C8H16O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:86055
       - sbo: SBO:0000247
   - !!omap
     - id: s_4227
@@ -29465,6 +29485,8 @@
     - formula: C10H20O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87426
+      - kegg.compound: C12292
       - sbo: SBO:0000247
   - !!omap
     - id: s_4228
@@ -29473,6 +29495,7 @@
     - formula: C6H12O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:88764
       - sbo: SBO:0000247
   - !!omap
     - id: s_4229
@@ -29481,6 +29504,7 @@
     - formula: C8H16O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87510
       - sbo: SBO:0000247
   - !!omap
     - id: s_4230
@@ -29489,6 +29513,7 @@
     - formula: C12H24O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:87430
       - sbo: SBO:0000247
   - !!omap
     - id: s_4231
@@ -29497,6 +29522,8 @@
     - formula: C4H8O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:27750
+      - kegg.compound: C00849
       - sbo: SBO:0000247
   - !!omap
     - id: s_4232
@@ -29505,6 +29532,8 @@
     - formula: C3H6O
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:17153
+      - kegg.compound: C00479
       - sbo: SBO:0000247
   - !!omap
     - id: s_4233
@@ -29513,6 +29542,8 @@
     - formula: C3H8O
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:28831
+      - kegg.compound: C05979
       - sbo: SBO:0000247
   - !!omap
     - id: s_4234
@@ -29521,6 +29552,8 @@
     - formula: C3H6O
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:17153
+      - kegg.compound: C00479
       - sbo: SBO:0000247
   - !!omap
     - id: s_4235
@@ -29529,6 +29562,8 @@
     - formula: C3H8O
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:28831
+      - kegg.compound: C05979
       - sbo: SBO:0000247
   - !!omap
     - id: s_4236
@@ -29537,6 +29572,8 @@
     - formula: C3H6O
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:17153
+      - kegg.compound: C00479
       - sbo: SBO:0000247
   - !!omap
     - id: s_4237
@@ -29545,6 +29582,8 @@
     - formula: C3H8O
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:28831
+      - kegg.compound: C05979
       - sbo: SBO:0000247
   - !!omap
     - id: s_4238
@@ -29553,6 +29592,7 @@
     - formula: C4H8OS
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:49017
       - sbo: SBO:0000247
   - !!omap
     - id: s_4239
@@ -29561,6 +29601,7 @@
     - formula: C4H10OS
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:49019
       - sbo: SBO:0000247
   - !!omap
     - id: s_4240
@@ -29569,6 +29610,7 @@
     - formula: C4H8OS
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:49017
       - sbo: SBO:0000247
   - !!omap
     - id: s_4241
@@ -29577,6 +29619,7 @@
     - formula: C4H10OS
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:49019
       - sbo: SBO:0000247
   - !!omap
     - id: s_4242
@@ -29585,6 +29628,7 @@
     - formula: C4H8OS
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:49017
       - sbo: SBO:0000247
   - !!omap
     - id: s_4243
@@ -29593,6 +29637,7 @@
     - formula: C4H10OS
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:49019
       - sbo: SBO:0000247
   - !!omap
     - id: s_4244
@@ -29601,6 +29646,7 @@
     - formula: C8H8O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:15621
       - sbo: SBO:0000247
   - !!omap
     - id: s_4245
@@ -29609,6 +29655,8 @@
     - formula: C8H10O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:1879
+      - kegg.compound: C06044
       - sbo: SBO:0000247
   - !!omap
     - id: s_4246
@@ -29617,6 +29665,7 @@
     - formula: C8H8O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:15621
       - sbo: SBO:0000247
   - !!omap
     - id: s_4247
@@ -29625,6 +29674,8 @@
     - formula: C8H10O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:1879
+      - kegg.compound: C06044
       - sbo: SBO:0000247
   - !!omap
     - id: s_4248
@@ -29633,6 +29684,7 @@
     - formula: C8H8O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:15621
       - sbo: SBO:0000247
   - !!omap
     - id: s_4249
@@ -29641,6 +29693,8 @@
     - formula: C8H10O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:1879
+      - kegg.compound: C06044
       - sbo: SBO:0000247
   - !!omap
     - id: s_4250
@@ -29649,6 +29703,8 @@
     - formula: C3H6O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:30768
+      - kegg.compound: C00163
       - sbo: SBO:0000247
   - !!omap
     - id: s_4251
@@ -29657,6 +29713,8 @@
     - formula: C3H6O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:30768
+      - kegg.compound: C00163
       - sbo: SBO:0000247
   - !!omap
     - id: s_4252
@@ -29665,6 +29723,8 @@
     - formula: C24H40N7O17P3S
     - charge: -4
     - annotation: !!omap
+      - chebi: CHEBI:15539
+      - kegg.compound: C00100
       - sbo: SBO:0000247
   - !!omap
     - id: s_4253
@@ -29673,6 +29733,7 @@
     - formula: C5H10O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:41330
       - sbo: SBO:0000247
   - !!omap
     - id: s_4254
@@ -29713,6 +29774,7 @@
     - formula: C5H10O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:40116
       - sbo: SBO:0000247
   - !!omap
     - id: s_4259
@@ -29721,6 +29783,7 @@
     - formula: C5H10O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:40116
       - sbo: SBO:0000247
   - !!omap
     - id: s_4260
@@ -29729,6 +29792,8 @@
     - formula: C2H4
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:18153
+      - kegg.compound: C06547
       - sbo: SBO:0000247
   - !!omap
     - id: s_4261
@@ -29737,6 +29802,7 @@
     - formula: C2H6S2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:4608
       - sbo: SBO:0000247
   - !!omap
     - id: s_4262
@@ -29745,6 +29811,7 @@
     - formula: C5H10O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:41330
       - sbo: SBO:0000247
   - !!omap
     - id: s_4263
@@ -29753,6 +29820,7 @@
     - formula: C5H10O2
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:41330
       - sbo: SBO:0000247
 - reactions:
   - !!omap
