@@ -29797,15 +29797,6 @@
       - sbo: SBO:0000247
   - !!omap
     - id: s_4261
-    - name: dimethyl disulfide
-    - compartment: c
-    - formula: C2H6S2
-    - charge: 0
-    - annotation: !!omap
-      - chebi: CHEBI:4608
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_4262
     - name: ethyl propionate
     - compartment: c
     - formula: C5H10O2
@@ -29814,7 +29805,7 @@
       - chebi: CHEBI:41330
       - sbo: SBO:0000247
   - !!omap
-    - id: s_4263
+    - id: s_4262
     - name: ethyl propionate
     - compartment: e
     - formula: C5H10O2
@@ -99787,47 +99778,31 @@
     - confidence_score: 2
   - !!omap
     - id: r_4697
-    - name: thiosulfate-thiol sulfurtransferase
-    - metabolites: !!omap
-      - s_0841: 1
-      - s_1150: -1
-      - s_1469: 1
-      - s_4113: -1
-      - s_4261: 1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: YOR286W
-    - annotation: !!omap
-      - ec-code: 2.8.1.3
-      - sbo: SBO:0000176
-    - confidence_score: 2
-  - !!omap
-    - id: r_4698
     - name: ethyl propionate transport, mitochondrial
     - metabolites: !!omap
       - s_4253: -1
-      - s_4262: 1
+      - s_4261: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 2
   - !!omap
-    - id: r_4699
+    - id: r_4698
     - name: ethyl propionate transport
     - metabolites: !!omap
-      - s_4262: -1
-      - s_4263: 1
+      - s_4261: -1
+      - s_4262: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 2
   - !!omap
-    - id: r_4700
+    - id: r_4699
     - name: ethyl propionate exchange
     - metabolites: !!omap
-      - s_4263: -1
+      - s_4262: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap

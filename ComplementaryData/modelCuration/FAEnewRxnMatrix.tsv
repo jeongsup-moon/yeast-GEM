@@ -184,13 +184,8 @@ r_4696	1	methional	reactant	cytoplasm
 r_4696	1	ethylene	product	cytoplasm
 r_4696	1	methanethiol	product	cytoplasm
 r_4696	2	carbon dioxide	product	cytoplasm
-r_4697	1	methanethiol	reactant	cytoplasm
-r_4697	1	thiosulfate	reactant	cytoplasm
-r_4697	1	sulphite	product	cytoplasm
-r_4697	1	hydrogen sulfide	product	cytoplasm
-r_4697	1	dimethyl disulfide	product	cytoplasm
-r_4698	1	ethyl propionate	reactant	mitochondrion
-r_4698	1	ethyl propionate	product	cytoplasm
-r_4699	1	ethyl propionate	reactant	cytoplasm
-r_4699	1	ethyl propionate	product	extracellular
-r_4700	1	ethyl propionate	reactant	extracellular
+r_4697	1	ethyl propionate	reactant	mitochondrion
+r_4697	1	ethyl propionate	product	cytoplasm
+r_4698	1	ethyl propionate	reactant	cytoplasm
+r_4698	1	ethyl propionate	product	extracellular
+r_4699	1	ethyl propionate	reactant	extracellular
