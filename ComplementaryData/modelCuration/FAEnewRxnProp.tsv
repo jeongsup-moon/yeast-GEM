@@ -67,7 +67,7 @@ r_4693	0	(YGR177C or YOR377W or YGR015C)	alcohol acetyltransferase (propanol)	2.
 r_4694	0		propyl acetate transport			
 r_4695	0		propyl acetate exchange			
 r_4696	0		methanethiol formation			
-r_4697	1	(YOR286W)	thiosulfate—thiol sulfurtransferase	2.8.1.3		
 r_4698	1		ethyl propionate transport, mitochondrial			
 r_4699	0		ethyl propionate transport			
 r_4700	0		ethyl propionate exchange			
+r_4697	1	(YOR286W)	thiosulfate-thiol sulfurtransferase	2.8.1.3		

@@ -99540,7 +99540,7 @@
     - confidence_score: 2
   - !!omap
     - id: r_4697
-    - name: thiosulfate—thiol sulfurtransferase
+    - name: thiosulfate-thiol sulfurtransferase
     - metabolites: !!omap
       - s_0841: 1
       - s_1150: -1
