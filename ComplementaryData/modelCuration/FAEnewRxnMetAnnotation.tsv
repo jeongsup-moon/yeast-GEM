@@ -16,10 +16,10 @@ methionol	C4H10OS	0		CHEBI:49019
 (4-hydroxyphenyl)acetaldehyde	C8H8O2	0		CHEBI:15621
 tyrosol	C8H10O2	0	C06044	CHEBI:1879
 propionate	C3H6O2	0	C00163	CHEBI:30768
-propionyl-CoA	C24H40N7O17P3S	-4	C00100	CHEBI:15539
+propionyl-CoA	C24H36N7O17P3S	-4	C00100	CHEBI:57386
 ethyl propionate	C5H10O2	0		CHEBI:41330
-tyrosyl acetate	C32H45N5O10	0
-methionyl acetate	C7H13NO3S	0
+tyrosyl acetate	C10H12O3	0
+methionyl acetate	C6H12O2S	0
 propyl acetate	C5H10O2	0		CHEBI:40116
 ethylene	C2H4	0	C06547	CHEBI:18153
 dimethyl disulfide	C2H6S2	0		CHEBI:4608

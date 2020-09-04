@@ -5,9 +5,7 @@
 %       Before run the codes below, the file should be manually edited.
 %       COBRA required.
 %       New reaction should be in .tsv format.
-%
-% William T. Scott, Jr. 2020.08.23
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Load model
 cd ..

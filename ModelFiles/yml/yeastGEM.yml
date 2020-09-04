@@ -12388,11 +12388,11 @@
     - id: s_1382
     - name: propionyl-CoA
     - compartment: m
-    - formula: C24H40N7O17P3S
+    - formula: C24H36N7O17P3S
     - charge: -4
     - annotation: !!omap
       - bigg.metabolite: ppcoa
-      - chebi: CHEBI:15539
+      - chebi: CHEBI:57386
       - kegg.compound: C00100
       - metanetx.chemical: MNXM86
       - sbo: SBO:0000247
@@ -29720,10 +29720,10 @@
     - id: s_4252
     - name: propionyl-CoA
     - compartment: p
-    - formula: C24H40N7O17P3S
+    - formula: C24H36N7O17P3S
     - charge: -4
     - annotation: !!omap
-      - chebi: CHEBI:15539
+      - chebi: CHEBI:57386
       - kegg.compound: C00100
       - sbo: SBO:0000247
   - !!omap
@@ -29739,7 +29739,7 @@
     - id: s_4254
     - name: tyrosyl acetate
     - compartment: c
-    - formula: C32H45N5O10
+    - formula: C10H12O3
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -29747,7 +29747,7 @@
     - id: s_4255
     - name: tyrosyl acetate
     - compartment: e
-    - formula: C32H45N5O10
+    - formula: C10H12O3
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -29755,7 +29755,7 @@
     - id: s_4256
     - name: methionyl acetate
     - compartment: c
-    - formula: C7H13NO3S
+    - formula: C6H12O2S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -29763,7 +29763,7 @@
     - id: s_4257
     - name: methionyl acetate
     - compartment: e
-    - formula: C7H13NO3S
+    - formula: C6H12O2S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -99129,7 +99129,7 @@
     - metabolites: !!omap
       - s_0794: -1
       - s_1198: 1
-      - s_1203: 1
+      - s_1203: -1
       - s_4232: -1
       - s_4233: 1
     - lower_bound: 0
@@ -99322,8 +99322,8 @@
     - name: aldehyde dehydrogenase (methionol, NADP)
     - metabolites: !!omap
       - s_0794: -1
-      - s_1203: -1
       - s_1207: 1
+      - s_1212: -1
       - s_4238: -1
       - s_4239: 1
     - lower_bound: 0

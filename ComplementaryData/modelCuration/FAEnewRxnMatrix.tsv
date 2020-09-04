@@ -56,7 +56,7 @@ r_4651	1	carbon dioxide	product	cytoplasm
 r_4651	1	propanal	product	cytoplasm
 r_4652	1	propanal	reactant	cytoplasm
 r_4652	1	H+	reactant	cytoplasm
-r_4652	1	NADH	product	cytoplasm
+r_4652	1	NADH	reactant	cytoplasm
 r_4652	1	propanol	product	cytoplasm
 r_4652	1	NAD	product	cytoplasm
 r_4653	1	propanal	reactant	mitochondrion
@@ -93,7 +93,7 @@ r_4662	1	methionol	product	mitochondrion
 r_4662	1	NAD	product	mitochondrion
 r_4663	1	methional	reactant	cytoplasm
 r_4663	1	H+	reactant	cytoplasm
-r_4663	1	NADH	reactant	cytoplasm
+r_4663	1	NADPH	reactant	cytoplasm
 r_4663	1	methionol	product	cytoplasm
 r_4663	1	NADP(+)	product	cytoplasm
 r_4664	1	methionol	reactant	mitochondrion
