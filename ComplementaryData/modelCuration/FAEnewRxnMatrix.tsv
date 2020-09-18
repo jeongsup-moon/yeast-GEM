@@ -180,10 +180,6 @@ r_4693	1	propyl acetate	product	cytoplasm
 r_4694	1	propyl acetate	reactant	cytoplasm
 r_4694	1	propyl acetate	product	extracellular
 r_4695	1	propyl acetate	reactant	extracellular
-r_4696	1	methional	reactant	cytoplasm
-r_4696	1	ethylene	product	cytoplasm
-r_4696	1	methanethiol	product	cytoplasm
-r_4696	2	carbon dioxide	product	cytoplasm
 r_4697	1	ethyl propionate	reactant	mitochondrion
 r_4697	1	ethyl propionate	product	cytoplasm
 r_4698	1	ethyl propionate	reactant	cytoplasm
