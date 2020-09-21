@@ -13,7 +13,7 @@ r_4631	1	 ethyl butanoate	product	mitochondrion
 r_4631	1	coenzyme A	product	mitochondrion
 r_4632	1	acetyl-CoA	reactant	mitochondrion
 r_4632	1	hexanol	reactant	mitochondrion
-r_4632	1	 hexyl acetate	product	mitochondrion
+r_4632	1	hexyl acetate	product	mitochondrion
 r_4632	1	coenzyme A	product	mitochondrion
 r_4633	1	decanoyl-CoA	reactant	mitochondrion
 r_4633	1	ethanol	reactant	mitochondrion
@@ -56,7 +56,7 @@ r_4651	1	carbon dioxide	product	cytoplasm
 r_4651	1	propanal	product	cytoplasm
 r_4652	1	propanal	reactant	cytoplasm
 r_4652	1	H+	reactant	cytoplasm
-r_4652	1	NADH	product	cytoplasm
+r_4652	1	NADH	reactant	cytoplasm
 r_4652	1	propanol	product	cytoplasm
 r_4652	1	NAD	product	cytoplasm
 r_4653	1	propanal	reactant	mitochondrion
@@ -84,16 +84,16 @@ r_4660	1	methional	product	cytoplasm
 r_4661	1	methional	reactant	cytoplasm
 r_4661	1	H+	reactant	cytoplasm
 r_4661	1	NADH	reactant	cytoplasm
-r_4661	1	 methionol	product	cytoplasm
+r_4661	1	methionol	product	cytoplasm
 r_4661	1	NAD	product	cytoplasm
 r_4662	1	methional	reactant	mitochondrion
 r_4662	1	H+	reactant	mitochondrion
 r_4662	1	NADH	reactant	mitochondrion
-r_4662	1	 methionol	product	mitochondrion
+r_4662	1	methionol	product	mitochondrion
 r_4662	1	NAD	product	mitochondrion
 r_4663	1	methional	reactant	cytoplasm
 r_4663	1	H+	reactant	cytoplasm
-r_4663	1	NADH	reactant	cytoplasm
+r_4663	1	NADPH	reactant	cytoplasm
 r_4663	1	methionol	product	cytoplasm
 r_4663	1	NADP(+)	product	cytoplasm
 r_4664	1	methionol	reactant	mitochondrion
@@ -180,17 +180,8 @@ r_4693	1	propyl acetate	product	cytoplasm
 r_4694	1	propyl acetate	reactant	cytoplasm
 r_4694	1	propyl acetate	product	extracellular
 r_4695	1	propyl acetate	reactant	extracellular
-r_4696	1	methional	reactant	cytoplasm
-r_4696	1	ethylene	product	cytoplasm
-r_4696	1	methanethiol	product	cytoplasm
-r_4696	2	carbon dioxide	product	cytoplasm
-r_4697	1	methanethiol	reactant	cytoplasm
-r_4697	1	thiosulfate	reactant	cytoplasm
-r_4697	1	sulphite	product	cytoplasm
-r_4697	1	hydrogen sulfide	product	cytoplasm
-r_4697	1	dimethyl disulfide	product	cytoplasm
-r_4698	1	ethyl propionate	reactant	mitochondrion
-r_4698	1	ethyl propionate	product	cytoplasm
-r_4699	1	ethyl propionate	reactant	cytoplasm
-r_4699	1	ethyl propionate	product	extracellular
-r_4700	1	ethyl propionate	reactant	extracellular
+r_4697	1	ethyl propionate	reactant	mitochondrion
+r_4697	1	ethyl propionate	product	cytoplasm
+r_4698	1	ethyl propionate	reactant	cytoplasm
+r_4698	1	ethyl propionate	product	extracellular
+r_4699	1	ethyl propionate	reactant	extracellular

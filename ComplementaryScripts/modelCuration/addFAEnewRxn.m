@@ -5,9 +5,7 @@
 %       Before run the codes below, the file should be manually edited.
 %       COBRA required.
 %       New reaction should be in .tsv format.
-%
-% William T. Scott, Jr. 2020.08.23
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Load model
 cd ..
@@ -33,10 +31,6 @@ end
 
 %change compartments
 CONValldata = cat(2,model.compNames,model.comps);
-lbracket    = ' [' ;%  space
-llbracket   = '[';
-rbrackets   = ']';
-space       = ' ';
 [m, n]      = size(CONValldata);
 for i = 1:m
     aa = CONValldata(i,1);
@@ -50,8 +44,8 @@ for i = 1:m
     end
 end
 for i=1:length(matrix.rxnIDs)
-    matrix.metnames(i) = strcat(matrix.metIDs(i),lbracket,matrix.metcompartments(i),rbrackets);
-    matrix.Newcomps(i) = strcat(llbracket,matrix.Newcomps(i),rbrackets);
+    matrix.metnames(i) = strcat(matrix.metIDs(i),' [',matrix.metcompartments(i),']');
+    matrix.Newcomps(i) = strcat('[',matrix.Newcomps(i),']');
 end
 
 %mapping mets to model.metnames, get s_ index for new mets
@@ -75,19 +69,22 @@ newmet_annot = textscan(fid,'%s %s %s %s %s %s %s','Delimiter','\t','HeaderLines
 newmet.metNames    = newmet_annot{1};
 newmet.metFormulas = newmet_annot{2};
 newmet.metCharges  = cellfun(@str2num, newmet_annot{3});
-newmet.metKEGGID   = newmet_annot{5};
-newmet.metChEBIID  = newmet_annot{6};
-newmet.metNotes    = newmet_annot{7};
+newmet.metKEGGID   = newmet_annot{4};
+newmet.metChEBIID  = newmet_annot{5};
+newmet.metNotes    = newmet_annot{6};
 fclose(fid);
 
 for i = 1:length(newmet.metNames)
-    [~,metID] = ismember(newmet.metNames(i),model.metNames);
-    if metID ~= 0
-        model.metFormulas{metID} = newmet.metFormulas{i};
-        model.metCharges(metID)  =  newmet.metCharges(i);
-        model.metKEGGID{metID}   = newmet.metKEGGID{i};
-        model.metChEBIID{metID}  = newmet.metChEBIID{i};
-        model.metNotes{metID}    = ['NOTES: added after new annotation (PR #142); ',newmet.metNotes{i}];
+    mets = strcmp(newmet.metNames(i),matrix.metIDs);
+    for j = 1:length(mets)
+        if mets(j)
+            [~,metID] = ismember(matrix.metnames(j),model.metNames);
+            model.metFormulas{metID} = newmet.metFormulas{i};
+            model.metCharges(metID)  =  newmet.metCharges(i);
+            model.metKEGGID{metID}   = newmet.metKEGGID{i};
+            model.metChEBIID{metID}  = newmet.metChEBIID{i};
+            model.metNotes{metID}    = 'NOTES: added for FA ester pathways (PR #190)';
+        end
     end
 end
 
@@ -124,8 +121,6 @@ for i = 1:length(newrxn.ID)
                         'reversible',newrxn.Rev(i,1),...
                         'geneRule',newrxn.GPR{i},...
                         'checkDuplicate',1);
-%     [EnergyResults,RedoxResults] = CheckEnergyProduction(model,{['r_' newID]},EnergyResults,RedoxResults);
-%     [MassChargeresults] = CheckBalanceforSce(model,{['r_' newID]},MassChargeresults);
     if isempty(rxnIndex)
         rxnIndex = strcmp(model.rxns,['r_' newID]);
     end
@@ -134,7 +129,8 @@ for i = 1:length(newrxn.ID)
     model.rxnECNumbers(rxnIndex)  = newrxn.rxnECNumbers(i);
     model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
     model.rxnConfidenceScores(rxnIndex) = 2;   %reactions added 
-    model.rxnNotes{rxnIndex} = 'NOTES: added after new annotation (PR #142)';
+    model.rxnNotes{rxnIndex} = 'NOTES: added for FA ester pathways (PR #190)';
+    model.subSystems{rxnIndex} = strsplit(newrxn.subSystems{i},';');
 end
 
 
@@ -149,11 +145,6 @@ for i = 1: length(model.genes)
     if sum(geneIndex) == 1 && ~isempty(yeast_gene_annotation{2}{geneIndex})
         model.geneNames{i} = yeast_gene_annotation{2}{geneIndex};
     end
-end
-
-% Add protein name for genes
-for i = 1:length(model.genes)
-    model.proteins{i} = strcat('COBRAProtein',num2str(i));
 end
 
 % Save model:
