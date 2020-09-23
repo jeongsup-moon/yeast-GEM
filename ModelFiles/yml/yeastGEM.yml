@@ -11533,7 +11533,7 @@
     - charge: -4
     - annotation: !!omap
       - bigg.metabolite: occoa
-      - chebi: CHEBI:57386
+      - chebi: CHEBI:15533
       - kegg.compound: C01944
       - metanetx.chemical: MNXM342
       - sbo: SBO:0000247
@@ -12392,7 +12392,7 @@
     - charge: -4
     - annotation: !!omap
       - bigg.metabolite: ppcoa
-      - chebi: CHEBI:57392
+      - chebi: CHEBI:57386
       - kegg.compound: C00100
       - metanetx.chemical: MNXM86
       - sbo: SBO:0000247
@@ -16144,11 +16144,11 @@
     - id: s_2884
     - name: butanoyl-CoA
     - compartment: p
-    - formula: C25H42N7O17P3S
-    - charge: 0
+    - formula: C25H38N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - bigg.metabolite: btcoa
-      - chebi: CHEBI:15517
+      - chebi: CHEBI:57371
       - kegg.compound: C00136
       - metanetx.chemical: MNXM233
       - sbo: SBO:0000247
@@ -25100,28 +25100,6 @@
       - metanetx.chemical: MNXM149
       - sbo: SBO:0000247
   - !!omap
-    - id: s_3824
-    - name: Ferricytochrome b5
-    - compartment: er
-    - formula: Fe
-    - charge: 3
-    - annotation: !!omap
-      - bigg.metabolite: ficytb5
-      - chebi: CHEBI:18097
-      - kegg.compound: C00996
-      - metanetx.chemical: MNXM1083
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_3825
-    - name: Ferrocytochrome b5
-    - compartment: er
-    - formula: Fe
-    - charge: 2
-    - annotation: !!omap
-      - bigg.metabolite: focytb5
-      - kegg.compound: C00999
-      - sbo: SBO:0000247
-  - !!omap
     - id: s_3826
     - name: Ferricytochrome b5
     - compartment: m
@@ -25603,27 +25581,6 @@
       - chebi: CHEBI:16031
       - kegg.compound: C02693
       - metanetx.chemical: MNXM2239
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_3869
-    - name: Monocarboxylic acid amide
-    - compartment: c
-    - formula: CH2NOR
-    - charge: 0
-    - annotation: !!omap
-      - kegg.compound: C03620
-      - metanetx.chemical: MNXM4671
-      - sbo: SBO:0000247
-  - !!omap
-    - id: s_3870
-    - name: Carboxylate
-    - compartment: c
-    - formula: CO2R
-    - charge: -1
-    - annotation: !!omap
-      - chebi: CHEBI:35757
-      - kegg.compound: C00060
-      - metanetx.chemical: MNXM72
       - sbo: SBO:0000247
   - !!omap
     - id: s_3871
@@ -29363,6 +29320,489 @@
       - kegg.compound: C04039
       - metanetx.chemical: MNXM734
       - sbo: SBO:0000247
+  - !!omap
+    - id: s_4209
+    - name: Ferrocytochrome b5
+    - compartment: erm
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4210
+    - name: Ferricytochrome b5
+    - compartment: erm
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4211
+    - name: hexanoyl-CoA
+    - compartment: m
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4212
+    - name: ethyl hexanoate
+    - compartment: m
+    - formula: C8H16O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:86055
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4213
+    - name: octanoyl-CoA
+    - compartment: m
+    - formula: C29H46N7O17P3S
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:15533
+      - kegg.compound: C01944
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4214
+    - name: ethyl octanoate
+    - compartment: m
+    - formula: C10H20O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87426
+      - kegg.compound: C12292
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4215
+    - name: butanoyl-CoA
+    - compartment: m
+    - formula: C25H38N7O17P3S
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:57371
+      - kegg.compound: C00136
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4216
+    - name: ethyl butanoate
+    - compartment: m
+    - formula: C6H12O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:88764
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4217
+    - name: hexanol
+    - compartment: m
+    - formula: C6H14O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87393
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4218
+    - name: hexyl acetate
+    - compartment: m
+    - formula: C8H16O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87510
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4219
+    - name: decanoyl-CoA
+    - compartment: m
+    - formula: C31H50N7O17P3S
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:61430
+      - kegg.compound: C05274
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4220
+    - name: ethyl decanoate
+    - compartment: m
+    - formula: C12H24O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87430
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4221
+    - name: ethyl hexanoate
+    - compartment: c
+    - formula: C8H16O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:86055
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4222
+    - name: ethyl octanoate
+    - compartment: c
+    - formula: C10H20O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87426
+      - kegg.compound: C12292
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4223
+    - name: ethyl butanoate
+    - compartment: c
+    - formula: C6H12O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:88764
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4224
+    - name: hexyl acetate
+    - compartment: c
+    - formula: C8H16O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87510
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4225
+    - name: ethyl decanoate
+    - compartment: c
+    - formula: C12H24O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87430
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4226
+    - name: ethyl hexanoate
+    - compartment: e
+    - formula: C8H16O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:86055
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4227
+    - name: ethyl octanoate
+    - compartment: e
+    - formula: C10H20O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87426
+      - kegg.compound: C12292
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4228
+    - name: ethyl butanoate
+    - compartment: e
+    - formula: C6H12O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:88764
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4229
+    - name: hexyl acetate
+    - compartment: e
+    - formula: C8H16O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87510
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4230
+    - name: ethyl decanoate
+    - compartment: e
+    - formula: C12H24O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:87430
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4231
+    - name: ethyl acetate
+    - compartment: m
+    - formula: C4H8O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:27750
+      - kegg.compound: C00849
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4232
+    - name: propanal
+    - compartment: c
+    - formula: C3H6O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17153
+      - kegg.compound: C00479
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4233
+    - name: propanol
+    - compartment: c
+    - formula: C3H8O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:28831
+      - kegg.compound: C05979
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4234
+    - name: propanal
+    - compartment: m
+    - formula: C3H6O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17153
+      - kegg.compound: C00479
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4235
+    - name: propanol
+    - compartment: m
+    - formula: C3H8O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:28831
+      - kegg.compound: C05979
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4236
+    - name: propanal
+    - compartment: e
+    - formula: C3H6O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17153
+      - kegg.compound: C00479
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4237
+    - name: propanol
+    - compartment: e
+    - formula: C3H8O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:28831
+      - kegg.compound: C05979
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4238
+    - name: methional
+    - compartment: c
+    - formula: C4H8OS
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:49017
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4239
+    - name: methionol
+    - compartment: c
+    - formula: C4H10OS
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:49019
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4240
+    - name: methional
+    - compartment: m
+    - formula: C4H8OS
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:49017
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4241
+    - name: methionol
+    - compartment: m
+    - formula: C4H10OS
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:49019
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4242
+    - name: methional
+    - compartment: e
+    - formula: C4H8OS
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:49017
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4243
+    - name: methionol
+    - compartment: e
+    - formula: C4H10OS
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:49019
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4244
+    - name: (4-hydroxyphenyl)acetaldehyde
+    - compartment: c
+    - formula: C8H8O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:15621
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4245
+    - name: tyrosol
+    - compartment: c
+    - formula: C8H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:1879
+      - kegg.compound: C06044
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4246
+    - name: (4-hydroxyphenyl)acetaldehyde
+    - compartment: m
+    - formula: C8H8O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:15621
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4247
+    - name: tyrosol
+    - compartment: m
+    - formula: C8H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:1879
+      - kegg.compound: C06044
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4248
+    - name: (4-hydroxyphenyl)acetaldehyde
+    - compartment: e
+    - formula: C8H8O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:15621
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4249
+    - name: tyrosol
+    - compartment: e
+    - formula: C8H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:1879
+      - kegg.compound: C06044
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4250
+    - name: propionate
+    - compartment: c
+    - formula: C3H6O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:30768
+      - kegg.compound: C00163
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4251
+    - name: propionate
+    - compartment: p
+    - formula: C3H6O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:30768
+      - kegg.compound: C00163
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4252
+    - name: propionyl-CoA
+    - compartment: p
+    - formula: C24H36N7O17P3S
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:57386
+      - kegg.compound: C00100
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4253
+    - name: ethyl propionate
+    - compartment: m
+    - formula: C5H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:41330
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4254
+    - name: tyrosyl acetate
+    - compartment: c
+    - formula: C10H12O3
+    - charge: 0
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4255
+    - name: tyrosyl acetate
+    - compartment: e
+    - formula: C10H12O3
+    - charge: 0
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4256
+    - name: methionyl acetate
+    - compartment: c
+    - formula: C6H12O2S
+    - charge: 0
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4257
+    - name: methionyl acetate
+    - compartment: e
+    - formula: C6H12O2S
+    - charge: 0
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4258
+    - name: propyl acetate
+    - compartment: c
+    - formula: C5H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:40116
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4259
+    - name: propyl acetate
+    - compartment: e
+    - formula: C5H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:40116
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4261
+    - name: ethyl propionate
+    - compartment: c
+    - formula: C5H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:41330
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4262
+    - name: ethyl propionate
+    - compartment: e
+    - formula: C5H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:41330
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: r_0001
@@ -29517,7 +29957,7 @@
       - s_0993: 1
       - s_1200: -1
       - s_1205: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YHR037W
     - subsystem:
@@ -30623,7 +31063,7 @@
       - s_0803: -1
       - s_1158: 1
       - s_1322: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR410W or YOR163W
     - annotation: !!omap
@@ -31026,7 +31466,7 @@
       - s_0803: -1
       - s_1158: 1
       - s_1322: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR410W or YOR163W
     - annotation: !!omap
@@ -31824,7 +32264,7 @@
       - s_2821: -1
       - s_3441: -1
       - s_3442: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR048W or YNR019W
     - subsystem: sce00100  Steroid biosynthesis
@@ -31859,7 +32299,7 @@
       - s_2821: -1
       - s_3438: -1
       - s_3439: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YCR048W
     - subsystem: sce00100  Steroid biosynthesis
@@ -34403,8 +34843,8 @@
       - s_0794: -5
       - s_0803: 4
       - s_1275: -3
-      - s_3824: 6
-      - s_3825: -6
+      - s_4209: -6
+      - s_4210: 6
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGR060W
@@ -34490,7 +34930,7 @@
       - s_0633: 1
       - s_1230: 1
       - s_1231: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDL090C and YKL019W
     - subsystem:
@@ -35876,7 +36316,7 @@
       - s_0794: 1
       - s_0837: 1
       - s_1275: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YML086C
     - annotation: !!omap
@@ -37952,7 +38392,7 @@
       - s_0754: 1
       - s_0803: 2
       - s_0837: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YNL229C or YBR244W or YCL035C or YDR513W or YIR037W or YKL026C
     - subsystem: sce00480  Glutathione metabolism
@@ -37973,7 +38413,7 @@
       - s_0756: 1
       - s_0807: 2
       - s_0838: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YPL059W
     - annotation: !!omap
@@ -43144,7 +43584,7 @@
       - s_0529: 1
       - s_0794: 1
       - s_1190: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YFL017C
     - subsystem: sce00520  Amino sugar and nucleotide sugar metabolism
@@ -45877,7 +46317,7 @@
       - s_1275: -1
       - s_1393: 1
       - s_1398: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YBR035C
     - subsystem: sce00750  Vitamin B6 metabolism
@@ -46580,7 +47020,7 @@
       - s_0794: 1
       - s_0803: -1
       - s_1421: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJL068C
     - subsystem: sce01200  Carbon metabolism
@@ -58407,7 +58847,7 @@
       - s_2806: -1
       - s_2808: 1
       - s_2814: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJL097W
     - subsystem:
@@ -91347,12 +91787,12 @@
     - id: r_4153
     - name: (R)-Acetoin:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0020: -1
-      - s_0794: 1
-      - s_1198: -1
-      - s_1203: 1
-      - s_3750: 1
-    - lower_bound: -1000
+      - s_0020: 1
+      - s_0794: -1
+      - s_1198: 1
+      - s_1203: -1
+      - s_3750: -1
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YAL061W
     - annotation: !!omap
@@ -91952,7 +92392,7 @@
       - s_0838: 1
       - s_1278: 1
       - s_3813: -2
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YHR008C
     - annotation: !!omap
@@ -92044,11 +92484,10 @@
     - id: r_4196
     - name: NADH:ferricytochrome-b5 oxidoreductase
     - metabolites: !!omap
-      - s_0795: 1
-      - s_1199: 1
-      - s_1204: -1
-      - s_3824: -2
-      - s_3825: 2
+      - s_2783: 1
+      - s_2818: -1
+      - s_4209: 2
+      - s_4210: -2
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YIL043C or YML125C
@@ -92521,7 +92960,7 @@
       - s_0807: -1
       - s_3863: -1
       - s_3864: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDR036C
     - annotation: !!omap
@@ -92611,7 +93050,7 @@
       - s_0803: -1
       - s_0853: 1
       - s_3868: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDR242W
     - annotation: !!omap
@@ -92619,23 +93058,6 @@
       - bigg.reaction: AMID3
       - kegg.reaction: R03096
       - metanetx.reaction: MNXR95814
-      - sbo: SBO:0000176
-    - confidence_score: 2
-  - !!omap
-    - id: r_4229
-    - name: Monocarboxylic acid amide amidohydrolase
-    - metabolites: !!omap
-      - s_0419: 1
-      - s_0803: -1
-      - s_3869: -1
-      - s_3870: 1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: YDR242W
-    - annotation: !!omap
-      - ec-code: 3.5.1.4
-      - kegg.reaction: R03909
-      - metanetx.reaction: MNXR108518
       - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
@@ -92948,7 +93370,7 @@
       - s_0419: 1
       - s_1399: 1
       - s_3904: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL196W
     - annotation: !!omap
@@ -93189,12 +93611,12 @@
     - id: r_4264
     - name: succinate:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0727: 1
-      - s_0799: 1
-      - s_1200: -1
-      - s_1205: 1
-      - s_1460: -1
-    - lower_bound: -1000
+      - s_0727: -1
+      - s_0799: -1
+      - s_1200: 1
+      - s_1205: -1
+      - s_1460: 1
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJR051W
     - annotation: !!omap
@@ -93300,7 +93722,7 @@
       - s_0837: 1
       - s_1275: 1
       - s_3931: -2
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YJR104C
     - annotation: !!omap
@@ -93379,7 +93801,7 @@
       - s_0803: -1
       - s_1241: -1
       - s_1458: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLL058W or YML082W
     - annotation: !!omap
@@ -93471,7 +93893,7 @@
       - s_0809: -1
       - s_3942: -1
       - s_3943: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YLR151C
     - annotation: !!omap
@@ -93754,7 +94176,7 @@
       - s_1203: 1
       - s_3961: -1
       - s_3962: 1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
@@ -98399,6 +98821,970 @@
       - metanetx.reaction: MNXR105021
       - sbo: SBO:0000655
     - confidence_score: 0
+  - !!omap
+    - id: r_4629
+    - name: alcohol acyltransferase (hexanoyl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_4211: -1
+      - s_4212: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4630
+    - name: alcohol acyltransferase (octanoyl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_4213: -1
+      - s_4214: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4631
+    - name: alcohol acyltransferase (butyryl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_4215: -1
+      - s_4216: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4632
+    - name: alcohol acetyltransferase (hexanol)
+    - metabolites: !!omap
+      - s_0376: -1
+      - s_0532: 1
+      - s_4217: -1
+      - s_4218: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR177C or YOR377W or YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4633
+    - name: alcohol acyltransferase (decanoyl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_4219: -1
+      - s_4220: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - kegg.reaction: R00627
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4634
+    - name: ethyl hexanoate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4212: -1
+      - s_4221: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4635
+    - name: ethyl octanoate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4214: -1
+      - s_4222: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4636
+    - name: ethyl butanoate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4216: -1
+      - s_4223: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4637
+    - name: hexyl acetate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4218: -1
+      - s_4224: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4638
+    - name: ethyl decanoate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4220: -1
+      - s_4225: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4639
+    - name: ethyl hexanoate transport
+    - metabolites: !!omap
+      - s_4221: -1
+      - s_4226: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4640
+    - name: ethyl octanoate transport
+    - metabolites: !!omap
+      - s_4222: -1
+      - s_4227: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4641
+    - name: ethyl butanoate transport
+    - metabolites: !!omap
+      - s_4223: -1
+      - s_4228: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4642
+    - name: hexyl acetate transport
+    - metabolites: !!omap
+      - s_4224: -1
+      - s_4229: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4643
+    - name: ethyl decanoate transport
+    - metabolites: !!omap
+      - s_4225: -1
+      - s_4230: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4644
+    - name: ethyl hexanoate exchange
+    - metabolites: !!omap
+      - s_4226: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4645
+    - name: ethyl octanoate exchange
+    - metabolites: !!omap
+      - s_4227: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4646
+    - name: ethyl butanoate exchange
+    - metabolites: !!omap
+      - s_4228: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4647
+    - name: hexyl acetate exchange
+    - metabolites: !!omap
+      - s_4229: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4648
+    - name: ethyl decanoate exchange
+    - metabolites: !!omap
+      - s_4230: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4649
+    - name: mitochondrial ethanol O-acetyltransferase
+    - metabolites: !!omap
+      - s_0376: -1
+      - s_0532: 1
+      - s_0682: -1
+      - s_4231: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.268
+      - kegg.reaction: R11957
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4650
+    - name: ethyl acetate transport, mitochondrial
+    - metabolites: !!omap
+      - s_0685: 1
+      - s_4231: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4651
+    - name: pyruvate decarboxylase (aldedyde-forming)
+    - metabolites: !!omap
+      - s_0178: -1
+      - s_0456: 1
+      - s_0794: -1
+      - s_4232: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR087C or YLR044C or YLR134W
+    - annotation: !!omap
+      - ec-code: 4.1.1.1
+      - kegg.reaction: R00636
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4652
+    - name: aldehyde dehydrogenase (1-propanol, NAD)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1198: 1
+      - s_1203: -1
+      - s_4232: -1
+      - s_4233: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR145W or YDL168W or YOL086C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.1
+        - 1.1.1.284
+      - kegg.reaction: R00754
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4653
+    - name: aldehyde dehydrogenase (1-propanol, NAD)
+    - metabolites: !!omap
+      - s_0799: -1
+      - s_1200: 1
+      - s_1205: -1
+      - s_4234: -1
+      - s_4235: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGL256W or YMR083W
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code: 1.1.1.1
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4654
+    - name: aldehyde dehydrogenase (1-propanol, NADP)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4232: -1
+      - s_4233: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YCR105W or YDR368W or YMR318C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.2
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4655
+    - name: 1-propyl alcohol transport, mitochondrial
+    - metabolites: !!omap
+      - s_4233: 1
+      - s_4235: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4656
+    - name: propanal transport, cytosol
+    - metabolites: !!omap
+      - s_4232: -1
+      - s_4236: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4657
+    - name: 1-propyl alcohol transport, cytosol
+    - metabolites: !!omap
+      - s_4233: -1
+      - s_4237: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4658
+    - name: propanal exchange
+    - metabolites: !!omap
+      - s_4236: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4659
+    - name: propanol exchange
+    - metabolites: !!omap
+      - s_4237: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4660
+    - name: 2-oxo acid decarboxylase
+    - metabolites: !!omap
+      - s_0294: -1
+      - s_0456: 1
+      - s_0794: -1
+      - s_4238: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YHR137W
+    - annotation: !!omap
+      - ec-code: 4.1.1.1
+      - kegg.reaction: R00636
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4661
+    - name: aldehyde dehydrogenase (methionol, NAD)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1198: 1
+      - s_1203: -1
+      - s_4238: -1
+      - s_4239: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR145W or YDL168W or YOL086C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.1
+        - 1.1.1.284
+      - kegg.reaction: R00754
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4662
+    - name: aldehyde dehydrogenase (methionol, NAD)
+    - metabolites: !!omap
+      - s_0799: -1
+      - s_1200: 1
+      - s_1205: -1
+      - s_4240: -1
+      - s_4241: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGL256W or YMR083W
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code: 1.1.1.1
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4663
+    - name: aldehyde dehydrogenase (methionol, NADP)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4238: -1
+      - s_4239: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YCR105W or YDR368W or YMR318C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.2
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4664
+    - name: methionol transport, mitochondrial
+    - metabolites: !!omap
+      - s_4239: 1
+      - s_4241: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4665
+    - name: methional transport, cytosol
+    - metabolites: !!omap
+      - s_4238: -1
+      - s_4242: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4666
+    - name: methionol transport, cytosol
+    - metabolites: !!omap
+      - s_4239: -1
+      - s_4243: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4667
+    - name: methional exchange
+    - metabolites: !!omap
+      - s_4242: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4668
+    - name: methionol exchange
+    - metabolites: !!omap
+      - s_4243: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4669
+    - name: pyruvate decarboxylase (hydroxy-phenyl)
+    - metabolites: !!omap
+      - s_0204: -1
+      - s_0456: 1
+      - s_0794: -1
+      - s_4244: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR087C or YLR044C or YLR134W
+    - annotation: !!omap
+      - ec-code: 4.1.1.1
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4670
+    - name: aldehyde dehydrogenase (tyrosol, NAD)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1198: 1
+      - s_1203: -1
+      - s_4244: -1
+      - s_4245: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR145W or YDL168W or YOL086C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.1
+        - 1.1.1.284
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4671
+    - name: aldehyde dehydrogenase (tyrosol, NAD)
+    - metabolites: !!omap
+      - s_0799: -1
+      - s_1200: 1
+      - s_1205: -1
+      - s_4246: -1
+      - s_4247: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGL256W or YMR083W
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code: 1.1.1.1
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4672
+    - name: aldehyde dehydrogenase (tyrosol, NADP)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4244: -1
+      - s_4245: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YCR105W or YDR368W or YMR318C
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.2
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4673
+    - name: tyrosol transport, mitochondrial
+    - metabolites: !!omap
+      - s_4245: 1
+      - s_4247: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4674
+    - name: (4-hydroxyphenyl)acetaldehyde transport, cytosol
+    - metabolites: !!omap
+      - s_4244: -1
+      - s_4248: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4675
+    - name: tyrosol transport, cytosol
+    - metabolites: !!omap
+      - s_4245: -1
+      - s_4249: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4676
+    - name: (4-hydroxyphenyl)acetaldehyde exchange
+    - metabolites: !!omap
+      - s_4248: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4677
+    - name: tyrosol exchange
+    - metabolites: !!omap
+      - s_4249: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4678
+    - name: aldehyde dehydrogenase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0803: -1
+      - s_1198: -1
+      - s_1203: 1
+      - s_4232: -1
+      - s_4250: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YMR170C or YMR169C or YOR374W
+    - subsystem:
+        - Gluconeogenesis
+        - sce00010  Glycolysis
+        - sce00071  Fatty acid degradation
+        - sce00350  Tyrosine metabolism
+        - sce01110  Biosynthesis of secondary metabolites
+        - sce01130  Biosynthesis of antibiotics
+    - annotation: !!omap
+      - ec-code: 1.2.1.5
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4679
+    - name: short-chain-fatty-acid-CoA ligase (propionate)
+    - metabolites: !!omap
+      - s_0426: 1
+      - s_0439: -1
+      - s_0534: -1
+      - s_0638: 1
+      - s_4251: -1
+      - s_4252: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YOR317W or YER015W or YIL009W or YMR246W
+    - subsystem:
+        - sce00061  Fatty acid biosynthesis
+        - sce00071  Fatty acid degradation
+        - sce01212  Fatty acid metabolism
+        - sce04146  Peroxisome
+    - annotation: !!omap
+      - ec-code: 6.2.1.3
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4680
+    - name: alcohol acyltransferase (propionyl-CoA)
+    - metabolites: !!omap
+      - s_0532: 1
+      - s_0682: -1
+      - s_1382: -1
+      - s_4253: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YBR177C or YPL095C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4681
+    - name: propionyl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_1382: 1
+      - s_4252: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4682
+    - name: butyryl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_2884: -1
+      - s_4215: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4683
+    - name: hexanoyl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_2885: -1
+      - s_4211: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4684
+    - name: octanoyl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_1258: -1
+      - s_4213: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4685
+    - name: decanoyl-CoA transport, mitochondrial
+    - metabolites: !!omap
+      - s_0605: -1
+      - s_4219: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4686
+    - name: propionate transport, cytosol
+    - metabolites: !!omap
+      - s_4250: 1
+      - s_4251: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4687
+    - name: alcohol acetyltransferase (tyrosol)
+    - metabolites: !!omap
+      - s_0373: -1
+      - s_0529: 1
+      - s_4245: -1
+      - s_4254: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR177C or YOR377W or YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4688
+    - name: tyrosyl acetate transport
+    - metabolites: !!omap
+      - s_4254: -1
+      - s_4255: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4689
+    - name: tyrosyl acetate exchange
+    - metabolites: !!omap
+      - s_4255: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4690
+    - name: alcohol acetyltransferase (methionol)
+    - metabolites: !!omap
+      - s_0373: -1
+      - s_0529: 1
+      - s_4239: -1
+      - s_4256: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR177C or YOR377W or YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4691
+    - name: methionyl acetate transport
+    - metabolites: !!omap
+      - s_4256: -1
+      - s_4257: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4692
+    - name: methionyl acetate exchange
+    - metabolites: !!omap
+      - s_4257: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4693
+    - name: alcohol acetyltransferase (propanol)
+    - metabolites: !!omap
+      - s_0373: -1
+      - s_0529: 1
+      - s_4233: -1
+      - s_4258: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR177C or YOR377W or YGR015C
+    - annotation: !!omap
+      - ec-code: 2.3.1.84
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4694
+    - name: propyl acetate transport
+    - metabolites: !!omap
+      - s_4258: -1
+      - s_4259: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4695
+    - name: propyl acetate exchange
+    - metabolites: !!omap
+      - s_4259: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
+  - !!omap
+    - id: r_4697
+    - name: ethyl propionate transport, mitochondrial
+    - metabolites: !!omap
+      - s_4253: -1
+      - s_4261: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4698
+    - name: ethyl propionate transport
+    - metabolites: !!omap
+      - s_4261: -1
+      - s_4262: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4699
+    - name: ethyl propionate exchange
+    - metabolites: !!omap
+      - s_4262: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+    - confidence_score: 2
 - genes:
   - !!omap
     - id: Q0045
@@ -98652,6 +100038,9 @@
   - !!omap
     - id: YBR176W
     - name: ECM31
+  - !!omap
+    - id: YBR177C
+    - name: EHT1
   - !!omap
     - id: YBR180W
     - name: DTR1
@@ -99681,6 +101070,9 @@
   - !!omap
     - id: YGR012W
     - name: MCY1
+  - !!omap
+    - id: YGR015C
+    - name: EAT1
   - !!omap
     - id: YGR019W
     - name: UGA1
@@ -101637,6 +103029,9 @@
   - !!omap
     - id: YPL092W
     - name: SSU1
+  - !!omap
+    - id: YPL095C
+    - name: EEB1
   - !!omap
     - id: YPL096C-A
     - name: ERI1
