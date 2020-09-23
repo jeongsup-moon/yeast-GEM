@@ -1,5 +1,13 @@
 # History
 
+### yeast 8.4.2:
+* Features:
+  * `saveYeastModel.m` now checks if the model can grow and, based on the `allowNoGrowth` flag, returns either warnings or errors if not (PR #244).
+  * Added several fatty acid ester producing reactions to the model, for improved simulation of alcoholic fermentation conditions (PRs #190 and #248).
+* Fixes:
+  * Closes #242: Fixed a bug that prevented the model from growing (PR #243).
+  * Corrected directionality of 23 reactions and removed a generic reaction (PR #228).
+
 ### yeast 8.4.1:
 * Features:
   * Switched to `pip-tools` for managing python dependencies, distinguishing between user requirements `/requirements/requirements.txt` and developer requirements `/requirements/dev-requirements.txt` (PR #235).
