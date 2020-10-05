@@ -30833,8 +30833,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGR087C or YLR044C or YLR134W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
@@ -30882,8 +30881,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YDL080C or YGR087C or YLR044C or YLR134W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
@@ -31043,8 +31041,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YDL080C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
@@ -31528,8 +31525,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGR087C or YLR044C or YLR134W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
@@ -31922,8 +31918,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL054C or YLR153C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00620  Pyruvate metabolism
         - sce00640  Propanoate metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -31951,8 +31946,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL054C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00620  Pyruvate metabolism
         - sce00640  Propanoate metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -31979,8 +31973,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YLR153C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00620  Pyruvate metabolism
         - sce00640  Propanoate metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -32938,8 +32931,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YMR303C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -32988,8 +32980,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33015,8 +33006,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33045,8 +33035,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33071,8 +33060,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00040  Pentose and glucuronate interconversions
         - sce00561  Glycerolipid metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33101,8 +33089,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33132,8 +33119,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33159,8 +33145,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YMR318C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00040  Pentose and glucuronate interconversions
         - sce00561  Glycerolipid metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33188,8 +33173,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YMR110C or YMR169C or YMR170C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00340  Histidine metabolism
         - sce00350  Tyrosine metabolism
         - sce00360  Phenylalanine metabolism
@@ -33217,8 +33201,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YPL061W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00280  Valine, leucine and isoleucine degradation
         - sce00310  Lysine degradation
@@ -33252,8 +33235,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YOR374W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00280  Valine, leucine and isoleucine degradation
         - sce00310  Lysine degradation
@@ -33287,8 +33269,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YER073W or YOR374W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00280  Valine, leucine and isoleucine degradation
         - sce00310  Lysine degradation
@@ -33322,8 +33303,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YOR374W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00280  Valine, leucine and isoleucine degradation
         - sce00310  Lysine degradation
@@ -33356,8 +33336,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YPL061W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00280  Valine, leucine and isoleucine degradation
         - sce00310  Lysine degradation
@@ -33389,8 +33368,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YER073W or YOR374W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00280  Valine, leucine and isoleucine degradation
         - sce00310  Lysine degradation
@@ -33422,8 +33400,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33453,8 +33430,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33480,8 +33456,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YMR318C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00040  Pentose and glucuronate interconversions
         - sce00561  Glycerolipid metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33509,8 +33484,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33539,8 +33513,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33565,8 +33538,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YMR318C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00040  Pentose and glucuronate interconversions
         - sce00561  Glycerolipid metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33594,8 +33566,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YMR169C or YMR170C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00340  Histidine metabolism
         - sce00350  Tyrosine metabolism
         - sce00360  Phenylalanine metabolism
@@ -33622,8 +33593,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33653,8 +33623,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -33916,8 +33885,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YOR374W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00280  Valine, leucine and isoleucine degradation
         - sce00310  Lysine degradation
@@ -36376,8 +36344,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YKL060C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00030  Pentose phosphate pathway
         - sce00051  Fructose and mannose metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -36949,8 +36916,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YKL152C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00260  Glycine, serine and threonine metabolism
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
@@ -37151,8 +37117,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YPL281C or YGR254W or YHR174W or YMR323W or YOR393W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
         - sce01200  Carbon metabolism
@@ -37534,8 +37499,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YDL168W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -37658,8 +37622,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YLR377C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00030  Pentose phosphate pathway
         - sce00051  Fructose and mannose metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -37683,8 +37646,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YKL060C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00030  Pentose phosphate pathway
         - sce00051  Fructose and mannose metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -38034,8 +37996,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR196C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00030  Pentose phosphate pathway
         - sce00500  Starch and sucrose metabolism
         - sce00520  Amino sugar and nucleotide sugar metabolism
@@ -38461,8 +38422,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGR192C or YJL052W or YJR009C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
         - sce01200  Carbon metabolism
@@ -38681,8 +38641,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL044C and YDR019C and YFL018C and YMR189W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -38772,8 +38731,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL044C and YDR019C and YFL018C and YMR189W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -38806,8 +38764,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: (YAL044C and YDR019C and YFL018C and YMR189W) or (YDR148C and YFL018C and YIL125W)
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -38844,8 +38801,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL044C and YDR019C and YFL018C and YMR189W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -38880,8 +38836,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL044C and YDR019C and YFL018C and YMR189W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -38915,8 +38870,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL044C and YDR019C and YFL018C and YMR189W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -38950,8 +38904,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL044C and YDR019C and YFL018C and YMR189W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -39362,8 +39315,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YLR446W or YFR053C or YGL253W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00051  Fructose and mannose metabolism
         - sce00052  Galactose metabolism
         - sce00500  Starch and sucrose metabolism
@@ -39391,8 +39343,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YLR446W or YCL040W or YFR053C or YGL253W or YDR516C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00051  Fructose and mannose metabolism
         - sce00052  Galactose metabolism
         - sce00500  Starch and sucrose metabolism
@@ -39423,8 +39374,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YLR446W or YFR053C or YGL253W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00051  Fructose and mannose metabolism
         - sce00052  Galactose metabolism
         - sce00500  Starch and sucrose metabolism
@@ -40168,8 +40118,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGR087C or YLR044C or YLR134W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
@@ -44783,8 +44732,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YDR148C and YFL018C and YIL125W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -44820,8 +44768,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YDR148C and YFL018C and YIL125W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -45227,8 +45174,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YKR097W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00620  Pyruvate metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -45276,8 +45222,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YMR205C or (YGR240C and YMR205C)
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00030  Pentose phosphate pathway
         - sce00051  Fructose and mannose metabolism
         - sce00052  Galactose metabolism
@@ -45307,8 +45252,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YMR205C or (YGR240C and YMR205C)
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00030  Pentose phosphate pathway
         - sce00051  Fructose and mannose metabolism
         - sce00052  Galactose metabolism
@@ -45334,8 +45278,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YMR105C or YKL127W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00030  Pentose phosphate pathway
         - sce00052  Galactose metabolism
         - sce00230  Purine metabolism
@@ -45438,8 +45381,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YCR012W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
         - sce01200  Carbon metabolism
@@ -45462,8 +45404,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YOR283W or YKL152C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00260  Glycine, serine and threonine metabolism
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
@@ -45593,8 +45534,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YKL127W or YMR105C or YMR278W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00030  Pentose phosphate pathway
         - sce00052  Galactose metabolism
         - sce00230  Purine metabolism
@@ -46409,8 +46349,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGR087C or YLR044C or YLR134W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
@@ -46437,8 +46376,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGR087C or YLR044C or YLR134W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
@@ -46466,8 +46404,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR221C and YER178W and YFL018C and YGR193C and YNL071W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -46501,8 +46438,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL038W or YOR347C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00230  Purine metabolism
         - sce00620  Pyruvate metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -47098,8 +47034,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YKL060C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00030  Pentose phosphate pathway
         - sce00051  Fructose and mannose metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -47799,8 +47734,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YAL044C and YDR019C and YFL018C and YMR189W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00020  Citrate cycle (TCA cycle)
         - sce00260  Glycine, serine and threonine metabolism
         - sce00280  Valine, leucine and isoleucine degradation
@@ -48267,8 +48201,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YDR050C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00051  Fructose and mannose metabolism
         - sce00562  Inositol phosphate metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -48547,8 +48480,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR019C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00052  Galactose metabolism
         - sce00520  Amino sugar and nucleotide sugar metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -57841,8 +57773,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YOL086C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -57869,8 +57800,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YMR110C or YMR170C or YER073W or YOR374W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00340  Histidine metabolism
         - sce00350  Tyrosine metabolism
         - sce00360  Phenylalanine metabolism
@@ -57993,8 +57923,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YKR043C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00260  Glycine, serine and threonine metabolism
         - sce01110  Biosynthesis of secondary metabolites
         - sce01130  Biosynthesis of antibiotics
@@ -99117,8 +99046,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -99144,8 +99072,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -99167,8 +99094,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -99261,8 +99187,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -99288,8 +99213,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -99311,8 +99235,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -99404,8 +99327,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBR145W or YDL168W or YOL086C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -99430,8 +99352,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YGL256W or YMR083W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -99453,8 +99374,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YCR105W or YDR368W or YMR318C
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -99532,8 +99452,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YMR170C or YMR169C or YOR374W
     - subsystem:
-        - Gluconeogenesis
-        - sce00010  Glycolysis
+        - sce00010  Glycolysis / Gluconeogenesis
         - sce00071  Fatty acid degradation
         - sce00350  Tyrosine metabolism
         - sce01110  Biosynthesis of secondary metabolites
