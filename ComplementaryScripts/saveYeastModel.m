@@ -60,7 +60,8 @@ checkGrowth(model,'anaerobic',allowNoGrowth)
 copyfile('tempModel.xml','../ModelFiles/xml/yeastGEM.xml')
 delete('tempModel.xml');
 writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
-exportForGit(model,'yeastGEM','..',{'yml'});
+exportForGit(model,'yeastGEM','../ModelFiles',{'yml'},false,false);     % temporal
+movefile ../ModelFiles/yeastGEM.yml ../ModelFiles/yml/                  % temporal
 
 %Detect boundary metabolites and save them in a .txt file:
 fid = fopen('../ModelFiles/boundaryMets.txt','wt');
