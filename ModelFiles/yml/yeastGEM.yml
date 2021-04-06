@@ -11207,7 +11207,7 @@
       - sbo: "SBO:0000247"
   - !!omap
     - id: "s_1218"
-    - name: "nicotinamide ribose"
+    - name: "nicotinamide riboside"
     - compartment: "c"
     - formula: "C11H15N2O5"
     - charge: 1
@@ -99617,7 +99617,7 @@
       - s_4202: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: "YGR191W"
+    - gene_reaction_rule: "YOL130W"
     - annotation: !!omap
       - bigg.reaction: "MNt2"
       - metanetx.reaction: "MNXR101669"
