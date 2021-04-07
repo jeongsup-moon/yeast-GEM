@@ -10,13 +10,13 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 **GEM Category:** species; **Utilisation:** experimental data reconstruction, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** reconstruction, curated; **Model Source:** YeastMetabolicNetwork; **Omic Source:** genomics, metabolomics; **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** general metabolism; **Bioreactor**; **Strain:** S288C; **Condition:** aerobic, glucose-limited, defined media;
 
-* Last update: 2020-06-19
+* Last update: 2020-11-24
 
 * Main Model Descriptors:
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
-|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3989|2693|1147|
+|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|4058|2742|1150|
 
 This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
@@ -62,6 +62,11 @@ Make sure to load/save the model with the corresponding wrapper functions!
   model = io.read_yeast_model() # loading
   io.write_yeast_model(model)   # saving
   ```
+
+### Online Visualization/Simulation
+
+* You can visualize selected pathways of yeast-GEM and perform online constraint-based simulations using [Caffeine](https://caffeine.dd-decaf.eu/interactive-map), by creating a simulation with the latest yeast-GEM version available, and choosing any _S. cerevisiae_ map (currently only `iMM904` maps are available). Learn more [about Caffeine](https://caffeine.dd-decaf.eu).
+* Additionally, you can interactively navigate model components and visualize 3D representations of all compartments and subsystems of yeast-GEM at [Metabolic Atlas](https://metabolicatlas.org/explore?selected=Yeast-GEM). Learn more [about Metabolic Atlas](https://www.metabolicatlas.org/about).
 
 ## Model Files
 
