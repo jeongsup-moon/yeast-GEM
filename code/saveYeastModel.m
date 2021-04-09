@@ -57,14 +57,13 @@ checkGrowth(model,'aerobic',allowNoGrowth)
 checkGrowth(model,'anaerobic',allowNoGrowth)
 
 %Update .xml, .txt and .yml models:
-copyfile('tempModel.xml','../ModelFiles/xml/yeastGEM.xml')
+copyfile('tempModel.xml','../model/yeastGEM.xml')
 delete('tempModel.xml');
-writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
-exportForGit(model,'yeastGEM','../ModelFiles',{'yml'},false,false);     % temporal
-movefile ../ModelFiles/yeastGEM.yml ../ModelFiles/yml/                  % temporal
+writeCbModel(model,'text','../model/yeastGEM.txt');
+exportForGit(model,'yeastGEM','../model',{'yml'},false,false);
 
 %Detect boundary metabolites and save them in a .txt file:
-fid = fopen('../ModelFiles/boundaryMets.txt','wt');
+fid = fopen('../model/boundaryMets.txt','wt');
 for i = 1:length(model.rxns)
     pos = find(model.S(:,i) ~= 0);
     if length(pos) == 1 %Exchange rxn
@@ -101,9 +100,9 @@ delete('backup.md');
 
 %Convert notation "e-005" to "e-05 " in stoich. coeffs. to avoid
 %inconsistencies between Windows and MAC:
-copyfile('../ModelFiles/xml/yeastGEM.xml','backup.xml')
+copyfile('../model/yeastGEM.xml','backup.xml')
 fin  = fopen('backup.xml','r');
-fout = fopen('../ModelFiles/xml/yeastGEM.xml','w');
+fout = fopen('../model/yeastGEM.xml','w');
 still_reading = true;
 while still_reading
     inline = fgets(fin);
