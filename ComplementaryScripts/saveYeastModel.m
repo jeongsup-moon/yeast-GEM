@@ -92,7 +92,8 @@ while still_reading
                 num2str(length(model.mets)) '|' ...
                 num2str(length(model.genes)) '|' newline];
         end
-        fwrite(fout,inline);
+        inline=unicode2native(inline,'UTF-8');
+        fwrite(fout,inline,'uint8');
     end
 end
 fclose('all');
