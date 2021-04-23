@@ -12,8 +12,6 @@ function increaseVersion(bumpType)
 %
 %   Usage: increaseVersion(bumpType)
 %
-%   Benjamin Sanchez, 2018-09-25
-%
 
 %Check if in master:
 currentBranch = git('rev-parse --abbrev-ref HEAD');
@@ -56,7 +54,7 @@ model = readCbModel('../ModelFiles/xml/yeastGEM.xml');
 
 %Include tag and save model:
 model.modelID = ['yeastGEM_v' newVersion];
-saveYeastModel(model,false)
+saveYeastModel(model,false,false)   %only save if model can grow
 
 %Check if any file changed (except for history.md and 1 line in yeastGEM.xml):
 diff   = git('diff --numstat');
