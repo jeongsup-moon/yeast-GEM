@@ -40,7 +40,7 @@ excl_rxns = unique(excl_rxns);
 checkRxns = setdiff(model.rxns,excl_rxns);
 
 %Categorize reactions via deltaG from group contribution method
-fid2 = fopen('../ComplementaryData/modelCuration/grpContribution_deltaG.tsv');
+fid2 = fopen('../data/modelCuration/grpContribution_deltaG.tsv');
 format = repmat('%s ',1,4);
 format = strtrim(format);
 rxn_temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',0);
@@ -142,7 +142,7 @@ end
 
 %load MetaCyc_deltaG.tsv as getRxnsFromMetaCyc does not include deltaG data
 cd ..
-fid2 = fopen('../ComplementaryData/modelCuration/MetaCyc_deltaG.tsv');
+fid2 = fopen('../data/modelCuration/MetaCyc_deltaG.tsv');
 format = repmat('%s ',1,2);
 format = strtrim(format);
 rxn_temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',0);
@@ -849,7 +849,7 @@ rev_rxns(empties,:) = [];
 
 %Load reversibility index extracted from report in Memote
 %Categorize reactions via deltaG from group contribution method
-fid2 = fopen('../ComplementaryData/modelCuration/memote_revIdx.tsv');
+fid2 = fopen('../data/modelCuration/memote_revIdx.tsv');
 format = repmat('%s ',1,2);
 format = strtrim(format);
 rxn_temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',0);

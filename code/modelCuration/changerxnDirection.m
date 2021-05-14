@@ -15,7 +15,7 @@ cd ..
 model = loadYeastModel;
 
 %Load rxnDirectionInfo.tsv files
-fid = fopen('../ComplementaryData/modelcuration/rxnDirectionInfo.tsv');
+fid = fopen('../data/modelcuration/rxnDirectionInfo.tsv');
 format = repmat('%s ',1,16);
 format = strtrim(format);
 temp = textscan(fid,format,'Delimiter','\t','HeaderLines',0);

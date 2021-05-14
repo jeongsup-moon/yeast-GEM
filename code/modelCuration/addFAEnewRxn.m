@@ -12,7 +12,7 @@ cd ..
 model = loadYeastModel;
 
 %newreaction:
-fid = fopen('../ComplementaryData/modelCuration/FAEnewRxnMatrix.tsv');
+fid = fopen('../data/modelCuration/FAEnewRxnMatrix.tsv');
 newreaction    = textscan(fid,'%s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 matrix.rxnIDs  = newreaction{1};
 matrix.metcoef = cellfun(@str2num, newreaction{2});
@@ -64,7 +64,7 @@ end
 cd ../modelCuration/
 
 % add met annotation
-fid = fopen('../../ComplementaryData/modelCuration/FAEnewRxnMetAnnotation.tsv');
+fid = fopen('../../data/modelCuration/FAEnewRxnMetAnnotation.tsv');
 newmet_annot = textscan(fid,'%s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 newmet.metNames    = newmet_annot{1};
 newmet.metFormulas = newmet_annot{2};
@@ -89,7 +89,7 @@ for i = 1:length(newmet.metNames)
 end
 
 %Load rxnProp(rev and GPR)
-fid = fopen('../../ComplementaryData/modelCuration/FAEnewRxnProp.tsv');
+fid = fopen('../../data/modelCuration/FAEnewRxnProp.tsv');
 rev = textscan(fid,'%s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 newrxn.ID  = rev{1};
 newrxn.Rev = cellfun(@str2num, rev{2});
@@ -135,7 +135,7 @@ end
 
 
 % add gene standard name for new genes
-fid = fopen('../../ComplementaryData/databases/FAEgeneNames.tsv');
+fid = fopen('../../data/databases/FAEgeneNames.tsv');
 yeast_gene_annotation = textscan(fid,'%s %s','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 
