@@ -36,7 +36,7 @@ This repository contains the current consensus genome-scale metabolic model of _
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
 |_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|4058|2742|1150|
 
-**Last update:** 2021-04-07
+**Last update:** 2021-06-15
 
 ## Installation
 

@@ -82,8 +82,8 @@ while still_reading
     if ~ischar(inline)
         still_reading = false;
     else
-        if startsWith(inline,'* Last update: ') && upDATE
-            inline = ['* Last update: ' datestr(datetime,'yyyy-mm-dd') newline];
+        if startsWith(inline,'**Last update:** ') && upDATE
+            inline = ['**Last update:** ' datestr(datetime,'yyyy-mm-dd') newline];
         elseif startsWith(inline,'|_Saccharomyces cerevisiae_|')
             inline = ['|_Saccharomyces cerevisiae_|[Yeast 7.6]' ...
                 '(https://sourceforge.net/projects/yeast/)|' ...
