@@ -5,7 +5,7 @@ function model = GetMNXID(model,type,level)
 %   HMR3, and the part 'Load MNXref data structure' is modified to read the reference data from RAVEN.
 %
 %   model                   a model structure;please load yeast model using function 'loadYeastModel.m' from
-%                           yeastGEM github repository.
+%                           yeast-GEM github repository.
 %   type                    type = 'mets' or 'rxns'
 %   level                   level = 1:only compares MNXid FROM kegg and CHEBI
 %                           level =2 compares MNX from yeast7.6MNX model and CHEBI and KEGG

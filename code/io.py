@@ -11,7 +11,7 @@ from os.path import dirname
 # find .env + define paths:
 dotenv_path = find_dotenv()
 REPO_PATH = dirname(dotenv_path)
-MODEL_PATH = f"{REPO_PATH}/model/yeastGEM.xml"
+MODEL_PATH = f"{REPO_PATH}/model/yeast-GEM.xml"
 
 def read_yeast_model(make_bigg_compliant=False):
     """Reads the SBML file of the yeast model using COBRA.

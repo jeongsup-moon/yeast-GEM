@@ -57,10 +57,10 @@ checkGrowth(model,'aerobic',allowNoGrowth)
 checkGrowth(model,'anaerobic',allowNoGrowth)
 
 %Update .xml, .txt and .yml models:
-copyfile('tempModel.xml','../model/yeastGEM.xml')
+copyfile('tempModel.xml','../model/yeast-GEM.xml')
 delete('tempModel.xml');
-writeCbModel(model,'text','../model/yeastGEM.txt');
-exportForGit(model,'yeastGEM','../model',{'yml'},false,false);
+writeCbModel(model,'text','../model/yeast-GEM.txt');
+exportForGit(model,'yeast-GEM','../model',{'yml'},false,false);
 
 %Detect boundary metabolites and save them in a .txt file:
 fid = fopen('../model/boundaryMets.txt','wt');
@@ -100,9 +100,9 @@ delete('backup.md');
 
 %Convert notation "e-005" to "e-05 " in stoich. coeffs. to avoid
 %inconsistencies between Windows and MAC:
-copyfile('../model/yeastGEM.xml','backup.xml')
+copyfile('../model/yeast-GEM.xml','backup.xml')
 fin  = fopen('backup.xml','r');
-fout = fopen('../model/yeastGEM.xml','w');
+fout = fopen('../model/yeast-GEM.xml','w');
 still_reading = true;
 while still_reading
     inline = fgets(fin);

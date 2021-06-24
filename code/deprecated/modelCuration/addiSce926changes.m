@@ -7,7 +7,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Load model:
-model = readCbModel('../../model/yeastGEM.xml');
+model = readCbModel('../../model/yeast-GEM.xml');
 
 %Correct some gene relations based on isce926:
 fid      = fopen('../../data/modelCuration/iSce926curatedGeneRules.tsv');
