@@ -1,4 +1,4 @@
-name: Memote history
+name: memote history
 
 on: push
 
@@ -37,7 +37,7 @@ jobs:
     # - name: Convert model
     #   run: |
     #     touch .env
-    #     python -c 'import ComplementaryScripts.io as io; model = io.read_yeast_model(make_bigg_compliant=True); io.write_yeast_model(model)'
+    #     python -c 'import code.io as io; model = io.read_yeast_model(make_bigg_compliant=True); io.write_yeast_model(model)'
 
     - name: Memote short run
       run: |
@@ -52,7 +52,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4.4.0
       with:
         commit_user_name: memote-bot
-        commit_message: update memote history report
+        commit_message: "chore: update memote history report"
         file_pattern: ${{ steps.setup.outputs.history }}
         branch: ${{ steps.setup.outputs.deployment }}
         repository: ${{ steps.setup.outputs.other-repo }}
