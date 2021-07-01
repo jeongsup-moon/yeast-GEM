@@ -17,7 +17,7 @@
 % So the last SBML2-compatible COBRA version can be downloaded from
 % https://github.com/opencobra/cobratoolbox/tree/10f98a0ab834118c6dfb943970c38d68c7e1ae70
 % 
-% The whole idea of the script is to load curated Yeast 7.6 from 'master'
+% The whole idea of the script is to load curated Yeast 7.6 from 'main'
 % branch, then load SBML3 format model from
 % https://sourceforge.net/projects/yeast/files/, add the missing
 % annotation to the former model, do some final changes and export it to

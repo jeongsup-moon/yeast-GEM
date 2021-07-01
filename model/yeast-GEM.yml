@@ -1,7 +1,7 @@
 ---
 !!omap
 - metaData:
-    id: "yeastGEM_devel"
+    id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
     date: "2021-06-15"
 - metabolites:

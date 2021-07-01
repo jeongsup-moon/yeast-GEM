@@ -65,12 +65,12 @@ This is because `results.db` (the database that stores all memote results) is tr
 * [Gurobi Optimizer](http://www.gurobi.com/registration/download-reg) for any simulations.
 
 ### Installation instructions
-* For users: Clone it from [`master`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases). If you work in python, please create an environment with all requirements:
+* For users: Clone it from [`main`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases). If you work in python, please create an environment with all requirements:
   ```bash
   pip install -r requirements/requirements.txt  # installs all dependencies
   touch .env                                    # creates a .env file for locating the root
   ```
-* For contributors: Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/yeast-GEM/tree/devel).
+* For contributors: Fork it to your Github account, and create a new branch from [`develop`](https://github.com/SysBioChalmers/yeast-GEM/tree/develop).
 
 ## Usage
 
@@ -95,7 +95,7 @@ Make sure to load/save the model with the corresponding wrapper functions!
 
 ## Contributing
 
-Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/master/.github/CONTRIBUTING.md) to get started.
+Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/main/.github/CONTRIBUTING.md) to get started.
 
 ## Contributors
 
