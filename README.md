@@ -1,7 +1,7 @@
  @@ -0,0 +1,94 @@
 # yeast-GEM: The consensus genome-scale metabolic model of _Saccharomyces cerevisiae_
 
-[![DOI](https://zenodo.org/badge/52777598.svg)](https://zenodo.org/badge/latestdoi/52777598) [![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem.svg)](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem) [![Join the chat at https://gitter.im/SysBioChalmers/yeast-GEM](https://badges.gitter.im/SysBioChalmers/yeast-GEM.svg)](https://gitter.im/SysBioChalmers/yeast-GEM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![DOI](https://zenodo.org/badge/52777598.svg)](https://zenodo.org/badge/latestdoi/52777598) [![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem.svg)](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem) [![Join the chat at https://gitter.im/SysBioChalmers/yeast-GEM](https://badges.gitter.im/SysBioChalmers/yeast-GEM.svg)](https://gitter.im/SysBioChalmers/yeast-GEM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)[![Memote history](https://github.com/SysBioChalmers/yeast-GEM/workflows/Memote%20history/badge.svg)](https://sysbiochalmers.github.io/yeast-GEM/history_report.html)
 
 ## Description
 
@@ -53,7 +53,14 @@ This repository contains the current consensus genome-scale metabolic model of _
 * The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
 * A [git wrapper](https://github.com/manur/MATLAB-git) added to the search path.
 
-### Dependencies - Recommended software:
+**NOTE:** You also require [git lfs](https://git-lfs.github.com/) if you wish to run locally any of the following two [memote](https://github.com/opencobra/memote) commands:
+* `memote run`
+* `memote report history`
+
+This is because `results.db` (the database that stores all memote results) is tracked with git lfs.
+
+### Dependencies - Recommended Software:
+
 * For Matlab, the [libSBML MATLAB API](https://sourceforge.net/projects/sbml/files/libsbml/MATLAB%20Interface/) (version 5.17.0 is recommended).
 * [Gurobi Optimizer](http://www.gurobi.com/registration/download-reg) for any simulations.
 

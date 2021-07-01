@@ -1,0 +1,29 @@
+name: memote run
+
+on: pull_request
+
+jobs:
+  memote-run:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install memote
+      run: pip install -r requirements/ci-requirements.txt
+
+    - name: Convert model
+      run: |
+        touch .env
+        python -c 'import code.io as io; model = io.read_yeast_model(make_bigg_compliant=True); io.write_yeast_model(model)'
+
+    - name: Memote on PR
+      run: |
+        # Untracked build, skip saving to gh-pages
+        memote run --ignore-git --solver-timeout 30
