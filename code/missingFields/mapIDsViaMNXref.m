@@ -35,9 +35,9 @@ end
 % order to load data structure from RAVEN repository since the data is
 % stored in raven toolbox.
 %since right now, MNX reference structure only exist in the RAVEN branch:
-%origin/feat/add_MetaNetX, we need to switch devel branch to that branch, load
+%origin/feat/add_MetaNetX, we need to switch develop branch to that branch, load
 %the file and switch back.
-%remember when this branch is merged to the master branch, change codes
+%remember when this branch is merged to the main branch, change codes
 %below.
 IDfile = 'ravenCobraWrapper.m';
 currentPath = pwd;
@@ -69,8 +69,8 @@ if ~strcmp(currentBranch,'feat/add_MetaNetX')
 end
 cd external/MetaNetX/
 load('MNXref.mat');
-% swich back to the master branch of RAVEN
-git checkout master
+% swich back to the main branch of RAVEN
+git checkout main
 cd(currentPath);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

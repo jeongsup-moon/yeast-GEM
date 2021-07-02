@@ -1,4 +1,3 @@
- @@ -0,0 +1,94 @@
 # yeast-GEM: The consensus genome-scale metabolic model of _Saccharomyces cerevisiae_
 
 [![DOI](https://zenodo.org/badge/52777598.svg)](https://zenodo.org/badge/latestdoi/52777598) [![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem.svg)](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem) [![Join the chat at https://gitter.im/SysBioChalmers/yeast-GEM](https://badges.gitter.im/SysBioChalmers/yeast-GEM.svg)](https://gitter.im/SysBioChalmers/yeast-GEM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)[![Memote history](https://github.com/SysBioChalmers/yeast-GEM/workflows/Memote%20history/badge.svg)](https://sysbiochalmers.github.io/yeast-GEM/history_report.html)
@@ -65,12 +64,12 @@ This is because `results.db` (the database that stores all memote results) is tr
 * [Gurobi Optimizer](http://www.gurobi.com/registration/download-reg) for any simulations.
 
 ### Installation instructions
-* For users: Clone it from [`master`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases). If you work in python, please create an environment with all requirements:
+* For users: Clone it from [`main`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases). If you work in python, please create an environment with all requirements:
   ```bash
   pip install -r requirements/requirements.txt  # installs all dependencies
   touch .env                                    # creates a .env file for locating the root
   ```
-* For contributors: Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/yeast-GEM/tree/devel).
+* For contributors: Fork it to your Github account, and create a new branch from [`develop`](https://github.com/SysBioChalmers/yeast-GEM/tree/develop).
 
 ## Usage
 
@@ -95,7 +94,7 @@ Make sure to load/save the model with the corresponding wrapper functions!
 
 ## Contributing
 
-Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/master/.github/CONTRIBUTING.md) to get started.
+Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/main/.github/CONTRIBUTING.md) to get started.
 
 ## Contributors
 

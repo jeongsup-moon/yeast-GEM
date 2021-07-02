@@ -1,7 +1,7 @@
 function increaseVersion(bumpType)
 % increaseVersion
 %   Upgrades the model to a new version. Run this function after merging
-%   changes to the master branch for making a new release.
+%   changes to the main branch for making a new release.
 %
 %   bumpType    One of the following 3 strings: "major", "minor" or
 %               "patch", indicating the type of increase of version to be
@@ -13,10 +13,10 @@ function increaseVersion(bumpType)
 %   Usage: increaseVersion(bumpType)
 %
 
-%Check if in master:
+%Check if in main:
 currentBranch = git('rev-parse --abbrev-ref HEAD');
-if ~strcmp(currentBranch,'master')
-    error('ERROR: not in master')
+if ~strcmp(currentBranch,'main')
+    error('ERROR: not in main')
 end
 
 %Bump version number:
@@ -77,8 +77,8 @@ for i = 1:length(diff)
     end
 end
 if change
-    error(['Some files are changing from devel. To fix, first update devel, ' ...
-        'then merge to master, and try again.'])
+    error(['Some files are changing from develop. To fix, first update develop, ' ...
+        'then merge to main, and try again.'])
 end
 
 %Allow .mat & .xlsx storage:
