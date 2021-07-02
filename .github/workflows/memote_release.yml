@@ -1,6 +1,7 @@
 name: memote release
 
 on:
+  push:
   release:
     type: [published]
 
