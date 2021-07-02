@@ -41,7 +41,8 @@ jobs:
 
     - name: Memote short run
       run: |
-        memote run --ignore-git --skip-unchanged --solver-timeout 30
+        git config --global user.name "memote-bot"
+        memote run --skip-unchanged --solver-timeout 30
 
     - name: Compute Memote history on push
       run: |
