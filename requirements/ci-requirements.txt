@@ -314,7 +314,7 @@ unicodecsv==0.14.1
     #   datapackage
     #   tableschema
     #   tabulator
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   botocore
     #   requests
