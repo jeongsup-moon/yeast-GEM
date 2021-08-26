@@ -101,7 +101,7 @@ click-log==0.3.2
     # via
     #   -r requirements.txt
     #   memote
-cobra==0.21.0
+cobra==0.22.1
     # via
     #   -r requirements.txt
     #   memote
@@ -342,7 +342,7 @@ openpyxl==3.0.7
     # via
     #   -r requirements.txt
     #   tabulator
-optlang==1.4.4
+optlang==1.5.2
     # via
     #   -r requirements.txt
     #   cobra
@@ -486,7 +486,7 @@ rfc3986[idna2008]==1.4.0
     #   -r requirements.txt
     #   httpx
     #   tableschema
-rich==6.2.0
+rich==10.7.0
     # via
     #   -r requirements.txt
     #   cobra
@@ -517,7 +517,6 @@ six==1.15.0
     #   argon2-cffi
     #   bleach
     #   click-configfile
-    #   cobra
     #   cookiecutter
     #   datapackage
     #   goodtables
@@ -644,7 +643,6 @@ typing-extensions==3.7.4.3
     # via
     #   -r requirements.txt
     #   pydantic
-    #   rich
 unicodecsv==0.14.1
     # via
     #   -r requirements.txt

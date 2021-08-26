@@ -66,7 +66,7 @@ click-default-group==1.2.2
     # via goodtables
 click-log==0.3.2
     # via memote
-cobra==0.21.0
+cobra==0.22.1
     # via
     #   -r requirements.in
     #   memote
@@ -217,7 +217,7 @@ numpydoc==1.1.0
     # via memote
 openpyxl==3.0.7
     # via tabulator
-optlang==1.4.4
+optlang==1.5.2
     # via cobra
 packaging==20.9
     # via
@@ -308,7 +308,7 @@ rfc3986[idna2008]==1.4.0
     # via
     #   httpx
     #   tableschema
-rich==6.2.0
+rich==10.7.0
     # via cobra
 ruamel.yaml==0.17.4
     # via
@@ -327,7 +327,6 @@ six==1.15.0
     #   argon2-cffi
     #   bleach
     #   click-configfile
-    #   cobra
     #   cookiecutter
     #   datapackage
     #   goodtables
@@ -413,9 +412,7 @@ traitlets==5.0.5
 travis-encrypt==1.1.2
     # via memote
 typing-extensions==3.7.4.3
-    # via
-    #   pydantic
-    #   rich
+    # via pydantic
 unicodecsv==0.14.1
     # via
     #   datapackage
