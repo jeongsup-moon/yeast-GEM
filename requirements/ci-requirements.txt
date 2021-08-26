@@ -141,13 +141,11 @@ jsonschema==3.2.0
     #   tableschema
 linear-tsv==1.1.0
     # via tabulator
-lxml==4.6.3
-    # via memote
 markupsafe==1.1.1
     # via
     #   cookiecutter
     #   jinja2
-memote==0.12.0
+memote==0.13.0
     # via -r ci-requirements.in
 mpmath==1.2.1
     # via sympy
