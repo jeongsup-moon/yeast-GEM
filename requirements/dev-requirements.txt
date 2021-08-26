@@ -290,16 +290,12 @@ linear-tsv==1.1.0
     # via
     #   -r requirements.txt
     #   tabulator
-lxml==4.6.3
-    # via
-    #   -r requirements.txt
-    #   memote
 markupsafe==1.1.1
     # via
     #   -r requirements.txt
     #   cookiecutter
     #   jinja2
-memote==0.12.0
+memote==0.13.0
     # via -r requirements.txt
 mistune==0.8.4
     # via
