@@ -371,7 +371,7 @@ pickleshare==0.7.5
     # via
     #   -r requirements.txt
     #   ipython
-pip-tools==6.0.1
+pip-tools==6.2.0
     # via -r dev-requirements.in
 pluggy==0.13.1
     # via
@@ -658,6 +658,8 @@ webencodings==0.5.1
     # via
     #   -r requirements.txt
     #   bleach
+wheel==0.37.0
+    # via pip-tools
 xlrd==2.0.1
     # via
     #   -r requirements.txt
