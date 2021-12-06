@@ -371,7 +371,7 @@ pickleshare==0.7.5
     # via
     #   -r requirements.txt
     #   ipython
-pip-tools==6.2.0
+pip-tools==6.3.0
     # via -r dev-requirements.in
 pluggy==0.13.1
     # via
