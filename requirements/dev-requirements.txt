@@ -101,7 +101,7 @@ click-log==0.3.2
     # via
     #   -r requirements.txt
     #   memote
-cobra==0.21.0
+cobra==0.22.1
     # via
     #   -r requirements.txt
     #   memote
@@ -290,16 +290,12 @@ linear-tsv==1.1.0
     # via
     #   -r requirements.txt
     #   tabulator
-lxml==4.6.3
-    # via
-    #   -r requirements.txt
-    #   memote
 markupsafe==1.1.1
     # via
     #   -r requirements.txt
     #   cookiecutter
     #   jinja2
-memote==0.12.0
+memote==0.13.0
     # via -r requirements.txt
 mistune==0.8.4
     # via
@@ -327,7 +323,7 @@ nest-asyncio==1.5.1
     # via
     #   -r requirements.txt
     #   nbclient
-notebook==6.3.0
+notebook==6.4.4
     # via -r requirements.txt
 numpy==1.20.2
     # via
@@ -342,7 +338,7 @@ openpyxl==3.0.7
     # via
     #   -r requirements.txt
     #   tabulator
-optlang==1.4.4
+optlang==1.5.2
     # via
     #   -r requirements.txt
     #   cobra
@@ -375,7 +371,7 @@ pickleshare==0.7.5
     # via
     #   -r requirements.txt
     #   ipython
-pip-tools==6.0.1
+pip-tools==6.3.0
     # via -r dev-requirements.in
 pluggy==0.13.1
     # via
@@ -406,7 +402,7 @@ pycparser==2.20
     # via
     #   -r requirements.txt
     #   cffi
-pydantic==1.8.1
+pydantic==1.8.2
     # via
     #   -r requirements.txt
     #   cobra
@@ -446,7 +442,7 @@ python-dateutil==2.8.1
     #   jupyter-client
     #   pandas
     #   tableschema
-python-dotenv==0.17.0
+python-dotenv==0.19.0
     # via -r requirements.txt
 python-libsbml==5.19.0
     # via
@@ -486,7 +482,7 @@ rfc3986[idna2008]==1.4.0
     #   -r requirements.txt
     #   httpx
     #   tableschema
-rich==6.2.0
+rich==10.7.0
     # via
     #   -r requirements.txt
     #   cobra
@@ -517,7 +513,6 @@ six==1.15.0
     #   argon2-cffi
     #   bleach
     #   click-configfile
-    #   cobra
     #   cookiecutter
     #   datapackage
     #   goodtables
@@ -584,7 +579,7 @@ swiglpk==5.0.3
     #   -r requirements.txt
     #   cobra
     #   optlang
-symengine==0.7.2
+symengine==0.8.1
     # via -r requirements.txt
 sympy==1.8
     # via
@@ -644,14 +639,13 @@ typing-extensions==3.7.4.3
     # via
     #   -r requirements.txt
     #   pydantic
-    #   rich
 unicodecsv==0.14.1
     # via
     #   -r requirements.txt
     #   datapackage
     #   tableschema
     #   tabulator
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   -r requirements.txt
     #   botocore
@@ -664,6 +658,8 @@ webencodings==0.5.1
     # via
     #   -r requirements.txt
     #   bleach
+wheel==0.37.0
+    # via pip-tools
 xlrd==2.0.1
     # via
     #   -r requirements.txt

@@ -66,7 +66,7 @@ click-default-group==1.2.2
     # via goodtables
 click-log==0.3.2
     # via memote
-cobra==0.21.0
+cobra==0.22.1
     # via
     #   -r requirements.in
     #   memote
@@ -184,13 +184,11 @@ jupyterlab-pygments==0.1.2
     # via nbconvert
 linear-tsv==1.1.0
     # via tabulator
-lxml==4.6.3
-    # via memote
 markupsafe==1.1.1
     # via
     #   cookiecutter
     #   jinja2
-memote==0.12.0
+memote==0.13.0
     # via -r requirements.in
 mistune==0.8.4
     # via nbconvert
@@ -207,7 +205,7 @@ nbformat==5.1.3
     #   notebook
 nest-asyncio==1.5.1
     # via nbclient
-notebook==6.3.0
+notebook==6.4.4
     # via -r requirements.in
 numpy==1.20.2
     # via
@@ -217,7 +215,7 @@ numpydoc==1.1.0
     # via memote
 openpyxl==3.0.7
     # via tabulator
-optlang==1.4.4
+optlang==1.5.2
     # via cobra
 packaging==20.9
     # via
@@ -252,7 +250,7 @@ py==1.10.0
     # via pytest
 pycparser==2.20
     # via cffi
-pydantic==1.8.1
+pydantic==1.8.2
     # via cobra
 pygments==2.8.1
     # via
@@ -278,7 +276,7 @@ python-dateutil==2.8.1
     #   jupyter-client
     #   pandas
     #   tableschema
-python-dotenv==0.17.0
+python-dotenv==0.19.0
     # via -r requirements.in
 python-libsbml==5.19.0
     # via cobra
@@ -308,7 +306,7 @@ rfc3986[idna2008]==1.4.0
     # via
     #   httpx
     #   tableschema
-rich==6.2.0
+rich==10.7.0
     # via cobra
 ruamel.yaml==0.17.4
     # via
@@ -327,7 +325,6 @@ six==1.15.0
     #   argon2-cffi
     #   bleach
     #   click-configfile
-    #   cobra
     #   cookiecutter
     #   datapackage
     #   goodtables
@@ -371,7 +368,7 @@ swiglpk==5.0.3
     # via
     #   cobra
     #   optlang
-symengine==0.7.2
+symengine==0.8.1
     # via -r requirements.in
 sympy==1.8
     # via
@@ -413,15 +410,13 @@ traitlets==5.0.5
 travis-encrypt==1.1.2
     # via memote
 typing-extensions==3.7.4.3
-    # via
-    #   pydantic
-    #   rich
+    # via pydantic
 unicodecsv==0.14.1
     # via
     #   datapackage
     #   tableschema
     #   tabulator
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   botocore
     #   requests
