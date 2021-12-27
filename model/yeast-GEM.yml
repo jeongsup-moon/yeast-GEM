@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_v8.5.0"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2021-07-02"
+    date: "2021-12-17"
 - metabolites:
     - !!omap
       - id: "s_0001"
@@ -37550,7 +37550,7 @@
           - s_0722: -1
           - s_1322: 1
           - s_1487: -1
-      - lower_bound: -1000
+      - lower_bound: 0
       - upper_bound: 1000
       - gene_reaction_rule: "YGR204W"
       - eccodes:
