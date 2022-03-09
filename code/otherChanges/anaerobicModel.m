@@ -18,7 +18,7 @@ model = scaleBioMass(model,'protein',P,'carbohydrate',false);
 
 %2nd change: Removes the requirement of heme a, NAD(PH), coenzyme A in the biomass equation
 %            (not used under anaerobic conditions)
-mets = {'s_3714[c]','s_1198[c]','s_1203[c]','s_1207[c]','s_1212[c]','s_0529[c]'};
+mets = {'s_3714','s_1198','s_1203','s_1207','s_1212','s_0529'};
 [~,met_index] = ismember(mets,model.mets);
 model.S(met_index,strcmp(model.rxns,'r_4598')) = 0;
 
