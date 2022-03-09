@@ -101,10 +101,10 @@ pos(4) = find(strcmp(model.rxnNames,'carbon dioxide exchange'));
 mod_data = zeros(size(exp_data));
 for i = 1:length(exp_data(:,1))
     %Fix biomass and minimize glucose:
-    model = changeRxnBounds(model,model.rxns(pos(1)),exp_data(i,1),'l');
-    model = changeRxnBounds(model,model.rxns(pos(2)),-10,'l');
-    model = changeObjective(model,model.rxns(pos(2)),+1);
-    sol   = optimizeCbModel(model);
+    model = setParam(model,'lb',model.rxns(pos(1)),exp_data(i,1));
+    model = setParam(model,'lb',model.rxns(pos(2)),-10);
+    model = setParam(model,'obj',model.rxns(pos(2)),+1);
+    sol   = solveLP(model,1);
     %Store relevant variables:
     mod_data(i,:) = abs(sol.x(pos)');
 end
