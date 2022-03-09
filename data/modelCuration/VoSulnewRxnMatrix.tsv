@@ -1,0 +1,35 @@
+rxnID	coefficient	metabolite standard name	Metabolite_type	component
+r_4700	1	hydrogen sulfide	reactant	cytoplasm
+r_4700	1	hydrogen sulfide	product	extracellular
+r_4701	1	L-cysteine	reactant	mitochondrion
+r_4701	1	H2O	reactant	mitochondrion
+r_4701	1	hydrogen sulfide	product	mitochondrion
+r_4701	1	pyruvate	product	mitochondrion
+r_4701	1	ammonium	product	mitochondrion
+r_4702	1	ATP	reactant	cytoplasm
+r_4702	1	dihydrolipoate	reactant	cytoplasm
+r_4702	1	dihydrolipoyl-AMP	product	cytoplasm
+r_4702	1	diphosphate	product	cytoplasm
+r_4703	1	L-cysteine	reactant	cytoplasm
+r_4703	1	2-oxoglutarate	reactant	cytoplasm
+r_4703	1	2-oxo-3-sulfanylpropanoate	product	cytoplasm
+r_4703	1	 L-glutamate	product	cytoplasm
+r_4704	1	2-oxo-3-sulfanylpropanoate	reactant	cytoplasm
+r_4704	1	dihydrolipoate	reactant	cytoplasm
+r_4704	1	pyruvate	product	cytoplasm
+r_4704	1	dihydrolipoate disulfide	product	cytoplasm
+r_4705	1	alkanesulfonate	reactant	extracellular
+r_4705	1	alkanesulfonate	product	cytoplasm
+r_4706	1	taurocholate	reactant	extracellular
+r_4706	1	taurocholate	product	cytoplasm
+r_4707	1	alkanesulfonate	reactant	cytoplasm
+r_4707	1	2-oxoglutarate	reactant	cytoplasm
+r_4707	1	oxygen	reactant	cytoplasm
+r_4707	1	sulphite	product	cytoplasm
+r_4707	1	aminoacetaldehyde	product	cytoplasm
+r_4707	1	succinate	product	cytoplasm
+r_4707	1	carbon dioxide	product	cytoplasm
+r_4708	1	trithionate	reactant	cytoplasm
+r_4708	1	H2O	reactant	cytoplasm
+r_4708	1	thiosulfate	product	cytoplasm
+r_4708	1	sulphate	product	cytoplasm

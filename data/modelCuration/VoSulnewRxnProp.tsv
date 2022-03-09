@@ -1,0 +1,10 @@
+RxnID	REV	GPR	RxnName	EC	Subsystems	RxnKEGGid
+r_4700	0	YIL166C	hydrogen sulfide exchange			
+r_4701	1	YFR055W	"L-cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)"	"4.4.1.1; 4.4.1.13; 4.4.1.28"	sce00280 Cysteine and methionine metabolism	R00782
+r_4702	1		dihydrolipoate-diphosphate			R12434
+r_4703	1		L-cysteine:2-oxoglutarate aminotransferase	2.6.1.1	sce00280 Cysteine and methionine metabolism	R00896
+r_4704	1	YOR251C	3-mercaptopyruvate sulfurtransferase	2.8.1.2		R03105
+r_4705	0	YIL166C	alkanesulfonate exchange			
+r_4706	0	YIL166C	taurocholate exchange			
+r_4707	1	YLL057C	alkanesulfonate dioxygenase			
+r_4708	1		trithionate thiosulfohydrolase	3.12.1.1		R01930
