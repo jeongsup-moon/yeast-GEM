@@ -3,7 +3,10 @@ function saveYeastModel(model,upDATE,allowNoGrowth)
 %   Saves model as a .xml, .txt and .yml file. Also updates complementary
 %   files (boundaryMets.txt, README.md and dependencies.txt).
 %
-%   Inputs: model           (struct) Model to save (NOTE: must be COBRA format)
+%   Inputs: model           (struct) model to save. Preferably RAVEN
+%                           format, although COBRA format is also allowed,
+%                           but some fields might be lost in the
+%                           conversion.
 %           upDATE          (bool, opt) If updating the date in the README file
 %                           is needed (default true)
 %           allowNoGrowth   (bool, opt) if saving should be allowed whenever
@@ -21,6 +24,11 @@ if nargin < 3
     allowNoGrowth = true;
 end
 
+% Export as RAVEN format
+if isfield(model,'rules')
+    model = ravenCobraWrapper(model);
+end
+
 %Get and change to the script folder, as all folders are relative to this
 %folder
 scriptFolder = fileparts(which(mfilename));
@@ -31,21 +39,13 @@ cd modelCuration
 model = minimal_Y6(model);
 cd ..
 
-%Delete model.grRules (redundant and possibly conflicting with model.rules):
-if isfield(model,'grRules')
-    model = rmfield(model,'grRules');
-end
-
 %Update SBO terms in model:
 cd missingFields
 model = addSBOterms(model);
 cd ..
 
-%Save "proteins" ("fbc:name" in the xml file) = "geneNames" ("fbc:label" in the xml file):
-model.proteins = model.geneNames;
-
 %Check if model is a valid SBML structure:
-writeCbModel(model,'sbml','tempModel.xml');
+exportModel(model,'tempModel.xml',false,false,true);
 [~,errors] = TranslateSBML('tempModel.xml');
 if ~isempty(errors)
     delete('tempModel.xml');
@@ -59,8 +59,7 @@ checkGrowth(model,'anaerobic',allowNoGrowth)
 %Update .xml, .txt and .yml models:
 copyfile('tempModel.xml','../model/yeast-GEM.xml')
 delete('tempModel.xml');
-writeCbModel(model,'text','../model/yeast-GEM.txt');
-exportForGit(model,'yeast-GEM','../model',{'yml'},false,false);
+exportForGit(model,'yeast-GEM','../model',{'yml','txt'},false,false);
 
 %Detect boundary metabolites and save them in a .txt file:
 fid = fopen('../model/boundaryMets.txt','wt');
@@ -137,7 +136,7 @@ if strcmp(condition,'anaerobic')
 end
 try
     xPos = strcmp(model.rxnNames,'growth');
-    sol  = optimizeCbModel(model);
+    sol  = solveLP(model);
     if sol.v(xPos) < 1e-6
         dispText = ['The model is not able to support growth under ' ...
                     condition ' conditions. Please ensure the model can grow'];
