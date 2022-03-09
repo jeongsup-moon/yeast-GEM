@@ -71,24 +71,6 @@ end
 
 end
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-function model = changeGAM(model,GAM)
-
-bioPos = strcmp(model.rxnNames,'biomass pseudoreaction');
-for i = 1:length(model.mets)
-    S_ix  = model.S(i,bioPos);
-    isGAM = sum(strcmp({'ATP [cytoplasm]','ADP [cytoplasm]','H2O [cytoplasm]', ...
-        'H+ [cytoplasm]','phosphate [cytoplasm]'},model.metNames{i})) == 1;
-    if S_ix ~= 0 && isGAM
-        model.S(i,bioPos) = sign(S_ix)*GAM;
-    end
-end
-
-end
-    
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 function mod_data = simulateChemostat(model,exp_data)
 
 %Relevant positions:
