@@ -137,7 +137,7 @@ end
 try
     xPos = strcmp(model.rxnNames,'growth');
     sol  = solveLP(model);
-    if sol.v(xPos) < 1e-6
+    if sol.x(xPos) < 1e-6
         dispText = ['The model is not able to support growth under ' ...
                     condition ' conditions. Please ensure the model can grow'];
     end
@@ -151,7 +151,7 @@ if exist('dispText','var')
     if allowNoGrowth
         warning([dispText ' before opening a PR.'])
     else
-        error([dispText ' before comitting.'])
+        error([dispText ' before committing.'])
     end
 end
 
