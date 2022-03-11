@@ -49,11 +49,10 @@ if ~contains(history,['yeast' newVersion ':'])
 end
 
 %Load model:
-initCobraToolbox
-model = readCbModel('../model/yeast-GEM.xml');
+model = importModel('../model/yeast-GEM.xml');
 
 %Include tag and save model:
-model.modelID = ['yeastGEM_v' newVersion];
+model.id = ['yeastGEM_v' newVersion];
 saveYeastModel(model,false,false)   %only save if model can grow
 
 %Check if any file changed (except for history.md and 1 line in yeast-GEM.xml):
@@ -101,7 +100,6 @@ delete('backup');
 save('../model/yeast-GEM.mat','model');
 
 %Convert to RAVEN format and store model as .xlsx:
-model = ravenCobraWrapper(model);
 model.annotation.defaultLB    = -1000;
 model.annotation.defaultUB    = +1000;
 model.annotation.taxonomy     = 'taxonomy/559292';

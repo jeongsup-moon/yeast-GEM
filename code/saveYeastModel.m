@@ -46,8 +46,8 @@ cd ..
 
 %Check if model is a valid SBML structure:
 exportModel(model,'tempModel.xml',false,false,true);
-[~,errors] = TranslateSBML('tempModel.xml');
-if ~isempty(errors)
+[~,~,errors] = evalc('TranslateSBML(''tempModel.xml'',1,0)');
+if any(strcmp({errors.severity},'Error'))
     delete('tempModel.xml');
     error('Model should be a valid SBML structure. Please fix all errors before saving.')
 end

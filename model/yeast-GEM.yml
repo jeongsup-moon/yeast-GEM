@@ -1,9 +1,15 @@
 ---
 !!omap
 - metaData:
-    id: "yeastGEM_v8.5.0"
+    id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-03-10"
+    date: "2022-03-11"
+    givenName: "Eduard"
+    familyName: "Kerkhoven"
+    email: "eduardk@chalmers.se"
+    organization: "Chalmers University of Technology"
+    taxonomy: "taxonomy/559292"
+    note: "Saccharomyces cerevisiae - strain S288C"
 - metabolites:
     - !!omap
       - id: "s_0001"
