@@ -168,7 +168,7 @@ if ~any(strcmp({rxnsCoeffs,rxnsInfo},'none'))
     notMatching = setxor(rxns.rxnNames,rxnsToAdd.rxnNames);
     if numel(notMatching)>1
         error(['The following reactions are not matched between the rxnsInfo '...
-            'and rxnsCoeffs files:%s'],strjoin(notMatching,'\n\t\t'))
+            'and rxnsCoeffs files:\n\t\t%s'],strjoin(notMatching,'\n\t\t'))
     end
        
     rxnsToAdd.grRules               = raw{2}(2:end);
