@@ -259,3 +259,6 @@ s_4255	tyrosyl acetate
 s_4257	methionyl acetate
 s_4259	propyl acetate
 s_4262	ethyl propionate
+s_4263	hydrogen sulfide
+s_4269	alkanesulfonate
+s_4271	taurocholate
