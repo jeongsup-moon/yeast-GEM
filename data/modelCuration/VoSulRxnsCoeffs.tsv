@@ -33,3 +33,6 @@ trithionate thiosulfohydrolase	trithionate	c	-1
 trithionate thiosulfohydrolase	H2O	c	-1
 trithionate thiosulfohydrolase	thiosulfate	c	1
 trithionate thiosulfohydrolase	sulphate	c	1
+hydrogen sulfide exchange	hydrogen sulfide	e	-1
+alkanesulfonate exchange	alkanesulfonate	e	-1
+taurocholate exchange	taurocholate	e	-1

@@ -8,3 +8,6 @@ alkanesulfonate exchange		0	1000	0			Sulfur volatiles curation (PR #296)	10.1093
 taurocholate exchange		0	1000	0			Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
 alkanesulfonate dioxygenase		-1000	1000	1			Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
 trithionate thiosulfohydrolase		-1000	1000	1		3.12.1.1	Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046		R01930									
+hydrogen sulfide exchange		0	1000	0	Exchange reaction		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
+alkanesulfonate exchange		0	1000	0	Exchange reaction		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
+taurocholate exchange		0	1000	0	Exchange reaction		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
