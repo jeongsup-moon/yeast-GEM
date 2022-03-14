@@ -23,6 +23,12 @@ end
 if nargin < 3
     allowNoGrowth = true;
 end
+if ~(exist('ravenCobraWrapper.m','file')==2)
+    error(['RAVEN cannot be found. See README.md for installation '...
+        'instructions. RAVEN is required to make sure that the model '...
+        'is stored in the correct file formats for use in the '...
+        'yeast-GEM GitHub repository'])
+end
 
 % Export as RAVEN format
 if isfield(model,'rules')
