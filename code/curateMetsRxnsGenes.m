@@ -61,12 +61,15 @@ if ~strcmp(metsInfo,'none')
     % Check if metabolite already exists (check by metName[comp])
     existingMets            = [];
     existingMetsIdx         = [];
+    newMets                 = [];
     for i=1:numel(metsToAdd.metNames)
         metIdx              = find(strcmp(newModel.metNames,metsToAdd.metNames{i}));
         existMet            = strcmp(metsToAdd.compartments{i},newModel.comps(newModel.metComps(metIdx)));
         if any(existMet)
             existingMets	= [existingMets, i];
             existingMetsIdx = [existingMetsIdx, metIdx(existMet)];
+        else
+            newMets	= [newMets, i];
         end
     end
     
@@ -90,7 +93,7 @@ if ~strcmp(metsInfo,'none')
     end
     
     % Continue with new metabolites
-    if numel(existingMets)<numel(metsToAdd.metNames)
+    if numel(newMets)>0
         metsToAdd.metNames(existingMets)        = [];
         metsToAdd.compartments(existingMets)    = [];
         metsToAdd.metFormulas(existingMets)     = [];
@@ -110,8 +113,8 @@ if ~strcmp(metsInfo,'none')
         end
         % Add metabolites
         newModel        = addMets(newModel,metsToAdd,true,'s_');
-        addedIdx        = numel(newModel.mets)-numel(~existingMets)+1:numel(newModel.mets);
-        newModel        = extractAndAddMiriam(newModel,raw(7:end),~existingMets,addedIdx,'met');
+        addedIdx        = numel(newModel.mets)-numel(newMets)+1:numel(newModel.mets);
+        newModel        = extractAndAddMiriam(newModel,raw(7:end),newMets,addedIdx,'met');
     end
 end
 %% Genes

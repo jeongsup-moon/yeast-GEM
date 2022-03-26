@@ -4,10 +4,10 @@
 
 cd ..
 model = loadYeastModel;
-metsInfo = '../data/modelCuration/VoSulMets.tsv';
-rxnsCoeffs = '../data/modelCuration/VoSulRxnsCoeffs.tsv';
-rxnsInfo = '../data/modelCuration/VoSulRxns.tsv';
-genesInfo = '../data/modelCuration/VoSulGenes.tsv';
+metsInfo = '../data/modelCuration/volatileSulfurCompounds/VoSulMets.tsv';
+rxnsCoeffs = '../data/modelCuration/volatileSulfurCompounds/VoSulRxnsCoeffs.tsv';
+rxnsInfo = '../data/modelCuration/volatileSulfurCompounds/VoSulRxns.tsv';
+genesInfo = '../data/modelCuration/volatileSulfurCompounds/VoSulGenes.tsv';
 newModel = curateMetsRxnsGenes(model,metsInfo,genesInfo,rxnsCoeffs,rxnsInfo);
 saveYeastModel(model)
 cd modelCuration

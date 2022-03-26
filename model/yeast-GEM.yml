@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-03-13"
+    date: "2022-03-26"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -7579,12 +7579,13 @@
       - name: "hydrogen sulfide"
       - compartment: "c"
       - formula: "HS"
-      - charge: -1
+      - charge: 0
       - annotation: !!omap
           - bigg.metabolite: "h2s"
-          - chebi: "CHEBI:29919"
+          - biocyc: "HS"
+          - chebi: "CHEBI:16136"
           - kegg.compound: "C00283"
-          - metanetx.chemical: "MNXM89582"
+          - metanetx.chemical: "MNXM124865"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_0843"
@@ -25972,12 +25973,13 @@
       - name: "hydrogen sulfide"
       - compartment: "m"
       - formula: "HS"
-      - charge: -1
+      - charge: 0
       - annotation: !!omap
           - bigg.metabolite: "h2s"
-          - chebi: "CHEBI:29919"
+          - biocyc: "HS"
+          - chebi: "CHEBI:16136"
           - kegg.compound: "C00283"
-          - metanetx.chemical: "MNXM89582"
+          - metanetx.chemical: "MNXM124865"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_3907"
@@ -29818,13 +29820,14 @@
       - id: "s_4263"
       - name: "hydrogen sulfide"
       - compartment: "e"
-      - formula: "H2S"
-      - charge: -1
+      - formula: "HS"
+      - charge: 0
       - annotation: !!omap
           - bigg.metabolite: "h2s"
-          - chebi: "CHEBI:29919"
+          - biocyc: "HS"
+          - chebi: "CHEBI:16136"
           - kegg.compound: "C00283"
-          - metanetx.chemical: "MNXM89582"
+          - metanetx.chemical: "MNXM124865"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4264"
@@ -29833,6 +29836,11 @@
       - formula: "C8H16O2S2"
       - charge: 0
       - annotation: !!omap
+          - bigg.metabolite: "C02147"
+          - biocyc: "CPD-296"
+          - chebi: "CHEBI:18047"
+          - kegg.compound: "C02147"
+          - metanetx.chemical: "MNXM722835"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4265"
@@ -29841,6 +29849,8 @@
       - formula: "C18H28N5O8PS2"
       - charge: 0
       - annotation: !!omap
+          - kegg.compound: "C22161"
+          - metanetx.chemical: "MNXM814747"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4266"
@@ -29852,11 +29862,16 @@
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4267"
-      - name: "2-oxo-3-sulfanylpropanoate"
+      - name: "3-mercaptopyruvate"
       - compartment: "c"
       - formula: "C3H4O3S"
       - charge: 0
       - annotation: !!omap
+          - bigg.metabolite: "mercppyr"
+          - biocyc: "3-MERCAPTO-PYRUVATE"
+          - chebi: "CHEBI:16208"
+          - kegg.compound: "C00957"
+          - metanetx.chemical: "MNXM1214"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4268"
@@ -29865,6 +29880,10 @@
       - formula: "CH3O3SR"
       - charge: 0
       - annotation: !!omap
+          - biocyc: "Alkanesulfonates"
+          - chebi: "CHEBI:62081"
+          - kegg.compound: "C15521"
+          - metanetx.chemical: "MNXM729199"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4269"
@@ -29873,6 +29892,10 @@
       - formula: "CH3O3SR"
       - charge: 0
       - annotation: !!omap
+          - biocyc: "Alkanesulfonates"
+          - chebi: "CHEBI:62081"
+          - kegg.compound: "C15521"
+          - metanetx.chemical: "MNXM729199"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4270"
@@ -29881,6 +29904,11 @@
       - formula: "C26H45NO7S"
       - charge: 0
       - annotation: !!omap
+          - bigg.metabolite: "tchola"
+          - biocyc: "CPD-3743"
+          - chebi: "CHEBI:28865"
+          - kegg.compound: "C05122"
+          - metanetx.chemical: "MNXM1104296"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4271"
@@ -29889,6 +29917,11 @@
       - formula: "C26H45NO7S"
       - charge: 0
       - annotation: !!omap
+          - bigg.metabolite: "tchola"
+          - biocyc: "CPD-3743"
+          - chebi: "CHEBI:28865"
+          - kegg.compound: "C05122"
+          - metanetx.chemical: "MNXM1104296"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4272"
@@ -29897,6 +29930,11 @@
       - formula: "S3O6"
       - charge: -2
       - annotation: !!omap
+          - bigg.metabolite: "tton"
+          - biocyc: "CPD-552"
+          - chebi: "ChEBI:15987"
+          - kegg.compound: "C01861"
+          - metanetx.chemical: "MNXM1871"
           - sbo: "SBO:0000247"
 - reactions:
     - !!omap
@@ -107021,9 +107059,6 @@
     - !!omap
       - id: "YOL157C"
       - name: "IMA2"
-    - !!omap
-      - id: "YOL164W"
-      - name: "BDS1"
     - !!omap
       - id: "YOL165C"
       - name: "AAD15"
