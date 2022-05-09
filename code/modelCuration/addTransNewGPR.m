@@ -19,11 +19,11 @@ newGPR.GPR    = changegpr{2};
 fclose(fid);
 for i = 1:length(newGPR.ID)
     rxnIndex = find(strcmp(model.rxns, newGPR.ID(i)));
-    model    = changeGeneAssociation(model, model.rxns{rxnIndex}, newGPR.GPR{i});
+    model    = changeGrRules(model, model.rxns{rxnIndex}, newGPR.GPR{i});
 end
 
 % Delete unused genes (if any)
-model = removeUnusedGenes(model);
+model = deleteUnusedGenes(model);
 
 % Add gene standard name for new genes
 fid = fopen('../data/databases/SGDgeneNames.tsv');
@@ -38,12 +38,5 @@ for i = 1: length(model.genes)
     end
 end
 
-% Add protein name for genes
-for i = 1:length(model.genes)
-    model.proteins{i} = strcat('COBRAProtein',num2str(i));
-end
-
-% Save model:
-model = rmfield(model,'grRules');
 saveYeastModel(model)
 cd modelCuration
