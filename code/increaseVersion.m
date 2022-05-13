@@ -78,20 +78,27 @@ change = false;
 for i = 1:length(diff)
     diff_i = strsplit(diff{i},'\t');
     if length(diff_i) == 3
-        %.xml file: 1 line should be added & 1 line should be deleted
-        if strcmp(diff_i{3},'model/yeast-GEM.xml')
-            if eval([diff_i{1} ' > 1']) || eval([diff_i{2} ' > 1'])
-                disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
-                change = true;
-            end
-        %Any other file except for history.md: no changes should be detected
-        elseif ~strcmp(diff_i{3},{'history.md'})
-            disp(['NOTE: File ' diff_i{3} ' is changing'])
-            change = true;
+        switch diff_i{3}
+            case 'model/yeast-GEM.xml'
+                %.xml file: 2 line2 should be added & 2 line2 should be deleted
+                if eval([diff_i{1} ' > 2']) || eval([diff_i{2} ' > 2'])
+                    disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
+                    change = true;
+                end
+            case 'model/yeast-GEM.yml'
+                %.yml file: 1 line should be added & 1 line should be deleted
+                if eval([diff_i{1} ' > 1']) || eval([diff_i{2} ' > 1'])
+                    disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
+                    change = true;
+                end                
+            case 'history.md'
+            otherwise
+                disp(['NOTE: File ' diff_i{3} ' is changing'])
+                change = true;                
         end
     end
 end
-if change
+if change == true
     error(['Some files are changing from develop. To fix, first update develop, ' ...
         'then merge to main, and try again.'])
 end
