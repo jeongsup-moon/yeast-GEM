@@ -14,7 +14,7 @@ function increaseVersion(bumpType)
 %
 
 %Check if in main:
-currentBranch = git('rev-parse --abbrev-ref HEAD');
+[~,currentBranch] = system('git rev-parse --abbrev-ref HEAD');
 if ~strcmp(currentBranch,'main')
     error('ERROR: not in main')
 end
@@ -72,7 +72,7 @@ model.id = ['yeastGEM_v' newVersion];
 saveYeastModel(model,true,true,true)   %only save if model can grow
 
 %Check if any file changed (except for history.md and 1 line in yeast-GEM.xml):
-diff   = git('diff --numstat');
+[~,diff]   = system('git diff --numstat');
 diff   = strsplit(diff,'\n');
 change = false;
 for i = 1:length(diff)
