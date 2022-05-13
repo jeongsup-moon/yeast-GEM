@@ -3,9 +3,7 @@
 - metaData:
     id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-05-06"
-    defaultLB: "-1000"
-    defaultUB: "1000"
+    date: "2022-05-14"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
