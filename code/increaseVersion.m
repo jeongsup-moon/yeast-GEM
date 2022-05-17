@@ -7,9 +7,6 @@ function increaseVersion(bumpType)
 %               "patch", indicating the type of increase of version to be
 %               performed.
 %
-%   NOTE: This function requires a git wrapper added to the MATLAB search
-%         path: https://github.com/manur/MATLAB-git
-%
 %   Usage: increaseVersion(bumpType)
 %
 
