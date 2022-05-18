@@ -12,7 +12,7 @@ function increaseVersion(bumpType)
 
 %Check if in main:
 [~,currentBranch] = system('git rev-parse --abbrev-ref HEAD');
-if ~strcmp(currentBranch,'main')
+if ~strcmp(strtrim(currentBranch),'main')
     error('ERROR: not in main')
 end
 
@@ -77,14 +77,14 @@ for i = 1:length(diff)
     if length(diff_i) == 3
         switch diff_i{3}
             case 'model/yeast-GEM.xml'
-                %.xml file: 2 line2 should be added & 2 line2 should be deleted
+                %.xml file: 2 lines should be added & 2 lines should be deleted
                 if eval([diff_i{1} ' > 2']) || eval([diff_i{2} ' > 2'])
                     disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
                     change = true;
                 end
             case 'model/yeast-GEM.yml'
-                %.yml file: 1 line should be added & 1 line should be deleted
-                if eval([diff_i{1} ' > 1']) || eval([diff_i{2} ' > 1'])
+                %.yml file: 2 lines should be added & 2 lines should be deleted
+                if eval([diff_i{1} ' > 2']) || eval([diff_i{2} ' > 2'])
                     disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
                     change = true;
                 end                
