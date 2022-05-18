@@ -7,22 +7,19 @@ function increaseVersion(bumpType)
 %               "patch", indicating the type of increase of version to be
 %               performed.
 %
-%   NOTE: This function requires a git wrapper added to the MATLAB search
-%         path: https://github.com/manur/MATLAB-git
-%
 %   Usage: increaseVersion(bumpType)
 %
 
 %Check if in main:
-currentBranch = git('rev-parse --abbrev-ref HEAD');
+[~,currentBranch] = system('git rev-parse --abbrev-ref HEAD');
 if ~strcmp(currentBranch,'main')
     error('ERROR: not in main')
 end
 
 %Bump version number:
-oldModel   = load('../model/yeast-GEM.mat');
-oldVersion = oldModel.model.modelID;
-oldVersion = oldVersion(strfind(oldVersion,'_v')+2:end);
+fid = fopen('../version.txt','r');
+oldVersion = fgetl(fid);
+fclose(fid);
 oldVersion = str2double(strsplit(oldVersion,'.'));
 newVersion = oldVersion;
 switch bumpType
@@ -49,37 +46,7 @@ if ~contains(history,['yeast' newVersion ':'])
 end
 
 %Load model:
-initCobraToolbox
-model = readCbModel('../model/yeast-GEM.xml');
-
-%Include tag and save model:
-model.modelID = ['yeastGEM_v' newVersion];
-saveYeastModel(model,false,false)   %only save if model can grow
-
-%Check if any file changed (except for history.md and 1 line in yeast-GEM.xml):
-diff   = git('diff --numstat');
-diff   = strsplit(diff,'\n');
-change = false;
-for i = 1:length(diff)
-    diff_i = strsplit(diff{i},'\t');
-    if length(diff_i) == 3
-        %.xml file: 1 line should be added & 1 line should be deleted
-        if strcmp(diff_i{3},'model/yeast-GEM.xml')
-            if eval([diff_i{1} ' > 1']) || eval([diff_i{2} ' > 1'])
-                disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
-                change = true;
-            end
-        %Any other file except for history.md: no changes should be detected
-        elseif ~strcmp(diff_i{3},{'history.md'})
-            disp(['NOTE: File ' diff_i{3} ' is changing'])
-            change = true;
-        end
-    end
-end
-if change
-    error(['Some files are changing from develop. To fix, first update develop, ' ...
-        'then merge to main, and try again.'])
-end
+model = importModel('../model/yeast-GEM.xml');
 
 %Allow .mat & .xlsx storage:
 copyfile('../.gitignore','backup')
@@ -97,24 +64,44 @@ end
 fclose('all');
 delete('backup');
 
-%Store model as .mat:
-save('../model/yeast-GEM.mat','model');
+%Include tag and save model:
+model.id = ['yeastGEM_v' newVersion];
+saveYeastModel(model,true,true,true)   %only save if model can grow
 
-%Convert to RAVEN format and store model as .xlsx:
-model = ravenCobraWrapper(model);
-model.annotation.defaultLB    = -1000;
-model.annotation.defaultUB    = +1000;
-model.annotation.taxonomy     = 'taxonomy/559292';
-model.annotation.givenName    = 'Eduard';
-model.annotation.familyName   = 'Kerkhoven';
-model.annotation.email        = 'eduardk@chalmers.se';
-model.annotation.organization = 'Chalmers University of Technology';
-model.annotation.note         = 'Saccharomyces cerevisiae - strain S288C';
-exportToExcelFormat(model,'../model/yeast-GEM.xlsx');
+%Check if any file changed (except for history.md and 1 line in yeast-GEM.xml):
+[~,diff]   = system('git diff --numstat');
+diff   = strsplit(diff,'\n');
+change = false;
+for i = 1:length(diff)
+    diff_i = strsplit(diff{i},'\t');
+    if length(diff_i) == 3
+        switch diff_i{3}
+            case 'model/yeast-GEM.xml'
+                %.xml file: 2 line2 should be added & 2 line2 should be deleted
+                if eval([diff_i{1} ' > 2']) || eval([diff_i{2} ' > 2'])
+                    disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
+                    change = true;
+                end
+            case 'model/yeast-GEM.yml'
+                %.yml file: 1 line should be added & 1 line should be deleted
+                if eval([diff_i{1} ' > 1']) || eval([diff_i{2} ' > 1'])
+                    disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
+                    change = true;
+                end                
+            case 'history.md'
+            otherwise
+                disp(['NOTE: File ' diff_i{3} ' is changing'])
+                change = true;                
+        end
+    end
+end
+if change == true
+    error(['Some files are changing from develop. To fix, first update develop, ' ...
+        'then merge to main, and try again.'])
+end
 
 %Update version file:
 fid = fopen('../version.txt','wt');
 fprintf(fid,newVersion);
 fclose(fid);
-
 end
