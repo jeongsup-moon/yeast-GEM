@@ -11,7 +11,7 @@ function model=getEarlierModelVersion(version)
 
 if any(regexp(version,'^\d+\.\d+\.\d+$')) % Tag is a version number
     tagpath=['git show refs/tags/v' version ':'];
-elseif any(contains(tag,{'main','develop'}))
+elseif any(contains(version,{'main','develop'}))
     tagpath=['git show ' version ':'];
 else
     error('version should be ''main'', ''develop'', or a specific release, e.g. ''8.1.0''')
