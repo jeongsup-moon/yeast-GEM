@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-MATLAB	9.11.0.1769968 (R2021b)
-libSBML	5.17.0
-RAVEN_toolbox	2.5.3
-COBRA_toolbox	unknown
-SBML_level	3
-SBML_version	1
-fbc_version	2
-=======
 MATLAB	9.10.0.1602886 (R2021a)
 libSBML	5.19.0
-RAVEN_toolbox	commit 8aae3b8
-COBRA_toolbox	commit 28acb94
->>>>>>> 123eef9a9db8eb3558f27bdca767404da7194707
+RAVEN_toolbox	2.7.1
+COBRA_toolbox	unknown
