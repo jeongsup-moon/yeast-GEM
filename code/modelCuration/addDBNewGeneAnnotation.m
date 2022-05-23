@@ -39,12 +39,5 @@ for i = 1: length(model.genes)
     end
 end
 
-% Add protein name for genes
-for i = 1:length(model.genes)
-    model.proteins{i} = strcat('COBRAProtein',num2str(i));
-end
-
-% Save model:
-model = rmfield(model,'grRules');
 saveYeastModel(model)
 cd modelCuration
