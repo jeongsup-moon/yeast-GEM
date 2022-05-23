@@ -2,75 +2,13 @@ genes	geneShortName	ncbigene	refseq	uniprot	kegg.genes	ecogene	hprd	asap	ccds	nc
 YPR165W	RHO1	856294	msqqvgnsir rklvivgdga cgktcllivf skgqfpevyv ptvfenyvad vevdgrrvel alwdtagqed ydrlrplsyp dsnvvlicfs idlpdslenv qekwiaevlh fcqgvpiilv gckvdlrndp qtieqlrqeg qqpvtsqegq svadqigatg yyecsaktgy gvrevfeaat raslmgkskt ngkakkntte kkkkkcvll	P06780	sce:YPR165W					NP_015491
 YFR049W	YMR31	850610	miatpirlak sayepmikfv gtrhplvkha tevvvhpcat ngmlpgskec ipvskfmeny kpfrvvpikh sanaglsssk tsvfvnrplq kdelasifel parfrykpin ehelesinsg gaw	P19955	sce:YFR049W					NP_116707
 YOR253W	NAT5	854427	mgrdictldn vyannlgmlt klahvtvpnl yqdaffsalf aedslvaknk kpsskkdvhf tqmayyseip vgglvaklvp kkqnelslkg iqieflgvlp nyrhksigsk llkfaedkcs echqhnvfvy lpavddltkq wfiahgfeqv getvnnfikg vngdeqdail lkkhis	Q08689	sce:YOR253W	2.3.1.258				NP_014896 
-YGR038W	ORM1	852926	"mteldyqgta eaastsysrn qtdlkpfpsa gsasssiktt epvkdhrrrr sssiishvep etfedendqq llpnmnatwv dqrgawiihv viiillklfy nlfpgvttew swtltnmtyv
- igsyvmfhli kgtpfdfngg aydnltmweq iddetlytps rkflisvpia lflvsthyah
- ydlklfswnc flttfgavvp klpvthrlri sipgitgraq is"	P53224	sce:YGR038W					NP_011552 
-YLR350W	ORM2	851064	"midrtknesp afeespltpn vsnlkpfpsq snkistpvtd hrrrrsssvi shveqetfed
- endqqmlpnm natwvdqrga wlihivvivl lrlfyslfgs tpkwtwtltn mtyiigfyim
- fhlvkgtpfd fnggaydnlt mweqindetl ytptrkflli vpivlflisn qyyrndmtlf
- lsnlavtvli gvvpklgith rlrisipgit graqis"	Q06144	sce:YLR350W					NP_013454 
-YBR128C	ATG14	852425	"mhcpichhra hvvycahcin tspslllklk ldlillkden kelngkveqi lneamnydql
- dikrmekkkd plmnslmkld vlrmkknnnl irhrieqlne riyskrnhis elkveidnyk
- cykvgtgtdk lreqveisda knklaqvski cesardykln llnnwfviqk lqdnfqipfa
- iafqplislk nfrilplait ndsinimwky isffsdilmi klpytnkice qpmfefsdsi
- qtvvqrlikl iinilqicrh lklvpstpmd ipwlldqydv dglfynmvkr nkmkcrsvsl
- ywtfgmlysm vldnmnnpqr ghparrtapp ptvtgphdrw yvvg"	P38270	sce:YBR128C					NP_009686 
-YLR211C	ATG38	850908	"mstlaevyti iedaeqecrk gdftnakaky qeaievlgpq nenlsqnkls sdvtqaidll
-kqditakiqe lelliekqss eennigmvnn nmligsviln nkspingisn arnwdnpayq
-dtlspindpl lmsilnrlqf nlnndiqlkt eggknsknse mkinlrleqf kkelvlyeqk
-kfkeygmkid eitkenkkla neigrlrerw dslvesakqr rdkqkn"	Q05789	sce:YLR211C					NP_013312   
-YLR360W	VPS38	851074	"mkrfllsrrq rhlrmicfhn islfrangds klikeygdgf ipcffilesi rgellyvsev
- qsgslrklsf qelpkltgas tmivlklvgl vpsdilctis sdkngiiddk wcvlctytid
- lnklqpined tvlitgtnap vldlidgsyt laaekikplk glvsshkrni sqvkikfsla
- yssllklnkl leyssqvhee ineisskied dflslknqnh wymrtvqksi etlekevlqr
- kkskkniema qlesndtinh sktelslmsq desinddygs iysrfvqikd rldqlrfkkl
- yqligifhst dlfnsdrgyi yfekpssvnd vinrlklkpl nieillrqag estkhreyvn
- sqlgyyllfl hltaiqifka plpyrlmyyg stsvidsqyp lyftdqmisk hqaklikaih
- yfnadilqfk qilenyrpt"	Q05919	sce:YLR360W					NP_013464
-YPL120W	VPS30	855983	"mkcqtchlpl qldpslegls ltqrnlllsn nsiitatnen visnkgieaa dncgpqipke
- rlrrlgeiqn ikdlnlkddk litdsfvfln hddddnanit snsredqryg nangndnkka
- nsdtsdgtst frdhdeeeqe atdedenqqi qlnsktlstq vnamtnvfni lssqtnidfp
- icqdccnili nrlkseydda ikerdtyaqf lsklesqnke isesnkekqy shnlsekenl
- kkeeerlldq llrlemtddd ldgelvrlqe kkvqlenekl qklsdqnlmd lnniqfnknl
- qslklqyels lnqldklrki nifnatfkis hsgpfating lrlgsipesv vpwkeinaal
- gqlilllati nknlkinlvd yelqpmgsfs kikkrmvnsv eynnsttnap gdwlilpvyy
- denfnlgrif rketkfdksl ettleiisei trqlstiass yssqtlttsq dessmnnand
- venstsilel pyimnkdkin glsvklhgss pnlewttamk flltnvkwll afssnllsks
- itlsptvnyn dktisgn"	Q02948	sce:YPL120W					NP_015205
-YFR021W	ATG18	850577	"msdssptinf infnqtgtci slgtskgfki fncepfgkfy sedsggyaiv emlfstslla
- vgigdqpal sprrlriint kkhsiicevt fptsilsvkm nksrlvvllq eqiyiydint
- mrllhtietn pnprglmams psvansylvy psppkvinse ikahattnni tlsvggntet
- sfkrdqqdag hsdisdldqy ssftkrddad ptssnggnss iikngdvivf nletlqptmv
- ieahkgeiaa maisfdgtlm atasdkgtii rvfdietgdk iyqfrrgtya triysisfse
- dsqylavtgs sktvhifklg hsmsnnklds ddsnmeeaaa ddssldttsi dalsdeenpt
- rlarepyvda srktmgrmir yssqklsrra artlgqifpi kvtsllessr hfaslklpve
- tnshvmtiss igspididts eypelfetgn sastesyhep vmkmvpirvv ssdgylynfv
- mdperggdcl ilsqysilmd"	P43601	sce:YFR021W					NP_444297
-YNL054W	VAC7	855673	"mteedrkltv etetveapva nnlllsnnsn vvapnpsips aststsplhr eivddsvata
- nttsnvvqhn lptidnnlmd sdatshnqdh whsdinragt smstsdiptd lhlehigsvs
- stnnnsnnal inhnplsshl snpssslrnk kssllvasnp afasdvelsk kkpavisnnm
- ptsnialyqt arsanihgps stsaskafrk asafsnntap stsnnigsnt ppapllplps
- lsqqnkpkii erptmhvtns reillgenll ddtkaknapa nstthdngpv andglripnh
- snaddnennn kmkknknins gknernddts kicttstkta pstaplgstd ntqaltasvs
- ssnadnhnnn kkktssnnng nnsnsasnkt nadiknsnad lsastsnnna inddshesns
- ekptkadffa arlatavgen eisdseetfv yesaanstkn lifpdsssqq qqqqqqppkq
- qqqqqnhgit skisapllnn nkkllsrlkn srhistgail nntiatistn pnlnsnvmqn
- nnnlmsghnh ldelssikqe pphqlqqqqp pmdvqsvdsy tsdnpdsnvi akspdkrssl
- vslskvsphl lsstssngnt iscpnvatns qelepnndis tkkslsnstl rhssanrnsn
- ygdnkrplrt tvskifdsnp ngaplrrysg vpdhvnledy ieqphnyptm qnsvkkdefy
- nsrnnkfphg lnfygdnnvi eeenngdssn vnrpqhtnlq hefipednes dendihsmfy
- ynhkndletk plisdygede dvddydrpna tfnsyygsas nthelplhgr mpsrsnndyy
- dfmvgnntgn nnqlneytpl rmkrgqrhls rtnnsimngs ihmngnddvt hsninnndiv
- gysphnfysr kspfvkvknf lylafvissl lmtgfilgfl latnkelqdv dvvvmdnvis
- ssdelifdit vsafnpgffs isvsqvdldi fakssylkcd sngdctvmeq erkilqittn
- lslveesann disggnietv llgtakklet plkfqggafn rnydvsvssv kllspgsrea
- khendddddd dgddgddenn tnerqykskp narddkeddt kkwkllikhd yelivrgsmk
- yevpffntqk staiqkdsmv hpgkk"	P53950	sce:YNL054W					NP_014344
-YGR106C	VOA1	852998	"mvfgqlyalf iftlsccisk tvqadsskes ssfisfdkes nwdtistiss tadvissvds
- aiavfefdnf slldnlmide eypffnrffa ndvsltvhdd splnisqsls pimeqftvde
- lpesasdlly eyslddksiv lfkftsdayd lkkldefids clsfledksg dnltvvinsl
- gwafededgd deyateetls hhdnnkgkeg dddilssiwt egllmclivs alllfiliva
- lswisnldit ygalekstnp ikknn"	P53262	sce:YGR106C					NP_011620
-YPR170W-B		5848745	"mrpvvstgka wcctvlsafg vvilsviahl fntnhesfvg sindpedgpa vahtvylaal
- vylvffvfcg fqvylarrkp sielr"	P0C5R9	sce:YPR170W-B					NP_001106949
-										
+YGR038W	ORM1	852926	mteldyqgta eaastsysrn qtdlkpfpsa gsasssiktt epvkdhrrrr sssiishvep etfedendqq llpnmnatwv dqrgawiihv viiillklfy nlfpgvttew swtltnmtyv igsyvmfhli kgtpfdfngg aydnltmweq iddetlytps rkflisvpia lflvsthyah  dlklfswnc flttfgavvp klpvthrlri sipgitgraq is	P53224	sce:YGR038W					NP_011552 
+YLR350W	ORM2	851064	midrtknesp afeespltpn vsnlkpfpsq snkistpvtd hrrrrsssvi shveqetfed endqqmlpnm natwvdqrga wlihivvivl lrlfyslfgs tpkwtwtltn mtyiigfyim fhlvkgtpfd fnggaydnlt mweqindetl ytptrkflli vpivlflisn qyyrndmtlf lsnlavtvli gvvpklgith rlrisipgit graqis	Q06144	sce:YLR350W					NP_013454 
+YBR128C	ATG14	852425	mhcpichhra hvvycahcin tspslllklk ldlillkden kelngkveqi lneamnydql dikrmekkkd plmnslmkld vlrmkknnnl irhrieqlne riyskrnhis elkveidnyk cykvgtgtdk lreqveisda knklaqvski cesardykln llnnwfviqk lqdnfqipfa iafqplislk nfrilplait ndsinimwky isffsdilmi klpytnkice qpmfefsdsi qtvvqrlikl iinilqicrh lklvpstpmd ipwlldqydv dglfynmvkr nkmkcrsvsl ywtfgmlysm vldnmnnpqr ghparrtapp ptvtgphdrw yvvg	P38270	sce:YBR128C					NP_009686 
+YLR211C	ATG38	850908	mstlaevyti iedaeqecrk gdftnakaky qeaievlgpq nenlsqnkls sdvtqaidll kqditakiqe lelliekqss eennigmvnn nmligsviln nkspingisn arnwdnpayq dtlspindpl lmsilnrlqf nlnndiqlkt eggknsknse mkinlrleqf kkelvlyeqk kfkeygmkid eitkenkkla neigrlrerw dslvesakqr rdkqkn	Q05789	sce:YLR211C					NP_013312   
+YLR360W	VPS38	851074	mkrfllsrrq rhlrmicfhn islfrangds klikeygdgf ipcffilesi rgellyvsev qsgslrklsf qelpkltgas tmivlklvgl vpsdilctis sdkngiiddk wcvlctytid lnklqpined tvlitgtnap vldlidgsyt laaekikplk glvsshkrni sqvkikfslayssllklnkl leyssqvhee ineisskied dflslknqnh wymrtvqksi etlekevlqr kkskkniema qlesndtinh sktelslmsq desinddygs iysrfvqikd rldqlrfkkl yqligifhst dlfnsdrgyi yfekpssvnd vinrlklkpl nieillrqag estkhreyvn sqlgyyllfl hltaiqifka plpyrlmyyg stsvidsqyp lyftdqmisk hqaklikaih yfnadilqfk qilenyrpt	Q05919	sce:YLR360W					NP_013464
+YPL120W	VPS30	855983	mkcqtchlpl qldpslegls ltqrnlllsn nsiitatnen visnkgieaa dncgpqipke rlrrlgeiqn ikdlnlkddk litdsfvfln hddddnanit snsredqryg nangndnkka nsdtsdgtst frdhdeeeqe atdedenqqi qlnsktlstq vnamtnvfni lssqtnidfp icqdccnili nrlkseydda ikerdtyaqf lsklesqnke isesnkekqy shnlsekenl kkeeerlldq llrlemtddd ldgelvrlqe kkvqlenekl qklsdqnlmd lnniqfnknl qslklqyels lnqldklrki nifnatfkis hsgpfating lrlgsipesv vpwkeinaal gqlilllati nknlkinlvd yelqpmgsfs kikkrmvnsv eynnsttnap gdwlilpvyy denfnlgrif rketkfdksl ettleiisei trqlstiass yssqtlttsq dessmnnand venstsilel pyimnkdkin glsvklhgss pnlewttamk flltnvkwll afssnllsks itlsptvnyn dktisgn	Q02948	sce:YPL120W					NP_015205
+YFR021W	ATG18	850577	msdssptinf infnqtgtci slgtskgfki fncepfgkfy sedsggyaiv emlfstslla vgigdqpal sprrlriint kkhsiicevt fptsilsvkm nksrlvvllq eqiyiydint mrllhtietn pnprglmams psvansylvy psppkvinse ikahattnni tlsvggntet sfkrdqqdag hsdisdldqy ssftkrddad ptssnggnss iikngdvivf nletlqptmv ieahkgeiaa maisfdgtlm atasdkgtii rvfdietgdk iyqfrrgtya triysisfse dsqylavtgs sktvhifklg hsmsnnklds ddsnmeeaaa ddssldttsi dalsdeenpt  rlarepyvda srktmgrmir yssqklsrra artlgqifpi kvtsllessr hfaslklpve tnshvmtiss igspididts eypelfetgn sastesyhep vmkmvpirvv ssdgylynfv mdperggdcl ilsqysilmd	P43601	sce:YFR021W					NP_444297
+YNL054W	VAC7	855673	mteedrkltv etetveapva nnlllsnnsn vvapnpsips aststsplhr eivddsvata nttsnvvqhn lptidnnlmd sdatshnqdh whsdinragt smstsdiptd lhlehigsvs stnnnsnnal inhnplsshl snpssslrnk kssllvasnp afasdvelsk kkpavisnnm ptsnialyqt arsanihgps stsaskafrk asafsnntap stsnnigsnt ppapllplps lsqqnkpkii erptmhvtns reillgenll ddtkaknapa nstthdngpv andglripnh snaddnennn kmkknknins gknernddts kicttstkta pstaplgstd ntqaltasvs ssnadnhnnn kkktssnnng nnsnsasnkt nadiknsnad lsastsnnna inddshesns ekptkadffa arlatavgen eisdseetfv yesaanstkn lifpdsssqq qqqqqqppkq qqqqqnhgit skisapllnn nkkllsrlknsrhistgail nntiatistn pnlnsnvmqn nnnlmsghnh ldelssikqe pphqlqqqqp pmdvqsvdsy tsdnpdsnvi akspdkrssl vslskvsphl lsstssngnt iscpnvatns qelepnndis tkkslsnstl rhssanrnsn ygdnkrplrt tvskifdsnp ngaplrrysg vpdhvnledy ieqphnyptm qnsvkkdefy nsrnnkfphg lnfygdnnvi eeenngdssn vnrpqhtnlq hefipednes dendihsmfy ynhkndletk plisdygede dvddydrpna tfnsyygsas nthelplhgr mpsrsnndyy  dfmvgnntgn nnqlneytpl rmkrgqrhls rtnnsimngs ihmngnddvt hsninnndiv gysphnfysr kspfvkvknf lylafvissl lmtgfilgfl latnkelqdv dvvvmdnvis ssdelifdit vsafnpgffs isvsqvdldi fakssylkcd sngdctvmeq erkilqittn lslveesann disggnietv llgtakklet plkfqggafn rnydvsvssv kllspgsrea khendddddd dgddgddenn tnerqykskp narddkeddt kkwkllikhd yelivrgsmk yevpffntqk staiqkdsmv hpgkk	P53950	sce:YNL054W					NP_014344
+YGR106C	VOA1	852998	mvfgqlyalf iftlsccisk tvqadsskes ssfisfdkes nwdtistiss tadvissvds aiavfefdnf slldnlmide eypffnrffa ndvsltvhdd splnisqsls pimeqftvde lpesasdlly eyslddksiv lfkftsdayd lkkldefids clsfledksg dnltvvinsl gwafededgd deyateetls hhdnnkgkeg dddilssiwt egllmclivs alllfiliva lswisnldit ygalekstnp ikknn	P53262	sce:YGR106C					NP_011620
+YPR170W-B		5848745	mrpvvstgka wcctvlsafg vvilsviahl fntnhesfvg sindpedgpa vahtvylaal ylvffvfcg fqvylarrkp sielr	P0C5R9	sce:YPR170W-B					NP_001106949
