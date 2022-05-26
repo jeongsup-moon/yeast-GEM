@@ -15,7 +15,7 @@ newModel       = curateMetsRxnsGenes(model,'none','../data/modelCuration/transRx
 
 % Change GPR relations
 fid           = fopen('../data/modelCuration/transRxnNewGPR/TransRxnNewGPR.tsv');
-changegpr     = textscan(fid,'%q %q %q','Delimiter','\t','HeaderLines',1);
+changegpr     = textscan(fid,'%q %q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 newGPR.ID     = changegpr{1};
 newGPR.GPR    = changegpr{2};
 fclose(fid);

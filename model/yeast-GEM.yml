@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-05-23"
+    date: "2022-05-26"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -49995,7 +49995,7 @@
           - s_0029: -1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YNL065W or YKL217W or YGR260W"
+      - gene_reaction_rule: "YNL065W or YKL217W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "MEV_Rt"
@@ -50680,7 +50680,7 @@
           - s_0796: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR096C or YJL214W or YJL219W or YJR158W or YNR072W or YOL156W"
+      - gene_reaction_rule: "YDL245C or YDR342C or YHR094C or YDR343C or YDR345C or YEL069C or YFL011W or YHR096C or YJL214W or YJL219W or YJR158W or YNR072W or YOL156W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "MANt2"
@@ -53463,7 +53463,7 @@
           - s_0179: 1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YNL065W or YKL217W or YGR260W"
+      - gene_reaction_rule: "YNL065W or YKL217W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "2OBUTtm"
@@ -103859,7 +103859,7 @@
           - s_4262: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YNL065W or YKL217W or YGR260W"
+      - gene_reaction_rule: "YNL065W or YKL217W"
       - subsystem:
       - annotation: !!omap
           - sbo: "SBO:0000655"
