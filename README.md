@@ -35,6 +35,26 @@ This repository contains the current consensus genome-scale metabolic model of _
 |:-------|:--------------|:------|:------|:----------|:-----|
 | _Saccharomyces cerevisiae_ | 26-May-2022 | develop | 4069 | 2749 | 1162 |
 
+### Model performance
+
+While only providing partial information, the below metrics do give some indication of model performance.
+
+#### Essential gene prediction
+Compare model predicted essential genes with experimental knockout data, as gathered by [Heavner et al. (2015)](https://doi.org/10.1371/journal.pcbi.1004530). Calculated with the `code/modelTests/essentialGenes.m` function.
+
+- Accuracy: 0.8801
+- True positive genes: 923
+- True negative genes: 61
+- False positive genes: 98
+- False negative genes: 36
+
+#### Growth prediction
+Compare model predicted growth rates with experimental chemostat data, as gathered by [Österlund et al. (2013)](https://doi.org/10.1186/1752-0509-7-36). Calculated with the `code/modelTests/growth.m` function.
+
+- R<sup>2</sup>: 0.8651  
+
+![Growth prediction](growth.png)
+
 # Installation & usage
 
 ## Obtain model
