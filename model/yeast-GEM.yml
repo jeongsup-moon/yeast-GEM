@@ -1,7 +1,7 @@
 ---
 !!omap
 - metaData:
-    id: "yeastGEM_develop"
+    id: "yeast-GEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
     date: "2022-05-26"
     givenName: "Eduard"
@@ -49995,6 +49995,7 @@
           - s_0029: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YNL065W or YKL217W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "MEV_Rt"
@@ -50077,7 +50078,7 @@
           - s_0796: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YDL210W or YOR348C"
+      - gene_reaction_rule: "YDL210W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "ABUTt2r"
@@ -50172,7 +50173,7 @@
           - s_0796: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YER056C or YER060W or YER060W-A or YGL186C"
+      - gene_reaction_rule: "YER056C or YER060W or YER060W-A"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "ADEt2"
@@ -50592,7 +50593,7 @@
           - s_0796: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YMR011W or YNR072W or YOL156W"
+      - gene_reaction_rule: "YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR096C or YJL214W or YJL219W or YJR158W or YNR072W or YOL156W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "FRUt2"
@@ -50610,7 +50611,7 @@
           - s_0796: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YDR536W or YFL011W or YJL219W or YLR081W or YNL318C or YOL156W"
+      - gene_reaction_rule: "YFL011W or YJL219W or YLR081W or YNL318C or YOL156W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "GALt2"
@@ -50679,7 +50680,7 @@
           - s_0796: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YMR011W or YNR072W or YOL156W"
+      - gene_reaction_rule: "YDL245C or YDR342C or YHR094C or YDR343C or YDR345C or YEL069C or YFL011W or YHR096C or YJL214W or YJL219W or YJR158W or YNR072W or YOL156W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "MANt2"
@@ -51008,7 +51009,7 @@
           - s_0796: -1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YER056C or YER060W or YER060W-A or YGL186C"
+      - gene_reaction_rule: "YER056C or YER060W or YER060W-A"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "GUAt2r"
@@ -51119,7 +51120,7 @@
           - s_0956: -1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YBR068C or YCL025C or YDR046C or YKR039W or YOL020W or YOR348C or YPL265W"
+      - gene_reaction_rule: "YCL025C or YKR039W or YOR348C or YPL265W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "ALAt2r"
@@ -51629,7 +51630,7 @@
           - s_1028: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YOL092W or YBR293W or YCL069W or YMR088C"
+      - gene_reaction_rule: "YOL092W or YBR293W or YCL069W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "LYSt6"
@@ -51732,7 +51733,7 @@
           - s_1046: -1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YBR069C or YCL025C or YDR046C or YDR508C or YKR039W"
+      - gene_reaction_rule: "YCL025C or YDR508C or YKR039W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "THRt2r"
@@ -52035,7 +52036,7 @@
           - s_1267: -1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YEL063C or YKR039W"
+      - gene_reaction_rule: "YKR039W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "ORNt2r"
@@ -53462,6 +53463,7 @@
           - s_0179: 1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YNL065W or YKL217W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "2OBUTtm"
@@ -53793,6 +53795,7 @@
           - s_1322: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGL101W or YBR242W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "NTD6"
@@ -53810,6 +53813,7 @@
           - s_1322: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGL101W or YBR242W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "NTD3"
@@ -53827,6 +53831,7 @@
           - s_1322: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGL101W or YBR242W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "NTD8"
@@ -53844,6 +53849,7 @@
           - s_1493: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGL101W or YBR242W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "NTD5"
@@ -54654,7 +54660,7 @@
           - s_0512: 1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YGL077C or YOR161C"
+      - gene_reaction_rule: "YGL077C"
       - subsystem:
       - annotation: !!omap
           - metanetx.reaction: "MNXR96693"
@@ -54881,6 +54887,7 @@
           - s_0526: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YKL024C"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "CYTK1"
@@ -54898,6 +54905,7 @@
           - s_0589: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YKL024C"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "CYTK2"
@@ -55337,6 +55345,7 @@
           - s_0794: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YDR196C"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "DPCOAK"
@@ -55675,6 +55684,7 @@
           - s_0600: 1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR041W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "FA100tp"
@@ -55734,6 +55744,7 @@
           - s_1298: 1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR041W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "FA161tp"
@@ -55961,7 +55972,7 @@
           - s_0566: 1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YBR241C or YGL104C"
+      - gene_reaction_rule: "YBR241C"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "GLCtv"
@@ -56341,6 +56352,7 @@
           - s_1288: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR041W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "HDCAt"
@@ -56355,6 +56367,7 @@
           - s_1295: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR041W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "HDCEAt"
@@ -57279,7 +57292,7 @@
           - s_1044: -1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YMR011W or YNR072W or YOL156W"
+      - gene_reaction_rule: "YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR092C or YHR096C or YJL214W or YJL219W or YJR158W or YNR072W or YOL156W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "SRB_Lt"
@@ -57931,6 +57944,7 @@
           - s_1450: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR041W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "OCDCAt"
@@ -58287,6 +58301,7 @@
           - s_1395: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YNR027W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "PYDAMK"
@@ -59253,7 +59268,7 @@
           - s_1567: -1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YDL245C or YLL043W"
+      - gene_reaction_rule: "YDL245C"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "XYLTt"
@@ -60716,6 +60731,7 @@
           - s_1067: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR041W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "r2444"
@@ -60792,6 +60808,7 @@
           - s_2826: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR041W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "OCDCEAt"
@@ -92622,7 +92639,7 @@
           - s_3228: 1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YER053C or YJR077C or YLR348C"
+      - gene_reaction_rule: "YER053C or YJR077C"
       - subsystem:
       - annotation: !!omap
           - metanetx.reaction: "MNXR102871"
@@ -95605,7 +95622,7 @@
           - s_3779: 1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YBR241C or YGL104C"
+      - gene_reaction_rule: "YBR241C"
       - subsystem:
       - annotation: !!omap
           - sbo: "SBO:0000655"
@@ -95618,7 +95635,7 @@
           - s_3780: 1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YBR241C or YGL104C"
+      - gene_reaction_rule: "YBR241C"
       - subsystem:
       - annotation: !!omap
           - sbo: "SBO:0000655"
@@ -99199,6 +99216,7 @@
           - s_4102: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGR247W"
       - eccodes: "3.1.4.37"
       - subsystem:
       - annotation: !!omap
@@ -99294,6 +99312,7 @@
           - s_4108: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR299W or YGR292W"
       - eccodes: "3.2.1.20"
       - subsystem:
       - annotation: !!omap
@@ -99455,6 +99474,7 @@
           - s_4126: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGR247W"
       - eccodes: "3.1.4.37"
       - subsystem:
       - annotation: !!omap
@@ -99644,6 +99664,7 @@
           - s_4140: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR299W or YGR292W"
       - eccodes: "3.2.1.20"
       - subsystem:
       - annotation: !!omap
@@ -99837,6 +99858,7 @@
           - s_4094: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGR247W"
       - eccodes: "3.1.4.37"
       - subsystem:
       - annotation: !!omap
@@ -99964,6 +99986,7 @@
           - s_4131: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR299W or YGR292W"
       - eccodes: "3.2.1.20"
       - subsystem:
       - annotation: !!omap
@@ -101864,6 +101887,7 @@
           - s_3875: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YDR248C"
       - eccodes: "2.7.1.12"
       - subsystem:
       - annotation: !!omap
@@ -101936,6 +101960,7 @@
           - s_4182: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YIL074C or YER081W"
       - eccodes: "1.1.1.95"
       - subsystem:
       - annotation: !!omap
@@ -102101,6 +102126,7 @@
           - s_4188: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YMR108W"
       - eccodes: "2.2.1.6"
       - subsystem:
       - annotation: !!omap
@@ -102120,6 +102146,7 @@
           - s_4188: 1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YLR355C"
       - eccodes:
           - "1.1.1.383"
           - "1.1.1.86"
@@ -102202,6 +102229,7 @@
           - s_4191: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YOR317W or YER015W or YMR246W or YIL009W"
       - eccodes: "6.2.1.3"
       - subsystem:
       - annotation: !!omap
@@ -102333,7 +102361,7 @@
           - s_4204: -1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "YGR191W or YOL130W"
+      - gene_reaction_rule: "YOL130W"
       - subsystem:
       - annotation: !!omap
           - metanetx.reaction: "MNXR101553"
@@ -103850,6 +103878,7 @@
           - s_4262: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YNL065W or YKL217W"
       - subsystem:
       - annotation: !!omap
           - sbo: "SBO:0000655"
@@ -104346,6 +104375,14 @@
     - !!omap
       - id: "YBR241C"
       - name: "YBR241C"
+    - !!omap
+      - id: "YBR242W"
+      - annotation: !!omap
+          - kegg.genes: "sce:YBR242W"
+          - ncbigene: "852544"
+          - ncbiprotein: "NP_009801"
+          - refseq: "NM_001178590"
+          - uniprot: "P38331"
     - !!omap
       - id: "YBR243C"
       - name: "ALG7"
@@ -105268,8 +105305,14 @@
       - id: "YGL084C"
       - name: "GUP1"
     - !!omap
-      - id: "YGL104C"
-      - name: "VPS73"
+      - id: "YGL101W"
+      - name: "YGK1"
+      - annotation: !!omap
+          - kegg.genes: "sce:YGL101W"
+          - ncbigene: "852777"
+          - ncbiprotein: "NP_011414"
+          - refseq: "NM_001180966"
+          - uniprot: "P53144"
     - !!omap
       - id: "YGL125W"
       - name: "MET13"
@@ -105783,6 +105826,12 @@
     - !!omap
       - id: "YIL166C"
       - name: "SOA1"
+      - annotation: !!omap
+          - kegg.genes: "sce:YIL166C"
+          - ncbigene: "854640"
+          - ncbiprotein: "NP_012100"
+          - refseq: "NM_001179514"
+          - uniprot: "P40445"
     - !!omap
       - id: "YIL172C"
       - name: "IMA3"
