@@ -14,7 +14,7 @@ newModel       = curateMetsRxnsGenes(model,'none','../data/modelCuration/complex
 
 % Add gene standard name for new genes
 fid = fopen('../data/modelCuration/complexAnnotation/complexAnnotation.tsv');
-complexAnnot = textscan(fid,'%q %q %q %q','Delimiter','\t','HeaderLines',1);
+complexAnnot = textscan(fid,'%q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 newGPR.ID     = complexAnnot{1};
 newGPR.GPR    = complexAnnot{3};

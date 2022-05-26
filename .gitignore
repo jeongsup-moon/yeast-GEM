@@ -51,7 +51,9 @@ helpsearch*/
 *.pyc
 *.env
 
-# Non-complying tables #
-########################
-*.xls
+# Non-complying tables and files #
+##################################
+*.xls*
+*.doc*
+*.ppt*
 *.tab
