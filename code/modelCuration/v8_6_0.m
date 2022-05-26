@@ -8,10 +8,10 @@ model.id='yeast-GEM_develop';
 
 %% Curate complex annotation (PR #305)
 % Add new genes
-newModel       = curateMetsRxnsGenes(model,'none','../data/modelCuration/curationsOnV8_6_0/complexAnnotationGenes.tsv');
+newModel       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/complexAnnotationGenes.tsv');
 
 % Add gene standard name for new genes
-fid = fopen('../data/modelCuration/curationsOnV8_6_0/complexAnnotation.tsv');
+fid = fopen('../data/modelCuration/v8_6_0/complexAnnotation.tsv');
 complexAnnot = textscan(fid,'%q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 newGPR.ID     = complexAnnot{1};
@@ -23,10 +23,10 @@ newModel = deleteUnusedGenes(newModel);
 
 %% Curate gene association for transport rxns (PR #306)
 % Add new genes
-newModel       = curateMetsRxnsGenes(newModel,'none','../data/modelCuration/curationsOnV8_6_0/transRxnNewGPRGenes.tsv');
+newModel       = curateMetsRxnsGenes(newModel,'none','../data/modelCuration/v8_6_0/transRxnNewGPRGenes.tsv');
 
 % Change GPR relations
-fid           = fopen('../data/modelCuration/curationsOnV8_6_0/TransRxnNewGPR.tsv');
+fid           = fopen('../data/modelCuration/v8_6_0/TransRxnNewGPR.tsv');
 changegpr     = textscan(fid,'%q %q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 newGPR.ID     = changegpr{1};
 newGPR.GPR    = changegpr{2};
@@ -39,10 +39,10 @@ newModel = deleteUnusedGenes(newModel);
 
 %% Add new gene associations from databases (PR #313)
 % Add new genes
-newModel       = curateMetsRxnsGenes(model,'none','../data/modelCuration/curationsOnV8_6_0/newGPRsfromDBsGenes.tsv');
+newModel       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/newGPRsfromDBsGenes.tsv');
 
 % Change GPR relations
-fid           = fopen('../data/modelCuration/curationsOnV8_6_0/newGPRsfromDBs.tsv');
+fid           = fopen('../data/modelCuration/v8_6_0/newGPRsfromDBs.tsv');
 changegpr     = textscan(fid,'%q %q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 newGPR.ID     = changegpr{1};
 newGPR.GPR    = changegpr{3};
