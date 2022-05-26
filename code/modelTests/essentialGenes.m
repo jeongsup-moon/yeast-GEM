@@ -41,7 +41,10 @@ exp_viable = setdiff(model.genes,inviableORFsAll);
 exp_viable = intersect(exp_viable,verifiedORFs);
 
 %calculate the growth rate after the single gene deletion using the original model and update model
-[~, ~, ~, ~, grRatio]=findGeneDeletions(model,'sgd','fba');
+[genes, fluxes, originalGenes, details, grRatioMuts]=findGeneDeletions(model,'sgd','fba');
+grRatio=ones(1,numel(model.genes));
+grRatio(genes)=grRatioMuts;
+
 mod_viable  = model.genes(grRatio >= ko_tol);
 mod_viable = intersect(mod_viable,verifiedORFs);
 mod_inviable = model.genes(grRatio < ko_tol );
