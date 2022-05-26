@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-05-24"
+    date: "2022-05-26"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -104269,7 +104269,7 @@
           - kegg.genes: "sce:YBR128C"
           - ncbigene: "852425"
           - ncbiprotein: "NP_009686 "
-          - refseq: "mhcpichhra hvvycahcin tspslllklk ldlillkden kelngkveqi lneamnydql dikrmekkkd plmnslmkld vlrmkknnnl irhrieqlne riyskrnhis elkveidnyk cykvgtgtdk lreqveisda knklaqvski cesardykln llnnwfviqk lqdnfqipfa iafqplislk nfrilplait ndsinimwky isffsdilmi klpytnkice qpmfefsdsi qtvvqrlikl iinilqicrh lklvpstpmd ipwlldqydv dglfynmvkr nkmkcrsvsl ywtfgmlysm vldnmnnpqr ghparrtapp ptvtgphdrw yvvg"
+          - refseq: "NM_001178476"
           - uniprot: "P38270"
     - !!omap
       - id: "YBR132C"
@@ -105172,7 +105172,7 @@
           - kegg.genes: "sce:YFR021W"
           - ncbigene: "850577"
           - ncbiprotein: "NP_444297"
-          - refseq: "msdssptinf infnqtgtci slgtskgfki fncepfgkfy sedsggyaiv emlfstslla vgigdqpal sprrlriint kkhsiicevt fptsilsvkm nksrlvvllq eqiyiydint mrllhtietn pnprglmams psvansylvy psppkvinse ikahattnni tlsvggntet sfkrdqqdag hsdisdldqy ssftkrddad ptssnggnss iikngdvivf nletlqptmv ieahkgeiaa maisfdgtlm atasdkgtii rvfdietgdk iyqfrrgtya triysisfse dsqylavtgs sktvhifklg hsmsnnklds ddsnmeeaaa ddssldttsi dalsdeenpt  rlarepyvda srktmgrmir yssqklsrra artlgqifpi kvtsllessr hfaslklpve tnshvmtiss igspididts eypelfetgn sastesyhep vmkmvpirvv ssdgylynfv mdperggdcl ilsqysilmd"
+          - refseq: "NM_001179986"
           - uniprot: "P43601"
     - !!omap
       - id: "YFR025C"
@@ -105196,7 +105196,7 @@
           - kegg.genes: "sce:YFR049W"
           - ncbigene: "850610"
           - ncbiprotein: "NP_116707"
-          - refseq: "miatpirlak sayepmikfv gtrhplvkha tevvvhpcat ngmlpgskec ipvskfmeny kpfrvvpikh sanaglsssk tsvfvnrplq kdelasifel parfrykpin ehelesinsg gaw"
+          - refseq: "NM_001180014"
           - uniprot: "P19955"
     - !!omap
       - id: "YFR053C"
@@ -105367,7 +105367,7 @@
           - kegg.genes: "sce:YGR038W"
           - ncbigene: "852926"
           - ncbiprotein: "NP_011552 "
-          - refseq: "mteldyqgta eaastsysrn qtdlkpfpsa gsasssiktt epvkdhrrrr sssiishvep etfedendqq llpnmnatwv dqrgawiihv viiillklfy nlfpgvttew swtltnmtyv igsyvmfhli kgtpfdfngg aydnltmweq iddetlytps rkflisvpia lflvsthyah  dlklfswnc flttfgavvp klpvthrlri sipgitgraq is"
+          - refseq: "NM_001181167"
           - uniprot: "P53224"
     - !!omap
       - id: "YGR043C"
@@ -105409,7 +105409,7 @@
           - kegg.genes: "sce:YGR106C"
           - ncbigene: "852998"
           - ncbiprotein: "NP_011620"
-          - refseq: "mvfgqlyalf iftlsccisk tvqadsskes ssfisfdkes nwdtistiss tadvissvds aiavfefdnf slldnlmide eypffnrffa ndvsltvhdd splnisqsls pimeqftvde lpesasdlly eyslddksiv lfkftsdayd lkkldefids clsfledksg dnltvvinsl gwafededgd deyateetls hhdnnkgkeg dddilssiwt egllmclivs alllfiliva lswisnldit ygalekstnp ikknn"
+          - refseq: "NM_001181235"
           - uniprot: "P53262"
     - !!omap
       - id: "YGR110W"
@@ -106402,7 +106402,7 @@
           - kegg.genes: "sce:YLR211C"
           - ncbigene: "850908"
           - ncbiprotein: "NP_013312   "
-          - refseq: "mstlaevyti iedaeqecrk gdftnakaky qeaievlgpq nenlsqnkls sdvtqaidll kqditakiqe lelliekqss eennigmvnn nmligsviln nkspingisn arnwdnpayq dtlspindpl lmsilnrlqf nlnndiqlkt eggknsknse mkinlrleqf kkelvlyeqk kfkeygmkid eitkenkkla neigrlrerw dslvesakqr rdkqkn"
+          - refseq: "NM_001182098"
           - uniprot: "Q05789"
     - !!omap
       - id: "YLR214W"
@@ -106483,7 +106483,7 @@
           - kegg.genes: "sce:YLR350W"
           - ncbigene: "851064"
           - ncbiprotein: "NP_013454 "
-          - refseq: "midrtknesp afeespltpn vsnlkpfpsq snkistpvtd hrrrrsssvi shveqetfed endqqmlpnm natwvdqrga wlihivvivl lrlfyslfgs tpkwtwtltn mtyiigfyim fhlvkgtpfd fnggaydnlt mweqindetl ytptrkflli vpivlflisn qyyrndmtlf lsnlavtvli gvvpklgith rlrisipgit graqis"
+          - refseq: "NM_001182239"
           - uniprot: "Q06144"
     - !!omap
       - id: "YLR351C"
@@ -106504,7 +106504,7 @@
           - kegg.genes: "sce:YLR360W"
           - ncbigene: "851074"
           - ncbiprotein: "NP_013464"
-          - refseq: "mkrfllsrrq rhlrmicfhn islfrangds klikeygdgf ipcffilesi rgellyvsev qsgslrklsf qelpkltgas tmivlklvgl vpsdilctis sdkngiiddk wcvlctytid lnklqpined tvlitgtnap vldlidgsyt laaekikplk glvsshkrni sqvkikfslayssllklnkl leyssqvhee ineisskied dflslknqnh wymrtvqksi etlekevlqr kkskkniema qlesndtinh sktelslmsq desinddygs iysrfvqikd rldqlrfkkl yqligifhst dlfnsdrgyi yfekpssvnd vinrlklkpl nieillrqag estkhreyvn sqlgyyllfl hltaiqifka plpyrlmyyg stsvidsqyp lyftdqmisk hqaklikaih yfnadilqfk qilenyrpt"
+          - refseq: "NM_001182249"
           - uniprot: "Q05919"
     - !!omap
       - id: "YLR372W"
@@ -106825,7 +106825,7 @@
           - kegg.genes: "sce:YNL054W"
           - ncbigene: "855673"
           - ncbiprotein: "NP_014344"
-          - refseq: "mteedrkltv etetveapva nnlllsnnsn vvapnpsips aststsplhr eivddsvata nttsnvvqhn lptidnnlmd sdatshnqdh whsdinragt smstsdiptd lhlehigsvs stnnnsnnal inhnplsshl snpssslrnk kssllvasnp afasdvelsk kkpavisnnm ptsnialyqt arsanihgps stsaskafrk asafsnntap stsnnigsnt ppapllplps lsqqnkpkii erptmhvtns reillgenll ddtkaknapa nstthdngpv andglripnh snaddnennn kmkknknins gknernddts kicttstkta pstaplgstd ntqaltasvs ssnadnhnnn kkktssnnng nnsnsasnkt nadiknsnad lsastsnnna inddshesns ekptkadffa arlatavgen eisdseetfv yesaanstkn lifpdsssqq qqqqqqppkq qqqqqnhgit skisapllnn nkkllsrlknsrhistgail nntiatistn pnlnsnvmqn nnnlmsghnh ldelssikqe pphqlqqqqp pmdvqsvdsy tsdnpdsnvi akspdkrssl vslskvsphl lsstssngnt iscpnvatns qelepnndis tkkslsnstl rhssanrnsn ygdnkrplrt tvskifdsnp ngaplrrysg vpdhvnledy ieqphnyptm qnsvkkdefy nsrnnkfphg lnfygdnnvi eeenngdssn vnrpqhtnlq hefipednes dendihsmfy ynhkndletk plisdygede dvddydrpna tfnsyygsas nthelplhgr mpsrsnndyy  dfmvgnntgn nnqlneytpl rmkrgqrhls rtnnsimngs ihmngnddvt hsninnndiv gysphnfysr kspfvkvknf lylafvissl lmtgfilgfl latnkelqdv dvvvmdnvis ssdelifdit vsafnpgffs isvsqvdldi fakssylkcd sngdctvmeq erkilqittn lslveesann disggnietv llgtakklet plkfqggafn rnydvsvssv kllspgsrea khendddddd dgddgddenn tnerqykskp narddkeddt kkwkllikhd yelivrgsmk yevpffntqk staiqkdsmv hpgkk"
+          - refseq: "NM_001182893"
           - uniprot: "P53950"
     - !!omap
       - id: "YNL065W"
@@ -107234,7 +107234,7 @@
           - kegg.genes: "sce:YOR253W"
           - ncbigene: "854427"
           - ncbiprotein: "NP_014896 "
-          - refseq: "mgrdictldn vyannlgmlt klahvtvpnl yqdaffsalf aedslvaknk kpsskkdvhf tqmayyseip vgglvaklvp kkqnelslkg iqieflgvlp nyrhksigsk llkfaedkcs echqhnvfvy lpavddltkq wfiahgfeqv getvnnfikg vngdeqdail lkkhis"
+          - refseq: "NM_001183672"
           - uniprot: "Q08689"
     - !!omap
       - id: "YOR270C"
@@ -107396,7 +107396,7 @@
           - kegg.genes: "sce:YPL120W"
           - ncbigene: "855983"
           - ncbiprotein: "NP_015205"
-          - refseq: "mkcqtchlpl qldpslegls ltqrnlllsn nsiitatnen visnkgieaa dncgpqipke rlrrlgeiqn ikdlnlkddk litdsfvfln hddddnanit snsredqryg nangndnkka nsdtsdgtst frdhdeeeqe atdedenqqi qlnsktlstq vnamtnvfni lssqtnidfp icqdccnili nrlkseydda ikerdtyaqf lsklesqnke isesnkekqy shnlsekenl kkeeerlldq llrlemtddd ldgelvrlqe kkvqlenekl qklsdqnlmd lnniqfnknl qslklqyels lnqldklrki nifnatfkis hsgpfating lrlgsipesv vpwkeinaal gqlilllati nknlkinlvd yelqpmgsfs kikkrmvnsv eynnsttnap gdwlilpvyy denfnlgrif rketkfdksl ettleiisei trqlstiass yssqtlttsq dessmnnand venstsilel pyimnkdkin glsvklhgss pnlewttamk flltnvkwll afssnllsks itlsptvnyn dktisgn"
+          - refseq: "NM_001183934"
           - uniprot: "Q02948"
     - !!omap
       - id: "YPL132W"
@@ -107576,7 +107576,7 @@
           - kegg.genes: "sce:YPR165W"
           - ncbigene: "856294"
           - ncbiprotein: "NP_015491"
-          - refseq: "msqqvgnsir rklvivgdga cgktcllivf skgqfpevyv ptvfenyvad vevdgrrvel alwdtagqed ydrlrplsyp dsnvvlicfs idlpdslenv qekwiaevlh fcqgvpiilv gckvdlrndp qtieqlrqeg qqpvtsqegq svadqigatg yyecsaktgy gvrevfeaat raslmgkskt ngkakkntte kkkkkcvll"
+          - refseq: "NM_001184262"
           - uniprot: "P06780"
     - !!omap
       - id: "YPR167C"
@@ -107587,7 +107587,7 @@
           - kegg.genes: "sce:YPR170W-B"
           - ncbigene: "5848745"
           - ncbiprotein: "NP_001106949"
-          - refseq: "mrpvvstgka wcctvlsafg vvilsviahl fntnhesfvg sindpedgpa vahtvylaal ylvffvfcg fqvylarrkp sielr"
+          - refseq: "NM_001184525"
           - uniprot: "P0C5R9"
     - !!omap
       - id: "YPR183W"
