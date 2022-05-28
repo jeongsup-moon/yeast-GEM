@@ -57,15 +57,15 @@ newModel = deleteUnusedGenes(newModel);
 cd modelTests
 disp('Run gene essentiality analysis')
 [new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(newModel);
-fprintf('Genes in model: %d\n',numel(newModel.genes));
+fprintf('Genes in model: %.4f\n',numel(newModel.genes));
 fprintf('Gene essentiality accuracy: %d\n', new.accuracy);
 fprintf('Gene essentiality TP: %d\n', numel(new.tp));
 fprintf('Gene essentiality TN: %d\n', numel(new.tn));
 fprintf('Gene essentiality FP: %d\n', numel(new.fp));
 fprintf('Gene essentiality FN: %d\n', numel(new.fn));
-disp('Run growth analysis')
+disp('\nRun growth analysis')
 R2=growth(newModel);
-fprintf('R2 of growth prediction: %d\n', R2);
+fprintf('R2 of growth prediction: %.4f\n', R2);
 
 % Save model:
 cd ..
