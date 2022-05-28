@@ -9,11 +9,10 @@ r_0266	(YHL003C and YMR298W) or (YKL008C and YMR298W) 	YKL008C and YHL003C and Y
 r_0532	YDR204W and YGL119W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C	YDR204W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C	https://www.ebi.ac.uk/complexportal/complex/CPX-1155			YGL119W is not a subunit of the complex
 r_0831	YDR148C and YFL018C and YIL125W	(YDR148C and YFL018C and YIL125W and YFR049W) or (YDR148C and YFL018C and YIL125W)	https://www.ebi.ac.uk/complexportal/complex/CPX-1293			"YDR148C, YFL018C, YIL125W and YFR049W could also catalyze the reaction"
 r_0832	YDR148C and YFL018C and YIL125W	(YDR148C and YFL018C and YIL125W and YFR049W) or (YDR148C and YFL018C and YIL125W)	https://www.ebi.ac.uk/complexportal/complex/CPX-1293			"YDR148C, YFL018C, YIL125W and YFR049W could also catalyze the reaction"
-r_0852	YDR148C and YFL018C and YIL125W	(YFL022C and YLR060W)	https://www.ebi.ac.uk/complexportal/complex/CPX-1738			
 r_0906	(YKL088W and YKR072C and YOR054C) or (YKL088W and YKR072C) or (YKL088W and YOR054C) or YKL088W	YKL088W and YKR072C and YOR054C	https://www.ebi.ac.uk/complexportal/complex/CPX-393	https://www.yeastgenome.org/locus/S000001571; https://www.yeastgenome.org/locus/S000001780	https://www.uniprot.org/uniprot/P36076; https://www.uniprot.org/uniprot/P36024	These three subunits work as a whole
 r_0943	YDR400W and YLR017W and YLR209C	YLR209C		https://www.yeastgenome.org/locus/S000004199	https://www.uniprot.org/uniprot/Q05788	YLR209C catalyze the reaction independently
-r_0963	YDR204W and YGL119W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C	YDR204W and YGR255C and YLR201C and YML110C and YOL096C and YOR126C	https://www.ebi.ac.uk/complexportal/complex/CPX-1155			YGL119W is not a subunit of the complex
-r_0985	YDR204W and YGL119W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C	YDR204W and YGR255C and YLR201C and YML110C and YOL096C and YOR126C	https://www.ebi.ac.uk/complexportal/complex/CPX-1155			YGL119W is not a subunit of the complex
+r_0963	YDR204W and YGL119W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C	YDR204W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C	https://www.ebi.ac.uk/complexportal/complex/CPX-1155			YGL119W is not a subunit of the complex
+r_0985	YDR204W and YGL119W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C	YDR204W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C	https://www.ebi.ac.uk/complexportal/complex/CPX-1155			YGL119W is not a subunit of the complex
 r_0992	(YDL040C and YGR147C and YHR013C) or (YDL040C and YGR147C)	YHR013C and YDL040C and YOR253W	https://www.ebi.ac.uk/complexportal/complex/CPX-783	https://www.yeastgenome.org/locus/S000003379		YGR147C is not a subunit of the complex
 r_0993	(YBR058C-A and YDR062W and YMR296C) or (YDR062W and YMR296C)	YMR296C and YKL212W and YDR062W and YGR038W and YLR350W and YBR058C-A	https://www.ebi.ac.uk/complexportal/complex/CPX-3158			
 r_2852	YBR097W and YLR240W	(YBR097W and YLR240W) or (YBR097W and YLR240W and YPL120W and YLR360W) or (YBR097W and YLR240W and YBR128C and YPL120W and YLR211C)	https://www.ebi.ac.uk/complexportal/complex/CPX-1881; https://www.ebi.ac.uk/complexportal/complex/CPX-1677			Another two complex could also catalyze the reaction
@@ -36,11 +35,11 @@ r_1085	YBR127C and YDL185W and YEL027W and YEL051W and YGR020C and YHR026W and Y
 r_1086	YBR127C and YDL185W and YEL027W and YEL051W and YGR020C and YHR026W and YHR039C-A and YKL080W and YLR447C and YOR270C and YOR332W and YPL234C and YPR036W	(YBR127C and YDL185W and YEL027W and YEL051W and YGR020C and YHR026W and YHR039C-A and YKL080W and YLR447C and YOR270C and YOR332W and YPL234C and YPR036W and YPR170W-B and YGR106C and YCL005W-A) or (YBR127C and YDL185W and YEL027W and YEL051W and YGR020C and YHR026W and YHR039C-A and YKL080W and YLR447C and YOR270C and YOR332W and YPL234C and YPR036W  and YGR106C and YCL005W-A)	https://www.ebi.ac.uk/complexportal/complex/CPX-1193			
 r_0886	YMR205C or (YGR240C and YMR205C)	YGR240C and YMR205C	https://www.ebi.ac.uk/complexportal/complex/CPX-554	https://www.yeastgenome.org/locus/S000004818	https://www.uniprot.org/uniprot/P16862	YMR205C is a subunit
 r_0887	YMR205C or (YGR240C and YMR205C)	YGR240C and YMR205C	https://www.ebi.ac.uk/complexportal/complex/CPX-554	https://www.yeastgenome.org/locus/S000004818	https://www.uniprot.org/uniprot/P16862	YMR205C is a subunit
-r_2836	YDR373W and YNL267W	(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)			https://www.uniprot.org/uniprot/P42951	"YDR373W, YNL267W, YJL100W could also catalyze the reaction"
-r_2837	YDR373W and YNL267W	(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)			https://www.uniprot.org/uniprot/P42951	"YDR373W, YNL267W, YJL100W could also catalyze the reaction"
-r_2838	YDR373W and YNL267W	(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)			https://www.uniprot.org/uniprot/P42951	"YDR373W, YNL267W, YJL100W could also catalyze the reaction"
-r_2839	YDR373W and YNL267W	(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)			https://www.uniprot.org/uniprot/P42951	"YDR373W, YNL267W, YJL100W could also catalyze the reaction"
-r_2840	YDR373W and YNL267W	(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)			https://www.uniprot.org/uniprot/P42951	"YDR373W, YNL267W, YJL100W could also catalyze the reaction"
-r_2841	YDR373W and YNL267W	(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)			https://www.uniprot.org/uniprot/P42951	"YDR373W, YNL267W, YJL100W could also catalyze the reaction"
-r_2842	YDR373W and YNL267W	(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)			https://www.uniprot.org/uniprot/P42951	"YDR373W, YNL267W, YJL100W could also catalyze the reaction"
-r_2843	YDR373W and YNL267W	(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)			https://www.uniprot.org/uniprot/P42951	"YDR373W, YNL267W, YJL100W could also catalyze the reaction"
+r_2836	YDR373W and YNL267W	YDR373W and YNL267W				keep the original grRules
+r_2837	YDR373W and YNL267W	YDR373W and YNL267W				keep the original grRules
+r_2838	YDR373W and YNL267W	YDR373W and YNL267W				keep the original grRules
+r_2839	YDR373W and YNL267W	YDR373W and YNL267W				keep the original grRules
+r_2840	YDR373W and YNL267W	YDR373W and YNL267W				keep the original grRules
+r_2841	YDR373W and YNL267W	YDR373W and YNL267W				keep the original grRules
+r_2842	YDR373W and YNL267W	YDR373W and YNL267W				keep the original grRules
+r_2843	YDR373W and YNL267W	YDR373W and YNL267W				keep the original grRules
