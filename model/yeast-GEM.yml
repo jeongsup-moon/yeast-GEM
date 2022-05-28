@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-05-26"
+    date: "2022-05-28"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -47302,7 +47302,7 @@
           - s_1278: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YDR204W and YGR255C and YLR201C and YML110C and YOL096C and YOR126C"
+      - gene_reaction_rule: "YDR204W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C"
       - eccodes:
           - "1.14.13.-"
           - "2.1.1.114"
@@ -47763,7 +47763,7 @@
           - s_1419: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YDR204W and YGR255C and YLR201C and YML110C and YOL096C and YOR126C"
+      - gene_reaction_rule: "YDR204W and YGR255C and YLR201C and YML110C and YOL096C and YOR125C"
       - eccodes:
           - "1.14.13.-"
           - "2.1.1.114"
@@ -73736,7 +73736,7 @@
           - s_3361: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)"
+      - gene_reaction_rule: "YDR373W and YNL267W"
       - eccodes: "2.7.1.67"
       - subsystem:
       - annotation: !!omap
@@ -73757,7 +73757,7 @@
           - s_3363: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)"
+      - gene_reaction_rule: "YDR373W and YNL267W"
       - eccodes: "2.7.1.67"
       - subsystem:
       - annotation: !!omap
@@ -73778,7 +73778,7 @@
           - s_3365: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)"
+      - gene_reaction_rule: "YDR373W and YNL267W"
       - eccodes: "2.7.1.67"
       - subsystem:
       - annotation: !!omap
@@ -73799,7 +73799,7 @@
           - s_3367: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)"
+      - gene_reaction_rule: "YDR373W and YNL267W"
       - eccodes: "2.7.1.67"
       - subsystem:
       - annotation: !!omap
@@ -73820,7 +73820,7 @@
           - s_3369: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)"
+      - gene_reaction_rule: "YDR373W and YNL267W"
       - eccodes: "2.7.1.67"
       - subsystem:
       - annotation: !!omap
@@ -73841,7 +73841,7 @@
           - s_3371: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)"
+      - gene_reaction_rule: "YDR373W and YNL267W"
       - eccodes: "2.7.1.67"
       - subsystem:
       - annotation: !!omap
@@ -73862,7 +73862,7 @@
           - s_3373: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)"
+      - gene_reaction_rule: "YDR373W and YNL267W"
       - eccodes: "2.7.1.67"
       - subsystem:
       - annotation: !!omap
@@ -73883,7 +73883,7 @@
           - s_3375: 1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "(YDR373W and YNL267W) or (YDR373W and YNL267W and YJL100W)"
+      - gene_reaction_rule: "YDR373W and YNL267W"
       - eccodes: "2.7.1.67"
       - subsystem:
       - annotation: !!omap
