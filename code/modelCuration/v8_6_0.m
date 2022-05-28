@@ -4,7 +4,7 @@
 %% Load yeast-GEM 8.6.0 (requires local yeast-GEM git repository)
 cd ..
 model = getEarlierModelVersion('8.6.0');
-model.id='yeast-GEM_develop';
+model.id='yeastGEM_develop';
 
 %% Curate complex annotation (PR #305)
 % Add new genes
@@ -39,7 +39,7 @@ newModel = deleteUnusedGenes(newModel);
 
 %% Add new gene associations from databases (PR #313)
 % Add new genes
-newModel       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/newGPRsfromDBsGenes.tsv');
+newModel       = curateMetsRxnsGenes(newModel,'none','../data/modelCuration/v8_6_0/newGPRsfromDBsGenes.tsv');
 
 % Change GPR relations
 fid           = fopen('../data/modelCuration/v8_6_0/newGPRsfromDBs.tsv');
