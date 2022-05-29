@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-05-28"
+    date: "2022-05-29"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -99312,7 +99312,6 @@
           - s_4108: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "YBR299W or YGR292W"
       - eccodes: "3.2.1.20"
       - subsystem:
       - annotation: !!omap
