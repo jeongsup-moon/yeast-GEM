@@ -28,7 +28,7 @@ model.id='yeastGEM_develop';
 
 %% Curate gene association for transport rxns (PR #306)
 % Add new genes
-newModel       = curateMetsRxnsGenes(newModel,'none','../data/modelCuration/curationsOnV8_6_0/transRxnNewGPRGenes.tsv');
+model       = curateMetsRxnsGenes(model,'none','../data/modelCuration/curationsOnV8_6_0/transRxnNewGPRGenes.tsv');
 
 % Change GPR relations
 fid           = fopen('../data/modelCuration/curationsOnV8_6_0/TransRxnNewGPR.tsv');
@@ -37,27 +37,27 @@ newGPR.ID     = changegpr{1};
 newGPR.GPR    = changegpr{2};
 fclose(fid);
 
-newModel=changeGrRules(newModel,newGPR.ID,newGPR.GPR);
+model=changeGrRules(model,newGPR.ID,newGPR.GPR);
 
 % Delete unused genes (if any)
-newModel = deleteUnusedGenes(newModel);
+model = deleteUnusedGenes(model);
 
 %% DO NOT CHANGE OR REMOVE THE CODE BELOW THIS LINE.
 % Show some metrics:
 cd modelTests
 disp('Run gene essentiality analysis')
-[new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(newModel);
-fprintf('Genes in model: %.4f\n',numel(newModel.genes));
-fprintf('Gene essentiality accuracy: %d\n', new.accuracy);
+[new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(model);
+fprintf('Genes in model: %d\n',numel(model.genes));
+fprintf('Gene essentiality accuracy: %.4f\n', new.accuracy);
 fprintf('Gene essentiality TP: %d\n', numel(new.tp));
 fprintf('Gene essentiality TN: %d\n', numel(new.tn));
 fprintf('Gene essentiality FP: %d\n', numel(new.fp));
 fprintf('Gene essentiality FN: %d\n', numel(new.fn));
-disp('\nRun growth analysis')
-R2=growth(newModel);
+fprintf('\nRun growth analysis\n')
+R2=growth(model);
 fprintf('R2 of growth prediction: %.4f\n', R2);
 
 % Save model:
 cd ..
-saveYeastModel(newModel)
+saveYeastModel(model)
 cd modelCuration

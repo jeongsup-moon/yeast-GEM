@@ -8,7 +8,7 @@ model.id='yeastGEM_develop';
 
 %% Curate complex annotation (PR #305)
 % Add new genes
-newModel       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/complexAnnotationGenes.tsv');
+model       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/complexAnnotationGenes.tsv');
 
 % Add gene standard name for new genes
 fid = fopen('../data/modelCuration/v8_6_0/complexAnnotation.tsv');
@@ -16,14 +16,14 @@ complexAnnot = textscan(fid,'%q %q %q %q %q %q %q','Delimiter','\t','HeaderLines
 fclose(fid);
 newGPR.ID     = complexAnnot{1};
 newGPR.GPR    = complexAnnot{3};
-newModel=changeGrRules(newModel,newGPR.ID,newGPR.GPR);
+model=changeGrRules(model,newGPR.ID,newGPR.GPR);
 
 % Delete unused genes (if any)
-newModel = deleteUnusedGenes(newModel);
+model = deleteUnusedGenes(model);
 
 %% Curate gene association for transport rxns (PR #306)
 % Add new genes
-newModel       = curateMetsRxnsGenes(newModel,'none','../data/modelCuration/v8_6_0/transRxnNewGPRGenes.tsv');
+model       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/transRxnNewGPRGenes.tsv');
 
 % Change GPR relations
 fid           = fopen('../data/modelCuration/v8_6_0/TransRxnNewGPR.tsv');
@@ -32,14 +32,14 @@ newGPR.ID     = changegpr{1};
 newGPR.GPR    = changegpr{2};
 fclose(fid);
 
-newModel=changeGrRules(newModel,newGPR.ID,newGPR.GPR);
+model=changeGrRules(model,newGPR.ID,newGPR.GPR);
 
 % Delete unused genes (if any)
-newModel = deleteUnusedGenes(newModel);
+model = deleteUnusedGenes(model);
 
 %% Add new gene associations from databases (PR #313)
 % Add new genes
-newModel       = curateMetsRxnsGenes(newModel,'none','../data/modelCuration/v8_6_0/newGPRsfromDBsGenes.tsv');
+model       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/newGPRsfromDBsGenes.tsv');
 
 % Change GPR relations
 fid           = fopen('../data/modelCuration/v8_6_0/newGPRsfromDBs.tsv');
@@ -48,26 +48,44 @@ newGPR.ID     = changegpr{1};
 newGPR.GPR    = changegpr{3};
 fclose(fid);
 
-newModel=changeGrRules(newModel,newGPR.ID,newGPR.GPR);
+model = changeGrRules(model,newGPR.ID,newGPR.GPR);
+
+% Finding putative gene associations highlighted duplicated reactions:
+% r_4566 is duplicate of r_4232, just in reverse direction
+model = setParam(model,'lb','r_4232',-1000);
+model = setParam(model,'rev','r_4232',1);
+model = removeReactions(model,'r_4566',true,true,true);
+
+% The following are duplicates, just in different compartment and with some
+% different names for same metabolites (reactions were added based on
+% metabolomics data, while isoleucine & valine biosynthesis is localized in
+% the mitochondrion)
+% r_4576 -> half-reaction of r_0096
+% r_4577 -> duplicate of r_0352
+% r_4578 -> duplicate of r_0096
+% r_4579 -> duplicate of r_0097
+% r_4580 -> duplicate of r_0096
+model = removeReactions(model,...
+    {'r_4576','r_4577','r_4578','r_4579','r_4580'},true,true,true);
 
 % Delete unused genes (if any)
-newModel = deleteUnusedGenes(newModel);
+model = deleteUnusedGenes(model);
 
 % Show some metrics:
 cd modelTests
 disp('Run gene essentiality analysis')
-[new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(newModel);
-fprintf('Genes in model: %.4f\n',numel(newModel.genes));
-fprintf('Gene essentiality accuracy: %d\n', new.accuracy);
+[new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(model);
+fprintf('Genes in model: %d\n',numel(model.genes));
+fprintf('Gene essentiality accuracy: %.4f\n', new.accuracy);
 fprintf('Gene essentiality TP: %d\n', numel(new.tp));
 fprintf('Gene essentiality TN: %d\n', numel(new.tn));
 fprintf('Gene essentiality FP: %d\n', numel(new.fp));
 fprintf('Gene essentiality FN: %d\n', numel(new.fn));
-disp('\nRun growth analysis')
-R2=growth(newModel);
+fprintf('\nRun growth analysis\n')
+R2=growth(model);
 fprintf('R2 of growth prediction: %.4f\n', R2);
 
 % Save model:
 cd ..
-saveYeastModel(newModel)
+saveYeastModel(model);
 cd modelCuration
