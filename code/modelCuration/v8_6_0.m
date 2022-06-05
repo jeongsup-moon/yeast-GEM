@@ -90,13 +90,13 @@ end
 cd modelTests
 % disp('Run gene essentiality analysis')
 % [new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(model);
-% fprintf('Genes in model: %.4f\n',numel(model.genes));
-% fprintf('Gene essentiality accuracy: %d\n', new.accuracy);
+% fprintf('Genes in model: %d\n',numel(model.genes));
+% fprintf('Gene essentiality accuracy: %.4f\n', new.accuracy);
 % fprintf('Gene essentiality TP: %d\n', numel(new.tp));
 % fprintf('Gene essentiality TN: %d\n', numel(new.tn));
 % fprintf('Gene essentiality FP: %d\n', numel(new.fp));
 % fprintf('Gene essentiality FN: %d\n', numel(new.fn));
-% disp('\nRun growth analysis')
+% fprintf('\nRun growth analysis\n')
 % R2=growth(model);
 % fprintf('R2 of growth prediction: %.4f\n', R2);
 
