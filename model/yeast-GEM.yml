@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-05-28"
+    date: "2022-05-30"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -29061,53 +29061,6 @@
           - metanetx.chemical: "MNXM244"
           - sbo: "SBO:0000247"
     - !!omap
-      - id: "s_4185"
-      - name: "(R)-2,3-dihydroxy-3-methylbutanoate"
-      - compartment: "c"
-      - formula: "C5H9O4"
-      - charge: -1
-      - annotation: !!omap
-          - bigg.metabolite: "23dhmb"
-          - chebi: "CHEBI:49072"
-          - kegg.compound: "C04272"
-          - metanetx.chemical: "MNXM114097"
-          - sbo: "SBO:0000247"
-    - !!omap
-      - id: "s_4186"
-      - name: "3-hydroxy-3-methyl-2-oxobutanoate"
-      - compartment: "c"
-      - formula: "C5H7O4"
-      - charge: -1
-      - annotation: !!omap
-          - bigg.metabolite: "3hmoa"
-          - chebi: "CHEBI:11812"
-          - kegg.compound: "C04181"
-          - metanetx.chemical: "MNXM1638"
-          - sbo: "SBO:0000247"
-    - !!omap
-      - id: "s_4187"
-      - name: "2-acetyllactic acid"
-      - compartment: "c"
-      - formula: "C5H7O4"
-      - charge: -1
-      - annotation: !!omap
-          - chebi: "CHEBI:57774"
-          - kegg.compound: "C00900"
-          - metanetx.chemical: "MNXM426"
-          - sbo: "SBO:0000247"
-    - !!omap
-      - id: "s_4188"
-      - name: "(2S)-2-acetolactate"
-      - compartment: "c"
-      - formula: "C5H7O4"
-      - charge: -1
-      - annotation: !!omap
-          - bigg.metabolite: "alac__S"
-          - chebi: "CHEBI:58476"
-          - kegg.compound: "C06010"
-          - metanetx.chemical: "MNXM114079"
-          - sbo: "SBO:0000247"
-    - !!omap
       - id: "s_4189"
       - name: "(2R,3S)-3-methylmalate"
       - compartment: "c"
@@ -29321,17 +29274,6 @@
           - chebi: "CHEBI:18072"
           - kegg.compound: "C01157"
           - metanetx.chemical: "MNXM87584"
-          - sbo: "SBO:0000247"
-    - !!omap
-      - id: "s_4208"
-      - name: "2,3-dihydroxy-3-methylbutanoate"
-      - compartment: "c"
-      - formula: "C5H9O4"
-      - charge: -1
-      - annotation: !!omap
-          - chebi: "CHEBI:11424"
-          - kegg.compound: "C04039"
-          - metanetx.chemical: "MNXM734"
           - sbo: "SBO:0000247"
     - !!omap
       - id: "s_4209"
@@ -53795,6 +53737,7 @@
           - s_1322: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGL101W or YBR242W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "NTD6"
@@ -53812,6 +53755,7 @@
           - s_1322: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGL101W or YBR242W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "NTD3"
@@ -53829,6 +53773,7 @@
           - s_1322: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGL101W or YBR242W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "NTD8"
@@ -53846,6 +53791,7 @@
           - s_1493: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGL101W or YBR242W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "NTD5"
@@ -54883,6 +54829,7 @@
           - s_0526: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YKL024C"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "CYTK1"
@@ -54900,6 +54847,7 @@
           - s_0589: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YKL024C"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "CYTK2"
@@ -55339,6 +55287,7 @@
           - s_0794: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YDR196C"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "DPCOAK"
@@ -58294,6 +58243,7 @@
           - s_1395: 1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YNR027W"
       - subsystem:
       - annotation: !!omap
           - bigg.reaction: "PYDAMK"
@@ -96739,7 +96689,7 @@
           - s_0434: -1
           - s_0794: 1
           - s_3875: -1
-      - lower_bound: 0
+      - lower_bound: -1000
       - upper_bound: 1000
       - gene_reaction_rule: "YDR248C"
       - eccodes: "2.7.1.12"
@@ -99208,6 +99158,7 @@
           - s_4102: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGR247W"
       - eccodes: "3.1.4.37"
       - subsystem:
       - annotation: !!omap
@@ -99464,6 +99415,7 @@
           - s_4126: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGR247W"
       - eccodes: "3.1.4.37"
       - subsystem:
       - annotation: !!omap
@@ -99653,6 +99605,7 @@
           - s_4140: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR299W or YGR292W"
       - eccodes: "3.2.1.20"
       - subsystem:
       - annotation: !!omap
@@ -99846,6 +99799,7 @@
           - s_4094: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YGR247W"
       - eccodes: "3.1.4.37"
       - subsystem:
       - annotation: !!omap
@@ -99973,6 +99927,7 @@
           - s_4131: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YBR299W or YGR292W"
       - eccodes: "3.2.1.20"
       - subsystem:
       - annotation: !!omap
@@ -101863,24 +101818,6 @@
           - bigg.reaction: "EX_23cump_e"
           - sbo: "SBO:0000627"
     - !!omap
-      - id: "r_4566"
-      - name: "ATP:D-Gluconate 6-phosphotransferase"
-      - metabolites: !!omap
-          - s_0340: -1
-          - s_0394: -1
-          - s_0434: 1
-          - s_0794: -1
-          - s_3875: 1
-      - lower_bound: 0
-      - upper_bound: 1000
-      - eccodes: "2.7.1.12"
-      - subsystem:
-      - annotation: !!omap
-          - kegg.reaction: "R01737"
-          - metanetx.reaction: "MNXR100390"
-          - sbo: "SBO:0000176"
-      - confidence_score: 0
-    - !!omap
       - id: "r_4567"
       - name: "6-phosphogluconate phosphatase"
       - metabolites: !!omap
@@ -101945,6 +101882,7 @@
           - s_4182: -1
       - lower_bound: -1000
       - upper_bound: 1000
+      - gene_reaction_rule: "YIL074C or YER081W"
       - eccodes: "1.1.1.95"
       - subsystem:
       - annotation: !!omap
@@ -102052,94 +101990,6 @@
           - sbo: "SBO:0000176"
       - confidence_score: 0
     - !!omap
-      - id: "r_4576"
-      - name: "(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)"
-      - metabolites: !!omap
-          - s_0794: 1
-          - s_1207: -1
-          - s_1212: 1
-          - s_4185: -1
-          - s_4186: 1
-      - lower_bound: -1000
-      - upper_bound: 1000
-      - eccodes: "1.1.1.86"
-      - subsystem:
-      - annotation: !!omap
-          - kegg.reaction: "R04440"
-          - metanetx.reaction: "MNXR100904"
-          - sbo: "SBO:0000176"
-      - confidence_score: 0
-    - !!omap
-      - id: "r_4577"
-      - name: "Dihydroxy-acid dehydratase, mitochondrial"
-      - metabolites: !!omap
-          - s_0232: -1
-          - s_0803: -1
-          - s_4208: 1
-      - lower_bound: 0
-      - upper_bound: 1000
-      - subsystem:
-      - annotation: !!omap
-          - kegg.reaction: "R01209"
-          - metanetx.reaction: "MNXR106867"
-          - sbo: "SBO:0000176"
-      - confidence_score: 0
-    - !!omap
-      - id: "r_4578"
-      - name: "Ketol-acid reductoisomerase, mitochondrial"
-      - metabolites: !!omap
-          - s_0794: -1
-          - s_1207: 1
-          - s_1212: -1
-          - s_4185: 1
-          - s_4187: -1
-      - lower_bound: 0
-      - upper_bound: 1000
-      - subsystem:
-      - annotation: !!omap
-          - metanetx.reaction: "MNXR137279"
-          - sbo: "SBO:0000176"
-      - confidence_score: 0
-    - !!omap
-      - id: "r_4579"
-      - name: "pyruvate:pyruvate acetaldehydetransferase (decarboxylating); (S)-2-acetolactate pyruvate-lyase (carboxylating)"
-      - metabolites: !!omap
-          - s_0456: 1
-          - s_0794: -1
-          - s_1399: -2
-          - s_4188: 1
-      - lower_bound: 0
-      - upper_bound: 1000
-      - eccodes: "2.2.1.6"
-      - subsystem:
-      - annotation: !!omap
-          - bigg.reaction: "ACLS"
-          - kegg.reaction: "R00226"
-          - metanetx.reaction: "MNXR95271"
-          - sbo: "SBO:0000176"
-      - confidence_score: 0
-    - !!omap
-      - id: "r_4580"
-      - name: "(R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)"
-      - metabolites: !!omap
-          - s_0794: 1
-          - s_1207: -1
-          - s_1212: 1
-          - s_4185: -1
-          - s_4188: 1
-      - lower_bound: -1000
-      - upper_bound: 1000
-      - eccodes:
-          - "1.1.1.383"
-          - "1.1.1.86"
-      - subsystem:
-      - annotation: !!omap
-          - bigg.reaction: "KARA1"
-          - kegg.reaction: "R04439"
-          - metanetx.reaction: "MNXR97523"
-          - sbo: "SBO:0000176"
-      - confidence_score: 0
-    - !!omap
       - id: "r_4581"
       - name: "(2R,3S)-3-methylmalate:NAD+ oxidoreductase"
       - metabolites: !!omap
@@ -102211,6 +102061,7 @@
           - s_4191: -1
       - lower_bound: 0
       - upper_bound: 1000
+      - gene_reaction_rule: "YOR317W or YER015W or YMR246W or YIL009W"
       - eccodes: "6.2.1.3"
       - subsystem:
       - annotation: !!omap
@@ -104357,6 +104208,14 @@
       - id: "YBR241C"
       - name: "YBR241C"
     - !!omap
+      - id: "YBR242W"
+      - annotation: !!omap
+          - kegg.genes: "sce:YBR242W"
+          - ncbigene: "852544"
+          - ncbiprotein: "NP_009801"
+          - refseq: "NM_001178590"
+          - uniprot: "P38331"
+    - !!omap
       - id: "YBR243C"
       - name: "ALG7"
     - !!omap
@@ -105277,6 +105136,15 @@
     - !!omap
       - id: "YGL084C"
       - name: "GUP1"
+    - !!omap
+      - id: "YGL101W"
+      - name: "YGK1"
+      - annotation: !!omap
+          - kegg.genes: "sce:YGL101W"
+          - ncbigene: "852777"
+          - ncbiprotein: "NP_011414"
+          - refseq: "NM_001180966"
+          - uniprot: "P53144"
     - !!omap
       - id: "YGL125W"
       - name: "MET13"
