@@ -13,7 +13,6 @@ fclose(fid);
 subsystem.rxn = fileInput{1};
 subsystem.sub = fileInput{5};
 %Capitalize first letter
-subsystem.sub = regexprep(subsystem.sub,'^(\w)','${upper($0)}');
 
 [a,b] = ismember(subsystem.rxn,model.rxns);
 for i=1:numel(b)
