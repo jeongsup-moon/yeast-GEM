@@ -77,9 +77,10 @@ fileInput     = textscan(fid,'%q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 subsystem.rxn = fileInput{1};
 subsystem.sub = fileInput{5};
-%Capitalize first letter
 
 [a,b] = ismember(subsystem.rxn,model.rxns);
+%Remove non-matching reactions
+b(~a)=[]; subsystem.sub(~a)='';
 for i=1:numel(b)
     model.subSystems{b(i),1}=subsystem.sub(i);
 end
@@ -87,17 +88,17 @@ end
 %% DO NOT CHANGE OR REMOVE THE CODE BELOW THIS LINE.
 % Show some metrics:
 cd modelTests
-disp('Run gene essentiality analysis')
-[new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(model);
-fprintf('Genes in model: %.4f\n',numel(model.genes));
-fprintf('Gene essentiality accuracy: %d\n', new.accuracy);
-fprintf('Gene essentiality TP: %d\n', numel(new.tp));
-fprintf('Gene essentiality TN: %d\n', numel(new.tn));
-fprintf('Gene essentiality FP: %d\n', numel(new.fp));
-fprintf('Gene essentiality FN: %d\n', numel(new.fn));
-disp('\nRun growth analysis')
-R2=growth(model);
-fprintf('R2 of growth prediction: %.4f\n', R2);
+% disp('Run gene essentiality analysis')
+% [new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(model);
+% fprintf('Genes in model: %.4f\n',numel(model.genes));
+% fprintf('Gene essentiality accuracy: %d\n', new.accuracy);
+% fprintf('Gene essentiality TP: %d\n', numel(new.tp));
+% fprintf('Gene essentiality TN: %d\n', numel(new.tn));
+% fprintf('Gene essentiality FP: %d\n', numel(new.fp));
+% fprintf('Gene essentiality FN: %d\n', numel(new.fn));
+% disp('\nRun growth analysis')
+% R2=growth(model);
+% fprintf('R2 of growth prediction: %.4f\n', R2);
 
 % Save model:
 cd ..
