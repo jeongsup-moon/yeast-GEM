@@ -35995,7 +35995,7 @@
       - gene_reaction_rule: "YLR304C"
       - eccodes: "4.2.1.3"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "ACN_b_m"
           - kegg.pathway:
@@ -36440,7 +36440,7 @@
       - gene_reaction_rule: "YNR001C or YPR001W"
       - eccodes: "2.3.3.1"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "CSm"
           - kegg.pathway:
@@ -36471,7 +36471,7 @@
       - gene_reaction_rule: "YCR005C"
       - eccodes: "2.3.3.16"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "CSp"
           - kegg.pathway:
@@ -36499,7 +36499,7 @@
       - gene_reaction_rule: "YLR304C"
       - eccodes: "4.2.1.3"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "ACN_a_m"
           - kegg.pathway:
@@ -36527,7 +36527,7 @@
       - gene_reaction_rule: "YLR304C"
       - eccodes: "4.2.1.3"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "ACONTa"
           - kegg.pathway:
@@ -37122,7 +37122,7 @@
       - gene_reaction_rule: "YHR068W"
       - eccodes: "2.5.1.46"
       - subsystem:
-          - "Other"
+          - "Arginine and proline metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR136013"
           - sbo: "SBO:0000176"
@@ -38408,7 +38408,7 @@
       - gene_reaction_rule: "YPL262W"
       - eccodes: "4.2.1.2"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "FUMm"
           - kegg.pathway:
@@ -38434,7 +38434,7 @@
       - gene_reaction_rule: "YPL262W"
       - eccodes: "4.2.1.2"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "FUM"
           - kegg.pathway:
@@ -38486,7 +38486,7 @@
       - gene_reaction_rule: "YEL047C"
       - eccodes: "1.3.1.6"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "FRDm"
           - kegg.reaction: "R00408"
@@ -40121,7 +40121,7 @@
       - gene_reaction_rule: "YER141W or (YDR376W and YPL252C)"
       - eccodes: "1.18.1.6"
       - subsystem:
-          - "Heme a biosynthesis"
+          - "Porphyrin and chlorophyll metabolism"
       - annotation: !!omap
           - bigg.reaction: "HEMEOMOm"
           - metanetx.reaction: "MNXR100595"
@@ -42611,7 +42611,7 @@
       - gene_reaction_rule: "YNL037C and YOR136W"
       - eccodes: "1.1.1.41"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "ICDHxm"
           - kegg.pathway:
@@ -42640,7 +42640,7 @@
       - gene_reaction_rule: "YLR174W"
       - eccodes: "1.1.1.42"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "ICDHyr"
           - kegg.pathway:
@@ -42671,7 +42671,7 @@
       - gene_reaction_rule: "YNL009W"
       - eccodes: "1.1.1.42"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "ICDHyp"
           - kegg.pathway:
@@ -43819,7 +43819,7 @@
       - gene_reaction_rule: "YKL085W"
       - eccodes: "1.1.1.37"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "MDHm"
           - kegg.pathway:
@@ -43849,7 +43849,7 @@
       - gene_reaction_rule: "YOL126C"
       - eccodes: "1.1.1.37"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "MDH"
           - kegg.pathway:
@@ -43879,7 +43879,7 @@
       - gene_reaction_rule: "YDL078C"
       - eccodes: "1.1.1.37"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "MDHp"
           - kegg.pathway:
@@ -46104,7 +46104,7 @@
           - "1.8.1.4"
           - "2.3.1.61"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "AKGDbm"
           - kegg.pathway:
@@ -46142,7 +46142,7 @@
           - "1.8.1.4"
           - "2.3.1.61"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "AKGDam"
           - kegg.pathway:
@@ -49126,7 +49126,7 @@
       - gene_reaction_rule: "(YDR178W and YJL045W and YKL141W and YLL041C) or (YDR178W and YKL141W and YKL148C and YLL041C) or (YLR164W and YJL045W and YKL141W and YLL041C)"
       - eccodes: "1.3.5.1"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "SUCD2_u6m"
           - kegg.pathway:
@@ -49154,7 +49154,7 @@
       - gene_reaction_rule: "YGR244C and YOR142W"
       - eccodes: "6.2.1.5"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "SUCOASm"
           - kegg.pathway:
@@ -49553,7 +49553,7 @@
       - gene_reaction_rule: "(YDR353W and YGR209C) or (YDR353W and YLR043C) or YDR353W"
       - eccodes: "1.8.1.9"
       - subsystem:
-          - "Selenocompound metabolism"
+          - "Glutathione metabolism"
       - annotation: !!omap
           - bigg.reaction: "TRDR"
           - kegg.pathway: "sce00450"
@@ -49576,7 +49576,7 @@
           - "1.8.1.7"
           - "1.8.1.9"
       - subsystem:
-          - "Selenocompound metabolism"
+          - "Glutathione metabolism"
       - annotation: !!omap
           - bigg.reaction: "TRDRm"
           - kegg.pathway:
@@ -61054,7 +61054,7 @@
       - gene_reaction_rule: "YDL066W"
       - eccodes: "1.1.1.42"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "ICDHym"
           - kegg.pathway:
@@ -64878,7 +64878,7 @@
       - gene_reaction_rule: "YLR304C"
       - eccodes: "4.2.1.3"
       - subsystem:
-          - "Citrate cycle (tca cycle)"
+          - "Citrate cycle (TCA cycle)"
       - annotation: !!omap
           - bigg.reaction: "ACONTb"
           - kegg.pathway:
@@ -97182,7 +97182,7 @@
       - lower_bound: 0.7
       - upper_bound: 0.7
       - subsystem:
-          - "ATPM"
+          - "Growth"
       - annotation: !!omap
           - bigg.reaction: "ATPM"
           - sbo: "SBO:0000630"
@@ -100862,7 +100862,7 @@
       - gene_reaction_rule: "YJR051W"
       - eccodes: "1.3.1.6"
       - subsystem:
-          - "FAD metabolism"
+          - "Cellular response to anaerobic conditions"
       - annotation: !!omap
           - kegg.reaction: "R00402"
           - metanetx.reaction: "MNXR106516"

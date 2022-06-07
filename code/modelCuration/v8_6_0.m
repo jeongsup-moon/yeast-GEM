@@ -73,7 +73,7 @@ model = deleteUnusedGenes(model);
 
 %% Define unique subsystems (Issue #11, PR #307)
 fid           = fopen('../data/modelCuration/v8_6_0/uniqueSubsystems.tsv');
-fileInput     = textscan(fid,'%q %q %q %q %q','Delimiter','\t','HeaderLines',1);
+fileInput     = textscan(fid,'%q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 subsystem.rxn = fileInput{1};
 subsystem.sub = fileInput{5};
