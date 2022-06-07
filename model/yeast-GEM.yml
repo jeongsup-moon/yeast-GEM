@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-06-05"
+    date: "2022-06-07"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -33086,7 +33086,7 @@
       - gene_reaction_rule: "YGR247W"
       - eccodes: "3.1.4.37"
       - subsystem:
-          - "Other"
+          - "Cyclic nucleotide metabolism"
       - annotation: !!omap
           - bigg.reaction: "23CAPPD"
           - metanetx.reaction: "MNXR117324"
@@ -33136,7 +33136,7 @@
       - gene_reaction_rule: "YOR335C"
       - eccodes: "6.1.1.7"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "ALATRS"
           - kegg.pathway: "sce00970"
@@ -34123,7 +34123,7 @@
       - gene_reaction_rule: "YBR199W or YBR205W or YDR483W or YJL139C or YKR061W or YNL029C or YOR099W or YPL053C"
       - eccodes: "2.4.1.-"
       - subsystem:
-          - "Various types of N-glycan biosynthesis"
+          - "N-glycan biosynthesis"
       - annotation: !!omap
           - kegg.pathway:
               - "sce00513"
@@ -34498,7 +34498,7 @@
       - gene_reaction_rule: "YDR341C"
       - eccodes: "6.1.1.19"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "ARGTRS"
           - kegg.pathway: "sce00970"
@@ -34521,7 +34521,7 @@
       - gene_reaction_rule: "YHR091C"
       - eccodes: "6.1.1.19"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "ARGTRSm"
           - kegg.pathway: "sce00970"
@@ -34573,7 +34573,7 @@
       - gene_reaction_rule: "YHR019C"
       - eccodes: "6.1.1.22"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "ASNTRS"
           - kegg.pathway: "sce00970"
@@ -34597,7 +34597,7 @@
       - gene_reaction_rule: "YCR024C"
       - eccodes: "6.1.1.22"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "ASNTRSm"
           - kegg.pathway: "sce00970"
@@ -34811,7 +34811,7 @@
       - gene_reaction_rule: "YLL018C"
       - eccodes: "6.1.1.12"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "ASPTRS"
           - kegg.pathway: "sce00970"
@@ -34835,7 +34835,7 @@
       - gene_reaction_rule: "YPL104W"
       - eccodes: "6.1.1.12"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "ASPTRSm"
           - kegg.pathway: "sce00970"
@@ -35440,7 +35440,7 @@
       - gene_reaction_rule: "YAR035W or YER024W"
       - eccodes: "2.3.1.7"
       - subsystem:
-          - "Other"
+          - "Carnitine metabolism"
       - annotation: !!omap
           - bigg.reaction: "CSNATr"
           - kegg.pathway: "sce04146"
@@ -35462,7 +35462,7 @@
       - gene_reaction_rule: "YML042W"
       - eccodes: "2.3.1.7"
       - subsystem:
-          - "Other"
+          - "Carnitine metabolism"
       - annotation: !!omap
           - bigg.reaction: "CSNATp"
           - kegg.pathway: "sce04146"
@@ -35483,7 +35483,7 @@
       - gene_reaction_rule: "YML042W"
       - eccodes: "2.3.1.7"
       - subsystem:
-          - "Other"
+          - "Carnitine metabolism"
       - annotation: !!omap
           - bigg.reaction: "CSNATm"
           - kegg.pathway: "sce04146"
@@ -36775,7 +36775,7 @@
       - gene_reaction_rule: "YNL247W"
       - eccodes: "6.1.1.16"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "CYSTRS"
           - kegg.pathway: "sce00970"
@@ -37723,7 +37723,7 @@
       - gene_reaction_rule: "(YAL023C and YDL095W) or YDL093W or YJR143C or YOR321W"
       - eccodes: "2.4.1.109"
       - subsystem:
-          - "Other types of O-glycan biosynthesis"
+          - "N-glycan biosynthesis"
       - annotation: !!omap
           - bigg.reaction: "DOLPMMer"
           - kegg.pathway:
@@ -38486,7 +38486,7 @@
       - gene_reaction_rule: "YEL047C"
       - eccodes: "1.3.1.6"
       - subsystem:
-          - "Other"
+          - "Citrate cycle (tca cycle)"
       - annotation: !!omap
           - bigg.reaction: "FRDm"
           - kegg.reaction: "R00408"
@@ -38511,7 +38511,7 @@
       - gene_reaction_rule: "YEL047C"
       - eccodes: "1.3.1.6"
       - subsystem:
-          - "Other"
+          - "Cellular response to anaerobic conditions"
       - annotation: !!omap
           - bigg.reaction: "FRD"
           - kegg.reaction: "R00408"
@@ -39034,7 +39034,7 @@
       - gene_reaction_rule: "YOR168W"
       - eccodes: "6.1.1.18"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "GLNTRS"
           - kegg.pathway: "sce00970"
@@ -39058,7 +39058,7 @@
       - gene_reaction_rule: "YGL245W"
       - eccodes: "6.1.1.17"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "GLUTRS"
           - kegg.pathway:
@@ -39084,7 +39084,7 @@
       - gene_reaction_rule: "YOL033W"
       - eccodes: "6.1.1.17"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "GLUTRSm"
           - kegg.pathway:
@@ -39821,7 +39821,7 @@
       - gene_reaction_rule: "YBR121C or YPR081C"
       - eccodes: "6.1.1.14"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "GLYTRS"
           - kegg.pathway: "sce00970"
@@ -40121,7 +40121,7 @@
       - gene_reaction_rule: "YER141W or (YDR376W and YPL252C)"
       - eccodes: "1.18.1.6"
       - subsystem:
-          - "Other"
+          - "Heme a biosynthesis"
       - annotation: !!omap
           - bigg.reaction: "HEMEOMOm"
           - metanetx.reaction: "MNXR100595"
@@ -40369,7 +40369,7 @@
       - gene_reaction_rule: "YPR033C"
       - eccodes: "6.1.1.21"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "HISTRS"
           - kegg.pathway: "sce00970"
@@ -40393,7 +40393,7 @@
       - gene_reaction_rule: "YPR033C"
       - eccodes: "6.1.1.21"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "HISTRSm"
           - kegg.pathway: "sce00970"
@@ -40651,7 +40651,7 @@
       - gene_reaction_rule: "(YDR453C and YGR209C) or (YDR453C and YLR043C)"
       - eccodes: "1.11.1.15"
       - subsystem:
-          - "None"
+          - "Glutathione metabolism"
       - annotation: !!omap
           - bigg.reaction: "THIORDXi"
           - metanetx.reaction: "MNXR104815"
@@ -40672,7 +40672,7 @@
       - gene_reaction_rule: "YBL064C and YCR083W"
       - eccodes: "1.11.1.15"
       - subsystem:
-          - "None"
+          - "Glutathione metabolism"
       - annotation: !!omap
           - bigg.reaction: "THIORDXm"
           - metanetx.reaction: "MNXR104815"
@@ -40693,7 +40693,7 @@
       - gene_reaction_rule: "(YGR209C and YLR109W) or (YLR043C and YLR109W)"
       - eccodes: "1.11.1.15"
       - subsystem:
-          - "None"
+          - "Glutathione metabolism"
       - annotation: !!omap
           - bigg.reaction: "THIORDXp"
           - kegg.pathway: "sce04122"
@@ -42788,7 +42788,7 @@
       - gene_reaction_rule: "YBL076C"
       - eccodes: "6.1.1.5"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "ILETRS"
           - kegg.pathway: "sce00970"
@@ -42812,7 +42812,7 @@
       - gene_reaction_rule: "YPL040C"
       - eccodes: "6.1.1.5"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "ILETRSm"
           - kegg.pathway: "sce00970"
@@ -43471,7 +43471,7 @@
       - upper_bound: 1000
       - gene_reaction_rule: "YDR403W"
       - subsystem:
-          - "None"
+          - "Tryptophan metabolism"
       - annotation: !!omap
           - bigg.reaction: "TYRNFT"
           - metanetx.reaction: "MNXR104994"
@@ -43617,7 +43617,7 @@
       - gene_reaction_rule: "YPL160W"
       - eccodes: "6.1.1.4"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "LEUTRS"
           - kegg.pathway: "sce00970"
@@ -43641,7 +43641,7 @@
       - gene_reaction_rule: "YLR382C"
       - eccodes: "6.1.1.4"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "LEUTRSm"
           - kegg.pathway: "sce00970"
@@ -43772,7 +43772,7 @@
       - gene_reaction_rule: "YDR037W"
       - eccodes: "6.1.1.6"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "LYSTRS"
           - kegg.pathway: "sce00970"
@@ -43796,7 +43796,7 @@
       - gene_reaction_rule: "YNL073W"
       - eccodes: "6.1.1.6"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "LYSTRSm"
           - kegg.pathway: "sce00970"
@@ -44195,7 +44195,7 @@
       - gene_reaction_rule: "YBL013W"
       - eccodes: "2.1.2.9"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "FMETTRSm"
           - kegg.pathway:
@@ -44220,7 +44220,7 @@
       - gene_reaction_rule: "YGR264C"
       - eccodes: "6.1.1.10"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "METTRS"
           - kegg.pathway:
@@ -44246,7 +44246,7 @@
       - gene_reaction_rule: "YGR171C"
       - eccodes: "6.1.1.10"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "METTRSm"
           - kegg.pathway:
@@ -46438,7 +46438,7 @@
       - gene_reaction_rule: "YFL022C and YLR060W"
       - eccodes: "6.1.1.20"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "PHETRS"
           - kegg.pathway: "sce00970"
@@ -46462,7 +46462,7 @@
       - gene_reaction_rule: "YPR047W"
       - eccodes: "6.1.1.20"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "PHETRSm"
           - kegg.pathway: "sce00970"
@@ -47560,7 +47560,7 @@
       - gene_reaction_rule: "YHR020W"
       - eccodes: "6.1.1.15"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "PROTRS_1"
           - kegg.pathway: "sce00970"
@@ -48676,7 +48676,7 @@
       - gene_reaction_rule: "YDR023W or YHR011W"
       - eccodes: "6.1.1.11"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "SERTRS"
           - kegg.pathway: "sce00970"
@@ -48816,7 +48816,7 @@
       - gene_reaction_rule: "YEL047C"
       - eccodes: "1.3.1.6"
       - subsystem:
-          - "Other"
+          - "Cellular response to anaerobic conditions"
       - annotation: !!omap
           - kegg.reaction: "R00408"
           - metanetx.reaction: "MNXR129857"
@@ -49653,7 +49653,7 @@
       - gene_reaction_rule: "YIL078W"
       - eccodes: "6.1.1.3"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "THRTRS"
           - kegg.pathway: "sce00970"
@@ -49677,7 +49677,7 @@
       - gene_reaction_rule: "YKL194C"
       - eccodes: "6.1.1.3"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "THRTRSm"
           - kegg.pathway: "sce00970"
@@ -49722,7 +49722,7 @@
       - gene_reaction_rule: "YER175C"
       - eccodes: "2.1.1.145"
       - subsystem:
-          - "Other"
+          - "C5-branched dibasic acid metabolism"
       - annotation: !!omap
           - bigg.reaction: "ACONMT"
           - kegg.reaction: "R05763"
@@ -49961,7 +49961,7 @@
       - gene_reaction_rule: "YOL097C"
       - eccodes: "6.1.1.2"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "TRPTRS"
           - kegg.pathway: "sce00970"
@@ -49985,7 +49985,7 @@
       - gene_reaction_rule: "YDR268W"
       - eccodes: "6.1.1.2"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "TRPTRSm"
           - kegg.pathway: "sce00970"
@@ -50079,7 +50079,7 @@
       - gene_reaction_rule: "YGR185C"
       - eccodes: "6.1.1.1"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "TYRTRS"
           - kegg.pathway: "sce00970"
@@ -50103,7 +50103,7 @@
       - gene_reaction_rule: "YPL097W"
       - eccodes: "6.1.1.1"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "TYRTRSm"
           - kegg.pathway: "sce00970"
@@ -50126,7 +50126,7 @@
       - gene_reaction_rule: "YLR189C"
       - eccodes: "2.4.1.173"
       - subsystem:
-          - "None"
+          - "Steroid biosynthesis"
       - annotation: !!omap
           - bigg.reaction: "ERGSTGLCT"
           - pubmed: "10224056"
@@ -50634,7 +50634,7 @@
       - gene_reaction_rule: "YGR094W"
       - eccodes: "6.1.1.9"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "VALTRS"
           - kegg.pathway: "sce00970"
@@ -50658,7 +50658,7 @@
       - gene_reaction_rule: "YGR094W"
       - eccodes: "6.1.1.9"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - bigg.reaction: "VALTRSm"
           - kegg.pathway: "sce00970"
@@ -60266,7 +60266,7 @@
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
-          - "Other"
+          - "Thiamine metabolism"
       - annotation: !!omap
           - bigg.reaction: "THZPSN2_SC"
           - metanetx.reaction: "MNXR104860"
@@ -60291,7 +60291,7 @@
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
-          - "Other"
+          - "Thiamine metabolism"
       - annotation: !!omap
           - bigg.reaction: "THZPSN1_SC"
           - metanetx.reaction: "MNXR104859"
@@ -64840,7 +64840,7 @@
       - gene_reaction_rule: "YNL202W"
       - eccodes: "1.3.1.34"
       - subsystem:
-          - "Other"
+          - "Ascospore biosynthesis"
       - annotation: !!omap
           - kegg.pathway: "sce04146"
           - pubmed: "12697341"
@@ -64860,7 +64860,7 @@
       - gene_reaction_rule: "YNL202W"
       - eccodes: "1.3.1.34"
       - subsystem:
-          - "Other"
+          - "Ascospore biosynthesis"
       - annotation: !!omap
           - kegg.pathway: "sce04146"
           - pubmed: "12697341"
@@ -97182,7 +97182,7 @@
       - lower_bound: 0.7
       - upper_bound: 0.7
       - subsystem:
-          - "None"
+          - "ATPM"
       - annotation: !!omap
           - bigg.reaction: "ATPM"
           - sbo: "SBO:0000630"
@@ -98873,7 +98873,7 @@
       - gene_reaction_rule: "YBL080C"
       - eccodes: "6.3.5.-"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 2
@@ -98890,7 +98890,7 @@
       - gene_reaction_rule: "YBL091C or YLR244C"
       - eccodes: "3.4.11.18"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 2
@@ -98909,7 +98909,7 @@
           - "3.1.3.84"
           - "3.2.2.-"
       - subsystem:
-          - "Other"
+          - "Purine metabolism"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 2
@@ -98927,7 +98927,7 @@
       - gene_reaction_rule: "YBR046C"
       - eccodes: "1.6.5.5"
       - subsystem:
-          - "None"
+          - "Ubiquinone and other terpenoid-quinone biosynthesis"
       - annotation: !!omap
           - kegg.reaction: "R02364"
           - metanetx.reaction: "MNXR107466"
@@ -99445,7 +99445,7 @@
       - gene_reaction_rule: "YER087W"
       - eccodes: "6.1.1.15"
       - subsystem:
-          - "Aminoacyl-tRNA biosynthesis"
+          - "tRNA metabolism"
       - annotation: !!omap
           - kegg.reaction: "R03661"
           - metanetx.reaction: "MNXR103208"
@@ -99500,7 +99500,7 @@
       - gene_reaction_rule: "YHR008C"
       - eccodes: "1.15.1.1"
       - subsystem:
-          - "Other"
+          - "Superoxide metabolism"
       - annotation: !!omap
           - bigg.reaction: "SPODMm"
           - kegg.reaction: "R00275"
@@ -99745,7 +99745,7 @@
       - gene_reaction_rule: "YKL103C"
       - eccodes: "3.4.11.22"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 2
@@ -99762,7 +99762,7 @@
       - gene_reaction_rule: "YKL103C"
       - eccodes: "3.4.11.22"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 2
@@ -99801,7 +99801,7 @@
       - gene_reaction_rule: "YKL218C"
       - eccodes: "4.3.1.16"
       - subsystem:
-          - "None"
+          - "Alanine, aspartate and glutamate metabolism"
       - annotation: !!omap
           - kegg.reaction: "R05758"
           - metanetx.reaction: "MNXR109814"
@@ -99881,7 +99881,7 @@
       - gene_reaction_rule: "YFL061W or YNL335W"
       - eccodes: "4.2.1.69"
       - subsystem:
-          - "Atrazine degradation"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - kegg.reaction: "R00778"
           - metanetx.reaction: "MNXR106683"
@@ -100033,7 +100033,7 @@
           - "3.1.1.96"
           - "3.1.1.-"
       - subsystem:
-          - "None"
+          - "tRNA metabolism"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 2
@@ -100053,7 +100053,7 @@
           - "3.1.1.96"
           - "3.1.1.-"
       - subsystem:
-          - "None"
+          - "tRNA metabolism"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 2
@@ -100071,7 +100071,7 @@
       - gene_reaction_rule: "YDL236W"
       - eccodes: "3.1.3.41"
       - subsystem:
-          - "Aminobenzoate degradation"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - kegg.reaction: "R03024"
           - metanetx.reaction: "MNXR107896"
@@ -100252,7 +100252,7 @@
       - gene_reaction_rule: "YDR242W"
       - eccodes: "3.5.1.4"
       - subsystem:
-          - "Styrene degradation"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - bigg.reaction: "AMID5"
           - kegg.reaction: "R05551"
@@ -100410,7 +100410,7 @@
       - gene_reaction_rule: "YGL017W"
       - eccodes: "2.3.2.8"
       - subsystem:
-          - "None"
+          - "tRNA metabolism"
       - annotation: !!omap
           - kegg.reaction: "R03862"
           - metanetx.reaction: "MNXR108483"
@@ -100469,7 +100469,7 @@
       - gene_reaction_rule: "YGL038C"
       - eccodes: "2.4.1.232"
       - subsystem:
-          - "Various types of N-glycan biosynthesis"
+          - "N-glycan biosynthesis"
       - annotation: !!omap
           - kegg.reaction: "R08599"
           - metanetx.reaction: "MNXR112120"
@@ -100532,7 +100532,7 @@
       - gene_reaction_rule: "YGL156W"
       - eccodes: "3.2.1.24"
       - subsystem:
-          - "Other"
+          - "Fructose and mannose metabolism"
       - annotation: !!omap
           - kegg.reaction: "R09645"
           - metanetx.reaction: "MNXR101397"
@@ -100551,7 +100551,7 @@
       - gene_reaction_rule: "YGL156W"
       - eccodes: "3.2.1.24"
       - subsystem:
-          - "Other"
+          - "Fructose and mannose metabolism"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 2
@@ -100570,7 +100570,7 @@
       - gene_reaction_rule: "YGL169W"
       - eccodes: "2.7.7.87"
       - subsystem:
-          - "None"
+          - "Threonylcarbamoyladenosine metabolism"
       - annotation: !!omap
           - kegg.reaction: "R10463"
           - metanetx.reaction: "MNXR113802"
@@ -100793,7 +100793,7 @@
       - gene_reaction_rule: "YJL126W"
       - eccodes: "3.5.1.-"
       - subsystem:
-          - "Other"
+          - "Glutathione metabolism"
       - annotation: !!omap
           - kegg.reaction: "R12024"
           - sbo: "SBO:0000176"
@@ -100811,7 +100811,7 @@
       - gene_reaction_rule: "YJL126W"
       - eccodes: "3.5.1.-"
       - subsystem:
-          - "Other"
+          - "Glutathione metabolism"
       - annotation: !!omap
           - kegg.reaction: "R12024"
           - sbo: "SBO:0000176"
@@ -100862,7 +100862,7 @@
       - gene_reaction_rule: "YJR051W"
       - eccodes: "1.3.1.6"
       - subsystem:
-          - "Other"
+          - "FAD metabolism"
       - annotation: !!omap
           - kegg.reaction: "R00402"
           - metanetx.reaction: "MNXR106516"
@@ -100980,7 +100980,7 @@
       - gene_reaction_rule: "YJR104C"
       - eccodes: "1.15.1.1"
       - subsystem:
-          - "Other"
+          - "Superoxide metabolism"
       - annotation: !!omap
           - bigg.reaction: "SPODM"
           - kegg.reaction: "R00275"
@@ -101088,7 +101088,7 @@
       - gene_reaction_rule: "YLR047C or YKL220C or YLR214W or YNR060W or YOL152W or YOR381W or YOR384W"
       - eccodes: "1.16.1.7"
       - subsystem:
-          - "Other"
+          - "Porphyrin and chlorophyll metabolism"
       - annotation: !!omap
           - kegg.reaction: "R09541"
           - metanetx.reaction: "MNXR112960"
@@ -101108,7 +101108,7 @@
       - gene_reaction_rule: "YLL051C"
       - eccodes: "1.16.1.7"
       - subsystem:
-          - "None"
+          - "Porphyrin and chlorophyll metabolism"
       - annotation: !!omap
           - kegg.reaction: "R09541"
           - metanetx.reaction: "MNXR112960"
@@ -101149,7 +101149,7 @@
       - gene_reaction_rule: "YLR143W"
       - eccodes: "6.3.1.14"
       - subsystem:
-          - "Other"
+          - "Peptidyl-diphthamide biosynthetic process"
       - annotation: !!omap
           - kegg.reaction: "R03613"
           - metanetx.reaction: "MNXR108295"
@@ -101169,7 +101169,7 @@
       - gene_reaction_rule: "YLR151C"
       - eccodes: "3.6.1.55"
       - subsystem:
-          - "None"
+          - "DNA repair"
       - annotation: !!omap
           - kegg.reaction: "R09832"
           - metanetx.reaction: "MNXR113234"
@@ -101461,7 +101461,7 @@
       - gene_reaction_rule: "YMR110C"
       - eccodes: "1.2.1.3"
       - subsystem:
-          - "None"
+          - "Sphingolipid metabolism"
       - annotation: !!omap
           - kegg.reaction: "R02940"
           - metanetx.reaction: "MNXR107839"
@@ -101567,7 +101567,7 @@
       - gene_reaction_rule: "YMR110C"
       - eccodes: "1.2.1.3"
       - subsystem:
-          - "None"
+          - "Sphingolipid metabolism"
       - annotation: !!omap
           - bigg.reaction: "r0688"
           - kegg.reaction: "R04506"
@@ -101632,7 +101632,7 @@
       - gene_reaction_rule: "YMR110C"
       - eccodes: "1.2.1.3"
       - subsystem:
-          - "Chloroalkane and chloroalkene degradation"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - kegg.reaction: "R05237"
           - metanetx.reaction: "MNXR109413"
@@ -101653,7 +101653,7 @@
       - gene_reaction_rule: "YMR110C"
       - eccodes: "1.2.1.3"
       - subsystem:
-          - "Chloroalkane and chloroalkene degradation"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - kegg.reaction: "R05238"
           - metanetx.reaction: "MNXR109414"
@@ -101674,7 +101674,7 @@
       - gene_reaction_rule: "YMR110C"
       - eccodes: "1.2.1.3"
       - subsystem:
-          - "Chloroalkane and chloroalkene degradation"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - kegg.reaction: "R05286"
           - metanetx.reaction: "MNXR109457"
@@ -101695,7 +101695,7 @@
       - gene_reaction_rule: "YMR110C"
       - eccodes: "1.2.1.3"
       - subsystem:
-          - "Limonene and pinene degradation"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - kegg.reaction: "R06366"
           - metanetx.reaction: "MNXR110183"
@@ -102072,7 +102072,7 @@
       - upper_bound: 1000
       - gene_reaction_rule: "YOR226C or YPL135W"
       - subsystem:
-          - "Other"
+          - "Cysteine and methionine metabolism"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 2
@@ -102261,7 +102261,7 @@
           - "3.6.1.-"
           - "3.6.1.11"
       - subsystem:
-          - "Other"
+          - "Purine metabolism"
       - annotation: !!omap
           - bigg.reaction: "NTP2"
           - sbo: "SBO:0000176"
@@ -102383,7 +102383,7 @@
       - upper_bound: 1000
       - eccodes: "3.1.3.19"
       - subsystem:
-          - "None"
+          - "Glycerolipid metabolism"
       - annotation: !!omap
           - bigg.reaction: "G2PP"
           - kegg.reaction: "R01043"
@@ -102418,7 +102418,7 @@
       - upper_bound: 1000
       - eccodes: "3.1.3.-"
       - subsystem:
-          - "None"
+          - "Glycine, serine and threonine metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR103332"
           - sbo: "SBO:0000176"
@@ -102435,7 +102435,7 @@
       - upper_bound: 1000
       - eccodes: "3.1.3.-"
       - subsystem:
-          - "None"
+          - "Purine metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR118732"
           - sbo: "SBO:0000176"
@@ -102538,7 +102538,7 @@
       - upper_bound: 1000
       - eccodes: "3.1.3.-"
       - subsystem:
-          - "None"
+          - "Taurine and hypotaurine metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR118734"
           - sbo: "SBO:0000176"
@@ -102588,7 +102588,7 @@
       - upper_bound: 1000
       - eccodes: "1.8.1.3"
       - subsystem:
-          - "Other"
+          - "Sulfur metabolism"
       - annotation: !!omap
           - kegg.reaction: "R01681"
           - metanetx.reaction: "MNXR107116"
@@ -102640,7 +102640,7 @@
       - upper_bound: 1000
       - eccodes: "3.1.3.-"
       - subsystem:
-          - "None"
+          - "Pyrimidine metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR118730"
           - sbo: "SBO:0000176"
@@ -102726,7 +102726,7 @@
       - upper_bound: 1000
       - eccodes: "3.4.13.18"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - metanetx.reaction: "MNXR123343"
           - sbo: "SBO:0000176"
@@ -102825,7 +102825,7 @@
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
-          - "None"
+          - "Tyrosine metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR104998"
           - sbo: "SBO:0000176"
@@ -102858,7 +102858,7 @@
       - upper_bound: 1000
       - eccodes: "3.1.3.-"
       - subsystem:
-          - "None"
+          - "Pyrimidine metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR118731"
           - sbo: "SBO:0000176"
@@ -102892,7 +102892,7 @@
       - gene_reaction_rule: "YGR247W"
       - eccodes: "3.1.4.37"
       - subsystem:
-          - "None"
+          - "Cyclic nucleotide metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR117327"
           - sbo: "SBO:0000176"
@@ -103060,7 +103060,7 @@
       - upper_bound: 1000
       - eccodes: "1.8.2.2"
       - subsystem:
-          - "Other"
+          - "Oxidative phosphorylation"
       - annotation: !!omap
           - kegg.reaction: "R00029"
           - metanetx.reaction: "MNXR138952"
@@ -103095,7 +103095,7 @@
           - "1.1.1.-"
           - "1.1.1.69"
       - subsystem:
-          - "None"
+          - "Pentose phosphate pathway"
       - annotation: !!omap
           - bigg.reaction: "5DGLCNR"
           - kegg.reaction: "R01740"
@@ -103130,7 +103130,7 @@
       - upper_bound: 1000
       - eccodes: "3.4.13.18"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - metanetx.reaction: "MNXR123344"
           - sbo: "SBO:0000176"
@@ -103165,7 +103165,7 @@
       - gene_reaction_rule: "YGR247W"
       - eccodes: "3.1.4.37"
       - subsystem:
-          - "None"
+          - "Cyclic nucleotide metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR117326"
           - sbo: "SBO:0000176"
@@ -103518,7 +103518,7 @@
       - upper_bound: 1000
       - eccodes: "3.4.13.18"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - metanetx.reaction: "MNXR101011"
           - sbo: "SBO:0000176"
@@ -103590,7 +103590,7 @@
       - upper_bound: 1000
       - eccodes: "3.1.3.34"
       - subsystem:
-          - "None"
+          - "Pyrimidine metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR118741"
           - sbo: "SBO:0000176"
@@ -103607,7 +103607,7 @@
       - upper_bound: 1000
       - eccodes: "3.4.13.18"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - metanetx.reaction: "MNXR123345"
           - sbo: "SBO:0000176"
@@ -103624,7 +103624,7 @@
       - upper_bound: 1000
       - eccodes: "3.4.13.18"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - metanetx.reaction: "MNXR123347"
           - sbo: "SBO:0000176"
@@ -103641,7 +103641,7 @@
       - upper_bound: 1000
       - eccodes: "3.4.13.18"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - metanetx.reaction: "MNXR123349"
           - sbo: "SBO:0000176"
@@ -103658,7 +103658,7 @@
       - upper_bound: 1000
       - eccodes: "3.4.13.18"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - metanetx.reaction: "MNXR123350"
           - sbo: "SBO:0000176"
@@ -103675,7 +103675,7 @@
       - upper_bound: 1000
       - eccodes: "3.4.13.18"
       - subsystem:
-          - "None"
+          - "Dipeptidases"
       - annotation: !!omap
           - metanetx.reaction: "MNXR123351"
           - sbo: "SBO:0000176"
@@ -103709,7 +103709,7 @@
       - gene_reaction_rule: "YBR299W or YGR292W"
       - eccodes: "3.2.1.20"
       - subsystem:
-          - "None"
+          - "Starch and sucrose metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR130716"
           - sbo: "SBO:0000176"
@@ -103908,7 +103908,7 @@
       - upper_bound: 1000
       - eccodes: "1.14.14.5"
       - subsystem:
-          - "None"
+          - "Sulfur metabolism"
       - annotation: !!omap
           - bigg.reaction: "FDMO"
           - metanetx.reaction: "MNXR99485"
@@ -103969,7 +103969,7 @@
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
-          - "None"
+          - "Pyrimidine metabolism"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 1
@@ -104016,7 +104016,7 @@
       - upper_bound: 1000
       - eccodes: "3.4.13.18"
       - subsystem:
-          - "Other"
+          - "Dipeptidases"
       - annotation: !!omap
           - metanetx.reaction: "MNXR123352"
           - sbo: "SBO:0000176"
@@ -104847,7 +104847,7 @@
       - lower_bound: 0
       - upper_bound: 1000
       - subsystem:
-          - "Other"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - sbo: "SBO:0000176"
       - confidence_score: 1
@@ -104911,7 +104911,7 @@
       - upper_bound: 1000
       - eccodes: "3.1.3.-"
       - subsystem:
-          - "None"
+          - "Purine metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR118733"
           - sbo: "SBO:0000176"
@@ -105757,7 +105757,7 @@
           - "3.1.3.2"
           - "3.1.3.29"
       - subsystem:
-          - "None"
+          - "Pentose phosphate pathway"
       - annotation: !!omap
           - metanetx.reaction: "MNXR123213"
           - sbo: "SBO:0000176"
@@ -105793,7 +105793,7 @@
           - "3.1.1.-"
           - "3.1.1.2"
       - subsystem:
-          - "Bisphenol degradation"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - kegg.reaction: "R06893"
           - metanetx.reaction: "MNXR110621"
@@ -105832,7 +105832,7 @@
       - lower_bound: -1000
       - upper_bound: 1000
       - subsystem:
-          - "None"
+          - "Glyoxylate and dicarboxylate metabolism"
       - annotation: !!omap
           - metanetx.reaction: "MNXR134240"
           - sbo: "SBO:0000176"
@@ -105917,7 +105917,7 @@
           - "4.1.1.-"
           - "4.2.1.155"
       - subsystem:
-          - "Chloroalkane and chloroalkene degradation"
+          - "Alternate carbon metabolism"
       - annotation: !!omap
           - kegg.reaction: "R06973"
           - metanetx.reaction: "MNXR110693"
