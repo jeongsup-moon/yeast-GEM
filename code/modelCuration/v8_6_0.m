@@ -8,10 +8,11 @@ model.id='yeastGEM_develop';
 
 %% Curate complex annotation (PR #305)
 % Add new genes
-model       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/complexAnnotationGenes.tsv');
+cd modelCuration
+model       = curateMetsRxnsGenes(model,'none','../../data/modelCuration/v8_6_0/complexAnnotationGenes.tsv');
 
 % Add gene standard name for new genes
-fid = fopen('../data/modelCuration/v8_6_0/complexAnnotation.tsv');
+fid = fopen('../../data/modelCuration/v8_6_0/complexAnnotation.tsv');
 complexAnnot = textscan(fid,'%q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 newGPR.ID     = complexAnnot{1};
@@ -23,10 +24,10 @@ model = deleteUnusedGenes(model);
 
 %% Curate gene association for transport rxns (PR #306)
 % Add new genes
-model       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/transRxnNewGPRGenes.tsv');
+model       = curateMetsRxnsGenes(model,'none','../../data/modelCuration/v8_6_0/transRxnNewGPRGenes.tsv');
 
 % Change GPR relations
-fid           = fopen('../data/modelCuration/v8_6_0/TransRxnNewGPR.tsv');
+fid           = fopen('../../data/modelCuration/v8_6_0/TransRxnNewGPR.tsv');
 changegpr     = textscan(fid,'%q %q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 newGPR.ID     = changegpr{1};
 newGPR.GPR    = changegpr{2};
@@ -39,10 +40,10 @@ model = deleteUnusedGenes(model);
 
 %% Add new gene associations from databases (PR #313)
 % Add new genes
-model       = curateMetsRxnsGenes(model,'none','../data/modelCuration/v8_6_0/newGPRsfromDBsGenes.tsv');
+model       = curateMetsRxnsGenes(model,'none','../../data/modelCuration/v8_6_0/newGPRsfromDBsGenes.tsv');
 
 % Change GPR relations
-fid           = fopen('../data/modelCuration/v8_6_0/newGPRsfromDBs.tsv');
+fid           = fopen('../../data/modelCuration/v8_6_0/newGPRsfromDBs.tsv');
 changegpr     = textscan(fid,'%q %q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 newGPR.ID     = changegpr{1};
 newGPR.GPR    = changegpr{3};
@@ -72,7 +73,7 @@ model = removeReactions(model,...
 model = deleteUnusedGenes(model);
 
 %% Define unique subsystems (Issue #11, PR #307)
-fid           = fopen('../data/modelCuration/v8_6_0/uniqueSubsystems.tsv');
+fid           = fopen('../../data/modelCuration/v8_6_0/uniqueSubsystems.tsv');
 fileInput     = textscan(fid,'%q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 subsystem.rxn = fileInput{1};
@@ -87,7 +88,7 @@ end
 
 %% DO NOT CHANGE OR REMOVE THE CODE BELOW THIS LINE.
 % Show some metrics:
-cd modelTests
+cd ../modelTests
 % disp('Run gene essentiality analysis')
 % [new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(model);
 % fprintf('Genes in model: %d\n',numel(model.genes));

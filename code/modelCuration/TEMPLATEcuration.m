@@ -18,6 +18,7 @@
 cd ..
 model = getEarlierModelVersion('$VERSION');
 model.id='yeastGEM_develop';
+cd modelCuration
 
 %% Brief description of curation to be performed (PR #xxx) [include correct PR or Issue number]
 % Potential longer description of curation to be performed.
@@ -28,10 +29,10 @@ model.id='yeastGEM_develop';
 
 %% Curate gene association for transport rxns (PR #306)
 % Add new genes
-model       = curateMetsRxnsGenes(model,'none','../data/modelCuration/curationsOnV8_6_0/transRxnNewGPRGenes.tsv');
+model       = curateMetsRxnsGenes(model,'none','../../data/modelCuration/curationsOnV8_6_0/transRxnNewGPRGenes.tsv');
 
 % Change GPR relations
-fid           = fopen('../data/modelCuration/curationsOnV8_6_0/TransRxnNewGPR.tsv');
+fid           = fopen('../../data/modelCuration/curationsOnV8_6_0/TransRxnNewGPR.tsv');
 changegpr     = textscan(fid,'%q %q %q %q %q %q %q %q','Delimiter','\t','HeaderLines',1);
 newGPR.ID     = changegpr{1};
 newGPR.GPR    = changegpr{2};
@@ -44,7 +45,7 @@ model = deleteUnusedGenes(model);
 
 %% DO NOT CHANGE OR REMOVE THE CODE BELOW THIS LINE.
 % Show some metrics:
-cd modelTests
+cd ../modelTests
 disp('Run gene essentiality analysis')
 [new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(model);
 fprintf('Genes in model: %d\n',numel(model.genes));
