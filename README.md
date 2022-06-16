@@ -69,7 +69,7 @@ Please see the installation instructions for each software package.
 
   If you want to use any of the [provided](https://github.com/SysBioChalmers/yeast-GEM/tree/main/code) Python functions, you may create an environment with all requirements:
   ```bash
-  pip install -r requirements/requirements.txt  # installs all dependencies
+  pip install -r code/requirements/requirements.txt  # installs all dependencies
   touch .env                                    # creates a .env file for locating the root
   ```
 
