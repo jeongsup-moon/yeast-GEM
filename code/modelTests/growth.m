@@ -94,7 +94,12 @@ for i = 1:length(exp_data(:,1))
     model_test = setParam(model_test,'obj',model_test.rxns(pos(4)),1);
     sol        = solveLP(model_test,1);
     %Store relevant variables:
-    mod_data(i,:) = abs(sol.x(pos)');
-    solresult(:,i) = sol.x;
+    try
+        mod_data(i,:) = abs(sol.x(pos)');
+        solresult(:,i) = sol.x;
+    catch
+        mod_data(i,:) = 0;
+        solresult(:,i) = 0;
+    end
 end
 end
