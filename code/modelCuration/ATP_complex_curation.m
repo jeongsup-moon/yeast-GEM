@@ -5,7 +5,7 @@
 
 % Load model
 cd ..
-model = loadYeastModel
+model = loadYeastModel;
 
 % Change gene rules for ATP synthase mitochondrial (r_0226)
 newModel = changeGeneAssoc(model, 'r_0226', ['Q0080 and Q0085 and Q0130 and ' ...
