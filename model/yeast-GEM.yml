@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_develop"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-06-15"
+    date: "2022-09-05"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -34954,7 +34954,7 @@
           - s_1326: -1
       - lower_bound: 0
       - upper_bound: 1000
-      - gene_reaction_rule: "(Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR322C-A and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W) or (Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W and YPR020W) or (Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR322C-A and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W and YJL180C and YLR393W and YNL315C and YOL077W-A and YCL005W-A)"
+      - gene_reaction_rule: "Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W and YDR322C-A and YPR020W and YOL077W-A"
       - eccodes: "3.6.3.14"
       - subsystem:
           - "Oxidative phosphorylation"
@@ -108261,6 +108261,7 @@
       - name: "YBR241C"
     - !!omap
       - id: "YBR242W"
+      - name: "YBR242W"
       - annotation: !!omap
           - kegg.genes: "sce:YBR242W"
           - ncbigene: "852544"
@@ -109828,9 +109829,6 @@
       - id: "YJL168C"
       - name: "SET2"
     - !!omap
-      - id: "YJL180C"
-      - name: "ATP12"
-    - !!omap
       - id: "YJL196C"
       - name: "ELO1"
     - !!omap
@@ -110452,9 +110450,6 @@
       - id: "YLR386W"
       - name: "VAC14"
     - !!omap
-      - id: "YLR393W"
-      - name: "ATP10"
-    - !!omap
       - id: "YLR395C"
       - name: "COX8"
     - !!omap
@@ -110850,9 +110845,6 @@
     - !!omap
       - id: "YNL292W"
       - name: "PUS4"
-    - !!omap
-      - id: "YNL315C"
-      - name: "ATP11"
     - !!omap
       - id: "YNL316C"
       - name: "PHA2"
@@ -111516,6 +111508,7 @@
       - name: "MET16"
     - !!omap
       - id: "YPR170W-B"
+      - name: "YPR170W__45__B"
       - annotation: !!omap
           - kegg.genes: "sce:YPR170W-B"
           - ncbigene: "5848745"
