@@ -33,7 +33,7 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 | Taxonomy | Latest update | Version | Reactions | Metabolites | Genes |
 |:-------|:--------------|:------|:------|:----------|:-----|
-| _Saccharomyces cerevisiae_ | 18-May-2022 | 8.6.0 | 4069 | 2749 | 1151 |
+| _Saccharomyces cerevisiae_ | 15-Jun-2022 | develop | 4063 | 2744 | 1163 |
 
 # Installation & usage
 
@@ -69,7 +69,7 @@ Please see the installation instructions for each software package.
 
   If you want to use any of the [provided](https://github.com/SysBioChalmers/yeast-GEM/tree/main/code) Python functions, you may create an environment with all requirements:
   ```bash
-  pip install -r requirements/requirements.txt  # installs all dependencies
+  pip install -r code/requirements/requirements.txt  # installs all dependencies
   touch .env                                    # creates a .env file for locating the root
   ```
 

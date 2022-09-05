@@ -1,6 +1,6 @@
-function growth(model_origin)
+function R2 = growth(model_origin)
 % This is for growth test: Fig S4c for yeast8 paper
-% here we use several chemostat data: 'N-limited aerboic' 'C-limited
+% here we use several chemostat data: 'N-limited aerobic' 'C-limited
 % aerobic' 'C-limited anaerobic' 'N-limited anaerobic'
 % when simulating N-limited condition, protein content was rescaled, and
 % when simulate anaerobic condtion, heme NADH NADP NADPH NAD were rescaled
@@ -54,8 +54,10 @@ xlabel('Experimental growth rate [1/h]','FontSize',14,'FontName','Helvetica')
 ylabel('In silico growth rate [1/h]','FontSize',14,'FontName','Helvetica')
 legend(b,'N-limited aerobic','C-limited aerobic','C-limited anaerobic','N-limited anaerobic','Location','northwest')
 meanerror = sum(([exp_data1(:,4);exp_data2(:,4);exp_data3(:,4);exp_data4(:,4)]-[mod_data1(:,4);mod_data2(:,4);mod_data3(:,4);mod_data4(:,4)]).^2)/32;
-text(0.4,0.1,['meanerror:',num2str(meanerror*100),'%'])
+text(0.25,0.1,['meanerror:',num2str(meanerror*100),'%'])
 hold off
+R2=corrcoef([exp_data1(:,4);exp_data2(:,4);exp_data3(:,4);exp_data4(:,4)],[mod_data1(:,4);mod_data2(:,4);mod_data3(:,4);mod_data4(:,4)]);
+R2=R2(2)^2;
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -92,7 +94,12 @@ for i = 1:length(exp_data(:,1))
     model_test = setParam(model_test,'obj',model_test.rxns(pos(4)),1);
     sol        = solveLP(model_test,1);
     %Store relevant variables:
-    mod_data(i,:) = abs(sol.x(pos)');
-    solresult(:,i) = sol.x;
+    try
+        mod_data(i,:) = abs(sol.x(pos)');
+        solresult(:,i) = sol.x;
+    catch
+        mod_data(i,:) = 0;
+        solresult(:,i) = 0;
+    end
 end
 end

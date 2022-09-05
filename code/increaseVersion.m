@@ -12,7 +12,7 @@ function increaseVersion(bumpType)
 
 %Check if in main:
 [~,currentBranch] = system('git rev-parse --abbrev-ref HEAD');
-if ~strcmp(currentBranch,'main')
+if ~strcmp(strtrim(currentBranch),'main')
     error('ERROR: not in main')
 end
 
@@ -46,7 +46,47 @@ if ~contains(history,['yeast' newVersion ':'])
 end
 
 %Load model:
+disp('Loading model file')
 model = importModel('../model/yeast-GEM.xml');
+
+%Run tests
+cd modelTests
+disp('Running gene essentiality analysis')
+[new.accuracy,new.tp,new.tn,new.fn,new.fp] = essentialGenes(newModel);
+disp('Run growth analysis')
+new.R2=growth(newModel);
+saveas(gcf,'../../growth.png');
+
+copyfile('../README.md','backup.md')
+fin  = fopen('backup.md','r');
+fout = fopen('../README.md','w');
+searchStats1 = '^(- Accuracy\: )0\.\d+';
+searchStats2 = '^(- True positive genes\: )\d+';
+searchStats3 = '^(- True negative genes\: )\d+';
+searchStats4 = '^(- False positive genes\: )\d+';
+searchStats5 = '^(- False negative genes\: )\d+';
+newStats1 = ['$1' num2str(new.accuracy)];
+newStats2 = ['$1' num2str(numel(new.tp))];
+newStats3 = ['$1' num2str(numel(new.tn))];
+newStats4 = ['$1' num2str(numel(new.fp))];
+newStats5 = ['$1' num2str(numel(new.fn))];
+
+searchStats6 = '^(- R<sup>2<\/sup>\: )0\.\d+';
+newStats6 = ['$1' num2str(new.R2)];
+
+while ~feof(fin)
+    str = fgets(fin);
+    inline = regexprep(str,searchStats1,newStats1);
+    inline = regexprep(inline,searchStats2,newStats2);
+    inline = regexprep(inline,searchStats3,newStats3);
+    inline = regexprep(inline,searchStats4,newStats4);
+    inline = regexprep(inline,searchStats5,newStats5);
+    inline = regexprep(inline,searchStats6,newStats6);
+    inline = unicode2native(inline,'UTF-8');
+    fwrite(fout,inline);
+end
+fclose('all');
+delete('backup.md');
 
 %Allow .mat & .xlsx storage:
 copyfile('../.gitignore','backup')
@@ -77,14 +117,14 @@ for i = 1:length(diff)
     if length(diff_i) == 3
         switch diff_i{3}
             case 'model/yeast-GEM.xml'
-                %.xml file: 2 line2 should be added & 2 line2 should be deleted
+                %.xml file: 2 lines should be added & 2 lines should be deleted
                 if eval([diff_i{1} ' > 2']) || eval([diff_i{2} ' > 2'])
                     disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
                     change = true;
                 end
             case 'model/yeast-GEM.yml'
-                %.yml file: 1 line should be added & 1 line should be deleted
-                if eval([diff_i{1} ' > 1']) || eval([diff_i{2} ' > 1'])
+                %.yml file: 2 lines should be added & 2 lines should be deleted
+                if eval([diff_i{1} ' > 2']) || eval([diff_i{2} ' > 2'])
                     disp(['NOTE: File ' diff_i{3} ' is changing more than expected'])
                     change = true;
                 end                
