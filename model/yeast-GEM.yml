@@ -1,9 +1,9 @@
 ---
 !!omap
 - metaData:
-    id: "yeastGEM_develop"
+    id: "yeastGEM_v8.6.1"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-06-15"
+    date: "2022-09-05"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
@@ -108261,6 +108261,7 @@
       - name: "YBR241C"
     - !!omap
       - id: "YBR242W"
+      - name: "YBR242W"
       - annotation: !!omap
           - kegg.genes: "sce:YBR242W"
           - ncbigene: "852544"
@@ -111516,6 +111517,7 @@
       - name: "MET16"
     - !!omap
       - id: "YPR170W-B"
+      - name: "YPR170W__45__B"
       - annotation: !!omap
           - kegg.genes: "sce:YPR170W-B"
           - ncbigene: "5848745"
