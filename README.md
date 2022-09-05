@@ -35,6 +35,20 @@ This repository contains the current consensus genome-scale metabolic model of _
 |:-------|:--------------|:------|:------|:----------|:-----|
 | _Saccharomyces cerevisiae_ | 05-Sep-2022 | 8.6.2 | 4063 | 2744 | 1160 |
 
+### Gene essentiality prediction
+
+- Accuracy: 0.881
+- True non-essential genes: 926
+- True essential genes: 63
+- False non-essential genes: 96
+- False essential genes: 38
+
+### Growth prediction
+
+- Correlation coefficient R<sup>2</sup>: 0.865
+
+![Growth curve](growth.png)
+
 # Installation & usage
 
 ## Obtain model
