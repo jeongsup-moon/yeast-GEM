@@ -9,6 +9,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Create .env
+        run: touch .env
+
       - name: Memote on PR
         uses: addnab/docker-run-action@v3
         with:
@@ -17,6 +20,6 @@ jobs:
           shell: bash
           run: |
             cd /opt
-            touch .env
+            pip install -r code/requirements/ci-requirements.txt
             python -c 'import code.io as io; model = io.read_yeast_model(make_bigg_compliant=True); io.write_yeast_model(model)'
             memote run --ignore-git --solver-timeout 30
