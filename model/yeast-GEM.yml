@@ -1,9 +1,9 @@
 ---
 !!omap
 - metaData:
-    id: "yeastGEM_develop"
+    id: "yeastGEM_v8.6.3"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2023-06-07"
+    date: "2023-07-08"
     givenName: "Eduard"
     familyName: "Kerkhoven"
     email: "eduardk@chalmers.se"
