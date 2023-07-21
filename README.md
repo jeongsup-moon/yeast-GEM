@@ -33,7 +33,7 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 | Taxonomy | Latest update | Version | Reactions | Metabolites | Genes |
 |:-------|:--------------|:------|:------|:----------|:-----|
-| _Saccharomyces cerevisiae_ | 08-Jul-2023 | 8.6.3 | 4099 | 2768 | 1161 |
+| _Saccharomyces cerevisiae_ | 15-Jul-2023 | develop | 4131 | 2806 | 1163 |
 
 # Installation & usage
 
@@ -50,7 +50,7 @@ You can obtained the model by any of the following methods:
 
 If you want to use the model for your own model simulations, you can use **any software** that accepts SBML L3V1 FBCv3 formatted model files. This includes any of the following:
 * MATLAB-based
-  * [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN) version 2.7.1 or later (recommended)  
+  * [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN) version 2.8.3 or later (recommended)  
   * [COBRA Toolbox](https://github.com/opencobra/cobratoolbox)
 
 * Python-based
@@ -62,22 +62,22 @@ Please see the installation instructions for each software package.
 
 * MATLAB-based  
   If you want to contribute to the development of yeast-GEM, or otherwise want to run any of the [provided](https://github.com/SysBioChalmers/yeast-GEM/tree/main/code) MATLAB functions, then the following software is required:
-  * [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN) version 2.7.1 or later
+  * [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN) version 2.8.3 or later
 
 * Python-based  
   Contribution via python (cobrapy) is not yet functional. In essence, if you can retain the same format of the model files, you can still contribute to the development of yeast-GEM. However, you cannot use the MATLAB functions.
 
   If you want to use any of the [provided](https://github.com/SysBioChalmers/yeast-GEM/tree/main/code) Python functions, you may create an environment with all requirements:
   ```bash
-  pip install -r code/requirements/requirements.txt  # installs all dependencies
-  touch .env                                    # creates a .env file for locating the root
+  pip install -r code/requirements/requirements.txt  # install all dependencies
+  touch .env # create a .env file for locating the root
   ```
 
 If you want to locally run `memote run` or `memote report history`, you should also install [git lfs](https://git-lfs.github.com/), as `results.db` (the database that stores all memote results) is tracked with git lfs.
 
 ## Model usage
 
-Make sure to load/save the model with the corresponding wrapper functions
+Make sure to load/save the model with the corresponding wrapper functions:
 * In Matlab:
   ```matlab
   cd ./code
@@ -85,7 +85,12 @@ Make sure to load/save the model with the corresponding wrapper functions
   saveYeastModel(model);    % saving
   ```
   * If RAVEN is not installed, you can also use COBRA-native functions (`readCbModel`, `writeCbModel`), but these model-files cannot be committed back to the GitHub repository.
-* In Python:
+* In Python:  
+Before opening Python, the following command should (once) be run in the yeast-GEM root folder:  
+  ```bash
+  touch .env # create a .env file for locating the root
+  ```
+  Afterwards, the model can be loaded in Python with:
   ```python
   import code.io as io
   model = io.read_yeast_model() # loading

@@ -1,3 +1,8 @@
+# yeast-GEM specific #
+###################
+yetfl_metG.csv
+yetfl_rxnG.csv
+
 # Compiled source #
 ###################
 *.com
@@ -44,6 +49,7 @@ Thumbs.db
 *.mex*
 *.mlappinstall
 *.mltbx
+*.mat
 helpsearch*/
 
 # Python-related things #
@@ -54,6 +60,7 @@ helpsearch*/
 
 # Non-complying tables and files #
 ##################################
+*.xls*
 *.tab
 *.doc*
 *.ppt*
