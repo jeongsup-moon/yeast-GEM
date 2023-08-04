@@ -8,8 +8,8 @@ jobs:
     container:
       image: ghcr.io/metabolicatlas/memote-docker:0.13
       volumes:
-        - ${{ github.workspace }}:/opt:rw
-      options: --workdir /opt
+        - ${{ github.workspace }}:/project:rw
+      options: --workdir /project
 
     steps:
       - name: Checkout
@@ -18,6 +18,7 @@ jobs:
       - name: Create .env
         run: |
           touch .env
+          cd /project
           pip install -r code/requirements/ci-requirements.txt
           python -c 'import code.io as io; model = io.read_yeast_model(make_bigg_compliant=True); io.write_yeast_model(model)'
           memote run --ignore-git --solver-timeout 30
