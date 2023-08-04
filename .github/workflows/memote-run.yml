@@ -22,4 +22,5 @@ jobs:
             cd /opt
             pip install -r code/requirements/ci-requirements.txt
             python -c 'import code.io as io; model = io.read_yeast_model(make_bigg_compliant=True); io.write_yeast_model(model)'
+            rm result.json.gz
             memote run --ignore-git --solver-timeout 30
