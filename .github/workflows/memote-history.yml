@@ -8,6 +8,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        # MEMOTE wants to fetch all branches
+        with:
+          fetch-depth: 0
+
 
       - name: Set up Python 3
         uses: actions/setup-python@v4
