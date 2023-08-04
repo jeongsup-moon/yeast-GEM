@@ -9,7 +9,7 @@ jobs:
       image: ghcr.io/metabolicatlas/memote-docker:0.13
       volumes:
         - ${{ github.workspace }}:/project:rw
-      options: --workdir /project
+      options: --user root --workdir /project
 
     steps:
       - name: Checkout
