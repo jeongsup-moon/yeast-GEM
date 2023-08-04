@@ -5,22 +5,19 @@ on: pull_request
 jobs:
   memote-run:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/metabolicatlas/memote-docker:0.13
+      volumes:
+        - ${{ github.workspace }}:/opt:rw
+      options: --workdir /opt
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Create .env
-        run: touch .env
-
-      - name: Memote on PR
-        uses: addnab/docker-run-action@v3
-        with:
-          image: ghcr.io/metabolicatlas/memote-docker:0.13
-          options: -v ${{ github.workspace }}:/opt
-          shell: bash
-          run: |
-            cd /opt
-            pip install -r code/requirements/ci-requirements.txt
-            python -c 'import code.io as io; model = io.read_yeast_model(make_bigg_compliant=True); io.write_yeast_model(model)'
-            rm result.json.gz
-            memote run --ignore-git --solver-timeout 30
+        run: |
+          touch .env
+          pip install -r code/requirements/ci-requirements.txt
+          python -c 'import code.io as io; model = io.read_yeast_model(make_bigg_compliant=True); io.write_yeast_model(model)'
+          memote run --ignore-git --solver-timeout 30
