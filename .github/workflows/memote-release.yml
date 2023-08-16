@@ -24,12 +24,20 @@ jobs:
         with:
           python-version: "3.9"
 
+      - name: Create .env
+        run: touch .env
+
       - name: Install memote
         run: pip install -r code/requirements/requirements.txt
 
       - name: Memote run
         run: |
           memote report snapshot --solver-timeout 30 --filename="gh-pages-repo/release_report.html"
+
+      - name: Fetch async changes in gh-pages
+        run: |
+          cd gh-pages-repo
+          git pull
 
       - name: Auto-commit results
         uses: stefanzweifel/git-auto-commit-action@v4
