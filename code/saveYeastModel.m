@@ -1,22 +1,21 @@
 function saveYeastModel(model,upDATE,allowNoGrowth,binaryFiles)
 % saveYeastModel
-%   Saves model as a .xml, .txt and .yml file. Also updates complementary
-%   files (boundaryMets.txt, README.md and dependencies.txt).
+%   Saves model as .xml, .txt and .yml file (.mat and .xlsx on demand). 
+%   It also updates README.md, dependencies.txt and checks for growth.
 %
-%   Inputs: model           (struct) model to save. Preferably RAVEN
-%                           format, although COBRA format is also allowed,
-%                           but some fields might be lost in the
-%                           conversion.
-%           upDATE          (bool, opt) If updating the date in the README file
-%                           is needed (default true)
-%           allowNoGrowth   (bool, opt) if saving should be allowed whenever
-%                           the model cannot grow, returning a warning (default
-%                           = true), otherwise will error
-%           binaryFiles     (bool, opt) if the model should be stored in
-%                           binary file formats (= xlsx and mat)
+% Inputs:
+%   model           (struct) model to save. Preferably RAVEN format,
+%                   although COBRA format is also allowed, but some fields
+%                   might be lost in the conversion.
+%   upDATE          (bool, opt) If updating the date in the README file is
+%                   needed (default true)
+%   allowNoGrowth   (bool, opt) if saving should be allowed whenever the
+%                   model cannot grow, returning a warning (default true),
+%                   otherwise will error
+%   binaryFiles     (bool, opt) if the model should be stored in binary
+%                   file formats (= xlsx and mat)
 %
-%   Usage: saveYeastModel(model,upDATE,allowNoGrowth,binaryFiles)
-%
+% Usage: saveYeastModel(model,upDATE,allowNoGrowth,binaryFiles)
 
 if nargin < 2
     upDATE = true;
@@ -56,7 +55,11 @@ cd ..
 
 %Check if model is a valid SBML structure:
 exportModel(model,'tempModel.xml',false,false,true);
-[~,~,errors] = evalc('TranslateSBML(''tempModel.xml'',1,0)');
+try
+    [~,~,errors] = evalc('TranslateSBML_RAVEN(''tempModel.xml'',1,0)');
+catch
+    [~,~,errors] = evalc('TranslateSBML(''tempModel.xml'',1,0)');
+end
 if any(strcmp({errors.severity},'Error'))
     delete('tempModel.xml');
     error('Model should be a valid SBML structure. Please fix all errors before saving.')
