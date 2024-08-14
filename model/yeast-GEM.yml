@@ -1,10 +1,10 @@
 ---
 !!omap
 - metaData:
-    id: "yeastGEM_v9.0.0"
+    id: "yeastGEM_v9.0.1"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    version: "9.0.0"
-    date: "2023-12-04"
+    version: "9.0.1"
+    date: "2024-08-14"
     defaultLB: "-1000"
     defaultUB: "1000"
     givenName: "Eduard"

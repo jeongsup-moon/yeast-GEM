@@ -1,5 +1,13 @@
 # History
 
+### yeast 9.0.1:
+- Features:
+  - Provide reference metabolite concentration from YMDB, which can be loaded with `code/missingFields/addYMDBconcentrations.m`. (PR #364)
+- Documentation:
+  - Update citation and `README.md`. (PR #368)
+- Chore:
+  - Use latest RAVEN (2.9.3) for import/export (resolved bug https://github.com/SysBioChalmers/RAVEN/issues/529 results in higher accuracy in gene essentiality prediction).
+
 ### yeast 9.0.0:
 - Fixes:
   - Correct unbalanced reactions `r_4196` (closes #358), `r_4240`, `r_4722`. (PR #360)
