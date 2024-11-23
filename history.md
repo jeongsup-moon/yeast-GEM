@@ -1,5 +1,10 @@
 # History
 
+### yeast 9.0.2:
+- Fixes:
+  - Curation based on auxotrophy predictions. (closes #371)
+  - Correct UniProt ID for YCR024C. (closes #372)
+
 ### yeast 9.0.1:
 - Features:
   - Provide reference metabolite concentration from YMDB, which can be loaded with `code/missingFields/addYMDBconcentrations.m`. (PR #364)
